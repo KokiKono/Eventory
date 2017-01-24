@@ -20,22 +20,12 @@ import java.util.*
  *
  */
 class NotKeepItemFragment : Fragment() {
-    // TODO: Customize parameters
-    private var mColumnCount = 1
 
     private var mRecyclerView: RecyclerView?= null
     private var mAdapter : RecyclerView.Adapter<*>?= null
     private var mLayoutManager: RecyclerView.LayoutManager?= null
     private var list : List<EventoryUtil> ?= null
 
-
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-
-        if (arguments != null) {
-            mColumnCount = arguments.getInt(ARG_COLUMN_COUNT)
-        }
-    }
 
     override fun onCreateView(inflater: LayoutInflater?, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
@@ -61,39 +51,4 @@ class NotKeepItemFragment : Fragment() {
         return view
     }
 
-
-    override fun onAttach(context: Context?) {
-        super.onAttach(context)
-    }
-
-    override fun onDetach() {
-        super.onDetach()
-    }
-
-    /**
-     * This interface must be implemented by activities that contain this
-     * fragment to allow an interaction in this fragment to be communicated
-     * to the activity and potentially other fragments contained in that
-     * activity.
-     *
-     *
-     * See the Android Training lesson [Communicating with Other Fragments](http://developer.android.com/training/basics/fragments/communicating.html) for more information.
-     */
-    interface OnListFragmentInteractionListener {
-        // TODO: Update argument type and name
-        fun onListFragmentInteractionAtNotKeep(item: EventoryCardAdapter.ViewHolder)
-    }
-
-    companion object {
-
-        private val ARG_COLUMN_COUNT = "event-size"
-
-        fun newInstance(columnCount: Int): NotKeepItemFragment {
-            val fragment = NotKeepItemFragment()
-            val args = Bundle()
-            args.putInt(ARG_COLUMN_COUNT, columnCount)
-            fragment.arguments = args
-            return fragment
-        }
-    }
 }

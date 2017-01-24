@@ -32,8 +32,6 @@ import local.koki.android.eventory.data.util.EventoryUtil
  * fragment (e.g. upon screen orientation changes).
  */
 class SearchItemFragment : Fragment() {
-    // TODO: Customize parameters
-    private var mColumnCount = 1
     private var mSearchView: SearchView? = null
 
     private var mRecyclerView: RecyclerView? = null
@@ -43,9 +41,7 @@ class SearchItemFragment : Fragment() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        if (arguments != null) {
-            mColumnCount = arguments.getInt(ARG_COLUMN_COUNT)
-        }
+
         //create optionMenu On ActionBar
         setHasOptionsMenu(true)
     }
@@ -72,27 +68,7 @@ class SearchItemFragment : Fragment() {
     }
 
 
-    override fun onAttach(context: Context?) {
-        super.onAttach(context)
-    }
 
-    override fun onDetach() {
-        super.onDetach()
-    }
-
-    /**
-     * This interface must be implemented by activities that contain this
-     * fragment to allow an interaction in this fragment to be communicated
-     * to the activity and potentially other fragments contained in that
-     * activity.
-     *
-     *
-     * See the Android Training lesson [Communicating with Other Fragments](http://developer.android.com/training/basics/fragments/communicating.html) for more information.
-     */
-    interface OnListFragmentInteractionListener {
-        // TODO: Update argument type and name
-        fun onListFragmentInteractionAtSearch(item: EventoryCardAdapter.ViewHolder)
-    }
 
 
     override fun onCreateOptionsMenu(menu: Menu?, inflater: MenuInflater?) {
@@ -121,20 +97,5 @@ class SearchItemFragment : Fragment() {
             }
         })
         super.onCreateOptionsMenu(menu, inflater)
-    }
-
-    companion object {
-
-        // TODO: Customize parameter argument names
-        private val ARG_COLUMN_COUNT = "column-count"
-
-        // TODO: Customize parameter initialization
-        fun newInstance(columnCount: Int): SearchItemFragment {
-            val fragment = SearchItemFragment()
-            val args = Bundle()
-            args.putInt(ARG_COLUMN_COUNT, columnCount)
-            fragment.arguments = args
-            return fragment
-        }
     }
 }

@@ -23,14 +23,6 @@ class WhatNewItemFragment : Fragment() {
     private var mLayoutManager: RecyclerView.LayoutManager? = null
     private var list: List<EventoryUtil>? = null
 
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-
-        if (arguments != null) {
-            mColumnCount = arguments.getInt(ARG_COLUMN_COUNT)
-        }
-    }
-
     override fun onCreateView(inflater: LayoutInflater?, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
         val view = inflater!!.inflate(R.layout.fragment_list_what_new, container, false)
@@ -51,27 +43,5 @@ class WhatNewItemFragment : Fragment() {
             mRecyclerView!!.adapter=mAdapter
         }
         return view
-    }
-
-
-    override fun onAttach(context: Context?) {
-        super.onAttach(context)
-    }
-
-    override fun onDetach() {
-        super.onDetach()
-    }
-
-    companion object {
-
-        private val ARG_COLUMN_COUNT = "column-count"
-
-        fun newInstance(columnCount: Int): WhatNewItemFragment {
-            val fragment = WhatNewItemFragment()
-            val args = Bundle()
-            args.putInt(ARG_COLUMN_COUNT, columnCount)
-            fragment.arguments = args
-            return fragment
-        }
     }
 }

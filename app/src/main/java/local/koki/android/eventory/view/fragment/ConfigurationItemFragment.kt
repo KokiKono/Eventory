@@ -23,7 +23,6 @@ import java.util.*
 
 
 class ConfigurationItemFragment : Fragment() {
-    private var mColumnCount = 1
     private var mItemClickListener : RecyclerItemClickListener.OnItemClickListener?=null
     enum class CONFIG{
         GENRE{
@@ -44,14 +43,6 @@ class ConfigurationItemFragment : Fragment() {
     private var mLayoutManager: RecyclerView.LayoutManager? = null
 
 
-
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-
-        if (arguments != null) {
-            mColumnCount = arguments.getInt(ARG_COLUMN_COUNT)
-        }
-    }
 
     override fun onCreateView(inflater: LayoutInflater?, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
@@ -94,28 +85,5 @@ class ConfigurationItemFragment : Fragment() {
 
         }
         return view
-    }
-
-
-    override fun onAttach(context: Context?) {
-        super.onAttach(context)
-
-
-    }
-
-    override fun onDetach() {
-        super.onDetach()
-    }
-    companion object {
-
-        private val ARG_COLUMN_COUNT = "column-count"
-
-        fun newInstance(columnCount: Int): ConfigurationItemFragment {
-            val fragment = ConfigurationItemFragment()
-            val args = Bundle()
-            args.putInt(ARG_COLUMN_COUNT, columnCount)
-            fragment.arguments = args
-            return fragment
-        }
     }
 }
