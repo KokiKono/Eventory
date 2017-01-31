@@ -18,19 +18,7 @@ import java.util.ArrayList
 
 import local.koki.android.eventory.view.adapter.EventoryCardAdapter
 import local.koki.android.eventory.R
-import local.koki.android.eventory.data.util.EventoryUtil
-
-/**
- * A fragment representing a list of Items.
- *
- *
- * Activities containing this fragment MUST implement the [OnListFragmentInteractionListener]
- * interface.
- */
-/**
- * Mandatory empty constructor for the fragment manager to instantiate the
- * fragment (e.g. upon screen orientation changes).
- */
+import local.koki.android.eventory.model.EventRealm
 class SearchItemFragment : Fragment() {
     // TODO: Customize parameters
     private var mColumnCount = 1
@@ -39,13 +27,10 @@ class SearchItemFragment : Fragment() {
     private var mRecyclerView: RecyclerView? = null
     private var mAdapter: RecyclerView.Adapter<*>? = null
     private var mLayoutManager: RecyclerView.LayoutManager? = null
-    private var list: List<EventoryUtil>? = null
+    private var list: List<EventRealm>? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        if (arguments != null) {
-            mColumnCount = arguments.getInt(ARG_COLUMN_COUNT)
-        }
         //create optionMenu On ActionBar
         setHasOptionsMenu(true)
     }
@@ -53,7 +38,7 @@ class SearchItemFragment : Fragment() {
     override fun onCreateView(inflater: LayoutInflater?, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
         val view = inflater!!.inflate(R.layout.fragment_list_search, container, false)
-        val eventoryUtils = ArrayList<EventoryUtil>()
+        val eventoryUtils = ArrayList<EventRealm>()
         if(view is RecyclerView){
             //find parent view
             mRecyclerView = view.findViewById(R.id.list) as RecyclerView
@@ -79,21 +64,6 @@ class SearchItemFragment : Fragment() {
     override fun onDetach() {
         super.onDetach()
     }
-
-    /**
-     * This interface must be implemented by activities that contain this
-     * fragment to allow an interaction in this fragment to be communicated
-     * to the activity and potentially other fragments contained in that
-     * activity.
-     *
-     *
-     * See the Android Training lesson [Communicating with Other Fragments](http://developer.android.com/training/basics/fragments/communicating.html) for more information.
-     */
-    interface OnListFragmentInteractionListener {
-        // TODO: Update argument type and name
-        fun onListFragmentInteractionAtSearch(item: EventoryCardAdapter.ViewHolder)
-    }
-
 
     override fun onCreateOptionsMenu(menu: Menu?, inflater: MenuInflater?) {
         //menu configuration
@@ -121,20 +91,5 @@ class SearchItemFragment : Fragment() {
             }
         })
         super.onCreateOptionsMenu(menu, inflater)
-    }
-
-    companion object {
-
-        // TODO: Customize parameter argument names
-        private val ARG_COLUMN_COUNT = "column-count"
-
-        // TODO: Customize parameter initialization
-        fun newInstance(columnCount: Int): SearchItemFragment {
-            val fragment = SearchItemFragment()
-            val args = Bundle()
-            args.putInt(ARG_COLUMN_COUNT, columnCount)
-            fragment.arguments = args
-            return fragment
-        }
     }
 }

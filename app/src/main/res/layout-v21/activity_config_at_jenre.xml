@@ -16,11 +16,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
-        android:src="@android:drawable/ic_input_add"
-        android:tint="@android:color/white"
-        app:backgroundTint="@android:color/holo_orange_dark"
+        android:src="@android:drawable/ic_menu_add"
         app:fabSize="normal"
         app:layout_anchor="@+id/list"
         app:layout_anchorGravity="bottom|end"
         app:layout_behavior="local.koki.android.eventory.view.receycler.ScrollAwareFABBehavior" />
+
 </android.support.design.widget.CoordinatorLayout>

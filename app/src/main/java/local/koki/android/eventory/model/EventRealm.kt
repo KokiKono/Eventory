@@ -1,10 +1,12 @@
-package local.koki.android.eventory.data.util
+package local.koki.android.eventory.model
+
+import io.realm.RealmObject
 
 /**
  * Created by 浩生 on 2017/01/17.
  */
 
-class EventoryUtil {
+open class EventRealm : RealmObject(){
     var eventId: String? = null
     var apiId: Int = 0
     var title: String? = null
@@ -16,6 +18,7 @@ class EventoryUtil {
     var startAt: String? = null
     var endAt: String? = null
     var id: Int = 0
+    var status:Int=EventManager.CheckStatus.NoCheck.code
 
 
 }

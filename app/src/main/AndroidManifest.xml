@@ -16,6 +16,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".view.controller.ConfigAtPlaceActivity" />
+        <activity android:name=".view.controller.ConfigAtJenreAcitivty"/>
     </application>
-
+    <uses-permission android:name="android.permission.INTERNET"/>
 </manifest>

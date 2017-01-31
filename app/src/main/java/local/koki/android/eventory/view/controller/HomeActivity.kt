@@ -1,5 +1,6 @@
 package local.koki.android.eventory.view.controller
 
+import android.content.SharedPreferences
 import android.support.v4.app.FragmentTabHost
 import android.os.Bundle
 import android.support.v4.content.res.ResourcesCompat
@@ -14,8 +15,8 @@ class HomeActivity : AppCompatActivity()
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home)
-        title = "eventory"
 
+        title = "eventory"
         //TabWidgetの線を消す
         val tabWidget = findViewById(android.R.id.tabs) as TabWidget
         tabWidget.isStripEnabled = false
@@ -57,7 +58,12 @@ class HomeActivity : AppCompatActivity()
         configurationTab.setIndicator(getString(R.string.configuration))
         tabHost.addTab(configurationTab, ConfigurationItemFragment::class.java, null)
 
-        tabHost.setOnTabChangedListener{v -> Log.e("HOME Activity","タブが切り変えられた。")}
+        tabHost.setOnTabChangedListener{
+            v ->
+            val fragment=supportFragmentManager.findFragmentByTag("what_new")
+            if(fragment!=null && fragment is WhatNewItemFragment){
+            }
+            Log.e("HOME Activity","タブが切り変えられた。")}
     }
 
 }

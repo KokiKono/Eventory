@@ -97,4 +97,5 @@
     </string>
     <string name="action_settings">Settings</string>
     <string name="add">追加</string>
+    <string name="title_activity_config_at_jenre">ConfigAtJenreActivity</string>
 </resources>

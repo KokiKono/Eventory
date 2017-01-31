@@ -11,20 +11,19 @@ import android.widget.TextView
 import java.util.ArrayList
 
 import local.koki.android.eventory.R
-import local.koki.android.eventory.data.util.EventoryUtil
+import local.koki.android.eventory.model.EventRealm
 
 /**
  * Created by 浩生 on 2017/01/19.
  */
 
-class EventoryCardAdapter(private val mContext: Context, private val mEventorys: ArrayList<EventoryUtil>) : RecyclerView.Adapter<EventoryCardAdapter.ViewHolder>() {
+class EventoryCardAdapter(private val mContext: Context, private val mEventorys: ArrayList<EventRealm>) : RecyclerView.Adapter<EventoryCardAdapter.ViewHolder>() {
 
     override fun getItemCount(): Int {
         return mEventorys.size
     }
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
-        holder.mLayout.setOnClickListener { }
         val util = mEventorys[position]
         holder.mEventoryTitle_text.text = util.title
         holder.mEventoryAddress_text.text = util.address

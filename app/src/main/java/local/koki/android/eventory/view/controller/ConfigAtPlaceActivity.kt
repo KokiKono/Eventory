@@ -1,15 +1,10 @@
 package local.koki.android.eventory.view.controller
 
-import android.app.Activity
 import android.app.AlertDialog
-import android.content.Context
 import android.content.DialogInterface
-import android.hardware.input.InputManager
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import android.support.design.widget.CoordinatorLayout
 import android.support.design.widget.FloatingActionButton
-import android.support.v4.view.MenuItemCompat
 import android.support.v7.app.ActionBar
 import android.support.v7.widget.LinearLayoutManager
 import android.support.v7.widget.RecyclerView
@@ -17,82 +12,100 @@ import android.util.Log
 import android.view.*
 
 import local.koki.android.eventory.R
-import local.koki.android.eventory.data.storage.orm.PrefectureDao
-import local.koki.android.eventory.data.util.PrefectureInterface
 import local.koki.android.eventory.view.adapter.ConfigAtPlaceAdapter
 import local.koki.android.eventory.view.receycler.DividerItemDecoration
 import java.util.*
-import android.support.v7.widget.SearchView
-import android.view.inputmethod.InputMethodManager
 import android.widget.*
-import local.koki.android.eventory.view.actionbar.CustomEditBar
+import co.moonmonkeylabs.realmrecyclerview.RealmRecyclerView
+import io.realm.Realm
+import io.realm.RealmQuery
+import local.koki.android.eventory.model.PrefectureRealm
+import local.koki.android.eventory.view.adapter.RealmConfigAtPlaceAdapter
 import local.koki.android.eventory.view.receycler.ScrollBaseFABBehavior
 
 class ConfigAtPlaceActivity : AppCompatActivity() {
 
-    private var mRecyclerView:RecyclerView?=null
-    private var mPrefecutreOnListener : OnPrefectureItemClickListener?=null
-    private var mFloatingActionButton:FloatingActionButton ?= null
-
+    private var mRecyclerView: RecyclerView? = null
+    private var mFloatingActionButton: FloatingActionButton? = null
+    private var mRealm: Realm? = null
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_config_at_place)
 
-        mRecyclerView=findViewById(R.id.list) as RecyclerView
+        Realm.init(applicationContext)
+        mRealm = Realm.getDefaultInstance()
+        mRecyclerView = findViewById(R.id.list) as RecyclerView
+        mFloatingActionButton = findViewById(R.id.floatingActionButton) as FloatingActionButton
 
         //リストに下線を付ける
         mRecyclerView!!.addItemDecoration(DividerItemDecoration(applicationContext))
-        mPrefecutreOnListener= OnPrefectureItemClickListener()
-        mRecyclerView!!.layoutManager=LinearLayoutManager(this)
-
+        mRecyclerView!!.layoutManager = LinearLayoutManager(this)
         //←の付与
-        val actionBar:ActionBar =supportActionBar as ActionBar
+        val actionBar: ActionBar = supportActionBar as ActionBar
         actionBar.setDisplayHomeAsUpEnabled(true)
-
-        mFloatingActionButton=findViewById(R.id.floatingActionButton) as FloatingActionButton
-        mFloatingActionButton!!.setOnClickListener(object :View.OnClickListener{
-            override fun onClick(v: View?) {
-                Toast.makeText(v!!.context,"追加処理！",Toast.LENGTH_SHORT).show()
-            }
-        })
+        mFloatingActionButton!!.setOnClickListener { v ->
+            var edit: EditText = EditText(v.context)
+            AlertDialog.Builder(v.context)
+                    .setTitle("開催地追加")
+                    .setView(edit)
+                    .setPositiveButton("OK",
+                            {
+                                dialogInterface, i ->
+                                addItem(edit.text.toString(),true)
+                            }).show()
+        }
         //スクロールした時にFloatingActionButtonを隠す。
         mRecyclerView!!.addOnScrollListener(ScrollBaseFABBehavior(mFloatingActionButton!!))
-
     }
+
 
     override fun onResume() {
         super.onResume()
-        val list:List<PrefectureInterface> =PrefectureDao.findAll(applicationContext)
-        val adapter:ConfigAtPlaceAdapter= ConfigAtPlaceAdapter(list,OnPrefectureItemClickListener())
-        mRecyclerView!!.adapter=adapter
-    }
-    private class OnPrefectureItemClickListener : ConfigAtPlaceAdapter.OnItemClickListener{
-        override fun onItemClickListener(holder: ConfigAtPlaceAdapter.ViewHolder) {
-            holder.reversalCheck()
-            holder.mPrefecture!!.setFlg(holder.mCheckBox!!.isChecked)
+        var realmQuery = mRealm!!.where(PrefectureRealm::class.java).findAll()
+        if (realmQuery.size == 0) {
+            //初期データ
+            mRealm!!.beginTransaction()
+            mRealm!!.createAllFromJson(PrefectureRealm::class.java, resources.assets.open("Prefecture0.json"))
+            mRealm!!.commitTransaction()
+            realmQuery = mRealm!!.where(PrefectureRealm::class.java).findAll()
         }
-    }
-    private fun onSave(){
-        val adapter:ConfigAtPlaceAdapter = mRecyclerView!!.adapter as ConfigAtPlaceAdapter
-        val list:ArrayList<PrefectureInterface> = adapter.getItems() as ArrayList<PrefectureInterface>
-        for(prefecture : PrefectureInterface in list){
-            PrefectureDao.updateAt(applicationContext,prefecture)
-        }
+        val adapter: RealmConfigAtPlaceAdapter = RealmConfigAtPlaceAdapter(this, realmQuery)
+        mRecyclerView!!.adapter = adapter
     }
 
+
+
     override fun onOptionsItemSelected(item: MenuItem?): Boolean {
-        when (item!!.itemId){
+        when (item!!.itemId) {
             android.R.id.home -> {
-                onSave()
                 finish()
             }
-            else ->{
-                Log.e("ConfigAtPlaceActivity","not supported Option Item Selected")
+            else -> {
+                Log.e("ConfigAtPlaceActivity", "not supported Option Item Selected")
             }
         }
         return true
     }
 
+    override fun onDestroy() {
+        super.onDestroy()
+        mRealm!!.close()
+    }
 
+    fun changeItem(item: PrefectureRealm) {
+        var check = item.status
+        mRealm!!.executeTransaction { realm ->
+            var pref = mRealm!!.where(PrefectureRealm::class.java)
+                    .equalTo("name", item.name).findFirst()
+            pref.status = !check
+        }
+    }
+    fun addItem(name:String,status:Boolean){
+        mRealm!!.beginTransaction()
+        var newPref: PrefectureRealm =mRealm!!.createObject(PrefectureRealm::class.java)
+        newPref.name=name
+        newPref.status=status
+        mRealm!!.commitTransaction()
+    }
 
 }

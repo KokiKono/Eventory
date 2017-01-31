@@ -9,44 +9,30 @@ import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import io.realm.Realm
 
 import local.koki.android.eventory.R
-import local.koki.android.eventory.data.util.EventoryUtil
+import local.koki.android.eventory.model.EventRealm
 import java.util.*
 
-/**
- * A fragment representing a list of Items.
- *
- *
- * Activities containing this fragment MUST implement the [OnListFragmentInteractionListener]
- * interface.
- */
-/**
- * Mandatory empty constructor for the fragment manager to instantiate the
- * fragment (e.g. upon screen orientation changes).
- */
 class KeepItemFragment : Fragment() {
-    // TODO: Customize parameters
-    private var mColumnCount = 1
 
     private var mRecyclerView: RecyclerView? = null
     private var mAdapter: RecyclerView.Adapter<*>? = null
     private var mLayoutManager: RecyclerView.LayoutManager? = null
-    private var list: List<EventoryUtil>? = null
-
+    private var list: List<EventRealm>? = null
+    private var mRealm:Realm?=null
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        if (arguments != null) {
-            mColumnCount = arguments.getInt(ARG_COLUMN_COUNT)
-        }
+        mRealm= Realm.getDefaultInstance()
     }
 
     override fun onCreateView(inflater: LayoutInflater?, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
         val view = inflater!!.inflate(R.layout.fragment_list_interested, container, false)
 
-        var eventoryUtils= ArrayList<EventoryUtil>()
+        var eventoryUtils= ArrayList<EventRealm>()
 
         // Set the adapter
         if (view is RecyclerView) {
@@ -73,32 +59,9 @@ class KeepItemFragment : Fragment() {
         super.onDetach()
     }
 
-    /**
-     * This interface must be implemented by activities that contain this
-     * fragment to allow an interaction in this fragment to be communicated
-     * to the activity and potentially other fragments contained in that
-     * activity.
-     *
-     *
-     * See the Android Training lesson [Communicating with Other Fragments](http://developer.android.com/training/basics/fragments/communicating.html) for more information.
-     */
-    interface OnListFragmentInteractionListener {
-        // TODO: Update argument type and name
-        fun onListFragmentInteractionAtKeep(item: EventoryCardAdapter.ViewHolder)
+    override fun onDestroy() {
+        super.onDestroy()
+        mRealm!!.close()
     }
 
-    companion object {
-
-        // TODO: Customize parameter argument names
-        private val ARG_COLUMN_COUNT = "column-count"
-
-        // TODO: Customize parameter initialization
-        fun newInstance(columnCount: Int): KeepItemFragment {
-            val fragment = KeepItemFragment()
-            val args = Bundle()
-            args.putInt(ARG_COLUMN_COUNT, columnCount)
-            fragment.arguments = args
-            return fragment
-        }
-    }
 }
