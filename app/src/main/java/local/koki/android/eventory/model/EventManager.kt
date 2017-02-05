@@ -2,8 +2,10 @@ package local.koki.android.eventory.model
 
 import android.content.Context
 import android.os.AsyncTask
+import android.support.annotation.Dimension
 import android.util.Log
 import io.realm.Realm
+import io.realm.RealmResults
 import local.koki.android.eventory.view.util.Json
 import org.json.JSONArray
 import org.json.JSONException
@@ -20,7 +22,28 @@ import java.util.*
 
 class EventManager {
     constructor()
-
+    companion object{
+        fun fetchEvent(context: Context,status:CheckStatus):RealmResults<EventRealm>{
+            Realm.init(context)
+            var realm:Realm= Realm.getDefaultInstance()
+            if(status==CheckStatus.Search){
+                val data=realm.where(EventRealm::class.java).findAll()
+                return data
+            }
+            val data=realm.where(EventRealm::class.java).equalTo("status",status.code).findAll()
+            return data
+        }
+        fun searchEvent(context: Context,vararg args:String):RealmResults<EventRealm>{
+            Realm.init(context)
+            var realm=Realm.getDefaultInstance()
+            var data=realm.where(EventRealm::class.java).beginGroup()
+            for(arg in args){
+                data.like("title",arg)
+            }
+            data.endGroup()
+            return data.findAll()
+        }
+    }
     abstract class EventConnection : AsyncTask<String, Void, String>() {
         companion object {
             val EVENT_CONNECTION_URL = "https://eventory-155000.appspot.com/api/smt/events"
@@ -42,7 +65,7 @@ class EventManager {
             var inputStream: InputStream? = null
             var resultStr = ""
             //:TODO　開発用に一時的にapiを使わない
-            /*try {
+            try {
                 var url = URL(url)
                 connection = url.openConnection() as HttpURLConnection
                 connection.requestMethod = "GET"
@@ -62,7 +85,7 @@ class EventManager {
                 } catch (e: IOException) {
                     Log.e(DEBUG_TAG, "InputStream解放失敗", e)
                 }
-            }*/
+            }
             return resultStr
         }
 
@@ -155,8 +178,16 @@ class EventManager {
         Keep(1),
         NotKeep(2),
         Search(3),
-        None(5)
+        None(5);
+        companion object {
+            fun indexOf(status:Int):CheckStatus{
+                for(code in CheckStatus.values()){
+                    if(status==code.code){
+                        return code
+                    }
+                }
+                return None
+            }
+        }
     }
-
-
 }

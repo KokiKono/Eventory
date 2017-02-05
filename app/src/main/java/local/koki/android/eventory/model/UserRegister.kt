@@ -1,5 +1,6 @@
 package local.koki.android.eventory.model
 
+import android.content.Context
 import io.realm.Realm
 import java.text.SimpleDateFormat
 import java.util.*
@@ -25,6 +26,10 @@ class UserRegister{
             }
             var user=realm.where(UserRealm::class.java).findFirst()
             return user.updateAt!!
+        }
+        fun getUserUpdateInfoUpdateTime(context: Context):String{
+            Realm.init(context)
+            return getUserEventInfoUpdateTime(Realm.getDefaultInstance())
         }
         fun createOrUpdateUserEventInfoUpdateTime(realm: Realm){
             var nowDate:Date= Date()

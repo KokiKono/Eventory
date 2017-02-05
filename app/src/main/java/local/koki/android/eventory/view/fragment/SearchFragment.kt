@@ -69,7 +69,7 @@ class SearchFragment : Fragment()
 
     override fun onResume() {
         super.onResume()
-        mData= EventManager.fetchEvent(context,EventManager.CheckStatus.Search)
+        mData= EventManager.searchEvent(context,"*")
         mAdapter!!.updateData(mData)
         mAdapter!!.notifyDataSetChanged()
     }
@@ -91,12 +91,18 @@ class SearchFragment : Fragment()
 
             override fun onQueryTextSubmit(query: String): Boolean {
                 //onclick Submit Button
-                return false
+                mData= EventManager.searchEvent(context,"*"+query+"*")
+                mAdapter!!.updateData(mData)
+                mAdapter!!.notifyDataSetChanged()
+                return true
             }
 
             override fun onQueryTextChange(newText: String): Boolean {
                 //change text
-                return false
+                /*mData= EventManager.searchEvent(context,"*"+newText+"*")
+                mAdapter!!.updateData(mData)
+                mAdapter!!.notifyDataSetChanged()*/
+                return true
             }
         })
         super.onCreateOptionsMenu(menu, inflater)
