@@ -1,6 +1,8 @@
 package local.koki.android.eventory.view.fragment
 
 import android.content.Context
+import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
 import android.support.v4.app.Fragment
 import android.support.v7.widget.LinearLayoutManager
@@ -23,16 +25,17 @@ import java.util.*
  * Created by 浩生 on 2017/01/31.
  */
 
-class EventFragment : Fragment()
+open class EventFragment : Fragment()
         , RealmEventCardAdapter.ViewHolder.OnClickKeepListener
         , RealmEventCardAdapter.ViewHolder.OnClickNoKeepListener
-        ,EventManager.LoadEventInterface{
-    private var mEventStatus: EventManager.CheckStatus = EventManager.CheckStatus.None
-    private var mRecyclerView: RecyclerView? = null
-    private var mLayoutManager: RecyclerView.LayoutManager? = null
-    private var mAdapter: RealmEventCardAdapter? = null
-    private var mData: RealmResults<EventRealm>? = null
-    private var mEventAction: EventActionListener? = null
+        ,RealmEventCardAdapter.ViewHolder.OnClickTitleListener
+        ,EventManager.LoadEventInterface {
+    protected var mEventStatus: EventManager.CheckStatus = EventManager.CheckStatus.None
+    protected var mRecyclerView: RecyclerView? = null
+    protected var mLayoutManager: RecyclerView.LayoutManager? = null
+    protected var mAdapter: RealmEventCardAdapter? = null
+    protected var mData: RealmResults<EventRealm>? = null
+    protected var mEventAction: EventActionListener? = null
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         mEventStatus = EventManager.CheckStatus.indexOf(arguments.getInt("event_status"))
@@ -50,6 +53,7 @@ class EventFragment : Fragment()
             mAdapter = RealmEventCardAdapter(context, null)
             mAdapter!!.onClickKeep = this
             mAdapter!!.onClickNotKeep = this
+            mAdapter!!.onClickTitle=this
             mRecyclerView!!.adapter = mAdapter
         }
         return view
@@ -70,7 +74,7 @@ class EventFragment : Fragment()
         super.onResume()
         if(mEventStatus==EventManager.CheckStatus.NoCheck) {
             //サーバーからデータを首都する。
-           /* var eventManager=EventManager()
+            /*var eventManager=EventManager()
             eventManager.loadEventInterface=this
             eventManager.eventConnection(null)*/
         }
@@ -105,5 +109,10 @@ class EventFragment : Fragment()
     }
 
     override fun endLoad() {
+    }
+
+    override fun onClickTitle(eventRealm: EventRealm) {
+        val uri=Uri.parse(eventRealm.url)
+        startActivity(Intent(Intent.ACTION_VIEW,uri))
     }
 }

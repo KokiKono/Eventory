@@ -3,6 +3,8 @@ package local.koki.android.eventory.view.adapter
 import android.app.usage.UsageEvents
 import android.content.Context
 import android.graphics.Color
+import android.graphics.drawable.Drawable
+import android.net.Uri
 import android.support.v7.widget.RecyclerView
 import android.support.v7.widget.SimpleItemAnimator
 import android.view.LayoutInflater
@@ -13,6 +15,7 @@ import android.widget.LinearLayout
 import android.widget.TextView
 
 import co.moonmonkeylabs.realmrecyclerview.RealmRecyclerView
+import com.beardedhen.androidbootstrap.BootstrapButton
 import io.realm.OrderedRealmCollection
 import io.realm.RealmRecyclerViewAdapter
 import local.koki.android.eventory.R
@@ -20,6 +23,7 @@ import local.koki.android.eventory.model.EventManager
 import local.koki.android.eventory.model.EventRealm
 import local.koki.android.eventory.view.util.Colors
 import local.koki.android.eventory.model.EventManager.CheckStatus
+import java.text.SimpleDateFormat
 
 /**
  * Created by 浩生 on 2017/01/28.
@@ -28,17 +32,24 @@ import local.koki.android.eventory.model.EventManager.CheckStatus
 class RealmEventCardAdapter(context: Context, data: OrderedRealmCollection<EventRealm>?) : RealmRecyclerViewAdapter<EventRealm, RealmEventCardAdapter.ViewHolder>(context, data, true) {
     var onClickKeep: ViewHolder.OnClickKeepListener? = null
     var onClickNotKeep: ViewHolder.OnClickNoKeepListener? = null
-    var nowPage: Int? = null
+    var onClickTitle:ViewHolder.OnClickTitleListener?=null
     override fun onBindViewHolder(holder: RealmEventCardAdapter.ViewHolder, position: Int) {
         val event = getItem(holder.layoutPosition)
         holder.eventTitleTextView!!.text = event!!.title
-        holder.eventAddressTextView!!.text = event!!.address
-        holder.eventAtTextView!!.text = event!!.startAt + "～" + event!!.endAt
-        var capacity = ""
-        if (event!!.accepted > 0) {
-            capacity += event!!.accepted.toString() + "/"
+        holder.eventTitleTextView!!.setOnClickListener { v->
+            if(onClickTitle!=null)onClickTitle!!.onClickTitle(event)
         }
-        capacity += "定員" + event!!.limit + "人"
+        holder.eventAddressTextView!!.text = event.address
+        val startFormat=SimpleDateFormat("yyyy年MM月dd日 HH:mm")
+        val endFormat=SimpleDateFormat("MM月dd日 HH:mm")
+        val startAt=startFormat.format(event.startAt)
+        val endAt=endFormat.format(event.endAt)
+        holder.eventAtTextView!!.text = startAt+"～"+endAt
+        var capacity = ""
+        if (event.accepted > 0) {
+            capacity += event.accepted.toString() + "/"
+        }
+        capacity += "定員" + event.limit + "人"
         holder.eventCapacotyTextView!!.text = capacity
         // :TODO 提供元の取得方法を聞いて設定
         holder.providerTextView!!.text = "提供元：" + EventManager.Api.indexOf(event.apiId).out
@@ -85,27 +96,40 @@ class RealmEventCardAdapter(context: Context, data: OrderedRealmCollection<Event
         fun statusButton(status:Int) {
             when (status) {
                 CheckStatus.Keep.code -> {
-                    keepButton!!.setTextColor(Color.WHITE)
-                    keepButton!!.setBackgroundColor(Colors.STATE_ON.color)
-                    notKeepButton!!.setTextColor(Color.BLACK)
-                    notKeepButton!!.setBackgroundColor(Color.GRAY)
+                    keepOn()
+                    notKeepOff()
                 }
                 CheckStatus.NotKeep.code -> {
-                    keepButton!!.setTextColor(Color.BLACK)
-                    keepButton!!.setBackgroundColor(Color.GRAY)
-                    notKeepButton!!.setTextColor(Color.WHITE)
-                    notKeepButton!!.setBackgroundColor(Color.GRAY)
+                    keepOff()
+                    notKeepOn()
                 }
                 CheckStatus.NoCheck.code->{
-                    keepButton!!.setTextColor(Color.BLACK)
-                    keepButton!!.setBackgroundColor(Color.GRAY)
-                    notKeepButton!!.setTextColor(Color.BLACK)
-                    notKeepButton!!.setBackgroundColor(Color.GRAY)
+                    keepOff()
+                    notKeepOff()
                 }
             }
         }
         fun statusButton(eventRealm: EventRealm){
             statusButton(eventRealm.status)
+        }
+        private fun keepOn(){
+            keepButton!!.setBackgroundResource(R.drawable.keep_on_background)
+            keepButton!!.setTextColor(Color.WHITE)
+            eventTitleTextView!!.setTextColor(Colors.STATE_ON.color)
+        }
+        private fun keepOff(){
+            keepButton!!.setBackgroundResource(R.drawable.keep_off_background)
+            keepButton!!.setTextColor(Colors.STATE_ON.color)
+            eventTitleTextView!!.setTextColor(Colors.STATE_OFF.color)
+        }
+        private fun notKeepOn(){
+            notKeepButton!!.setBackgroundResource(R.drawable.not_keep_on_background)
+            notKeepButton!!.setTextColor(Color.WHITE)
+
+        }
+        private fun notKeepOff(){
+            notKeepButton!!.setBackgroundResource(R.drawable.not_keep_off_background)
+            notKeepButton!!.setTextColor(Colors.STATE_OFF.color)
         }
 
         /**
@@ -120,6 +144,9 @@ class RealmEventCardAdapter(context: Context, data: OrderedRealmCollection<Event
          */
         interface OnClickNoKeepListener {
             fun onClickNotKeep(eventRealm: EventRealm,position: Int)
+        }
+        interface OnClickTitleListener{
+            fun onClickTitle(eventRealm: EventRealm)
         }
     }
 

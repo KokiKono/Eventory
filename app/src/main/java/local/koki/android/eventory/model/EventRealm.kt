@@ -1,6 +1,7 @@
 package local.koki.android.eventory.model
 
 import io.realm.RealmObject
+import java.util.*
 
 /**
  * Created by 浩生 on 2017/01/17.
@@ -15,8 +16,8 @@ open class EventRealm : RealmObject(){
     var accepted: Int = 0
     var address: String? = null
     var place: String? = null
-    var startAt: String? = null
-    var endAt: String? = null
+    var startAt: Date? = null
+    var endAt: Date? = null
     var id: Int = 0
     var status:Int=EventManager.CheckStatus.NoCheck.code
 

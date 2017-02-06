@@ -14,6 +14,7 @@ import java.io.InputStream
 import java.net.HttpURLConnection
 import java.net.MalformedURLException
 import java.net.URL
+import java.text.SimpleDateFormat
 import java.util.*
 
 /**
@@ -33,16 +34,17 @@ class EventManager {
             val data=realm.where(EventRealm::class.java).equalTo("status",status.code).findAll()
             return data
         }
-        fun searchEvent(context: Context,vararg args:String):RealmResults<EventRealm>{
+        fun searchEvent(context: Context,args:List<String>):RealmResults<EventRealm>{
             Realm.init(context)
             var realm=Realm.getDefaultInstance()
             var data=realm.where(EventRealm::class.java).beginGroup()
             for(arg in args){
-                data.like("title",arg)
+                data.like("title","*"+arg+"*")
             }
             data.endGroup()
             return data.findAll()
         }
+
     }
     abstract class EventConnection : AsyncTask<String, Void, String>() {
         companion object {
@@ -95,6 +97,7 @@ class EventManager {
             try {
                 val array = JSONArray(result)
                 var count: Int = array.length()
+                val simpleFormat=SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss'Z'")
                 while (count > 0) {
                     val row = array.getJSONObject(count - 1)
                     var event = EventRealm()
@@ -108,8 +111,8 @@ class EventManager {
                     event.place = row.getString("place")
                     //:TODO strat_atになってるよ！
                     //event.startAt = row.getString("start_at")
-                    event.startAt = row.getString("strat_at")
-                    event.endAt = row.getString("end_at")
+                    event.startAt = simpleFormat.parse(row.getString("strat_at"))
+                    event.endAt = simpleFormat.parse(row.getString("end_at"))
                     event.id = row.getInt("id")
                     eventRealms!!.add(event)
                     count--

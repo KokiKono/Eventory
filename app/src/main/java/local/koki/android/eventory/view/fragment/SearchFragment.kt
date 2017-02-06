@@ -23,16 +23,10 @@ import local.koki.android.eventory.model.EventManager
 import local.koki.android.eventory.model.EventRealm
 import local.koki.android.eventory.view.adapter.RealmEventCardAdapter
 import local.koki.android.eventory.view.listener.EventActionListener
+import java.util.regex.Pattern
 
-class SearchFragment : Fragment()
-        ,RealmEventCardAdapter.ViewHolder.OnClickKeepListener
-        ,RealmEventCardAdapter.ViewHolder.OnClickNoKeepListener{
+class SearchFragment : EventFragment(){
     private var mSearchView: SearchView? = null
-    private var mRecyclerView: RecyclerView? = null
-    private var mAdapter: RealmEventCardAdapter? = null
-    private var mLayoutManager: RecyclerView.LayoutManager? = null
-    private var mEventActionListener: EventActionListener?=null
-    private var mData:RealmResults<EventRealm>?=null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -54,22 +48,15 @@ class SearchFragment : Fragment()
             mAdapter = RealmEventCardAdapter(context,null)
             mAdapter!!.onClickKeep=this
             mAdapter!!.onClickNotKeep=this
+            mAdapter!!.onClickTitle=this
             mRecyclerView!!.adapter = mAdapter
         }
         return view
     }
 
-
-    override fun onAttach(context: Context?) {
-        super.onAttach(context)
-        if(context is EventActionListener){
-            mEventActionListener=context
-        }
-    }
-
     override fun onResume() {
         super.onResume()
-        mData= EventManager.searchEvent(context,"*")
+        mData= EventManager.fetchEvent(context,EventManager.CheckStatus.Search)
         mAdapter!!.updateData(mData)
         mAdapter!!.notifyDataSetChanged()
     }
@@ -91,28 +78,19 @@ class SearchFragment : Fragment()
 
             override fun onQueryTextSubmit(query: String): Boolean {
                 //onclick Submit Button
-                mData= EventManager.searchEvent(context,"*"+query+"*")
+                val patt=Pattern.compile("[,\\s]+")
+                var list=patt.split(query).asList()
+                mData= EventManager.searchEvent(context,list)
                 mAdapter!!.updateData(mData)
                 mAdapter!!.notifyDataSetChanged()
                 return true
             }
 
             override fun onQueryTextChange(newText: String): Boolean {
-                //change text
-                /*mData= EventManager.searchEvent(context,"*"+newText+"*")
-                mAdapter!!.updateData(mData)
-                mAdapter!!.notifyDataSetChanged()*/
                 return true
             }
         })
         super.onCreateOptionsMenu(menu, inflater)
     }
 
-    override fun onClickKeep(eventRealm: EventRealm, position: Int) {
-        if(mEventActionListener!=null)mEventActionListener!!.onActionKeep(eventRealm)
-    }
-
-    override fun onClickNotKeep(eventRealm: EventRealm, position: Int) {
-        if(mEventActionListener!=null)mEventActionListener!!.onActionNotKeep(eventRealm)
-    }
 }

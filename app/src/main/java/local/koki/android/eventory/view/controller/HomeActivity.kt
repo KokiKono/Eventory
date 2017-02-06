@@ -5,6 +5,7 @@ import android.support.v4.app.FragmentTabHost
 import android.os.Bundle
 import android.support.v4.content.res.ResourcesCompat
 import android.support.v7.app.AppCompatActivity
+import android.support.v7.widget.Toolbar
 import android.util.Log
 import android.widget.*
 import io.realm.Realm
@@ -21,7 +22,8 @@ class HomeActivity : AppCompatActivity()
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home)
-
+        val toolBar=findViewById(R.id.my_toolbar) as Toolbar
+        setSupportActionBar(toolBar)
         title = "eventory"
         //TabWidgetの線を消す
         val tabWidget = findViewById(android.R.id.tabs) as TabWidget
