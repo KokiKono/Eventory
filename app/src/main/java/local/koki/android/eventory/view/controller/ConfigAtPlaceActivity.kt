@@ -12,7 +12,6 @@ import android.util.Log
 import android.view.*
 
 import local.koki.android.eventory.R
-import local.koki.android.eventory.view.adapter.ConfigAtPlaceAdapter
 import local.koki.android.eventory.view.receycler.DividerItemDecoration
 import java.util.*
 import android.widget.*

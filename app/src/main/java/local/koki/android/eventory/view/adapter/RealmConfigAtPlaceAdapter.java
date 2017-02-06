@@ -28,7 +28,7 @@ public class RealmConfigAtPlaceAdapter extends RealmRecyclerViewAdapter<Prefectu
     @Override
     public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         View v = LayoutInflater.from(context)
-                .inflate(R.layout.config_tem, parent, false);
+                .inflate(R.layout.config_item, parent, false);
         return new ViewHolder(v);
     }
 

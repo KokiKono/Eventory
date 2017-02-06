@@ -28,7 +28,7 @@ public class RealmConfigAtJenreAdapter extends RealmRecyclerViewAdapter<JenreRea
     @Override
     public RealmConfigAtJenreAdapter.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         View v = LayoutInflater.from(context)
-                .inflate(R.layout.config_tem, parent, false);
+                .inflate(R.layout.config_item, parent, false);
         return new RealmConfigAtJenreAdapter.ViewHolder(v);
     }
 
