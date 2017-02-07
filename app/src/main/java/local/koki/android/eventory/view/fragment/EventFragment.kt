@@ -10,17 +10,13 @@ import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import io.realm.OrderedRealmCollection
 import io.realm.Realm
 import io.realm.RealmResults
 import local.koki.android.eventory.R
 import local.koki.android.eventory.model.EventManager
 import local.koki.android.eventory.model.EventRealm
-import local.koki.android.eventory.model.UserRegister
 import local.koki.android.eventory.view.adapter.RealmEventCardAdapter
-import local.koki.android.eventory.view.adapter.RealmEventCardAdapter.ViewHolder
 import local.koki.android.eventory.view.listener.EventActionListener
-import local.koki.android.eventory.view.listener.RecyclerScrollListener
 import java.util.*
 
 /**
@@ -40,6 +36,11 @@ open class EventFragment : Fragment()
     protected var mEventAction: EventActionListener? = null
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        val bundle=arguments
+        if(bundle==null){
+            mEventStatus=EventManager.CheckStatus.None
+            return
+        }
         mEventStatus = EventManager.CheckStatus.indexOf(arguments.getInt("event_status"))
     }
 

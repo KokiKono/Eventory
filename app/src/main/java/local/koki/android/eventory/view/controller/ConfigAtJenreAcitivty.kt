@@ -2,7 +2,6 @@ package local.koki.android.eventory.view.controller
 
 import android.os.Bundle
 import android.support.design.widget.FloatingActionButton
-import android.support.v7.app.ActionBar
 import android.support.v7.app.AlertDialog
 import android.support.v7.app.AppCompatActivity
 import android.support.v7.widget.LinearLayoutManager

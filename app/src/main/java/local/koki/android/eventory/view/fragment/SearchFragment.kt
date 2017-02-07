@@ -1,11 +1,7 @@
 package local.koki.android.eventory.view.fragment
 
-import android.content.Context
-import android.content.res.Resources
 import android.os.Bundle
 import android.support.design.widget.FloatingActionButton
-import android.support.v4.app.Fragment
-import android.support.v4.content.res.ResourcesCompat
 import android.support.v4.view.MenuItemCompat
 import android.support.v7.widget.LinearLayoutManager
 import android.support.v7.widget.RecyclerView
@@ -13,19 +9,11 @@ import android.support.v7.widget.SearchView
 import android.view.LayoutInflater
 import android.view.Menu
 import android.view.MenuInflater
-import android.view.MenuItem
 import android.view.View
 import android.view.ViewGroup
-import io.realm.RealmResults
-
-import java.util.ArrayList
-
-import local.koki.android.eventory.view.adapter.EventoryCardAdapter
 import local.koki.android.eventory.R
 import local.koki.android.eventory.model.EventManager
-import local.koki.android.eventory.model.EventRealm
 import local.koki.android.eventory.view.adapter.RealmEventCardAdapter
-import local.koki.android.eventory.view.listener.EventActionListener
 import local.koki.android.eventory.view.receycler.ScrollBaseFABBehavior
 import java.util.regex.Pattern
 

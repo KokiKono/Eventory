@@ -3,14 +3,11 @@ package local.koki.android.eventory.view.adapter
 import android.content.Context
 import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
-import android.view.MotionEvent
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
-import local.koki.android.eventory.view.listener.RecyclerItemClickListener
 
 import local.koki.android.eventory.R
-import java.util.*
 
 class ConfigRecyclerAdapter(private val mValues: List<String>, listener: OnListItemClickListener) : RecyclerView.Adapter<ConfigRecyclerAdapter.ViewHolder>() {
     private var mClickListener: OnListItemClickListener? = listener

@@ -1,21 +1,14 @@
 package local.koki.android.eventory.view.adapter
 
-import android.app.usage.UsageEvents
 import android.content.Context
 import android.graphics.Color
-import android.graphics.drawable.Drawable
-import android.net.Uri
 import android.support.v7.widget.RecyclerView
-import android.support.v7.widget.SimpleItemAnimator
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import android.widget.LinearLayout
 import android.widget.TextView
-
-import co.moonmonkeylabs.realmrecyclerview.RealmRecyclerView
-import com.beardedhen.androidbootstrap.BootstrapButton
 import io.realm.OrderedRealmCollection
 import io.realm.RealmRecyclerViewAdapter
 import local.koki.android.eventory.R

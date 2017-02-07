@@ -1,11 +1,9 @@
 package local.koki.android.eventory.view.controller
 
 import android.app.AlertDialog
-import android.content.DialogInterface
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.support.design.widget.FloatingActionButton
-import android.support.v7.app.ActionBar
 import android.support.v7.widget.LinearLayoutManager
 import android.support.v7.widget.RecyclerView
 import android.support.v7.widget.Toolbar
@@ -14,11 +12,8 @@ import android.view.*
 
 import local.koki.android.eventory.R
 import local.koki.android.eventory.view.receycler.DividerItemDecoration
-import java.util.*
 import android.widget.*
-import co.moonmonkeylabs.realmrecyclerview.RealmRecyclerView
 import io.realm.Realm
-import io.realm.RealmQuery
 import local.koki.android.eventory.model.PrefectureRealm
 import local.koki.android.eventory.view.adapter.RealmConfigAtPlaceAdapter
 import local.koki.android.eventory.view.receycler.ScrollBaseFABBehavior
