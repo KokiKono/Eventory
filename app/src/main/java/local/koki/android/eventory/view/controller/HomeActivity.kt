@@ -1,13 +1,12 @@
 package local.koki.android.eventory.view.controller
 
-import android.content.SharedPreferences
-import android.support.v4.app.FragmentTabHost
 import android.os.Bundle
-import android.support.v4.content.res.ResourcesCompat
 import android.support.v7.app.AppCompatActivity
 import android.support.v7.widget.Toolbar
-import android.util.Log
-import android.widget.*
+import android.support.design.widget.TabLayout
+import android.support.v4.app.Fragment
+import android.support.v4.app.FragmentPagerAdapter
+import android.support.v4.view.ViewPager
 import io.realm.Realm
 import local.koki.android.eventory.R
 import local.koki.android.eventory.model.EventManager
@@ -15,69 +14,81 @@ import local.koki.android.eventory.model.EventRealm
 import local.koki.android.eventory.view.fragment.*
 import local.koki.android.eventory.view.listener.EventActionListener
 import java.util.*
+import local.koki.android.eventory.model.EventManager.CheckStatus
 
 class HomeActivity : AppCompatActivity()
-, EventActionListener {
+, EventActionListener
+,ViewPager.OnPageChangeListener{
     private var mStockChangedEvent=HashMap<EventRealm,EventManager.CheckStatus>()
+    private var mViewPager:ViewPager?=null
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home)
         val toolBar=findViewById(R.id.my_toolbar) as Toolbar
         setSupportActionBar(toolBar)
-        title = "eventory"
-        //TabWidgetの線を消す
-        val tabWidget = findViewById(android.R.id.tabs) as TabWidget
-        tabWidget.isStripEnabled = false
-        tabWidget.showDividers = LinearLayout.SHOW_DIVIDER_NONE
         //ActionBarとTabの影をなくす。
         supportActionBar!!.elevation = 0f
+        val titleStr=getString(R.string.app_name)
+        val searchStr=getString(R.string.search)
+        val noKeepStr=getString(R.string.not_interested)
+        val newEventStr=getString(R.string.what_new)
+        val keepStr=getString(R.string.interested)
+        val configStr=getString(R.string.configuration)
+        title = titleStr
 
+        mViewPager=findViewById(R.id.pager) as ViewPager
+        val tabLayout=findViewById(android.R.id.tabs) as TabLayout
+        val pageTitles= arrayListOf(searchStr,noKeepStr,newEventStr,keepStr,configStr)
+        var fragmentAdapter=object :FragmentPagerAdapter(supportFragmentManager){
+            override fun getCount(): Int {
+                return pageTitles.size
+            }
 
-        //FragmentTabHostを取得する。
-        val tabHost = findViewById(android.R.id.tabhost) as FragmentTabHost
-        tabHost.setup(applicationContext, supportFragmentManager, R.id.container)
-        //各タブ、「探す」、「興味なし」、「新着情報」、「興味あり」、「設定」
-        val searchTab: TabHost.TabSpec
-        val notInterestedTab: TabHost.TabSpec
-        val whatNewTab: TabHost.TabSpec
-        val interestedTab: TabHost.TabSpec
-        val configurationTab: TabHost.TabSpec
+            override fun getItem(position: Int): Fragment {
+                //pageTitlesの配列位置と連動させる。
+                when(position){
+                    0 ->{
+                        return SearchFragment()
+                    }
+                    1 ->{
+                        var args=Bundle()
+                        args.putInt("event_status",CheckStatus.NotKeep.code)
+                        var fragment=EventFragment()
+                        fragment.arguments=args
+                        return fragment
+                    }
+                    2->{
+                        var args=Bundle()
+                        args.putInt("event_status",CheckStatus.NoCheck.code)
+                        var fragment=EventFragment()
+                        fragment.arguments=args
+                        return fragment
+                    }
+                    3->{
+                        var args=Bundle()
+                        args.putInt("event_status",CheckStatus.Keep.code)
+                        var fragment=EventFragment()
+                        fragment.arguments=args
+                        return fragment
+                    }
+                    4->{
+                        return ConfigurationItemFragment()
+                    }
+                    else ->{
+                        return ConfigurationItemFragment()
+                    }
+                }
+            }
 
-        var args:Bundle
-        //各タブの初期設定
-        //「探す」
-        args= Bundle()
-        args.putInt("event_status",EventManager.CheckStatus.Search.code)
-        searchTab = tabHost.newTabSpec("search")
-        searchTab.setIndicator(getString(R.string.search), ResourcesCompat.getDrawable(resources, android.R.drawable.ic_search_category_default, null))
-        tabHost.addTab(searchTab, SearchFragment::class.java, args)
-        //「興味なし」
-        args= Bundle()
-        args.putInt("event_status",EventManager.CheckStatus.NotKeep.code)
-        notInterestedTab = tabHost.newTabSpec("not_interested")
-        notInterestedTab.setIndicator(getString(R.string.not_interested))
-        tabHost.addTab(notInterestedTab, EventFragment::class.java, args)
-        //「新着情報」
-        args= Bundle()
-        args.putInt("event_status",EventManager.CheckStatus.NoCheck.code)
-        whatNewTab = tabHost.newTabSpec("what_new")
-        whatNewTab.setIndicator(getString(R.string.what_new))
-        tabHost.addTab(whatNewTab, EventFragment::class.java, args)
-        //「興味あり」
-        args= Bundle()
-        args.putInt("event_status",EventManager.CheckStatus.Keep.code)
-        interestedTab = tabHost.newTabSpec("interested")
-        interestedTab.setIndicator(getString(R.string.interested))
-        tabHost.addTab(interestedTab, EventFragment::class.java, args)
-        //「設定」
-        configurationTab = tabHost.newTabSpec("configuration")
-        configurationTab.setIndicator(getString(R.string.configuration))
-        tabHost.addTab(configurationTab, ConfigurationItemFragment::class.java, null)
+            override fun getPageTitle(position: Int): CharSequence {
+                return pageTitles[position]
+            }
+        }
+        mViewPager!!.adapter=fragmentAdapter
+        mViewPager!!.addOnPageChangeListener(this)
 
-        tabHost.setOnTabChangedListener{
-            v ->
-            onUpdate()
-            Log.e("HOME Activity","タブが切り変えられた。")}
+        tabLayout.setupWithViewPager(mViewPager)
+
     }
 
     override fun onActionKeep(realm: EventRealm) {
@@ -96,6 +107,16 @@ class HomeActivity : AppCompatActivity()
             key.status=mStockChangedEvent.get(key)!!.code
         }
         realm.commitTransaction()
+    }
+
+    override fun onPageScrollStateChanged(state: Int) {
+    }
+
+    override fun onPageScrolled(position: Int, positionOffset: Float, positionOffsetPixels: Int) {
+    }
+
+    override fun onPageSelected(position: Int) {
+        onUpdate()
     }
 
 }
