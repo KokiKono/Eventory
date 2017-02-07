@@ -8,6 +8,7 @@ import android.support.design.widget.FloatingActionButton
 import android.support.v7.app.ActionBar
 import android.support.v7.widget.LinearLayoutManager
 import android.support.v7.widget.RecyclerView
+import android.support.v7.widget.Toolbar
 import android.util.Log
 import android.view.*
 
@@ -30,7 +31,9 @@ class ConfigAtPlaceActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_config_at_place)
-
+        var toolbar = findViewById(R.id.my_toolbar) as Toolbar
+        setSupportActionBar(toolbar)
+        supportActionBar!!.setDefaultDisplayHomeAsUpEnabled(true)
         Realm.init(applicationContext)
         mRealm = Realm.getDefaultInstance()
         mRecyclerView = findViewById(R.id.list) as RecyclerView
@@ -39,9 +42,6 @@ class ConfigAtPlaceActivity : AppCompatActivity() {
         //リストに下線を付ける
         mRecyclerView!!.addItemDecoration(DividerItemDecoration(applicationContext))
         mRecyclerView!!.layoutManager = LinearLayoutManager(this)
-        //←の付与
-        val actionBar: ActionBar = supportActionBar as ActionBar
-        actionBar.setDisplayHomeAsUpEnabled(true)
         mFloatingActionButton!!.setOnClickListener { v ->
             var edit: EditText = EditText(v.context)
             AlertDialog.Builder(v.context)

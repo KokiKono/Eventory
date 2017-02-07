@@ -7,6 +7,7 @@ import android.support.v7.app.AlertDialog
 import android.support.v7.app.AppCompatActivity
 import android.support.v7.widget.LinearLayoutManager
 import android.support.v7.widget.RecyclerView
+import android.support.v7.widget.Toolbar
 import android.util.Log
 import android.view.MenuItem
 import android.widget.EditText
@@ -29,6 +30,9 @@ class ConfigAtJenreAcitivty:AppCompatActivity(){
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_config_at_jenre)
 
+        var toolbar = findViewById(R.id.my_toolbar) as Toolbar
+        setSupportActionBar(toolbar)
+        supportActionBar!!.setDefaultDisplayHomeAsUpEnabled(true)
         Realm.init(applicationContext)
         mRealm= Realm.getDefaultInstance()
         mRecyclerView=findViewById(R.id.list)as RecyclerView
@@ -37,9 +41,7 @@ class ConfigAtJenreAcitivty:AppCompatActivity(){
         //リストに下線を付ける
         mRecyclerView!!.addItemDecoration(DividerItemDecoration(applicationContext))
         mRecyclerView!!.layoutManager=LinearLayoutManager(this)
-        //戻るボタン追加
-        var actionBar:ActionBar=supportActionBar as ActionBar
-        actionBar.setDisplayHomeAsUpEnabled(true)
+
         mFloatingActionButton!!.setOnClickListener{v->
             var edit=EditText(v.context)
             AlertDialog.Builder(v.context)

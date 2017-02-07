@@ -1,8 +1,11 @@
 package local.koki.android.eventory.view.fragment
 
 import android.content.Context
+import android.content.res.Resources
 import android.os.Bundle
+import android.support.design.widget.FloatingActionButton
 import android.support.v4.app.Fragment
+import android.support.v4.content.res.ResourcesCompat
 import android.support.v4.view.MenuItemCompat
 import android.support.v7.widget.LinearLayoutManager
 import android.support.v7.widget.RecyclerView
@@ -23,11 +26,12 @@ import local.koki.android.eventory.model.EventManager
 import local.koki.android.eventory.model.EventRealm
 import local.koki.android.eventory.view.adapter.RealmEventCardAdapter
 import local.koki.android.eventory.view.listener.EventActionListener
+import local.koki.android.eventory.view.receycler.ScrollBaseFABBehavior
 import java.util.regex.Pattern
 
-class SearchFragment : EventFragment(){
+class SearchFragment : EventFragment() {
     private var mSearchView: SearchView? = null
-
+    private var mFloatingActionButton: FloatingActionButton? = null
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         //create optionMenu On ActionBar
@@ -37,26 +41,33 @@ class SearchFragment : EventFragment(){
     override fun onCreateView(inflater: LayoutInflater?, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
         val view = inflater!!.inflate(R.layout.fragment_list_search, container, false)
-        if (view is RecyclerView) {
-            //find parent view
-            mRecyclerView = view.findViewById(R.id.list) as RecyclerView
-            mRecyclerView!!.setHasFixedSize(true)
 
-            mLayoutManager = LinearLayoutManager(context)
-            mRecyclerView!!.layoutManager = mLayoutManager
+        //if (view is RecyclerView) {
+        //find parent view
+        mRecyclerView = view.findViewById(R.id.list) as RecyclerView
+        mRecyclerView!!.setHasFixedSize(true)
 
-            mAdapter = RealmEventCardAdapter(context,null)
-            mAdapter!!.onClickKeep=this
-            mAdapter!!.onClickNotKeep=this
-            mAdapter!!.onClickTitle=this
-            mRecyclerView!!.adapter = mAdapter
+        mLayoutManager = LinearLayoutManager(context)
+        mRecyclerView!!.layoutManager = mLayoutManager
+
+        mAdapter = RealmEventCardAdapter(context, null)
+        mAdapter!!.onClickKeep = this
+        mAdapter!!.onClickNotKeep = this
+        mAdapter!!.onClickTitle = this
+        mRecyclerView!!.adapter = mAdapter
+        mFloatingActionButton = view.findViewById(R.id.floatingActionButton) as FloatingActionButton
+        mFloatingActionButton!!.setOnClickListener { v ->
+            mSearchView!!.isIconified = false
+            mFloatingActionButton!!.hide()
         }
+        mRecyclerView!!.addOnScrollListener(ScrollBaseFABBehavior(mFloatingActionButton!!))
+        //}
         return view
     }
 
     override fun onResume() {
         super.onResume()
-        mData= EventManager.fetchEvent(context,EventManager.CheckStatus.Search)
+        mData = EventManager.fetchEvent(context, EventManager.CheckStatus.Search)
         mAdapter!!.updateData(mData)
         mAdapter!!.notifyDataSetChanged()
     }
@@ -73,16 +84,23 @@ class SearchFragment : EventFragment(){
 
         //whether display Submit Button
         mSearchView!!.isSubmitButtonEnabled = true
-
+        mSearchView!!.setOnCloseListener(object :SearchView.OnCloseListener{
+            override fun onClose(): Boolean {
+                mFloatingActionButton!!.show()
+                return  false
+            }
+        })
         mSearchView!!.setOnQueryTextListener(object : SearchView.OnQueryTextListener {
 
             override fun onQueryTextSubmit(query: String): Boolean {
                 //onclick Submit Button
-                val patt=Pattern.compile("[,\\s]+")
-                var list=patt.split(query).asList()
-                mData= EventManager.searchEvent(context,list)
+                val patt = Pattern.compile("[,\\s]+")
+                var list = patt.split(query).asList()
+                mData = EventManager.searchEvent(context, list)
                 mAdapter!!.updateData(mData)
                 mAdapter!!.notifyDataSetChanged()
+                mFloatingActionButton!!.show()
+                mSearchView!!.clearFocus()
                 return true
             }
 

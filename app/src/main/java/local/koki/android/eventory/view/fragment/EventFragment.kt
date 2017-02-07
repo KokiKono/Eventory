@@ -10,6 +10,7 @@ import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import io.realm.OrderedRealmCollection
 import io.realm.Realm
 import io.realm.RealmResults
 import local.koki.android.eventory.R
@@ -19,6 +20,7 @@ import local.koki.android.eventory.model.UserRegister
 import local.koki.android.eventory.view.adapter.RealmEventCardAdapter
 import local.koki.android.eventory.view.adapter.RealmEventCardAdapter.ViewHolder
 import local.koki.android.eventory.view.listener.EventActionListener
+import local.koki.android.eventory.view.listener.RecyclerScrollListener
 import java.util.*
 
 /**
@@ -79,6 +81,7 @@ open class EventFragment : Fragment()
             eventManager.eventConnection(null)*/
         }
         mData=EventManager.fetchEvent(context,mEventStatus)
+        //TODO: スクロールしたときのデータロードがrealmではよくわからん。
         mAdapter!!.updateData(mData)
         mAdapter!!.notifyDataSetChanged()
     }
@@ -115,4 +118,9 @@ open class EventFragment : Fragment()
         val uri=Uri.parse(eventRealm.url)
         startActivity(Intent(Intent.ACTION_VIEW,uri))
     }
+    private var nextDataCount=0
+    private fun nextData():EventRealm{
+        return mData!!.get(nextDataCount++)
+    }
+
 }
