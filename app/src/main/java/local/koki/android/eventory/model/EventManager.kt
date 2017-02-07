@@ -2,7 +2,6 @@ package local.koki.android.eventory.model
 
 import android.content.Context
 import android.os.AsyncTask
-import android.support.annotation.Dimension
 import android.util.Log
 import io.realm.Realm
 import io.realm.RealmResults
@@ -176,12 +175,12 @@ class EventManager {
             }
         }
     }
-    enum class CheckStatus(val code: Int){
-        NoCheck(0),
-        Keep(1),
-        NotKeep(2),
-        Search(3),
-        None(5);
+    enum class CheckStatus(val code: Int,val value:String){
+        NoCheck(0,"新着情報"),
+        Keep(1,"キープ"),
+        NotKeep(2,"興味なし"),
+        Search(3,"検索"),
+        None(5,"");
         companion object {
             fun indexOf(status:Int):CheckStatus{
                 for(code in CheckStatus.values()){
