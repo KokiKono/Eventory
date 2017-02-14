@@ -16,8 +16,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".view.controller.ConfigAtPlaceActivity" />
-        <activity android:name=".view.controller.ConfigAtJenreAcitivty"/>
+        <activity android:name=".view.ConfigAtPlaceActivity" />
+        <activity android:name=".view.ConfigAtJenreAcitivty"/>
     </application>
     <uses-permission android:name="android.permission.INTERNET"/>
 </manifest>
