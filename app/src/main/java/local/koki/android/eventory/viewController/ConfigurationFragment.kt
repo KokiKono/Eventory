@@ -1,4 +1,4 @@
-package local.koki.android.eventory.view.fragment
+package local.koki.android.eventory.viewController
 
 import android.content.Context
 import android.content.Intent
@@ -18,8 +18,8 @@ import local.koki.android.eventory.view.controller.ConfigAtPlaceActivity
 import local.koki.android.eventory.view.receycler.DividerItemDecoration
 import java.util.*
 
-
-class ConfigurationItemFragment : Fragment() {
+//ToDo:MVCモデルに変換する。
+class ConfigurationFragment : Fragment() {
     private var mItemClickListener : RecyclerItemClickListener.OnItemClickListener?=null
     enum class CONFIG{
         GENRE{

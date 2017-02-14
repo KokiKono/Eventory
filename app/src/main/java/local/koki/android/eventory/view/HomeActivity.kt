@@ -86,9 +86,7 @@ class HomeActivity : AppCompatActivity()
         }
         mViewPager!!.adapter=fragmentAdapter
         mViewPager!!.addOnPageChangeListener(this)
-
         tabLayout.setupWithViewPager(mViewPager)
-
     }
 
     override fun onActionKeep(realm: EventRealm) {

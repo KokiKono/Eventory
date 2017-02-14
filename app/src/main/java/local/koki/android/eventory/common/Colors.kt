@@ -1,4 +1,4 @@
-package local.koki.android.eventory.view.util
+package local.koki.android.eventory.common
 
 import android.graphics.Color
 
@@ -12,12 +12,12 @@ enum class Colors constructor(val color: Int, val state: Boolean) {
     STATE_ON(Color.parseColor("#E67E22"), true), STATE_OFF(Color.parseColor("#C0BfBF"), false);
     companion object {
         fun isColor(state: Boolean): Int {
-            for (color in Colors.values()) {
+            for (color in values()) {
                 if (color.state == state) {
                     return color.color
                 }
             }
-            return Colors.STATE_OFF.color
+            return STATE_OFF.color
         }
     }
 }

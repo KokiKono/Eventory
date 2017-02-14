@@ -4,6 +4,7 @@ import android.app.AlertDialog
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.support.design.widget.FloatingActionButton
+import android.support.v7.app.ActionBar
 import android.support.v7.widget.LinearLayoutManager
 import android.support.v7.widget.RecyclerView
 import android.support.v7.widget.Toolbar
@@ -28,7 +29,9 @@ class ConfigAtPlaceActivity : AppCompatActivity() {
         setContentView(R.layout.activity_config_at_place)
         var toolbar = findViewById(R.id.my_toolbar) as Toolbar
         setSupportActionBar(toolbar)
-        supportActionBar!!.setDefaultDisplayHomeAsUpEnabled(true)
+        var actionBar=supportActionBar as ActionBar
+        actionBar!!.setDefaultDisplayHomeAsUpEnabled(true)
+        actionBar!!.setDisplayShowHomeEnabled(true)
         Realm.init(applicationContext)
         mRealm = Realm.getDefaultInstance()
         mRecyclerView = findViewById(R.id.list) as RecyclerView

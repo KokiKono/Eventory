@@ -1,4 +1,4 @@
-package local.koki.android.eventory.view.util;
+package local.koki.android.eventory.common;
 
 import java.io.BufferedReader;
 import java.io.IOException;
