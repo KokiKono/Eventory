@@ -7,8 +7,9 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme.NoActionBar">
-        <activity android:name=".view.controller.HomeActivity">
+        android:theme="@style/AppTheme.NoActionBar"
+        android:name=".common.MainApplication">
+        <activity android:name=".view.HomeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
