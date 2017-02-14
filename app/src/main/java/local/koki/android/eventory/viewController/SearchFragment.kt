@@ -1,4 +1,4 @@
-package local.koki.android.eventory.view.fragment
+package local.koki.android.eventory.viewController
 
 import android.os.Bundle
 import android.support.design.widget.FloatingActionButton
@@ -16,7 +16,6 @@ import local.koki.android.eventory.model.EventManager
 import local.koki.android.eventory.view.adapter.RealmEventCardAdapter
 import local.koki.android.eventory.view.receycler.ScrollBaseFABBehavior
 import java.util.regex.Pattern
-
 class SearchFragment : EventFragment() {
     private var mSearchView: SearchView? = null
     private var mFloatingActionButton: FloatingActionButton? = null
