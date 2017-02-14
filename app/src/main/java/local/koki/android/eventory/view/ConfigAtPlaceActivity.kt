@@ -1,4 +1,4 @@
-package local.koki.android.eventory.view.controller
+package local.koki.android.eventory.view
 
 import android.app.AlertDialog
 import android.support.v7.app.AppCompatActivity

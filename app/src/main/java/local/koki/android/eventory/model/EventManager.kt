@@ -5,7 +5,7 @@ import android.os.AsyncTask
 import android.util.Log
 import io.realm.Realm
 import io.realm.RealmResults
-import local.koki.android.eventory.view.util.Json
+import local.koki.android.eventory.common.Json
 import org.json.JSONArray
 import org.json.JSONException
 import java.io.IOException
@@ -27,10 +27,10 @@ class EventManager {
             Realm.init(context)
             var realm:Realm= Realm.getDefaultInstance()
             if(status==CheckStatus.Search){
-                val data=realm.where(EventRealm::class.java).findAll()
+                val data=realm.where(EventRealm::class.java).findAll().sort("startAt")
                 return data
             }
-            val data=realm.where(EventRealm::class.java).equalTo("status",status.code).findAll()
+            val data=realm.where(EventRealm::class.java).equalTo("status",status.code).findAll().sort("startAt")
             return data
         }
         fun searchEvent(context: Context,args:List<String>):RealmResults<EventRealm>{
@@ -178,7 +178,7 @@ class EventManager {
     enum class CheckStatus(val code: Int,val value:String){
         NoCheck(0,"新着情報"),
         Keep(1,"キープ"),
-        NotKeep(2,"興味なし"),
+        NoKeep(2,"興味なし"),
         Search(3,"検索"),
         None(5,"");
         companion object {
@@ -190,6 +190,10 @@ class EventManager {
                 }
                 return None
             }
+        }
+
+        override fun toString(): String {
+            return this.name
         }
     }
 }

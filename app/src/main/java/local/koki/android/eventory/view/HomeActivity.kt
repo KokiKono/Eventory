@@ -1,4 +1,4 @@
-package local.koki.android.eventory.view.controller
+package local.koki.android.eventory.view
 
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
@@ -9,13 +9,11 @@ import android.support.v4.app.FragmentPagerAdapter
 import android.support.v4.view.ViewPager
 import io.realm.Realm
 import local.koki.android.eventory.R
+import local.koki.android.eventory.common.FragmentRouter
 import local.koki.android.eventory.model.EventManager
 import local.koki.android.eventory.model.EventRealm
-import local.koki.android.eventory.view.fragment.*
 import local.koki.android.eventory.view.listener.EventActionListener
 import java.util.*
-import local.koki.android.eventory.model.EventManager.CheckStatus
-
 class HomeActivity : AppCompatActivity()
 , EventActionListener
 ,ViewPager.OnPageChangeListener{
@@ -23,7 +21,7 @@ class HomeActivity : AppCompatActivity()
     private var mViewPager:ViewPager?=null
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_home)
+        setContentView(R.layout.activity_home_mvc)
         val toolBar=findViewById(R.id.my_toolbar) as Toolbar
         setSupportActionBar(toolBar)
         //ActionBarとTabの影をなくす。
@@ -39,49 +37,21 @@ class HomeActivity : AppCompatActivity()
         mViewPager=findViewById(R.id.pager) as ViewPager
         val tabLayout=findViewById(android.R.id.tabs) as TabLayout
         val pageTitles= arrayListOf(searchStr,noKeepStr,newEventStr,keepStr,configStr)
+        val tags=FragmentRouter.Tag.values();
         var fragmentAdapter=object :FragmentPagerAdapter(supportFragmentManager){
             override fun getCount(): Int {
-                return pageTitles.size
+                return tags.size
             }
 
             override fun getItem(position: Int): Fragment {
-                //pageTitlesの配列位置と連動させる。
-                when(position){
-                    0 ->{
-                        return SearchFragment()
-                    }
-                    1 ->{
-                        var args=Bundle()
-                        args.putInt("event_status",CheckStatus.NotKeep.code)
-                        var fragment=EventFragment()
-                        fragment.arguments=args
-                        return fragment
-                    }
-                    2->{
-                        var args=Bundle()
-                        args.putInt("event_status",CheckStatus.NoCheck.code)
-                        var fragment=EventFragment()
-                        fragment.arguments=args
-                        return fragment
-                    }
-                    3->{
-                        var args=Bundle()
-                        args.putInt("event_status",CheckStatus.Keep.code)
-                        var fragment=EventFragment()
-                        fragment.arguments=args
-                        return fragment
-                    }
-                    4->{
-                        return ConfigurationItemFragment()
-                    }
-                    else ->{
-                        return ConfigurationItemFragment()
-                    }
-                }
+                //tagsの配列位置と連動させる。
+                val tag=tags.get(position)
+                val args=FragmentRouter.newFragmentArgs(tag)
+                return FragmentRouter.newInstance(tag,args)
             }
 
             override fun getPageTitle(position: Int): CharSequence {
-                return pageTitles[position]
+                return tags.get(position).tabTitle
             }
         }
         mViewPager!!.adapter=fragmentAdapter
@@ -94,7 +64,7 @@ class HomeActivity : AppCompatActivity()
     }
 
     override fun onActionNotKeep(realm: EventRealm) {
-        mStockChangedEvent.put(realm,EventManager.CheckStatus.NotKeep)
+        mStockChangedEvent.put(realm,EventManager.CheckStatus.NoKeep)
     }
     private fun onUpdate(){
         Realm.init(applicationContext)

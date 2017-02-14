@@ -1,4 +1,4 @@
-package local.koki.android.eventory.view.fragment
+package local.koki.android.eventory.viewController
 
 import android.content.Context
 import android.content.Intent
@@ -13,6 +13,7 @@ import android.view.ViewGroup
 import io.realm.Realm
 import io.realm.RealmResults
 import local.koki.android.eventory.R
+import local.koki.android.eventory.common.FragmentRouter
 import local.koki.android.eventory.model.EventManager
 import local.koki.android.eventory.model.EventRealm
 import local.koki.android.eventory.view.adapter.RealmEventCardAdapter
@@ -22,7 +23,6 @@ import java.util.*
 /**
  * Created by 浩生 on 2017/01/31.
  */
-
 open class EventFragment : Fragment()
         , RealmEventCardAdapter.ViewHolder.OnClickKeepListener
         , RealmEventCardAdapter.ViewHolder.OnClickNoKeepListener
@@ -41,7 +41,7 @@ open class EventFragment : Fragment()
             mEventStatus=EventManager.CheckStatus.None
             return
         }
-        mEventStatus = EventManager.CheckStatus.indexOf(arguments.getInt("event_status"))
+        mEventStatus = EventManager.CheckStatus.indexOf(arguments.getInt(FragmentRouter.ARGS_KEY))
     }
 
     override fun onCreateView(inflater: LayoutInflater?, container: ViewGroup?, savedInstanceState: Bundle?): View? {
@@ -82,7 +82,6 @@ open class EventFragment : Fragment()
             eventManager.eventConnection(null)*/
         }
         mData=EventManager.fetchEvent(context,mEventStatus)
-        //TODO: スクロールしたときのデータロードがrealmではよくわからん。
         mAdapter!!.updateData(mData)
         mAdapter!!.notifyDataSetChanged()
     }
@@ -119,9 +118,6 @@ open class EventFragment : Fragment()
         val uri=Uri.parse(eventRealm.url)
         startActivity(Intent(Intent.ACTION_VIEW,uri))
     }
-    private var nextDataCount=0
-    private fun nextData():EventRealm{
-        return mData!!.get(nextDataCount++)
-    }
+
 
 }

@@ -2,6 +2,7 @@ package local.koki.android.eventory.view.adapter
 
 import android.content.Context
 import android.graphics.Color
+import android.graphics.drawable.GradientDrawable
 import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
@@ -9,12 +10,13 @@ import android.view.ViewGroup
 import android.widget.Button
 import android.widget.LinearLayout
 import android.widget.TextView
+import com.j256.ormlite.logger.Log
 import io.realm.OrderedRealmCollection
 import io.realm.RealmRecyclerViewAdapter
 import local.koki.android.eventory.R
 import local.koki.android.eventory.model.EventManager
 import local.koki.android.eventory.model.EventRealm
-import local.koki.android.eventory.view.util.Colors
+import local.koki.android.eventory.common.Colors
 import local.koki.android.eventory.model.EventManager.CheckStatus
 import java.text.SimpleDateFormat
 
@@ -41,6 +43,12 @@ class RealmEventCardAdapter(context: Context, data: OrderedRealmCollection<Event
         var capacity = ""
         if (event.accepted > 0) {
             capacity += event.accepted.toString() + "/"
+            if(event.limit>0) {
+                val accepted=event.accepted.toFloat()
+                val limit=event.limit.toFloat()
+                android.util.Log.e("計算結果"+event.accepted.toString()+"/"+event.limit.toString(),(((accepted / limit) * 100)).toString())
+                holder.eventCapacotyTextView!!.background = getGradientDrawable(100, (100 - ((accepted / limit) * 100)).toInt())
+            }
         }
         capacity += "定員" + event.limit + "人"
         holder.eventCapacotyTextView!!.text = capacity
@@ -52,7 +60,7 @@ class RealmEventCardAdapter(context: Context, data: OrderedRealmCollection<Event
         }
         holder.notKeepButton!!.setOnClickListener { v ->
             onClickNotKeep!!.onClickNotKeep(event,position)
-            holder.statusButton(CheckStatus.NotKeep.code)
+            holder.statusButton(CheckStatus.NoKeep.code)
         }
         holder.statusButton(event)
     }
@@ -92,7 +100,7 @@ class RealmEventCardAdapter(context: Context, data: OrderedRealmCollection<Event
                     keepOn()
                     notKeepOff()
                 }
-                CheckStatus.NotKeep.code -> {
+                CheckStatus.NoKeep.code -> {
                     keepOff()
                     notKeepOn()
                 }
@@ -145,5 +153,21 @@ class RealmEventCardAdapter(context: Context, data: OrderedRealmCollection<Event
 
     override fun getItemId(index: Int): Long {
         return data!!.get(index).id as Long
+    }
+    private fun getGradientDrawable(size:Int, ratio:Int):GradientDrawable{
+        var drawable=GradientDrawable()
+        drawable.mutate()
+        drawable.orientation=GradientDrawable.Orientation.LEFT_RIGHT
+        var colors=IntArray(size)
+        var count=0
+        while (count<size){
+            val red=if(count< ratio)255/ ratio *count else 255
+            val green=255
+            val blue=if(count< ratio)255/ ratio *count else 255
+            colors.set(count,Color.rgb(red,green,blue))
+            count++
+        }
+        drawable.colors=colors
+        return drawable
     }
 }

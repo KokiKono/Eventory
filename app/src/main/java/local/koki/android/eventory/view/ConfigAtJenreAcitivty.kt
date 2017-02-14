@@ -1,4 +1,4 @@
-package local.koki.android.eventory.view.controller
+package local.koki.android.eventory.view
 
 import android.os.Bundle
 import android.support.design.widget.FloatingActionButton

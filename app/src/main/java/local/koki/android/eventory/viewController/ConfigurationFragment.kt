@@ -13,12 +13,11 @@ import local.koki.android.eventory.view.listener.RecyclerItemClickListener
 
 import local.koki.android.eventory.R
 import local.koki.android.eventory.view.adapter.ConfigRecyclerAdapter
-import local.koki.android.eventory.view.controller.ConfigAtJenreAcitivty
-import local.koki.android.eventory.view.controller.ConfigAtPlaceActivity
+import local.koki.android.eventory.view.ConfigAtJenreAcitivty
+import local.koki.android.eventory.view.ConfigAtPlaceActivity
 import local.koki.android.eventory.view.receycler.DividerItemDecoration
 import java.util.*
 
-//ToDo:MVCモデルに変換する。
 class ConfigurationFragment : Fragment() {
     private var mItemClickListener : RecyclerItemClickListener.OnItemClickListener?=null
     enum class CONFIG{
