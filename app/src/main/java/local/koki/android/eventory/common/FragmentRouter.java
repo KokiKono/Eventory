@@ -37,6 +37,19 @@ public class FragmentRouter {
         public static Tag get(int position){
             return Tag.get(position);
         }
+        public int getAt(){
+            return indexOf(this);
+        }
+        public static int indexOf(Tag tag){
+            int count=0;
+            for(Tag tag1:Tag.values()){
+                if(tag1==tag){
+                    return count;
+                }
+                count++;
+            }
+            return -1;
+        }
     }
     private static Map<Tag,Class> showcase=new HashMap<>();
 
