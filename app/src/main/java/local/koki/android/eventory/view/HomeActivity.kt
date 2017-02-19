@@ -1,18 +1,26 @@
 package local.koki.android.eventory.view
 
+import android.content.Intent
 import android.os.Bundle
+import android.os.Handler
 import android.support.v7.app.AppCompatActivity
 import android.support.v7.widget.Toolbar
 import android.support.design.widget.TabLayout
 import android.support.v4.app.Fragment
 import android.support.v4.app.FragmentPagerAdapter
 import android.support.v4.view.ViewPager
+import android.view.Menu
+import android.view.View
+import android.view.ViewGroup
 import io.realm.Realm
 import local.koki.android.eventory.R
 import local.koki.android.eventory.common.FragmentRouter
 import local.koki.android.eventory.model.EventManager
 import local.koki.android.eventory.model.EventRealm
 import local.koki.android.eventory.view.listener.EventActionListener
+import uk.co.deanwild.materialshowcaseview.IShowcaseListener
+import uk.co.deanwild.materialshowcaseview.MaterialShowcaseSequence
+import uk.co.deanwild.materialshowcaseview.MaterialShowcaseView
 import java.util.*
 class HomeActivity : AppCompatActivity()
 , EventActionListener
@@ -27,16 +35,10 @@ class HomeActivity : AppCompatActivity()
         //ActionBarとTabの影をなくす。
         supportActionBar!!.elevation = 0f
         val titleStr=getString(R.string.app_name)
-        val searchStr=getString(R.string.search)
-        val noKeepStr=getString(R.string.not_interested)
-        val newEventStr=getString(R.string.what_new)
-        val keepStr=getString(R.string.interested)
-        val configStr=getString(R.string.configuration)
         title = titleStr
 
         mViewPager=findViewById(R.id.pager) as ViewPager
         val tabLayout=findViewById(android.R.id.tabs) as TabLayout
-        val pageTitles= arrayListOf(searchStr,noKeepStr,newEventStr,keepStr,configStr)
         val tags=FragmentRouter.Tag.values();
         var fragmentAdapter=object :FragmentPagerAdapter(supportFragmentManager){
             override fun getCount(): Int {
@@ -85,6 +87,37 @@ class HomeActivity : AppCompatActivity()
 
     override fun onPageSelected(position: Int) {
         onUpdate()
+    }
+
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+        //初回チュートリアルを実装する。
+        Handler().post {
+            val tabLayout=findViewById(android.R.id.tabs) as TabLayout
+            var sequence=MaterialShowcaseSequence(this)
+            sequence.addSequenceItem(MaterialShowcaseView.Builder(this)
+                    .setTarget(tabLayout)
+                    .setContentText("インストールありがとうございます。\nまずは、イベントにフィルタリングを設定しましょう。")
+                    .setDismissText("次へ")
+                    .build())
+            val tabGroup=tabLayout.getChildAt(0) as ViewGroup
+            val tabView=tabGroup.getChildAt(FragmentRouter.Tag.indexOf(FragmentRouter.Tag.Configuration))
+            sequence.addSequenceItem(MaterialShowcaseView.Builder(this)
+                    .setTarget(tabView)
+                    .setContentText("フィルタリングは設定画面から行えます。\nでは、ジャンルの設定をしてみましょう。")
+                    .setDismissText("次へ")
+                    .setListener(object :IShowcaseListener{
+                        override fun onShowcaseDismissed(p0: MaterialShowcaseView?) {
+                            startActivity(Intent(applicationContext,ConfigAtJenreAcitivty::class.java))
+                        }
+                        override fun onShowcaseDisplayed(p0: MaterialShowcaseView?) {
+                            //設定画面を開く
+                            tabView.performClick()
+                        }
+                    })
+                    .build())
+            sequence.start()
+        }
+        return super.onCreateOptionsMenu(menu)
     }
 
 }

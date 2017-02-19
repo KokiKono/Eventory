@@ -1,6 +1,7 @@
 package local.koki.android.eventory.view
 
 import android.os.Bundle
+import android.os.Handler
 import android.support.design.widget.FloatingActionButton
 import android.support.v7.app.AlertDialog
 import android.support.v7.app.AppCompatActivity
@@ -8,6 +9,7 @@ import android.support.v7.widget.LinearLayoutManager
 import android.support.v7.widget.RecyclerView
 import android.support.v7.widget.Toolbar
 import android.util.Log
+import android.view.Menu
 import android.view.MenuItem
 import android.widget.EditText
 import io.realm.Realm
@@ -16,6 +18,8 @@ import local.koki.android.eventory.model.JenreRealm
 import local.koki.android.eventory.view.adapter.RealmConfigAtJenreAdapter
 import local.koki.android.eventory.view.receycler.DividerItemDecoration
 import local.koki.android.eventory.view.receycler.ScrollBaseFABBehavior
+import uk.co.deanwild.materialshowcaseview.MaterialShowcaseSequence
+import uk.co.deanwild.materialshowcaseview.MaterialShowcaseView
 
 /**
  * Created by 浩生 on 2017/01/28.
@@ -97,5 +101,18 @@ class ConfigAtJenreAcitivty:AppCompatActivity(){
         newPref.name=name
         newPref.status=status
         mRealm!!.commitTransaction()
+    }
+
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+        Handler().post {
+            var sequence=MaterialShowcaseSequence(this)
+            sequence.addSequenceItem(MaterialShowcaseView.Builder(this)
+                    .setTarget(mRecyclerView)
+                    .setContentText("各リストをタップすると選択状態になり、\nフィルタリングします。")
+                    .setDismissText("次へ")
+                    .build())
+            sequence.start()
+        }
+        return super.onCreateOptionsMenu(menu)
     }
 }
