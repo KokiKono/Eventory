@@ -1,12 +1,17 @@
 package local.koki.android.eventory.viewController
 
+import android.content.Intent
 import android.os.Bundle
+import android.os.Handler
 import android.support.v7.app.AppCompatActivity
 import android.support.v7.widget.Toolbar
 import android.support.design.widget.TabLayout
 import android.support.v4.app.Fragment
 import android.support.v4.app.FragmentPagerAdapter
 import android.support.v4.view.ViewPager
+import android.view.Menu
+import android.view.View
+import android.view.ViewGroup
 import io.realm.Realm
 import local.koki.android.eventory.R
 import local.koki.android.eventory.common.Colors
@@ -16,6 +21,9 @@ import local.koki.android.eventory.model.EventRealm
 import local.koki.android.eventory.model.TutorialRealm
 import local.koki.android.eventory.common.TutorialRegister
 import local.koki.android.eventory.view.listener.EventActionListener
+import uk.co.deanwild.materialshowcaseview.IShowcaseListener
+import uk.co.deanwild.materialshowcaseview.MaterialShowcaseSequence
+import uk.co.deanwild.materialshowcaseview.MaterialShowcaseView
 import java.util.*
 
 class HomeActivity : AppCompatActivity()
@@ -32,7 +40,6 @@ class HomeActivity : AppCompatActivity()
         setSupportActionBar(toolBar)
         //ActionBarとTabの影をなくす。
         supportActionBar!!.elevation = 0f
-<<<<<<< HEAD:app/src/main/java/local/koki/android/eventory/viewController/HomeActivity.kt
         val titleStr = getString(R.string.app_name)
         title = titleStr
 
@@ -40,21 +47,6 @@ class HomeActivity : AppCompatActivity()
         val tabLayout = findViewById(android.R.id.tabs) as TabLayout
         val tags = FragmentRouter.Tag.values();
         var fragmentAdapter = object : FragmentPagerAdapter(supportFragmentManager) {
-=======
-        val titleStr=getString(R.string.app_name)
-        val searchStr=getString(R.string.search)
-        val noKeepStr=getString(R.string.not_interested)
-        val newEventStr=getString(R.string.what_new)
-        val keepStr=getString(R.string.interested)
-        val configStr=getString(R.string.configuration)
-        title = titleStr
-
-        mViewPager=findViewById(R.id.pager) as ViewPager
-        val tabLayout=findViewById(android.R.id.tabs) as TabLayout
-        val pageTitles= arrayListOf(searchStr,noKeepStr,newEventStr,keepStr,configStr)
-        val tags=FragmentRouter.Tag.values();
-        var fragmentAdapter=object :FragmentPagerAdapter(supportFragmentManager){
->>>>>>> master:app/src/main/java/local/koki/android/eventory/view/HomeActivity.kt
             override fun getCount(): Int {
                 return tags.size
             }
@@ -104,7 +96,6 @@ class HomeActivity : AppCompatActivity()
         onUpdate()
     }
 
-<<<<<<< HEAD:app/src/main/java/local/koki/android/eventory/viewController/HomeActivity.kt
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
         //初回チュートリアルを実装する。
         Handler().post {
@@ -152,6 +143,4 @@ class HomeActivity : AppCompatActivity()
         return super.onCreateOptionsMenu(menu)
     }
 
-=======
->>>>>>> master:app/src/main/java/local/koki/android/eventory/view/HomeActivity.kt
 }

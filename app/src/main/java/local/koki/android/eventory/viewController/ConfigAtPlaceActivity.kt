@@ -38,7 +38,8 @@ class ConfigAtPlaceActivity : AppCompatActivity() {
         //リストに下線を付ける
         mRecyclerView!!.addItemDecoration(DividerItemDecoration(applicationContext))
         mRecyclerView!!.layoutManager = LinearLayoutManager(this)
-        mFloatingActionButton!!.setOnClickListener { v ->
+        //ToDo:これは使用しない。
+        /*mFloatingActionButton!!.setOnClickListener { v ->
             var edit: EditText = EditText(v.context)
             AlertDialog.Builder(v.context)
                     .setTitle("開催地追加")
@@ -48,9 +49,10 @@ class ConfigAtPlaceActivity : AppCompatActivity() {
                                 dialogInterface, i ->
                                 addItem(edit.text.toString(),true)
                             }).show()
-        }
+        }*/
         //スクロールした時にFloatingActionButtonを隠す。
-        mRecyclerView!!.addOnScrollListener(ScrollBaseFABBehavior(mFloatingActionButton!!))
+        //mRecyclerView!!.addOnScrollListener(ScrollBaseFABBehavior(mFloatingActionButton!!))
+        mFloatingActionButton!!.hide()
     }
 
 

@@ -28,11 +28,6 @@ class EventManager() {
                 val data=realm.where(EventRealm::class.java).findAll().sort("startAt")
                 return data
             }
-<<<<<<< HEAD
-            val data=realm.where(EventRealm::class.java).equalTo("status",status.code).findAll().sort("startAt")
-            return data
-=======
-<<<<<<< HEAD
             var data=realm.where(EventRealm::class.java).equalTo("status",status.code).beginGroup()
             //ToDo:絞り込をする。
             for(jenre in realm.where(JenreRealm::class.java).equalTo("status",true).findAll()){
@@ -43,11 +38,6 @@ class EventManager() {
             }
             data.endGroup()
             return data.findAll().sort("startAt")
-=======
-            val data=realm.where(EventRealm::class.java).equalTo("status",status.code).findAll().sort("startAt")
-            return data
->>>>>>> master
->>>>>>> koki-mac
         }
         fun searchEvent(args:List<String>):RealmResults<EventRealm>{
             var realm=Realm.getDefaultInstance()
@@ -56,7 +46,7 @@ class EventManager() {
                 data.like("title","*"+arg+"*")
             }
             data.endGroup()
-            return data.findAll()
+            return data.findAll().sort("startAt")
         }
 
     }
