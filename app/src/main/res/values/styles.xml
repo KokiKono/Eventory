@@ -2,30 +2,22 @@
 
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light">
-        <!-- Customize your theme here. -->
-        <!--<item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>-->
-        <item name="android:actionBarStyle">@style/EventoryActionBar</item>
-    </style>
-
-    <style name="AppTheme.NoActionBar">
+        <item name="android:colorPrimary">@color/keep</item>
+        <item name="android:colorAccent">@color/keep</item>
+        <item name="android:statusBarColor">@color/keep</item>
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/white</item>
     </style>
 
-    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
-        <item name="android:textColorPrimary">@color/colorWhite</item>
+    <style name="ToolBarTheme" parent="android:ThemeOverlay.Material.ActionBar">
         <item name="android:background">@color/keep</item>
-        <item name="android:textColor">@color/colorBlack</item>
-    </style>
-
-    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
-
-    <style name="EventoryActionBar" parent="Widget.AppCompat.Light.ActionBar">
-        <item name="android:background">#E67E22</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="android:titleTextColor">@android:color/white</item>
         <item name="android:titleTextStyle">@style/titleTextStyle</item>
     </style>
+
     <style name="titleTextStyle" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
         <!-- タイトルバーの文字色 -->
         <item name="android:textColor">#E67E22</item>
