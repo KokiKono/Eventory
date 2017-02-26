@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/res/merged/debug/layout-v21/fragment_item_configruration.xml",
+        "source": "/Users/kokikono/MyApplication/Eventory/app/src/main/res/layout-v21/fragment_item_configruration.xml"
+    },
+    {
+        "merged": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/res/merged/debug/layout-v21/config_item.xml",
+        "source": "/Users/kokikono/MyApplication/Eventory/app/src/main/res/layout-v21/config_item.xml"
+    },
+    {
+        "merged": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
+        "source": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/res/merged/debug/layout-v21/activity_config_at_place.xml",
+        "source": "/Users/kokikono/MyApplication/Eventory/app/src/main/res/layout-v21/activity_config_at_place.xml"
+    },
+    {
+        "merged": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/res/merged/debug/layout-v21/activity_config_at_jenre.xml",
+        "source": "/Users/kokikono/MyApplication/Eventory/app/src/main/res/layout-v21/activity_config_at_jenre.xml"
+    },
+    {
+        "merged": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/res/merged/debug/layout-v21/fragment_list_search.xml",
+        "source": "/Users/kokikono/MyApplication/Eventory/app/src/main/res/layout-v21/fragment_list_search.xml"
+    },
+    {
+        "merged": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/res/merged/debug/layout-v21/fragment_list_configuration.xml",
+        "source": "/Users/kokikono/MyApplication/Eventory/app/src/main/res/layout-v21/fragment_list_configuration.xml"
+    },
+    {
+        "merged": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/res/merged/debug/layout-v21/eventory_item.xml",
+        "source": "/Users/kokikono/MyApplication/Eventory/app/src/main/res/layout-v21/eventory_item.xml"
+    },
+    {
+        "merged": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout-v21/notification_template_icon_group.xml"
+    }
+]

@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/res/merged/debug/drawable-xhdpi/no_keep_off.png",
+        "source": "/Users/kokikono/MyApplication/Eventory/app/src/main/res/drawable-xhdpi/no_keep_off.png"
+    },
+    {
+        "merged": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/res/merged/debug/drawable-xhdpi/keep_on.png",
+        "source": "/Users/kokikono/MyApplication/Eventory/app/src/main/res/drawable-xhdpi/keep_on.png"
+    },
+    {
+        "merged": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/res/merged/debug/drawable-xhdpi/search_off.png",
+        "source": "/Users/kokikono/MyApplication/Eventory/app/src/main/res/drawable-xhdpi/search_off.png"
+    },
+    {
+        "merged": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/res/merged/debug/drawable-xhdpi/new_on.png",
+        "source": "/Users/kokikono/MyApplication/Eventory/app/src/main/res/drawable-xhdpi/new_on.png"
+    },
+    {
+        "merged": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/res/merged/debug/drawable-xhdpi/no_keep_no_active.png",
+        "source": "/Users/kokikono/MyApplication/Eventory/app/src/main/res/drawable-xhdpi/no_keep_no_active.png"
+    },
+    {
+        "merged": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/res/merged/debug/drawable-xhdpi/keep_active.png",
+        "source": "/Users/kokikono/MyApplication/Eventory/app/src/main/res/drawable-xhdpi/keep_active.png"
+    },
+    {
+        "merged": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/res/merged/debug/drawable-xhdpi/keep_off.png",
+        "source": "/Users/kokikono/MyApplication/Eventory/app/src/main/res/drawable-xhdpi/keep_off.png"
+    },
+    {
+        "merged": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/res/merged/debug/drawable-xhdpi/no_keep_on.png",
+        "source": "/Users/kokikono/MyApplication/Eventory/app/src/main/res/drawable-xhdpi/no_keep_on.png"
+    },
+    {
+        "merged": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/res/merged/debug/drawable-xhdpi/setting_on.png",
+        "source": "/Users/kokikono/MyApplication/Eventory/app/src/main/res/drawable-xhdpi/setting_on.png"
+    },
+    {
+        "merged": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/res/merged/debug/drawable-xhdpi/no_keep_active.png",
+        "source": "/Users/kokikono/MyApplication/Eventory/app/src/main/res/drawable-xhdpi/no_keep_active.png"
+    },
+    {
+        "merged": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/res/merged/debug/drawable-xhdpi/new_off.png",
+        "source": "/Users/kokikono/MyApplication/Eventory/app/src/main/res/drawable-xhdpi/new_off.png"
+    },
+    {
+        "merged": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/res/merged/debug/drawable-xhdpi/keep_no_active.png",
+        "source": "/Users/kokikono/MyApplication/Eventory/app/src/main/res/drawable-xhdpi/keep_no_active.png"
+    },
+    {
+        "merged": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/res/merged/debug/drawable-xhdpi/setting_off.png",
+        "source": "/Users/kokikono/MyApplication/Eventory/app/src/main/res/drawable-xhdpi/setting_off.png"
+    },
+    {
+        "merged": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/res/merged/debug/drawable-xhdpi/search_on.png",
+        "source": "/Users/kokikono/MyApplication/Eventory/app/src/main/res/drawable-xhdpi/search_on.png"
+    }
+]

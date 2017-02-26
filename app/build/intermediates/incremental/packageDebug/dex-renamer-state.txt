@@ -1,0 +1,7 @@
+#Sun Feb 26 20:20:25 JST 2017
+base.0=/Users/kokikono/MyApplication/Eventory/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_b83176f53d5c494d0180070ac9072c1539023dd1
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/Users/kokikono/MyApplication/Eventory/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_8842a5bf67b76a40e5a8490ad80685b49196ffc6/classes.dex
+base.1=/Users/kokikono/MyApplication/Eventory/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_8842a5bf67b76a40e5a8490ad80685b49196ffc6
+file.0=/Users/kokikono/MyApplication/Eventory/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_b83176f53d5c494d0180070ac9072c1539023dd1/classes.dex

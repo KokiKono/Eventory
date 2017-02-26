@@ -1,0 +1,222 @@
+[
+    {
+        "merged": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/res/merged/debug/drawable/notification_tile_bg.xml",
+        "source": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_dark.xml",
+        "source": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/res/merged/debug/drawable/abc_spinner_textfield_background_material.xml",
+        "source": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/drawable/abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/res/merged/debug/drawable/navigation_empty_icon.xml",
+        "source": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/exploded-aar/com.android.support/design/25.0.1/res/drawable/navigation_empty_icon.xml"
+    },
+    {
+        "merged": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/res/merged/debug/drawable/keep_on_background.xml",
+        "source": "/Users/kokikono/MyApplication/Eventory/app/src/main/res/drawable/keep_on_background.xml"
+    },
+    {
+        "merged": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/res/merged/debug/drawable/not_keep_off_background.xml",
+        "source": "/Users/kokikono/MyApplication/Eventory/app/src/main/res/drawable/not_keep_off_background.xml"
+    },
+    {
+        "merged": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/res/merged/debug/drawable/bg_button_pressed.xml",
+        "source": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/exploded-aar/me.drakeet.materialdialog/library/1.3.1/res/drawable/bg_button_pressed.xml"
+    },
+    {
+        "merged": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/res/merged/debug/drawable/abc_btn_check_material.xml",
+        "source": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/drawable/abc_btn_check_material.xml"
+    },
+    {
+        "merged": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/res/merged/debug/drawable/abc_btn_default_mtrl_shape.xml",
+        "source": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/drawable/abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/res/merged/debug/drawable/notification_icon_background.xml",
+        "source": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_material.xml",
+        "source": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/drawable/abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/res/merged/debug/drawable/notification_bg_low.xml",
+        "source": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/res/merged/debug/drawable/button.xml",
+        "source": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/exploded-aar/me.drakeet.materialdialog/library/1.3.1/res/drawable/button.xml"
+    },
+    {
+        "merged": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_internal_bg.xml",
+        "source": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/drawable/abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/res/merged/debug/drawable/material_card.xml",
+        "source": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/exploded-aar/me.drakeet.materialdialog/library/1.3.1/res/drawable/material_card.xml"
+    },
+    {
+        "merged": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_small_material.xml",
+        "source": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/drawable/abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background.xml",
+        "source": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/drawable/abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/res/merged/debug/drawable/design_bottom_navigation_item_background.xml",
+        "source": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/exploded-aar/com.android.support/design/25.0.1/res/drawable/design_bottom_navigation_item_background.xml"
+    },
+    {
+        "merged": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/res/merged/debug/drawable/abc_btn_radio_material.xml",
+        "source": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/drawable/abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_tick_mark_material.xml",
+        "source": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/drawable/abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/res/merged/debug/drawable/design_fab_background.xml",
+        "source": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/exploded-aar/com.android.support/design/25.0.1/res/drawable/design_fab_background.xml"
+    },
+    {
+        "merged": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/res/merged/debug/drawable/abc_ic_go_search_api_material.xml",
+        "source": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/drawable/abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_dark.xml",
+        "source": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/drawable/abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/res/merged/debug/drawable/abc_ic_ab_back_material.xml",
+        "source": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/drawable/abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/res/merged/debug/drawable/abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/drawable/abc_ic_arrow_drop_right_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/res/merged/debug/drawable/customize_action_bar.xml",
+        "source": "/Users/kokikono/MyApplication/Eventory/app/src/main/res/drawable/customize_action_bar.xml"
+    },
+    {
+        "merged": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_thumb_material.xml",
+        "source": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/drawable/abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/res/merged/debug/drawable/design_snackbar_background.xml",
+        "source": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/exploded-aar/com.android.support/design/25.0.1/res/drawable/design_snackbar_background.xml"
+    },
+    {
+        "merged": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/res/merged/debug/drawable/tab_color_selecter.xml",
+        "source": "/Users/kokikono/MyApplication/Eventory/app/src/main/res/drawable/tab_color_selecter.xml"
+    },
+    {
+        "merged": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_top_material.xml",
+        "source": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/drawable/abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/res/merged/debug/drawable/abc_vector_test.xml",
+        "source": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/drawable/abc_vector_test.xml"
+    },
+    {
+        "merged": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/res/merged/debug/drawable/material_dialog_window.xml",
+        "source": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/exploded-aar/me.drakeet.materialdialog/library/1.3.1/res/drawable/material_dialog_window.xml"
+    },
+    {
+        "merged": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/res/merged/debug/drawable/abc_edit_text_material.xml",
+        "source": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/drawable/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/res/merged/debug/drawable/keep_off_background.xml",
+        "source": "/Users/kokikono/MyApplication/Eventory/app/src/main/res/drawable/keep_off_background.xml"
+    },
+    {
+        "merged": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/res/merged/debug/drawable/abc_btn_borderless_material.xml",
+        "source": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/drawable/abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/res/merged/debug/drawable/notification_bg.xml",
+        "source": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_light.xml",
+        "source": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/drawable/abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_indicator_material.xml",
+        "source": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/drawable/abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/res/merged/debug/drawable/abc_ic_menu_overflow_material.xml",
+        "source": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/drawable/abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_dark.xml",
+        "source": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/drawable/abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/res/merged/debug/drawable/abc_text_cursor_material.xml",
+        "source": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/drawable/abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/res/merged/debug/drawable/bg_button_normal.xml",
+        "source": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/exploded-aar/me.drakeet.materialdialog/library/1.3.1/res/drawable/bg_button_normal.xml"
+    },
+    {
+        "merged": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/res/merged/debug/drawable/not_keep_on_background.xml",
+        "source": "/Users/kokikono/MyApplication/Eventory/app/src/main/res/drawable/not_keep_on_background.xml"
+    },
+    {
+        "merged": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/res/merged/debug/drawable/abc_switch_thumb_material.xml",
+        "source": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/drawable/abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/res/merged/debug/drawable/abc_ic_search_api_material.xml",
+        "source": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/drawable/abc_ic_search_api_material.xml"
+    },
+    {
+        "merged": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/res/merged/debug/drawable/abc_ic_clear_material.xml",
+        "source": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/drawable/abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_light.xml",
+        "source": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/drawable/abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/res/merged/debug/drawable/abc_tab_indicator_material.xml",
+        "source": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/drawable/abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/res/merged/debug/drawable/abc_btn_colored_material.xml",
+        "source": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/drawable/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/res/merged/debug/drawable/no_keep_tab_icon_selecter.xml",
+        "source": "/Users/kokikono/MyApplication/Eventory/app/src/main/res/drawable/no_keep_tab_icon_selecter.xml"
+    },
+    {
+        "merged": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/res/merged/debug/drawable/abc_ic_voice_search_api_material.xml",
+        "source": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/drawable/abc_ic_voice_search_api_material.xml"
+    },
+    {
+        "merged": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/res/merged/debug/drawable/design_ic_visibility.xml",
+        "source": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/exploded-aar/com.android.support/design/25.0.1/res/drawable/design_ic_visibility.xml"
+    },
+    {
+        "merged": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/res/merged/debug/drawable/abc_textfield_search_material.xml",
+        "source": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/drawable/abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_track_material.xml",
+        "source": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/drawable/abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_light.xml",
+        "source": "/Users/kokikono/MyApplication/Eventory/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/drawable/abc_item_background_holo_light.xml"
+    }
+]
