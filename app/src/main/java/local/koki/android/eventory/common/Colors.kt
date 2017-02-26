@@ -19,5 +19,6 @@ enum class Colors constructor(val color: Int, val state: Boolean) {
             }
             return STATE_OFF.color
         }
+        public val KeepOn:Int=Color.rgb(230,126,34)
     }
 }
