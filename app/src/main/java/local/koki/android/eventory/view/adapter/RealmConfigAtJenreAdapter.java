@@ -10,7 +10,7 @@ import io.realm.OrderedRealmCollection;
 import io.realm.RealmRecyclerViewAdapter;
 import local.koki.android.eventory.R;
 import local.koki.android.eventory.model.JenreRealm;
-import local.koki.android.eventory.view.ConfigAtJenreAcitivty;
+import local.koki.android.eventory.viewController.ConfigAtJenreAcitivty;
 import local.koki.android.eventory.common.Colors;
 
 /**
