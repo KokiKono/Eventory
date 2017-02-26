@@ -54,7 +54,7 @@ class SearchFragment : EventFragment() {
 
     override fun onResume() {
         super.onResume()
-        mData = EventManager.fetchEvent(context, EventManager.CheckStatus.Search)
+        mData = EventManager.fetchEvent(EventManager.CheckStatus.Search)
         mAdapter!!.updateData(mData)
         mAdapter!!.notifyDataSetChanged()
     }
@@ -78,19 +78,17 @@ class SearchFragment : EventFragment() {
             }
         })
         mSearchView!!.setOnQueryTextListener(object : SearchView.OnQueryTextListener {
-
             override fun onQueryTextSubmit(query: String): Boolean {
                 //onclick Submit Button
                 val patt = Pattern.compile("[,\\s]+")
                 var list = patt.split(query).asList()
-                mData = EventManager.searchEvent(context, list)
+                mData = EventManager.searchEvent(list)
                 mAdapter!!.updateData(mData)
                 mAdapter!!.notifyDataSetChanged()
                 mFloatingActionButton!!.show()
                 mSearchView!!.clearFocus()
                 return true
             }
-
             override fun onQueryTextChange(newText: String): Boolean {
                 return true
             }
