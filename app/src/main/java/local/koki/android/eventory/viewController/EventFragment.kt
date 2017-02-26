@@ -7,15 +7,20 @@ import android.os.Bundle
 import android.support.v4.app.Fragment
 import android.support.v7.widget.LinearLayoutManager
 import android.support.v7.widget.RecyclerView
+import android.support.v7.widget.helper.ItemTouchHelper
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import com.pnikosis.materialishprogress.ProgressWheel
 import io.realm.Realm
 import io.realm.RealmResults
 import local.koki.android.eventory.R
+import local.koki.android.eventory.common.Colors
 import local.koki.android.eventory.common.FragmentRouter
 import local.koki.android.eventory.model.EventManager
 import local.koki.android.eventory.model.EventRealm
+import local.koki.android.eventory.common.TutorialRegister
 import local.koki.android.eventory.view.adapter.RealmEventCardAdapter
 import local.koki.android.eventory.view.listener.EventActionListener
 import java.util.*
@@ -26,8 +31,8 @@ import java.util.*
 open class EventFragment : Fragment()
         , RealmEventCardAdapter.ViewHolder.OnClickKeepListener
         , RealmEventCardAdapter.ViewHolder.OnClickNoKeepListener
-        ,RealmEventCardAdapter.ViewHolder.OnClickTitleListener
-        ,EventManager.LoadEventInterface {
+        , RealmEventCardAdapter.ViewHolder.OnClickTitleListener
+        , EventManager.LoadEventInterface {
     protected var mEventStatus: EventManager.CheckStatus = EventManager.CheckStatus.None
     protected var mRecyclerView: RecyclerView? = null
     protected var mLayoutManager: RecyclerView.LayoutManager? = null
@@ -36,9 +41,9 @@ open class EventFragment : Fragment()
     protected var mEventAction: EventActionListener? = null
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        val bundle=arguments
-        if(bundle==null){
-            mEventStatus=EventManager.CheckStatus.None
+        val bundle = arguments
+        if (bundle == null) {
+            mEventStatus = EventManager.CheckStatus.None
             return
         }
         mEventStatus = EventManager.CheckStatus.indexOf(arguments.getInt(FragmentRouter.ARGS_KEY))
@@ -50,13 +55,15 @@ open class EventFragment : Fragment()
         if (view is RecyclerView) {
             //create recycler view
             mRecyclerView = view.findViewById(R.id.list) as RecyclerView
+            //TODO:Nullableな処理はこれに変える！！！
+            //mRecyclerView?.let { it.setHasFixedSize(true) }
             mRecyclerView!!.setHasFixedSize(true)
             mLayoutManager = LinearLayoutManager(context)
             mRecyclerView!!.layoutManager = mLayoutManager
             mAdapter = RealmEventCardAdapter(context, null)
             mAdapter!!.onClickKeep = this
             mAdapter!!.onClickNotKeep = this
-            mAdapter!!.onClickTitle=this
+            mAdapter!!.onClickTitle = this
             mRecyclerView!!.adapter = mAdapter
         }
         return view
@@ -75,13 +82,17 @@ open class EventFragment : Fragment()
 
     override fun onResume() {
         super.onResume()
-        if(mEventStatus==EventManager.CheckStatus.NoCheck) {
-            //サーバーからデータを首都する。
-            /*var eventManager=EventManager()
-            eventManager.loadEventInterface=this
-            eventManager.eventConnection(null)*/
+        Log.e("TutorialTAG", TutorialRegister.isTutorial(TutorialRegister.Keys.Version1.toString()).toString())
+        if(!TutorialRegister.isTutorial(TutorialRegister.Keys.Version1.toString())) {
+            //チュートリアルの最中でなければ
+            if (mEventStatus == EventManager.CheckStatus.NoCheck) {
+                //サーバーからデータを取得する。
+                var eventManager = EventManager()
+                eventManager.loadEventInterface = this
+                eventManager.eventConnection(null)
+            }
         }
-        mData=EventManager.fetchEvent(context,mEventStatus)
+        mData = EventManager.fetchEvent(mEventStatus)
         mAdapter!!.updateData(mData)
         mAdapter!!.notifyDataSetChanged()
     }
@@ -101,10 +112,9 @@ open class EventFragment : Fragment()
     }
 
     override fun endConnection(data: ArrayList<EventRealm>) {
-        Realm.init(context)
-        var realm=Realm.getDefaultInstance()
+        var realm = Realm.getDefaultInstance()
         realm.beginTransaction()
-        for(event in data){
+        for (event in data) {
             realm.copyToRealm(event)
         }
         realm.commitTransaction()
@@ -115,8 +125,8 @@ open class EventFragment : Fragment()
     }
 
     override fun onClickTitle(eventRealm: EventRealm) {
-        val uri=Uri.parse(eventRealm.url)
-        startActivity(Intent(Intent.ACTION_VIEW,uri))
+        val uri = Uri.parse(eventRealm.url)
+        startActivity(Intent(Intent.ACTION_VIEW, uri))
     }
 
 

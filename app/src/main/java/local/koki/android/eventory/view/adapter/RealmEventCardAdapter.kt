@@ -46,7 +46,6 @@ class RealmEventCardAdapter(context: Context, data: OrderedRealmCollection<Event
             if(event.limit>0) {
                 val accepted=event.accepted.toFloat()
                 val limit=event.limit.toFloat()
-                android.util.Log.e("計算結果"+event.accepted.toString()+"/"+event.limit.toString(),(((accepted / limit) * 100)).toString())
                 holder.eventCapacotyTextView!!.background = getGradientDrawable(100, (100 - ((accepted / limit) * 100)).toInt())
             }
         }
@@ -63,6 +62,7 @@ class RealmEventCardAdapter(context: Context, data: OrderedRealmCollection<Event
             holder.statusButton(CheckStatus.NoKeep.code)
         }
         holder.statusButton(event)
+        holder.itemView.setBackgroundColor(Color.RED)
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RealmEventCardAdapter.ViewHolder {
