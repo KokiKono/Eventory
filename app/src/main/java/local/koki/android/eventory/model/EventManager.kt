@@ -20,21 +20,36 @@ import java.util.*
  * Created by 浩生 on 2017/01/29.
  */
 
-class EventManager {
-    constructor()
+class EventManager() {
     companion object{
-        fun fetchEvent(context: Context,status:CheckStatus):RealmResults<EventRealm>{
-            Realm.init(context)
+        fun fetchEvent(status:CheckStatus):RealmResults<EventRealm>{
             var realm:Realm= Realm.getDefaultInstance()
             if(status==CheckStatus.Search){
                 val data=realm.where(EventRealm::class.java).findAll().sort("startAt")
                 return data
             }
+<<<<<<< HEAD
             val data=realm.where(EventRealm::class.java).equalTo("status",status.code).findAll().sort("startAt")
             return data
+=======
+<<<<<<< HEAD
+            var data=realm.where(EventRealm::class.java).equalTo("status",status.code).beginGroup()
+            //ToDo:絞り込をする。
+            for(jenre in realm.where(JenreRealm::class.java).equalTo("status",true).findAll()){
+                data.like("title","*"+jenre.name+"*")
+            }
+            for(place in realm.where(PrefectureRealm::class.java).equalTo("status",true).findAll()){
+                data.like("address","*"+place.name+"*")
+            }
+            data.endGroup()
+            return data.findAll().sort("startAt")
+=======
+            val data=realm.where(EventRealm::class.java).equalTo("status",status.code).findAll().sort("startAt")
+            return data
+>>>>>>> master
+>>>>>>> koki-mac
         }
-        fun searchEvent(context: Context,args:List<String>):RealmResults<EventRealm>{
-            Realm.init(context)
+        fun searchEvent(args:List<String>):RealmResults<EventRealm>{
             var realm=Realm.getDefaultInstance()
             var data=realm.where(EventRealm::class.java).beginGroup()
             for(arg in args){
@@ -65,7 +80,6 @@ class EventManager {
             var connection: HttpURLConnection? = null
             var inputStream: InputStream? = null
             var resultStr = ""
-            //:TODO　開発用に一時的にapiを使わない
             try {
                 var url = URL(url)
                 connection = url.openConnection() as HttpURLConnection
@@ -108,9 +122,7 @@ class EventManager {
                     event.accepted = row.getInt("accepted")
                     event.address = row.getString("address")
                     event.place = row.getString("place")
-                    //:TODO strat_atになってるよ！
-                    //event.startAt = row.getString("start_at")
-                    event.startAt = simpleFormat.parse(row.getString("strat_at"))
+                    event.startAt = simpleFormat.parse(row.getString("start_at"))
                     event.endAt = simpleFormat.parse(row.getString("end_at"))
                     event.id = row.getInt("id")
                     eventRealms!!.add(event)

@@ -2,6 +2,7 @@ package local.koki.android.eventory.common;
 
 
 import android.os.Bundle;
+import android.os.Parcelable;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
@@ -9,27 +10,30 @@ import android.support.v4.app.FragmentTransaction;
 import java.util.HashMap;
 import java.util.Map;
 
+import io.realm.Realm;
 import local.koki.android.eventory.model.EventManager;
+import local.koki.android.eventory.viewController.ConfigurationFragment;
+import local.koki.android.eventory.viewController.EventFragment;
+import local.koki.android.eventory.viewController.SearchFragment;
 
 /**
- * MVCモデル移行にともない各Fragmentの切替を行うクラス。
  * Created by 浩生 on 2017/02/10.
  */
 
 public class FragmentRouter {
     public static final String ARGS_KEY="fragment_key";
     public enum Tag{
-        //検索は使用されていないため使用しない。
-        //Search("探す", EventManager.CheckStatus.Search),
-        NoKeep("興味なし", EventManager.CheckStatus.NoKeep),
-        New("新着情報",EventManager.CheckStatus.NoCheck),
-        Keep("興味あり",EventManager.CheckStatus.Keep),
-        Configuration("設定", EventManager.CheckStatus.None);
+        //Search("探す", EventManager.CheckStatus.Search, SearchFragment.class),
+        New("新着情報",EventManager.CheckStatus.NoCheck, EventFragment.class),
+        NoKeep("興味なし", EventManager.CheckStatus.NoKeep,EventFragment.class),
+        Keep("興味あり",EventManager.CheckStatus.Keep,EventFragment.class),
+        Configuration("設定", EventManager.CheckStatus.None, ConfigurationFragment.class);
         public String tabValue;
         public EventManager.CheckStatus checkStatus;
-        private Tag(String tagValue, EventManager.CheckStatus checkStatus){
+        private Tag(String tagValue, EventManager.CheckStatus checkStatus,Class fragmentClass){
             this.tabValue=tagValue;
             this.checkStatus=checkStatus;
+            register(this,fragmentClass);
         }
         public String getTabTitle(){
             return this.tabValue;
@@ -42,22 +46,44 @@ public class FragmentRouter {
         }
         public static int indexOf(Tag tag){
             int count=0;
-            for(Tag tag1:Tag.values()){
-                if(tag1==tag){
+            for(Tag t:Tag.values()){
+                if(t==tag){
                     return count;
                 }
                 count++;
             }
             return -1;
         }
+        public static String getTitle(Tag tag){
+            if(showTitle.containsKey(tag)==false) {
+                return tag.tabValue;
+            }
+            return showTitle.get(tag);
+        }
+        public void setTitle(String title){
+            showTitle.replace(this,title);
+        }
+        public void setTitle(int resorceId){
+            setTitle(MainApplication.Companion.getString(resorceId));
+        }
     }
     private static Map<Tag,Class> showcase=new HashMap<>();
+    private static Map<Tag,Integer> showOrder =new HashMap<>();
+    private static Map<Tag,String> showTitle=new HashMap<>();
 
     private FragmentRouter(){}
 
     public static void register(Tag tag,Class fragmentClass){
         showcase.put(tag,fragmentClass);
+        showOrder.put(tag,showcase.size()+1);
+        showTitle.put(tag,"");
     }
+    public static void register(Tag tag,Class fragmentClass,int resorceId){
+        showcase.put(tag,fragmentClass);
+        showOrder.put(tag,showcase.size()+1);
+        showTitle.put(tag,MainApplication.Companion.getString(resorceId));
+    }
+
     private static Class get(Tag tag){
         return showcase.get(tag);
     }
@@ -93,7 +119,7 @@ public class FragmentRouter {
         fragmentTransaction.commit();
     }
 
-    public static Fragment newInstance(Tag tag,Bundle args){
+    public static Fragment newFragmentInstance(Tag tag, Bundle args){
         try{
             Class fragmentClass = get(tag);
             Fragment fragment=(Fragment)fragmentClass.newInstance();
@@ -108,4 +134,6 @@ public class FragmentRouter {
         bundle.putInt(ARGS_KEY,tag.checkStatus.getCode());
         return bundle;
     }
+
+
 }

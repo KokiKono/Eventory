@@ -13,8 +13,8 @@ import local.koki.android.eventory.view.listener.RecyclerItemClickListener
 
 import local.koki.android.eventory.R
 import local.koki.android.eventory.view.adapter.ConfigRecyclerAdapter
-import local.koki.android.eventory.view.ConfigAtJenreAcitivty
-import local.koki.android.eventory.view.ConfigAtPlaceActivity
+import local.koki.android.eventory.viewController.ConfigAtJenreAcitivty
+import local.koki.android.eventory.viewController.ConfigAtPlaceActivity
 import local.koki.android.eventory.view.receycler.DividerItemDecoration
 import java.util.*
 
@@ -71,7 +71,7 @@ class ConfigurationFragment : Fragment() {
                         }
                         CONFIG.GENRE.value ->{
                             //ジャンル
-                            startActivity(Intent(context,ConfigAtJenreAcitivty::class.java))
+                            startActivity(Intent(context, ConfigAtJenreAcitivty::class.java))
                         }
                         else ->{
                             //その他：特になし

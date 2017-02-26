@@ -1,4 +1,4 @@
-package local.koki.android.eventory.view
+package local.koki.android.eventory.viewController
 
 import android.app.AlertDialog
 import android.support.v7.app.AppCompatActivity
@@ -29,9 +29,7 @@ class ConfigAtPlaceActivity : AppCompatActivity() {
         setContentView(R.layout.activity_config_at_place)
         var toolbar = findViewById(R.id.my_toolbar) as Toolbar
         setSupportActionBar(toolbar)
-        var actionBar=supportActionBar as ActionBar
-        actionBar!!.setDefaultDisplayHomeAsUpEnabled(true)
-        actionBar!!.setDisplayShowHomeEnabled(true)
+        supportActionBar!!.setDisplayHomeAsUpEnabled(true)
         Realm.init(applicationContext)
         mRealm = Realm.getDefaultInstance()
         mRecyclerView = findViewById(R.id.list) as RecyclerView
@@ -71,13 +69,12 @@ class ConfigAtPlaceActivity : AppCompatActivity() {
     }
 
 
-
     override fun onOptionsItemSelected(item: MenuItem?): Boolean {
         when (item!!.itemId) {
             android.R.id.home -> {
                 finish()
             }
-            else -> {
+            else              -> {
                 Log.e("ConfigAtPlaceActivity", "not supported Option Item Selected")
             }
         }
@@ -97,11 +94,12 @@ class ConfigAtPlaceActivity : AppCompatActivity() {
             pref.status = !check
         }
     }
-    fun addItem(name:String,status:Boolean){
+
+    fun addItem(name: String, status: Boolean) {
         mRealm!!.beginTransaction()
-        var newPref: PrefectureRealm =mRealm!!.createObject(PrefectureRealm::class.java)
-        newPref.name=name
-        newPref.status=status
+        var newPref: PrefectureRealm = mRealm!!.createObject(PrefectureRealm::class.java)
+        newPref.name = name
+        newPref.status = status
         mRealm!!.commitTransaction()
     }
 

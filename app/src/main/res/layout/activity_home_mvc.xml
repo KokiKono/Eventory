@@ -11,9 +11,10 @@
         android:id="@+id/my_toolbar"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
+        android:theme="@style/ToolBarTheme"
         android:elevation="4dp"
-        android:theme="@style/AppTheme.AppBarOverlay"
-        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+        app:popupTheme="@android:style/ThemeOverlay.Material.ActionBar" />
+
     <android.support.design.widget.TabLayout
         android:id="@android:id/tabs"
         android:layout_width="match_parent"
@@ -21,6 +22,7 @@
         app:tabTextColor="@color/notKeep"
         app:tabSelectedTextColor="@color/keep"
         app:tabIndicatorColor="@color/keep"/>
+
     <android.support.v4.view.ViewPager
         android:id="@+id/pager"
         android:layout_width="match_parent"

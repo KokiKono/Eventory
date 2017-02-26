@@ -20,6 +20,4 @@ open class EventRealm : RealmObject(){
     var endAt: Date? = null
     var id: Int = 0
     var status:Int=EventManager.CheckStatus.NoCheck.code
-
-
 }
