@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">eventory</string>
+    <string name="search">探す</string>
+    <string name="not_interested">興味なし</string>
+    <string name="what_new">新着情報</string>
+    <string name="interested">キープ</string>
+    <string name="configuration">設定</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="add">追加</string>
+    <string name="title_activity_config_at_jenre">ConfigAtJenreActivity</string>
+</resources>
