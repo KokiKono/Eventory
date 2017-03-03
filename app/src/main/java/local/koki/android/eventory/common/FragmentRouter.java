@@ -25,8 +25,8 @@ public class FragmentRouter {
     public enum Tag{
         //Search("探す", EventManager.CheckStatus.Search, SearchFragment.class),
         New("新着情報",EventManager.CheckStatus.NoCheck, EventFragment.class),
-        NoKeep("興味なし", EventManager.CheckStatus.NoKeep,EventFragment.class),
         Keep("興味あり",EventManager.CheckStatus.Keep,EventFragment.class),
+        NoKeep("興味なし", EventManager.CheckStatus.NoKeep,EventFragment.class),
         Configuration("設定", EventManager.CheckStatus.None, ConfigurationFragment.class);
         public String tabValue;
         public EventManager.CheckStatus checkStatus;
