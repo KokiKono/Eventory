@@ -8,8 +8,10 @@ import android.view.ViewGroup
 import android.widget.TextView
 
 import local.koki.android.eventory.R
+import local.koki.android.eventory.model.EventManager
+import local.koki.android.eventory.viewController.ConfigurationFragment
 
-class ConfigRecyclerAdapter(private val mValues: List<String>, listener: OnListItemClickListener) : RecyclerView.Adapter<ConfigRecyclerAdapter.ViewHolder>() {
+class ConfigRecyclerAdapter(private val mValues: List<ConfigurationFragment.CONFIG>, listener: OnListItemClickListener) : RecyclerView.Adapter<ConfigRecyclerAdapter.ViewHolder>() {
     private var mClickListener: OnListItemClickListener? = listener
     private var mContext: Context? = null
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
@@ -20,8 +22,9 @@ class ConfigRecyclerAdapter(private val mValues: List<String>, listener: OnListI
     }
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
-        holder.mTextView!!.text = mValues[position]
-        holder.mValue=mValues[position]
+        holder.mTextView?.let { it.text = getItem(position).value }
+        holder.mConfig = getItem(position)
+        holder.initView()
     }
 
     override fun getItemCount(): Int {
@@ -30,15 +33,29 @@ class ConfigRecyclerAdapter(private val mValues: List<String>, listener: OnListI
 
     inner class ViewHolder(val view: View) : RecyclerView.ViewHolder(view) {
         var mTextView: TextView? = null
-        var mValue:String ?= null
         var mView: View? = view
+        var mConfig: ConfigurationFragment.CONFIG? = null
 
         init {
             mTextView = view.findViewById(R.id.text) as TextView
             if (mClickListener != null) {
-                mView!!.setOnClickListener(View.OnClickListener() {
-                    mClickListener!!.onItemClickListenerAtConfig(this)
-                })
+                mView?.let {
+                    it.setOnClickListener(View.OnClickListener() {
+                        mClickListener?.let { it.onItemClickListenerAtConfig(this) }
+                    })
+                }
+            }
+        }
+
+        fun initView(){
+            mConfig?.let {
+                when(it){
+                    ConfigurationFragment.CONFIG.NewEventSize ->{
+                        mView?.let { it.setBackgroundResource(R.color.keep) }
+                        mTextView?.let { it.text="新着情報："+EventManager.fetchEvent(EventManager.CheckStatus.NoCheck).size+"件" }
+                    }
+                    else ->{}
+                }
             }
         }
 
@@ -51,7 +68,7 @@ class ConfigRecyclerAdapter(private val mValues: List<String>, listener: OnListI
         fun onItemClickListenerAtConfig(holder: ViewHolder)
     }
 
-    public fun getItem(position: Int): String {
+    public fun getItem(position: Int): ConfigurationFragment.CONFIG {
         return mValues[position]
     }
 

@@ -38,6 +38,10 @@ class ConfigAtPlaceActivity : AppCompatActivity() {
         //リストに下線を付ける
         mRecyclerView!!.addItemDecoration(DividerItemDecoration(applicationContext))
         mRecyclerView!!.layoutManager = LinearLayoutManager(this)
+        mRecyclerView?.let {
+            it.addItemDecoration(DividerItemDecoration(applicationContext))
+            it.layoutManager=LinearLayoutManager(this)
+        }
         //ToDo:これは使用しない。
         /*mFloatingActionButton!!.setOnClickListener { v ->
             var edit: EditText = EditText(v.context)
@@ -52,7 +56,8 @@ class ConfigAtPlaceActivity : AppCompatActivity() {
         }*/
         //スクロールした時にFloatingActionButtonを隠す。
         //mRecyclerView!!.addOnScrollListener(ScrollBaseFABBehavior(mFloatingActionButton!!))
-        mFloatingActionButton!!.hide()
+        //mFloatingActionButton!!.hide()
+        mFloatingActionButton?.let { it.hide() }
     }
 
 
@@ -61,23 +66,40 @@ class ConfigAtPlaceActivity : AppCompatActivity() {
         var realmQuery = mRealm!!.where(PrefectureRealm::class.java).findAll()
         if (realmQuery.size == 0) {
             //初期データ
-            mRealm!!.beginTransaction()
+            /*mRealm!!.beginTransaction()
             mRealm!!.createAllFromJson(PrefectureRealm::class.java, resources.assets.open("Prefecture0.json"))
             mRealm!!.commitTransaction()
-            realmQuery = mRealm!!.where(PrefectureRealm::class.java).findAll()
+            realmQuery = mRealm!!.where(PrefectureRealm::class.java).findAll()*/
+            mRealm?.let {
+                it.beginTransaction()
+                it.createAllFromJson(PrefectureRealm::class.java,resources.assets.open("Prefecture0.json"))
+                it.commitTransaction()
+                realmQuery=it.where(PrefectureRealm::class.java).findAll()
+            }
         }
         val adapter: RealmConfigAtPlaceAdapter = RealmConfigAtPlaceAdapter(this, realmQuery)
-        mRecyclerView!!.adapter = adapter
+        //mRecyclerView!!.adapter = adapter
+        mRecyclerView?.let { it.adapter=adapter }
     }
 
 
     override fun onOptionsItemSelected(item: MenuItem?): Boolean {
-        when (item!!.itemId) {
+        /*when (item!!.itemId) {
             android.R.id.home -> {
                 finish()
             }
             else              -> {
                 Log.e("ConfigAtPlaceActivity", "not supported Option Item Selected")
+            }
+        }*/
+        item?.let {
+            when (it.itemId) {
+                android.R.id.home -> {
+                    finish()
+                }
+                else              -> {
+                    Log.e("ConfigAtPlaceActivity", "not supported Option Item Selected")
+                }
             }
         }
         return true
@@ -85,24 +107,39 @@ class ConfigAtPlaceActivity : AppCompatActivity() {
 
     override fun onDestroy() {
         super.onDestroy()
-        mRealm!!.close()
+        //mRealm!!.close()
+        mRealm?.let { it.close() }
     }
 
     fun changeItem(item: PrefectureRealm) {
         var check = item.status
-        mRealm!!.executeTransaction { realm ->
+        /*mRealm!!.executeTransaction { realm ->
             var pref = mRealm!!.where(PrefectureRealm::class.java)
                     .equalTo("name", item.name).findFirst()
             pref.status = !check
+        }*/
+        mRealm?.let {
+            it.executeTransaction { realm ->
+                var pref = it.where(PrefectureRealm::class.java)
+                        .equalTo("name", item.name).findFirst()
+                pref.status = !check
+            }
         }
     }
 
     fun addItem(name: String, status: Boolean) {
-        mRealm!!.beginTransaction()
+        /*mRealm!!.beginTransaction()
         var newPref: PrefectureRealm = mRealm!!.createObject(PrefectureRealm::class.java)
         newPref.name = name
         newPref.status = status
-        mRealm!!.commitTransaction()
+        mRealm!!.commitTransaction()*/
+        mRealm?.let {
+            it.beginTransaction()
+            var newPref: PrefectureRealm = it.createObject(PrefectureRealm::class.java)
+            newPref.name = name
+            newPref.status = status
+            it.commitTransaction()
+        }
     }
 
 }

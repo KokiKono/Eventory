@@ -21,6 +21,8 @@ import local.koki.android.eventory.common.FragmentRouter
 import local.koki.android.eventory.model.EventManager
 import local.koki.android.eventory.model.EventRealm
 import local.koki.android.eventory.common.TutorialRegister
+import local.koki.android.eventory.model.UserRegister
+import local.koki.android.eventory.view.adapter.NoDataAdapter
 import local.koki.android.eventory.view.adapter.RealmEventCardAdapter
 import local.koki.android.eventory.view.listener.EventActionListener
 import java.util.*
@@ -35,9 +37,9 @@ open class EventFragment : Fragment()
         , EventManager.LoadEventInterface {
     protected var mEventStatus: EventManager.CheckStatus = EventManager.CheckStatus.None
     protected var mRecyclerView: RecyclerView? = null
-    protected var mLayoutManager: RecyclerView.LayoutManager? = null
-    protected var mAdapter: RealmEventCardAdapter? = null
-    protected var mData: RealmResults<EventRealm>? = null
+    //protected var mLayoutManager: RecyclerView.LayoutManager? = null
+    //protected var mAdapter: RealmEventCardAdapter? = null
+    //protected var mData: RealmResults<EventRealm>? = null
     protected var mEventAction: EventActionListener? = null
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -55,16 +57,15 @@ open class EventFragment : Fragment()
         if (view is RecyclerView) {
             //create recycler view
             mRecyclerView = view.findViewById(R.id.list) as RecyclerView
-            //TODO:Nullableな処理はこれに変える！！！
-            //mRecyclerView?.let { it.setHasFixedSize(true) }
-            mRecyclerView!!.setHasFixedSize(true)
-            mLayoutManager = LinearLayoutManager(context)
-            mRecyclerView!!.layoutManager = mLayoutManager
-            mAdapter = RealmEventCardAdapter(context, null)
-            mAdapter!!.onClickKeep = this
-            mAdapter!!.onClickNotKeep = this
-            mAdapter!!.onClickTitle = this
-            mRecyclerView!!.adapter = mAdapter
+            mRecyclerView?.let {
+                it.setHasFixedSize(true)
+                it.layoutManager=LinearLayoutManager(context)
+            }
+            var adapter = RealmEventCardAdapter(context, null)
+            adapter.onClickKeep=this
+            adapter.onClickNotKeep=this
+            adapter.onClickTitle=this
+            mRecyclerView?.let { it.adapter=adapter }
         }
         return view
     }
@@ -82,27 +83,36 @@ open class EventFragment : Fragment()
 
     override fun onResume() {
         super.onResume()
-        Log.e("TutorialTAG", TutorialRegister.isTutorial(TutorialRegister.Keys.Version1.toString()).toString())
-        if(!TutorialRegister.isTutorial(TutorialRegister.Keys.Version1.toString())) {
+        //if(!TutorialRegister.isTutorial(TutorialRegister.Keys.Version1.name)) {
             //チュートリアルの最中でなければ
             if (mEventStatus == EventManager.CheckStatus.NoCheck) {
                 //サーバーからデータを取得する。
                 var eventManager = EventManager()
                 eventManager.loadEventInterface = this
-                eventManager.eventConnection(null)
+                var updateAt=UserRegister.getUserUpdateInfoUpdateTime()
+                eventManager.eventConnection(updateAt)
+                UserRegister.createOrUpdateUserEventInfoUpdateTime()
+            }
+        //}
+        var data = EventManager.fetchEvent(mEventStatus)
+        if (data.size==0){
+            val adapter=NoDataAdapter(context)
+            mRecyclerView?.let {
+                it.adapter=adapter
+                return
             }
         }
-        mData = EventManager.fetchEvent(mEventStatus)
-        mAdapter!!.updateData(mData)
-        mAdapter!!.notifyDataSetChanged()
+        var adapter:RealmEventCardAdapter=mRecyclerView?.let { it.adapter as RealmEventCardAdapter }!!
+        adapter.updateData(data)
+        adapter.notifyDataSetChanged()
     }
 
     override fun onClickKeep(eventRealm: EventRealm, position: Int) {
-        if (mEventAction != null) mEventAction!!.onActionKeep(eventRealm)
+        mEventAction?.let { it.onActionKeep(eventRealm) }
     }
 
     override fun onClickNotKeep(eventRealm: EventRealm, position: Int) {
-        if (mEventAction != null) mEventAction!!.onActionNotKeep(eventRealm)
+        mEventAction?.let { it.onActionNotKeep(eventRealm) }
     }
 
     override fun startLoad() {
@@ -115,6 +125,8 @@ open class EventFragment : Fragment()
         var realm = Realm.getDefaultInstance()
         realm.beginTransaction()
         for (event in data) {
+            val now=realm.where(EventRealm::class.java).equalTo("id",event.id).findAll()
+            if(now.isNotEmpty())break
             realm.copyToRealm(event)
         }
         realm.commitTransaction()
