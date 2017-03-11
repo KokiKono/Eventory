@@ -32,45 +32,57 @@ class SearchFragment : EventFragment() {
         //if (view is RecyclerView) {
         //find parent view
         mRecyclerView = view.findViewById(R.id.list) as RecyclerView
-        mRecyclerView!!.setHasFixedSize(true)
-
+        /*mRecyclerView!!.setHasFixedSize(true)
         mLayoutManager = LinearLayoutManager(context)
-        mRecyclerView!!.layoutManager = mLayoutManager
+        mRecyclerView!!.layoutManager = mLayoutManager*/
+        mRecyclerView?.let {
+            it.setHasFixedSize(true)
+            it.layoutManager=LinearLayoutManager(context)
+        }
 
-        mAdapter = RealmEventCardAdapter(context, null)
-        mAdapter!!.onClickKeep = this
-        mAdapter!!.onClickNotKeep = this
-        mAdapter!!.onClickTitle = this
-        mRecyclerView!!.adapter = mAdapter
+        var adapter = RealmEventCardAdapter(context, null)
+        /*adapter!!.onClickKeep = this
+        adapter!!.onClickNotKeep = this
+        adapter!!.onClickTitle = this
+        mRecyclerView!!.adapter = adapter*/
+        adapter.onClickKeep=this
+        adapter.onClickNotKeep=this
+        adapter.onClickTitle=this
+        mRecyclerView?.let { it.adapter=adapter }
         mFloatingActionButton = view.findViewById(R.id.floatingActionButton) as FloatingActionButton
         mFloatingActionButton!!.setOnClickListener { v ->
             mSearchView!!.isIconified = false
             mFloatingActionButton!!.hide()
         }
-        mRecyclerView!!.addOnScrollListener(ScrollBaseFABBehavior(mFloatingActionButton!!))
-        //}
+        /*mRecyclerView!!.addOnScrollListener(ScrollBaseFABBehavior(mFloatingActionButton!!))*/
+        mRecyclerView?.let { it.addOnScrollListener(ScrollBaseFABBehavior(mFloatingActionButton!!)) }
         return view
     }
 
     override fun onResume() {
         super.onResume()
-        mData = EventManager.fetchEvent(EventManager.CheckStatus.Search)
+        /*mData = EventManager.fetchEvent(EventManager.CheckStatus.Search)
         mAdapter!!.updateData(mData)
-        mAdapter!!.notifyDataSetChanged()
+        mAdapter!!.notifyDataSetChanged()*/
+        val data=EventManager.fetchEvent(EventManager.CheckStatus.Search)
+        var adapter:RealmEventCardAdapter=mRecyclerView?.let { it.adapter } as RealmEventCardAdapter
+        adapter.updateData(data)
+        adapter.notifyDataSetChanged()
     }
 
     override fun onCreateOptionsMenu(menu: Menu?, inflater: MenuInflater?) {
         //menu configuration
-        inflater!!.inflate(R.menu.search_item_fragment_menu, menu)
-
-        val menuItem = menu!!.findItem(R.id.menu_search)
+        //inflater!!.inflate(R.menu.search_item_fragment_menu, menu)
+        inflater?.let { it.inflate(R.menu.search_item_fragment_menu,menu) }
+        //val menuItem = menu!!.findItem(R.id.menu_search)
+        val menuItem = menu?.let { it.findItem(R.id.menu_search) }
         mSearchView = MenuItemCompat.getActionView(menuItem) as SearchView
 
         //whether display Magnifying Class Icon at first
-        mSearchView!!.setIconifiedByDefault(true)
-
+        //mSearchView!!.setIconifiedByDefault(true)
+        mSearchView?.let { it.setIconifiedByDefault(true) }
         //whether display Submit Button
-        mSearchView!!.isSubmitButtonEnabled = true
+        /*mSearchView!!.isSubmitButtonEnabled = true
         mSearchView!!.setOnCloseListener(object :SearchView.OnCloseListener{
             override fun onClose(): Boolean {
                 mFloatingActionButton!!.show()
@@ -92,7 +104,33 @@ class SearchFragment : EventFragment() {
             override fun onQueryTextChange(newText: String): Boolean {
                 return true
             }
-        })
+        })*/
+        mSearchView?.let {
+            it.isSubmitButtonEnabled = true
+            it.setOnCloseListener(object : SearchView.OnCloseListener {
+                override fun onClose(): Boolean {
+                    mFloatingActionButton?.let { it.show() }
+                    return false
+                }
+            })
+            it.setOnQueryTextListener(object : SearchView.OnQueryTextListener {
+                override fun onQueryTextSubmit(query: String?): Boolean {
+                    val patt = Pattern.compile("[,\\s]+")
+                    var list = patt.split(query).asList()
+                    val data = EventManager.searchEvent(list)
+                    var adapter: RealmEventCardAdapter = mRecyclerView?.let { it.adapter } as RealmEventCardAdapter
+                    adapter.updateData(data)
+                    adapter.notifyDataSetChanged()
+                    mFloatingActionButton?.let { it.show() }
+                    mSearchView?.let { it.clearFocus() }
+                    return true
+                }
+
+                override fun onQueryTextChange(newText: String?): Boolean {
+                    return true
+                }
+            })
+        }
         super.onCreateOptionsMenu(menu, inflater)
     }
 

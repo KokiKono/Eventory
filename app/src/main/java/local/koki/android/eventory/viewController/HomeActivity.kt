@@ -1,6 +1,7 @@
 package local.koki.android.eventory.viewController
 
 import android.content.Intent
+import android.os.Build
 import android.os.Bundle
 import android.os.Handler
 import android.support.v7.app.AppCompatActivity
@@ -9,6 +10,7 @@ import android.support.design.widget.TabLayout
 import android.support.v4.app.Fragment
 import android.support.v4.app.FragmentPagerAdapter
 import android.support.v4.view.ViewPager
+import android.util.Log
 import android.view.Menu
 import android.view.View
 import android.view.ViewGroup
@@ -30,20 +32,18 @@ class HomeActivity : AppCompatActivity()
         , EventActionListener
         , ViewPager.OnPageChangeListener {
     private var mStockChangedEvent = HashMap<EventRealm, EventManager.CheckStatus>()
-    private var mViewPager: ViewPager? = null
+    //private var mViewPager: ViewPager? = null
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         Realm.init(applicationContext)
         setContentView(R.layout.activity_home_mvc)
 
-        val toolBar = findViewById(R.id.my_toolbar) as Toolbar
-        setSupportActionBar(toolBar)
-        //ActionBarとTabの影をなくす。
-        supportActionBar!!.elevation = 0f
+        setupActionBar()
+
         val titleStr = getString(R.string.app_name)
         title = titleStr
 
-        mViewPager = findViewById(R.id.pager) as ViewPager
+        var viewPager = findViewById(R.id.pager) as ViewPager
         val tabLayout = findViewById(android.R.id.tabs) as TabLayout
         val tags = FragmentRouter.Tag.values();
         var fragmentAdapter = object : FragmentPagerAdapter(supportFragmentManager) {
@@ -62,9 +62,13 @@ class HomeActivity : AppCompatActivity()
                 return tags.get(position).tabTitle
             }
         }
-        mViewPager!!.adapter = fragmentAdapter
-        mViewPager!!.addOnPageChangeListener(this)
-        tabLayout.setupWithViewPager(mViewPager)
+        /*mViewPager!!.adapter = fragmentAdapter
+        mViewPager!!.addOnPageChangeListener(this)*/
+        viewPager?.let {
+            it.adapter=fragmentAdapter
+            it.addOnPageChangeListener(this)
+        }
+        tabLayout.setupWithViewPager(viewPager)
     }
 
     override fun onActionKeep(realm: EventRealm) {
@@ -110,6 +114,7 @@ class HomeActivity : AppCompatActivity()
                         override fun onShowcaseDismissed(p0: MaterialShowcaseView?) {
                         }
                         override fun onShowcaseDisplayed(p0: MaterialShowcaseView?) {
+                            TutorialRegister.start(TutorialRegister.Keys.Version1)
                         }
                     })
                     .build())
@@ -117,13 +122,13 @@ class HomeActivity : AppCompatActivity()
             val tabView = tabGroup.getChildAt(FragmentRouter.Tag.indexOf(FragmentRouter.Tag.Configuration))
             sequence.addSequenceItem(MaterialShowcaseView.Builder(this)
                     .setTarget(tabLayout)
-                    .setContentText("イベントは、日々開催されております。そのほとんどはあなたには興味がないかもしれません。\nまた、それらの通知を歓迎しますか？")
+                    .setContentText("イベントは、日々開催されております。そのほとんどはあなたには興味がないかもしれません。\nまた、それらの通知は必要ですか？")
                     .setDismissText("次へ")
                     .setDismissTextColor(Colors.KeepOn)
                     .build())
             sequence.addSequenceItem(MaterialShowcaseView.Builder(this)
                     .setTarget(tabView)
-                    .setContentText("歓迎しないみたいですね！それはフィルタリングで解決します。\nまた設定画面から行えます。\nでは、早速、ジャンルの設定をしてみましょう。")
+                    .setContentText("我々はそれを必要とは感じていません。なので、フィルタリングを行います。\nでは、早速、ジャンルの設定をしてみましょう。")
                     .setDismissText("次へ")
                     .setDismissTextColor(Colors.KeepOn)
                     .setListener(object : IShowcaseListener {
@@ -141,6 +146,25 @@ class HomeActivity : AppCompatActivity()
             sequence.start()
         }
         return super.onCreateOptionsMenu(menu)
+    }
+
+
+    private fun setupActionBar(){
+        if(Build.VERSION.SDK_INT<Build.VERSION_CODES.LOLLIPOP){
+            setActionBar_7()
+            return
+        }
+        if(Build.VERSION.SDK_INT>=Build.VERSION_CODES.LOLLIPOP){
+            setActionBar_21()
+            return
+        }
+    }
+    private fun setActionBar_7(){
+        title="v7"
+    }
+    private fun setActionBar_21(){
+        val toolBar = findViewById(R.id.my_toolbar) as Toolbar
+        setSupportActionBar(toolBar)
     }
 
 }

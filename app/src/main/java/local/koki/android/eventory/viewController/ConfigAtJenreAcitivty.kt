@@ -38,7 +38,7 @@ class ConfigAtJenreAcitivty : AppCompatActivity() {
     private var mRecyclerView: RecyclerView? = null
     private var mFloatingActionButton: FloatingActionButton? = null
     private var mRealm: Realm? = null
-    private var addItemDialog:MaterialDialog?=null
+    private var addItemDialog: MaterialDialog? = null
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_config_at_jenre)
@@ -50,38 +50,64 @@ class ConfigAtJenreAcitivty : AppCompatActivity() {
         mFloatingActionButton = findViewById(R.id.floatingActionButton) as FloatingActionButton
 
         //リストに下線を付ける
-        mRecyclerView!!.addItemDecoration(DividerItemDecoration(applicationContext))
-        mRecyclerView!!.layoutManager = LinearLayoutManager(this)
-
-        mFloatingActionButton!!.setOnClickListener { v ->
-            showAddItemDialog()
+        //mRecyclerView!!.addItemDecoration(DividerItemDecoration(applicationContext))
+        //mRecyclerView!!.layoutManager = LinearLayoutManager(this)
+        mRecyclerView?.let {
+            it.addItemDecoration(DividerItemDecoration(applicationContext))
+            it.layoutManager = LinearLayoutManager(this)
         }
+
+        /*mFloatingActionButton!!.setOnClickListener { v ->
+            showAddItemDialog()
+        }*/
+        mFloatingActionButton?.let { it.setOnClickListener { v -> showAddItemDialog() } }
         //スクロール時にFloatingActionButtonを隠す
-        mRecyclerView!!.addOnScrollListener(ScrollBaseFABBehavior(mFloatingActionButton!!))
-        mRecyclerView?.let { JenreCardSwipe(this@ConfigAtJenreAcitivty,it) }
+        //mRecyclerView!!.addOnScrollListener(ScrollBaseFABBehavior(mFloatingActionButton!!))
+        mRecyclerView?.let {
+            it.addOnScrollListener(ScrollBaseFABBehavior(mFloatingActionButton!!))
+            JenreCardSwipe(this@ConfigAtJenreAcitivty, it)
+        }
     }
 
     override fun onResume() {
         super.onResume()
-        var realmQuery = mRealm!!.where(JenreRealm::class.java).findAll()
-        if (realmQuery.size == 0) {
+        //var realmQuery = mRealm!!.where(JenreRealm::class.java).findAll()
+        var realmQuery = mRealm?.let { it.where(JenreRealm::class.java).findAll() }
+        if (realmQuery?.let { it.size } == 0) {
             //初期データ
-            mRealm!!.beginTransaction()
+            /*mRealm!!.beginTransaction()
             mRealm!!.createAllFromJson(JenreRealm::class.java, resources.assets.open("Jenre0.json"))
-            mRealm!!.commitTransaction()
-            realmQuery = mRealm!!.where(JenreRealm::class.java).findAll()
+            mRealm!!.commitTransaction()*/
+            mRealm?.let {
+                it.beginTransaction()
+                it.createAllFromJson(JenreRealm::class.java, resources.assets.open("Jenre0.json"))
+                it.commitTransaction()
+            }
+            //realmQuery = mRealm!!.where(JenreRealm::class.java).findAll()
+            realmQuery = mRealm?.let { it.where(JenreRealm::class.java).findAll() }
         }
         val adapter = RealmConfigAtJenreAdapter(this, realmQuery)
-        mRecyclerView!!.adapter = adapter
+        //mRecyclerView!!.adapter = adapter
+        mRecyclerView?.let { it.adapter = adapter }
     }
 
     override fun onOptionsItemSelected(item: MenuItem?): Boolean {
-        when (item!!.itemId) {
+        /*when (item!!.itemId) {
             android.R.id.home -> {
                 finish()
             }
             else -> {
                 Log.e("ConfigAtPlaceActivity", "not supported Option Item Selected")
+            }
+        }*/
+        item?.let {
+            when (it.itemId) {
+                android.R.id.home -> {
+                    finish()
+                }
+                else -> {
+                    Log.e("ConfigAtPlaceActivity", "not supported Option Item Selected")
+                }
             }
         }
         return true
@@ -89,7 +115,8 @@ class ConfigAtJenreAcitivty : AppCompatActivity() {
 
     override fun onDestroy() {
         super.onDestroy()
-        mRealm!!.close()
+        //mRealm!!.close()
+        mRealm?.let { it.close() }
     }
 
     fun changeItem(item: JenreRealm) {
@@ -99,28 +126,44 @@ class ConfigAtJenreAcitivty : AppCompatActivity() {
                     .equalTo("name", item.name).findFirst()
             pref.status = !check
         }
+        mRealm?.let {
+            it.executeTransaction { realm ->
+                var pref = it.where(JenreRealm::class.java)
+                        .equalTo("name", item.name).findFirst()
+                pref.status = !check
+            }
+        }
     }
 
     fun addItem(name: String, status: Boolean) {
-        mRealm!!.beginTransaction()
+        /*mRealm!!.beginTransaction()
         var newPref: JenreRealm = mRealm!!.createObject(JenreRealm::class.java)
         newPref.name = name
         newPref.status = status
-        mRealm!!.commitTransaction()
+        mRealm!!.commitTransaction()*/
+        mRealm?.let {
+            it.beginTransaction()
+            var newPref: JenreRealm = it.createObject(JenreRealm::class.java)
+            newPref.name = name
+            newPref.status = status
+            it.commitTransaction()
+        }
+
     }
-    fun showAddItemDialog(){
-        var edit=EditText(this@ConfigAtJenreAcitivty)
-        addItemDialog= MaterialDialog(this@ConfigAtJenreAcitivty)
+
+    fun showAddItemDialog() {
+        var edit = EditText(this@ConfigAtJenreAcitivty)
+        addItemDialog = MaterialDialog(this@ConfigAtJenreAcitivty)
         addItemDialog?.let {
             it.setTitle("ジャンル追加")
                     .setContentView(edit)
-                    .setPositiveButton("登録",object : View.OnClickListener{
+                    .setPositiveButton("登録", object : View.OnClickListener {
                         override fun onClick(v: View?) {
-                            addItem(edit.text.toString(),true)
+                            addItem(edit.text.toString(), true)
                             addItemDialog?.let { it.dismiss() }
                         }
                     })
-                    .setNegativeButton("キャンセル",object : View.OnClickListener{
+                    .setNegativeButton("キャンセル", object : View.OnClickListener {
                         override fun onClick(v: View?) {
                             addItemDialog?.let { it.dismiss() }
                         }
@@ -155,7 +198,7 @@ class ConfigAtJenreAcitivty : AppCompatActivity() {
                         }
 
                         override fun onShowcaseDisplayed(p0: MaterialShowcaseView?) {
-                            mRecyclerView!!.getChildAt(0).callOnClick()
+                            mRecyclerView?.let { it.getChildAt(0).callOnClick() }
                         }
                     })
                     .build())
@@ -169,7 +212,8 @@ class ConfigAtJenreAcitivty : AppCompatActivity() {
                         }
 
                         override fun onShowcaseDisplayed(p0: MaterialShowcaseView?) {
-                            mRecyclerView!!.getChildAt(0).callOnClick()
+                            //mRecyclerView!!.getChildAt(0).callOnClick()
+                            mRecyclerView?.let { it.getChildAt(0).callOnClick() }
                         }
                     })
                     .build())
@@ -185,7 +229,8 @@ class ConfigAtJenreAcitivty : AppCompatActivity() {
                         }
 
                         override fun onShowcaseDisplayed(p0: MaterialShowcaseView?) {
-                            mRecyclerView!!.getChildAt(0).callOnClick()
+                            //mRecyclerView!!.getChildAt(0).callOnClick()
+                            mRecyclerView?.let { it.getChildAt(0).callOnClick() }
                         }
                     })
                     .build())
@@ -193,88 +238,4 @@ class ConfigAtJenreAcitivty : AppCompatActivity() {
         }
         return super.onCreateOptionsMenu(menu)
     }
-
-    /*private val itemTouchHelper = ItemTouchHelper(object : ItemTouchHelper.SimpleCallback(0, ItemTouchHelper.LEFT or ItemTouchHelper.RIGHT) {
-        override fun onMove(recyclerView: RecyclerView?, viewHolder: RecyclerView.ViewHolder?, target: RecyclerView.ViewHolder?): Boolean {
-            val fromPos = viewHolder?.let { it.adapterPosition }
-            val toPos = target?.let { it.adapterPosition }
-            mRecyclerView?.let { it.adapter.notifyItemMoved(fromPos!!, toPos!!) }
-            return false;
-        }
-
-        override fun onSwiped(viewHolder: RecyclerView.ViewHolder?, direction: Int) {
-            val fromPos = viewHolder?.let { it.adapterPosition }
-            val adapter: RealmConfigAtJenreAdapter? = mRecyclerView?.let { it.adapter as RealmConfigAtJenreAdapter }
-            val itemName = adapter?.let { it.data?.let { it.get(fromPos!!).name  } }
-            if (direction == ItemTouchHelper.LEFT) {
-                //delete
-                mRealm?.let { it.beginTransaction() }
-                val item:RealmResults<JenreRealm>? = mRealm?.let { it.where(JenreRealm::class.java).equalTo("name", itemName).findAll() }
-                item?.let { it.deleteAllFromRealm() }
-                adapter?.let { it.notifyItemRemoved(fromPos!!) }
-                mRealm?.let { it.commitTransaction() }
-                return
-            }
-            if (direction == ItemTouchHelper.RIGHT) {
-                //edit
-                var edit = EditText(this@ConfigAtJenreAcitivty)
-                edit.setText(itemName)
-                mEditDialog = MaterialDialog(this@ConfigAtJenreAcitivty)
-                mEditDialog?.let {
-                    it.setTitle("編集")
-                            .setContentView(edit)
-                            .setPositiveButton("登録", object : View.OnClickListener {
-                                override fun onClick(v: View?) {
-                                    mRealm?.let { it.beginTransaction() }
-                                    var item = mRealm?.let { it.where(JenreRealm::class.java).equalTo("name", itemName).findFirst() }
-                                    item?.let { it.name = edit.text.toString() }
-                                    mRealm?.let { it.commitTransaction() }
-                                    mEditDialog?.let { it.dismiss() }
-                                }
-                            })
-                            .setNegativeButton("キャンセル", object : View.OnClickListener {
-                                override fun onClick(v: View?) {
-                                    mEditDialog?.let { it.dismiss() }
-                                }
-                            })
-                            .show()
-                }
-                adapter?.let { it.notifyDataSetChanged() }
-                return
-            }
-        }
-
-
-        override fun onChildDraw(c: Canvas?, recyclerView: RecyclerView?, viewHolder: RecyclerView.ViewHolder?, dX: Float, dY: Float, actionState: Int, isCurrentlyActive: Boolean) {
-            if (actionState == ItemTouchHelper.ACTION_STATE_SWIPE) {
-                val itemView = viewHolder?.let { it.itemView }
-                val bottom = itemView?.let { it.bottom.toFloat() }
-                val right = itemView?.let { it.right.toFloat() }
-                val left = itemView?.let { it.left.toFloat() }
-                val top = itemView?.let { it.top.toFloat() }
-
-                val height = bottom!! - top!!
-                val width = height!! / 3
-                var p = Paint()
-                if (dX > 0) {
-                    val background = RectF(left!!, top!!, dX, bottom!!)
-                    p.color = Color.parseColor("#3F51B5")
-                    c?.let { it.drawRect(background, p) }
-                    p.color = Color.WHITE
-                    p.textSize = 50f
-                    p.typeface = Typeface.MONOSPACE
-                    c?.let { it.drawText("編集", left!! + width, bottom!! - width, p) }
-                } else {
-                    val background = RectF(right!! + dX, top!!, right!!, bottom!!)
-                    p.color = Color.RED
-                    c?.let { it.drawRect(background, p) }
-                    p.color = Color.WHITE
-                    p.textSize = 50f
-                    p.typeface = Typeface.MONOSPACE
-                    c?.let { it.drawText("削除", right!! - 2 * width, bottom!! - width, p) }
-                }
-            }
-            super.onChildDraw(c, recyclerView, viewHolder, dX, dY, actionState, isCurrentlyActive)
-        }
-    })*/
 }

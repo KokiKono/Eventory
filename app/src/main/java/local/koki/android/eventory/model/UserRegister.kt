@@ -31,6 +31,12 @@ class UserRegister{
             Realm.init(context)
             return getUserEventInfoUpdateTime(Realm.getDefaultInstance())
         }
+        fun getUserUpdateInfoUpdateTime():String{
+            return getUserEventInfoUpdateTime(Realm.getDefaultInstance())
+        }
+        fun createOrUpdateUserEventInfoUpdateTime(){
+            return createOrUpdateUserEventInfoUpdateTime(Realm.getDefaultInstance())
+        }
         fun createOrUpdateUserEventInfoUpdateTime(realm: Realm){
             var nowDate:Date= Date()
             val simpleDateFormat=SimpleDateFormat("yyyy-MM-dd HH:mm:ss",Locale.JAPAN)

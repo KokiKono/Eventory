@@ -77,16 +77,19 @@ class EventManager() {
                 connection.connectTimeout = 2000
                 connection.connect()
                 statusCode = connection.responseCode
-                inputStream = connection!!.inputStream
+                //inputStream = connection!!.inputStream
+                inputStream = connection?.let { it.inputStream }
                 resultStr = Json.is2String(inputStream)
             } catch (e: MalformedURLException) {
                 Log.e(DEBUG_TAG, "URL変換失敗", e)
             } catch (e: IOException) {
                 Log.e(DEBUG_TAG, "通信失敗", e)
             } finally {
-                connection!!.disconnect()
+                //connection!!.disconnect()
+                connection?.let { it.disconnect() }
                 try {
-                    inputStream!!.close()
+                    //inputStream!!.close()
+                    inputStream?.let { it.close() }
                 } catch (e: IOException) {
                     Log.e(DEBUG_TAG, "InputStream解放失敗", e)
                 }

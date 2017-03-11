@@ -10,14 +10,16 @@ import android.support.v7.widget.RecyclerView
 class ScrollBaseFABBehavior(private val floatingActionButton: FloatingActionButton) : RecyclerView.OnScrollListener(){
     override fun onScrollStateChanged(recyclerView: RecyclerView?, newState: Int) {
         if(newState==RecyclerView.SCROLL_STATE_IDLE){
-            floatingActionButton!!.show()
+            //floatingActionButton!!.show()
+            floatingActionButton?.let { it.show() }
         }
         super.onScrollStateChanged(recyclerView, newState)
     }
 
     override fun onScrolled(recyclerView: RecyclerView?, dx: Int, dy: Int) {
         if(dy>0 || dy<0 && floatingActionButton!!.isShown){
-            floatingActionButton!!.hide()
+            //floatingActionButton!!.hide()
+            floatingActionButton?.let { it.hide() }
         }
     }
 }

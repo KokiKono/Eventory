@@ -2,16 +2,21 @@ package local.koki.android.eventory.viewController
 
 import android.content.Context
 import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
+import android.support.design.widget.TabLayout
 import android.support.v4.app.Fragment
 import android.support.v7.widget.LinearLayoutManager
 import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import io.realm.Realm
 import local.koki.android.eventory.view.listener.RecyclerItemClickListener
 
 import local.koki.android.eventory.R
+import local.koki.android.eventory.common.FragmentRouter
+import local.koki.android.eventory.model.EventManager
 import local.koki.android.eventory.view.adapter.ConfigRecyclerAdapter
 import local.koki.android.eventory.viewController.ConfigAtJenreAcitivty
 import local.koki.android.eventory.viewController.ConfigAtPlaceActivity
@@ -29,6 +34,14 @@ class ConfigurationFragment : Fragment() {
         PLACE{
             override val value:String="開催地"
             override val code=2
+        }
+        ,NewEventSize{
+            override val value: String="新着情報："
+            override val code: Int=3
+        }
+        ,Review{
+            override val value: String="レビューする。"
+            override val code: Int=4
         };
         abstract val value:String
         abstract val code:Int
@@ -37,8 +50,6 @@ class ConfigurationFragment : Fragment() {
     private var mRecyclerView: RecyclerView? = null
     private var mAdapter: RecyclerView.Adapter<*>? = null
     private var mLayoutManager: RecyclerView.LayoutManager? = null
-
-
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -56,22 +67,33 @@ class ConfigurationFragment : Fragment() {
             mLayoutManager= LinearLayoutManager(context)
             mRecyclerView!!.layoutManager=mLayoutManager
 
-            var list : ArrayList<String> = ArrayList()
+            var list : ArrayList<CONFIG> = ArrayList()
 
             for(config: CONFIG in CONFIG.values()){
-                list.add(config.value)
+                list.add(config)
             }
             mRecyclerView!!.addItemDecoration(DividerItemDecoration(view.context))
             mAdapter= ConfigRecyclerAdapter(list,object : ConfigRecyclerAdapter.OnListItemClickListener {
                 override fun onItemClickListenerAtConfig(holder: ConfigRecyclerAdapter.ViewHolder) {
-                    when(holder.mValue){
-                        CONFIG.PLACE.value ->{
+                    when(holder.mConfig){
+                        CONFIG.PLACE ->{
                             //開催地
                             startActivity(Intent(context, ConfigAtPlaceActivity::class.java))
                         }
-                        CONFIG.GENRE.value ->{
+                        CONFIG.GENRE ->{
                             //ジャンル
                             startActivity(Intent(context, ConfigAtJenreAcitivty::class.java))
+                        }
+                        CONFIG.NewEventSize ->{
+                            val tabs=activity.findViewById(android.R.id.tabs) as TabLayout
+                            val tabGroup=tabs.getChildAt(0) as ViewGroup
+                            val newEventTab=tabGroup.getChildAt(FragmentRouter.Tag.indexOf(FragmentRouter.Tag.New))
+                            newEventTab.performClick()
+                        }
+                        CONFIG.Review ->{
+                            val playStore=Intent(Intent.ACTION_VIEW)
+                            playStore.setData(Uri.parse("https://play.google.com/store/apps/details?id=local.android.eventory&hl=ja"))
+                            startActivity(playStore)
                         }
                         else ->{
                             //その他：特になし
