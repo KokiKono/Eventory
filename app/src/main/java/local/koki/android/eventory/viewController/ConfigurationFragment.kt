@@ -48,7 +48,6 @@ class ConfigurationFragment : Fragment() {
     }
 
     private var mRecyclerView: RecyclerView? = null
-    private var mAdapter: RecyclerView.Adapter<*>? = null
     private var mLayoutManager: RecyclerView.LayoutManager? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -73,7 +72,7 @@ class ConfigurationFragment : Fragment() {
                 list.add(config)
             }
             mRecyclerView!!.addItemDecoration(DividerItemDecoration(view.context))
-            mAdapter= ConfigRecyclerAdapter(list,object : ConfigRecyclerAdapter.OnListItemClickListener {
+            var adapter = ConfigRecyclerAdapter(list,object : ConfigRecyclerAdapter.OnListItemClickListener {
                 override fun onItemClickListenerAtConfig(holder: ConfigRecyclerAdapter.ViewHolder) {
                     when(holder.mConfig){
                         CONFIG.PLACE ->{
@@ -102,20 +101,15 @@ class ConfigurationFragment : Fragment() {
                     }
                 }
             })
-            mRecyclerView!!.adapter=mAdapter
-
+            mRecyclerView?.let { it.adapter=adapter }
         }
         return view
     }
 
-
-    override fun onAttach(context: Context?) {
-        super.onAttach(context)
-
-
-    }
-
-    override fun onDetach() {
-        super.onDetach()
+    override fun onResume() {
+        super.onResume()
+        mRecyclerView?.let {
+            it.adapter.notifyDataSetChanged()
+        }
     }
 }

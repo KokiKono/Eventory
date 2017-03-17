@@ -44,14 +44,12 @@ class ConfigAtJenreAcitivty : AppCompatActivity() {
         setContentView(R.layout.activity_config_at_jenre)
         var toolbar = findViewById(R.id.my_toolbar) as Toolbar
         setSupportActionBar(toolbar)
-        supportActionBar!!.setDisplayHomeAsUpEnabled(true)
+        supportActionBar?.let { it.setDisplayHomeAsUpEnabled(true) }
         mRealm = Realm.getDefaultInstance()
         mRecyclerView = findViewById(R.id.list) as RecyclerView
         mFloatingActionButton = findViewById(R.id.floatingActionButton) as FloatingActionButton
 
         //リストに下線を付ける
-        //mRecyclerView!!.addItemDecoration(DividerItemDecoration(applicationContext))
-        //mRecyclerView!!.layoutManager = LinearLayoutManager(this)
         mRecyclerView?.let {
             it.addItemDecoration(DividerItemDecoration(applicationContext))
             it.layoutManager = LinearLayoutManager(this)
@@ -62,7 +60,6 @@ class ConfigAtJenreAcitivty : AppCompatActivity() {
         }*/
         mFloatingActionButton?.let { it.setOnClickListener { v -> showAddItemDialog() } }
         //スクロール時にFloatingActionButtonを隠す
-        //mRecyclerView!!.addOnScrollListener(ScrollBaseFABBehavior(mFloatingActionButton!!))
         mRecyclerView?.let {
             it.addOnScrollListener(ScrollBaseFABBehavior(mFloatingActionButton!!))
             JenreCardSwipe(this@ConfigAtJenreAcitivty, it)
@@ -71,7 +68,6 @@ class ConfigAtJenreAcitivty : AppCompatActivity() {
 
     override fun onResume() {
         super.onResume()
-        //var realmQuery = mRealm!!.where(JenreRealm::class.java).findAll()
         var realmQuery = mRealm?.let { it.where(JenreRealm::class.java).findAll() }
         if (realmQuery?.let { it.size } == 0) {
             //初期データ
@@ -83,23 +79,13 @@ class ConfigAtJenreAcitivty : AppCompatActivity() {
                 it.createAllFromJson(JenreRealm::class.java, resources.assets.open("Jenre0.json"))
                 it.commitTransaction()
             }
-            //realmQuery = mRealm!!.where(JenreRealm::class.java).findAll()
             realmQuery = mRealm?.let { it.where(JenreRealm::class.java).findAll() }
         }
         val adapter = RealmConfigAtJenreAdapter(this, realmQuery)
-        //mRecyclerView!!.adapter = adapter
         mRecyclerView?.let { it.adapter = adapter }
     }
 
     override fun onOptionsItemSelected(item: MenuItem?): Boolean {
-        /*when (item!!.itemId) {
-            android.R.id.home -> {
-                finish()
-            }
-            else -> {
-                Log.e("ConfigAtPlaceActivity", "not supported Option Item Selected")
-            }
-        }*/
         item?.let {
             when (it.itemId) {
                 android.R.id.home -> {
@@ -115,7 +101,6 @@ class ConfigAtJenreAcitivty : AppCompatActivity() {
 
     override fun onDestroy() {
         super.onDestroy()
-        //mRealm!!.close()
         mRealm?.let { it.close() }
     }
 
@@ -136,11 +121,6 @@ class ConfigAtJenreAcitivty : AppCompatActivity() {
     }
 
     fun addItem(name: String, status: Boolean) {
-        /*mRealm!!.beginTransaction()
-        var newPref: JenreRealm = mRealm!!.createObject(JenreRealm::class.java)
-        newPref.name = name
-        newPref.status = status
-        mRealm!!.commitTransaction()*/
         mRealm?.let {
             it.beginTransaction()
             var newPref: JenreRealm = it.createObject(JenreRealm::class.java)

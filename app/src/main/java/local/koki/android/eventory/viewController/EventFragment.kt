@@ -91,7 +91,8 @@ open class EventFragment : Fragment()
                 eventManager.loadEventInterface = this
                 var updateAt=UserRegister.getUserUpdateInfoUpdateTime()
                 eventManager.eventConnection(updateAt)
-                UserRegister.createOrUpdateUserEventInfoUpdateTime()
+                //取得失敗時にも更新されるためタイミングを変更:endLoadで行う。
+                //UserRegister.createOrUpdateUserEventInfoUpdateTime()
             }
         //}
         var data = EventManager.fetchEvent(mEventStatus)
@@ -133,7 +134,10 @@ open class EventFragment : Fragment()
         realm.close()
     }
 
-    override fun endLoad() {
+    override fun endLoad(success: Boolean) {
+        if(success){
+            UserRegister.createOrUpdateUserEventInfoUpdateTime()
+        }
     }
 
     override fun onClickTitle(eventRealm: EventRealm) {
