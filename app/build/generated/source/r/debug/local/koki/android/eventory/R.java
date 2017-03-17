@@ -3149,7 +3149,7 @@ containing a value of this type.
         public static final int none=0x7f0c0012;
         public static final int normal=0x7f0c000e;
         public static final int not_keep_button=0x7f0c0093;
-        public static final int notification_background=0x7f0c00af;
+        public static final int notification_background=0x7f0c00b0;
         public static final int notification_main_column=0x7f0c00aa;
         public static final int notification_main_column_container=0x7f0c00a9;
         public static final int overlay=0x7f0c0045;
@@ -3161,7 +3161,7 @@ containing a value of this type.
         public static final int progress_horizontal=0x7f0c0007;
         public static final int radio=0x7f0c0065;
         public static final int right=0x7f0c002b;
-        public static final int right_icon=0x7f0c00b0;
+        public static final int right_icon=0x7f0c00af;
         public static final int right_side=0x7f0c00ab;
         public static final int rrv_empty_content_container=0x7f0c00b9;
         public static final int rrv_recycler_view=0x7f0c00b8;
@@ -3263,52 +3263,51 @@ containing a value of this type.
         public static final int activity_config_at_jenre=0x7f04001a;
         public static final int activity_config_at_place=0x7f04001b;
         public static final int activity_home=0x7f04001c;
-        public static final int activity_home_mvc=0x7f04001d;
-        public static final int config_item=0x7f04001e;
-        public static final int design_bottom_navigation_item=0x7f04001f;
-        public static final int design_bottom_sheet_dialog=0x7f040020;
-        public static final int design_layout_snackbar=0x7f040021;
-        public static final int design_layout_snackbar_include=0x7f040022;
-        public static final int design_layout_tab_icon=0x7f040023;
-        public static final int design_layout_tab_text=0x7f040024;
-        public static final int design_menu_item_action_area=0x7f040025;
-        public static final int design_navigation_item=0x7f040026;
-        public static final int design_navigation_item_header=0x7f040027;
-        public static final int design_navigation_item_separator=0x7f040028;
-        public static final int design_navigation_item_subheader=0x7f040029;
-        public static final int design_navigation_menu=0x7f04002a;
-        public static final int design_navigation_menu_item=0x7f04002b;
-        public static final int design_text_input_password_icon=0x7f04002c;
-        public static final int eventory_item=0x7f04002d;
-        public static final int fragment_event_list=0x7f04002e;
-        public static final int fragment_item_configruration=0x7f04002f;
-        public static final int fragment_list_configuration=0x7f040030;
-        public static final int fragment_list_search=0x7f040031;
-        public static final int header_item=0x7f040032;
-        public static final int layout_material_dialog=0x7f040033;
-        public static final int load_more_item_view=0x7f040034;
-        public static final int my_toolbar=0x7f040035;
-        public static final int notification_action=0x7f040036;
-        public static final int notification_action_tombstone=0x7f040037;
-        public static final int notification_media_action=0x7f040038;
-        public static final int notification_media_cancel_action=0x7f040039;
-        public static final int notification_template_big_media=0x7f04003a;
-        public static final int notification_template_big_media_custom=0x7f04003b;
-        public static final int notification_template_big_media_narrow=0x7f04003c;
-        public static final int notification_template_big_media_narrow_custom=0x7f04003d;
-        public static final int notification_template_custom_big=0x7f04003e;
-        public static final int notification_template_icon_group=0x7f04003f;
-        public static final int notification_template_lines_media=0x7f040040;
-        public static final int notification_template_media=0x7f040041;
-        public static final int notification_template_media_custom=0x7f040042;
-        public static final int notification_template_part_chronometer=0x7f040043;
-        public static final int notification_template_part_time=0x7f040044;
-        public static final int realm_recycler_view=0x7f040045;
-        public static final int select_dialog_item_material=0x7f040046;
-        public static final int select_dialog_multichoice_material=0x7f040047;
-        public static final int select_dialog_singlechoice_material=0x7f040048;
-        public static final int showcase_content=0x7f040049;
-        public static final int support_simple_spinner_dropdown_item=0x7f04004a;
+        public static final int config_item=0x7f04001d;
+        public static final int design_bottom_navigation_item=0x7f04001e;
+        public static final int design_bottom_sheet_dialog=0x7f04001f;
+        public static final int design_layout_snackbar=0x7f040020;
+        public static final int design_layout_snackbar_include=0x7f040021;
+        public static final int design_layout_tab_icon=0x7f040022;
+        public static final int design_layout_tab_text=0x7f040023;
+        public static final int design_menu_item_action_area=0x7f040024;
+        public static final int design_navigation_item=0x7f040025;
+        public static final int design_navigation_item_header=0x7f040026;
+        public static final int design_navigation_item_separator=0x7f040027;
+        public static final int design_navigation_item_subheader=0x7f040028;
+        public static final int design_navigation_menu=0x7f040029;
+        public static final int design_navigation_menu_item=0x7f04002a;
+        public static final int design_text_input_password_icon=0x7f04002b;
+        public static final int eventory_item=0x7f04002c;
+        public static final int fragment_event_list=0x7f04002d;
+        public static final int fragment_item_configruration=0x7f04002e;
+        public static final int fragment_list_configuration=0x7f04002f;
+        public static final int fragment_list_search=0x7f040030;
+        public static final int header_item=0x7f040031;
+        public static final int layout_material_dialog=0x7f040032;
+        public static final int load_more_item_view=0x7f040033;
+        public static final int no_event_item=0x7f040034;
+        public static final int notification_action=0x7f040035;
+        public static final int notification_action_tombstone=0x7f040036;
+        public static final int notification_media_action=0x7f040037;
+        public static final int notification_media_cancel_action=0x7f040038;
+        public static final int notification_template_big_media=0x7f040039;
+        public static final int notification_template_big_media_custom=0x7f04003a;
+        public static final int notification_template_big_media_narrow=0x7f04003b;
+        public static final int notification_template_big_media_narrow_custom=0x7f04003c;
+        public static final int notification_template_custom_big=0x7f04003d;
+        public static final int notification_template_icon_group=0x7f04003e;
+        public static final int notification_template_lines_media=0x7f04003f;
+        public static final int notification_template_media=0x7f040040;
+        public static final int notification_template_media_custom=0x7f040041;
+        public static final int notification_template_part_chronometer=0x7f040042;
+        public static final int notification_template_part_time=0x7f040043;
+        public static final int realm_recycler_view=0x7f040044;
+        public static final int select_dialog_item_material=0x7f040045;
+        public static final int select_dialog_multichoice_material=0x7f040046;
+        public static final int select_dialog_singlechoice_material=0x7f040047;
+        public static final int showcase_content=0x7f040048;
+        public static final int support_simple_spinner_dropdown_item=0x7f040049;
     }
     public static final class menu {
         public static final int config_activiry_menu=0x7f0d0000;
@@ -3368,270 +3367,269 @@ containing a value of this type.
         public static final int what_new=0x7f06002f;
     }
     public static final class style {
-        public static final int ActionButton=0x7f08009c;
-        public static final int AlertDialog_AppCompat=0x7f08009d;
-        public static final int AlertDialog_AppCompat_Light=0x7f08009e;
-        public static final int Animation_AppCompat_Dialog=0x7f08009f;
-        public static final int Animation_AppCompat_DropDownUp=0x7f0800a0;
-        public static final int Animation_Design_BottomSheetDialog=0x7f0800a1;
-        public static final int AppTheme=0x7f0800a2;
-        public static final int AppTheme_NoActionBar=0x7f08003b;
-        public static final int Base_AlertDialog_AppCompat=0x7f0800a3;
-        public static final int Base_AlertDialog_AppCompat_Light=0x7f0800a4;
-        public static final int Base_Animation_AppCompat_Dialog=0x7f0800a5;
-        public static final int Base_Animation_AppCompat_DropDownUp=0x7f0800a6;
-        public static final int Base_DialogWindowTitle_AppCompat=0x7f0800a7;
-        public static final int Base_DialogWindowTitleBackground_AppCompat=0x7f0800a8;
-        public static final int Base_TextAppearance_AppCompat=0x7f08003c;
-        public static final int Base_TextAppearance_AppCompat_Body1=0x7f08003d;
-        public static final int Base_TextAppearance_AppCompat_Body2=0x7f08003e;
+        public static final int ActionButton=0x7f08009f;
+        public static final int AlertDialog_AppCompat=0x7f0800a0;
+        public static final int AlertDialog_AppCompat_Light=0x7f0800a1;
+        public static final int Animation_AppCompat_Dialog=0x7f0800a2;
+        public static final int Animation_AppCompat_DropDownUp=0x7f0800a3;
+        public static final int Animation_Design_BottomSheetDialog=0x7f0800a4;
+        public static final int AppTheme=0x7f08002d;
+        public static final int AppTheme_NoActionBar=0x7f08003f;
+        public static final int Base_AlertDialog_AppCompat=0x7f0800a5;
+        public static final int Base_AlertDialog_AppCompat_Light=0x7f0800a6;
+        public static final int Base_Animation_AppCompat_Dialog=0x7f0800a7;
+        public static final int Base_Animation_AppCompat_DropDownUp=0x7f0800a8;
+        public static final int Base_DialogWindowTitle_AppCompat=0x7f0800a9;
+        public static final int Base_DialogWindowTitleBackground_AppCompat=0x7f0800aa;
+        public static final int Base_TextAppearance_AppCompat=0x7f080040;
+        public static final int Base_TextAppearance_AppCompat_Body1=0x7f080041;
+        public static final int Base_TextAppearance_AppCompat_Body2=0x7f080042;
         public static final int Base_TextAppearance_AppCompat_Button=0x7f080023;
-        public static final int Base_TextAppearance_AppCompat_Caption=0x7f08003f;
-        public static final int Base_TextAppearance_AppCompat_Display1=0x7f080040;
-        public static final int Base_TextAppearance_AppCompat_Display2=0x7f080041;
-        public static final int Base_TextAppearance_AppCompat_Display3=0x7f080042;
-        public static final int Base_TextAppearance_AppCompat_Display4=0x7f080043;
-        public static final int Base_TextAppearance_AppCompat_Headline=0x7f080044;
+        public static final int Base_TextAppearance_AppCompat_Caption=0x7f080043;
+        public static final int Base_TextAppearance_AppCompat_Display1=0x7f080044;
+        public static final int Base_TextAppearance_AppCompat_Display2=0x7f080045;
+        public static final int Base_TextAppearance_AppCompat_Display3=0x7f080046;
+        public static final int Base_TextAppearance_AppCompat_Display4=0x7f080047;
+        public static final int Base_TextAppearance_AppCompat_Headline=0x7f080048;
         public static final int Base_TextAppearance_AppCompat_Inverse=0x7f08000c;
-        public static final int Base_TextAppearance_AppCompat_Large=0x7f080045;
+        public static final int Base_TextAppearance_AppCompat_Large=0x7f080049;
         public static final int Base_TextAppearance_AppCompat_Large_Inverse=0x7f08000d;
-        public static final int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large=0x7f080046;
-        public static final int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small=0x7f080047;
-        public static final int Base_TextAppearance_AppCompat_Medium=0x7f080048;
+        public static final int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large=0x7f08004a;
+        public static final int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small=0x7f08004b;
+        public static final int Base_TextAppearance_AppCompat_Medium=0x7f08004c;
         public static final int Base_TextAppearance_AppCompat_Medium_Inverse=0x7f08000e;
-        public static final int Base_TextAppearance_AppCompat_Menu=0x7f080049;
-        public static final int Base_TextAppearance_AppCompat_SearchResult=0x7f0800a9;
-        public static final int Base_TextAppearance_AppCompat_SearchResult_Subtitle=0x7f08004a;
-        public static final int Base_TextAppearance_AppCompat_SearchResult_Title=0x7f08004b;
-        public static final int Base_TextAppearance_AppCompat_Small=0x7f08004c;
+        public static final int Base_TextAppearance_AppCompat_Menu=0x7f08004d;
+        public static final int Base_TextAppearance_AppCompat_SearchResult=0x7f0800ab;
+        public static final int Base_TextAppearance_AppCompat_SearchResult_Subtitle=0x7f08004e;
+        public static final int Base_TextAppearance_AppCompat_SearchResult_Title=0x7f08004f;
+        public static final int Base_TextAppearance_AppCompat_Small=0x7f080050;
         public static final int Base_TextAppearance_AppCompat_Small_Inverse=0x7f08000f;
-        public static final int Base_TextAppearance_AppCompat_Subhead=0x7f08004d;
+        public static final int Base_TextAppearance_AppCompat_Subhead=0x7f080051;
         public static final int Base_TextAppearance_AppCompat_Subhead_Inverse=0x7f080010;
-        public static final int Base_TextAppearance_AppCompat_Title=0x7f08004e;
+        public static final int Base_TextAppearance_AppCompat_Title=0x7f080052;
         public static final int Base_TextAppearance_AppCompat_Title_Inverse=0x7f080011;
-        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Menu=0x7f080093;
-        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle=0x7f08004f;
-        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse=0x7f080050;
-        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Title=0x7f080051;
-        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse=0x7f080052;
-        public static final int Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle=0x7f080053;
-        public static final int Base_TextAppearance_AppCompat_Widget_ActionMode_Title=0x7f080054;
-        public static final int Base_TextAppearance_AppCompat_Widget_Button=0x7f080055;
-        public static final int Base_TextAppearance_AppCompat_Widget_Button_Inverse=0x7f080094;
-        public static final int Base_TextAppearance_AppCompat_Widget_DropDownItem=0x7f0800aa;
-        public static final int Base_TextAppearance_AppCompat_Widget_PopupMenu_Header=0x7f080056;
-        public static final int Base_TextAppearance_AppCompat_Widget_PopupMenu_Large=0x7f080057;
-        public static final int Base_TextAppearance_AppCompat_Widget_PopupMenu_Small=0x7f080058;
-        public static final int Base_TextAppearance_AppCompat_Widget_Switch=0x7f080059;
-        public static final int Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem=0x7f08005a;
-        public static final int Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f0800ab;
-        public static final int Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle=0x7f08005b;
-        public static final int Base_TextAppearance_Widget_AppCompat_Toolbar_Title=0x7f08005c;
-        public static final int Base_Theme_AppCompat=0x7f08005d;
-        public static final int Base_Theme_AppCompat_CompactMenu=0x7f0800ac;
+        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Menu=0x7f080096;
+        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle=0x7f080053;
+        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse=0x7f080054;
+        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Title=0x7f080055;
+        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse=0x7f080056;
+        public static final int Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle=0x7f080057;
+        public static final int Base_TextAppearance_AppCompat_Widget_ActionMode_Title=0x7f080058;
+        public static final int Base_TextAppearance_AppCompat_Widget_Button=0x7f080059;
+        public static final int Base_TextAppearance_AppCompat_Widget_Button_Inverse=0x7f080097;
+        public static final int Base_TextAppearance_AppCompat_Widget_DropDownItem=0x7f0800ac;
+        public static final int Base_TextAppearance_AppCompat_Widget_PopupMenu_Header=0x7f08005a;
+        public static final int Base_TextAppearance_AppCompat_Widget_PopupMenu_Large=0x7f08005b;
+        public static final int Base_TextAppearance_AppCompat_Widget_PopupMenu_Small=0x7f08005c;
+        public static final int Base_TextAppearance_AppCompat_Widget_Switch=0x7f08005d;
+        public static final int Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem=0x7f08005e;
+        public static final int Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f0800ad;
+        public static final int Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle=0x7f08005f;
+        public static final int Base_TextAppearance_Widget_AppCompat_Toolbar_Title=0x7f080060;
+        public static final int Base_Theme_AppCompat=0x7f080061;
+        public static final int Base_Theme_AppCompat_CompactMenu=0x7f0800ae;
         public static final int Base_Theme_AppCompat_Dialog=0x7f080012;
-        public static final int Base_Theme_AppCompat_Dialog_Alert=0x7f0800ad;
-        public static final int Base_Theme_AppCompat_Dialog_FixedSize=0x7f0800ae;
-        public static final int Base_Theme_AppCompat_Dialog_MinWidth=0x7f0800af;
+        public static final int Base_Theme_AppCompat_Dialog_Alert=0x7f0800af;
+        public static final int Base_Theme_AppCompat_Dialog_FixedSize=0x7f0800b0;
+        public static final int Base_Theme_AppCompat_Dialog_MinWidth=0x7f0800b1;
         public static final int Base_Theme_AppCompat_DialogWhenLarge=0x7f080002;
-        public static final int Base_Theme_AppCompat_Light=0x7f08005e;
-        public static final int Base_Theme_AppCompat_Light_DarkActionBar=0x7f0800b0;
+        public static final int Base_Theme_AppCompat_Light=0x7f080062;
+        public static final int Base_Theme_AppCompat_Light_DarkActionBar=0x7f0800b2;
         public static final int Base_Theme_AppCompat_Light_Dialog=0x7f080013;
-        public static final int Base_Theme_AppCompat_Light_Dialog_Alert=0x7f0800b1;
-        public static final int Base_Theme_AppCompat_Light_Dialog_FixedSize=0x7f0800b2;
-        public static final int Base_Theme_AppCompat_Light_Dialog_MinWidth=0x7f0800b3;
+        public static final int Base_Theme_AppCompat_Light_Dialog_Alert=0x7f0800b3;
+        public static final int Base_Theme_AppCompat_Light_Dialog_FixedSize=0x7f0800b4;
+        public static final int Base_Theme_AppCompat_Light_Dialog_MinWidth=0x7f0800b5;
         public static final int Base_Theme_AppCompat_Light_DialogWhenLarge=0x7f080003;
-        public static final int Base_ThemeOverlay_AppCompat=0x7f0800b4;
-        public static final int Base_ThemeOverlay_AppCompat_ActionBar=0x7f0800b5;
-        public static final int Base_ThemeOverlay_AppCompat_Dark=0x7f0800b6;
-        public static final int Base_ThemeOverlay_AppCompat_Dark_ActionBar=0x7f0800b7;
+        public static final int Base_ThemeOverlay_AppCompat=0x7f0800b6;
+        public static final int Base_ThemeOverlay_AppCompat_ActionBar=0x7f0800b7;
+        public static final int Base_ThemeOverlay_AppCompat_Dark=0x7f0800b8;
+        public static final int Base_ThemeOverlay_AppCompat_Dark_ActionBar=0x7f0800b9;
         public static final int Base_ThemeOverlay_AppCompat_Dialog=0x7f080014;
-        public static final int Base_ThemeOverlay_AppCompat_Dialog_Alert=0x7f0800b8;
-        public static final int Base_ThemeOverlay_AppCompat_Light=0x7f0800b9;
+        public static final int Base_ThemeOverlay_AppCompat_Dialog_Alert=0x7f0800ba;
+        public static final int Base_ThemeOverlay_AppCompat_Light=0x7f0800bb;
         public static final int Base_V11_Theme_AppCompat_Dialog=0x7f080015;
         public static final int Base_V11_Theme_AppCompat_Light_Dialog=0x7f080016;
         public static final int Base_V11_ThemeOverlay_AppCompat_Dialog=0x7f080017;
         public static final int Base_V12_Widget_AppCompat_AutoCompleteTextView=0x7f08001f;
         public static final int Base_V12_Widget_AppCompat_EditText=0x7f080020;
-        public static final int Base_V21_Theme_AppCompat=0x7f08005f;
-        public static final int Base_V21_Theme_AppCompat_Dialog=0x7f080060;
-        public static final int Base_V21_Theme_AppCompat_Light=0x7f080061;
-        public static final int Base_V21_Theme_AppCompat_Light_Dialog=0x7f080062;
-        public static final int Base_V21_ThemeOverlay_AppCompat_Dialog=0x7f080063;
-        public static final int Base_V22_Theme_AppCompat=0x7f080091;
-        public static final int Base_V22_Theme_AppCompat_Light=0x7f080092;
-        public static final int Base_V23_Theme_AppCompat=0x7f080095;
-        public static final int Base_V23_Theme_AppCompat_Light=0x7f080096;
-        public static final int Base_V7_Theme_AppCompat=0x7f0800ba;
-        public static final int Base_V7_Theme_AppCompat_Dialog=0x7f0800bb;
-        public static final int Base_V7_Theme_AppCompat_Light=0x7f0800bc;
-        public static final int Base_V7_Theme_AppCompat_Light_Dialog=0x7f0800bd;
-        public static final int Base_V7_ThemeOverlay_AppCompat_Dialog=0x7f0800be;
-        public static final int Base_V7_Widget_AppCompat_AutoCompleteTextView=0x7f0800bf;
-        public static final int Base_V7_Widget_AppCompat_EditText=0x7f0800c0;
-        public static final int Base_Widget_AppCompat_ActionBar=0x7f0800c1;
-        public static final int Base_Widget_AppCompat_ActionBar_Solid=0x7f0800c2;
-        public static final int Base_Widget_AppCompat_ActionBar_TabBar=0x7f0800c3;
-        public static final int Base_Widget_AppCompat_ActionBar_TabText=0x7f080064;
-        public static final int Base_Widget_AppCompat_ActionBar_TabView=0x7f080065;
-        public static final int Base_Widget_AppCompat_ActionButton=0x7f080066;
-        public static final int Base_Widget_AppCompat_ActionButton_CloseMode=0x7f080067;
-        public static final int Base_Widget_AppCompat_ActionButton_Overflow=0x7f080068;
-        public static final int Base_Widget_AppCompat_ActionMode=0x7f0800c4;
-        public static final int Base_Widget_AppCompat_ActivityChooserView=0x7f0800c5;
+        public static final int Base_V21_Theme_AppCompat=0x7f080063;
+        public static final int Base_V21_Theme_AppCompat_Dialog=0x7f080064;
+        public static final int Base_V21_Theme_AppCompat_Light=0x7f080065;
+        public static final int Base_V21_Theme_AppCompat_Light_Dialog=0x7f080066;
+        public static final int Base_V21_ThemeOverlay_AppCompat_Dialog=0x7f080067;
+        public static final int Base_V22_Theme_AppCompat=0x7f080094;
+        public static final int Base_V22_Theme_AppCompat_Light=0x7f080095;
+        public static final int Base_V23_Theme_AppCompat=0x7f080098;
+        public static final int Base_V23_Theme_AppCompat_Light=0x7f080099;
+        public static final int Base_V7_Theme_AppCompat=0x7f0800bc;
+        public static final int Base_V7_Theme_AppCompat_Dialog=0x7f0800bd;
+        public static final int Base_V7_Theme_AppCompat_Light=0x7f0800be;
+        public static final int Base_V7_Theme_AppCompat_Light_Dialog=0x7f0800bf;
+        public static final int Base_V7_ThemeOverlay_AppCompat_Dialog=0x7f0800c0;
+        public static final int Base_V7_Widget_AppCompat_AutoCompleteTextView=0x7f0800c1;
+        public static final int Base_V7_Widget_AppCompat_EditText=0x7f0800c2;
+        public static final int Base_Widget_AppCompat_ActionBar=0x7f0800c3;
+        public static final int Base_Widget_AppCompat_ActionBar_Solid=0x7f0800c4;
+        public static final int Base_Widget_AppCompat_ActionBar_TabBar=0x7f0800c5;
+        public static final int Base_Widget_AppCompat_ActionBar_TabText=0x7f080068;
+        public static final int Base_Widget_AppCompat_ActionBar_TabView=0x7f080069;
+        public static final int Base_Widget_AppCompat_ActionButton=0x7f08006a;
+        public static final int Base_Widget_AppCompat_ActionButton_CloseMode=0x7f08006b;
+        public static final int Base_Widget_AppCompat_ActionButton_Overflow=0x7f08006c;
+        public static final int Base_Widget_AppCompat_ActionMode=0x7f0800c6;
+        public static final int Base_Widget_AppCompat_ActivityChooserView=0x7f0800c7;
         public static final int Base_Widget_AppCompat_AutoCompleteTextView=0x7f080021;
-        public static final int Base_Widget_AppCompat_Button=0x7f080069;
-        public static final int Base_Widget_AppCompat_Button_Borderless=0x7f08006a;
-        public static final int Base_Widget_AppCompat_Button_Borderless_Colored=0x7f08006b;
-        public static final int Base_Widget_AppCompat_Button_ButtonBar_AlertDialog=0x7f0800c6;
-        public static final int Base_Widget_AppCompat_Button_Colored=0x7f080097;
-        public static final int Base_Widget_AppCompat_Button_Small=0x7f08006c;
-        public static final int Base_Widget_AppCompat_ButtonBar=0x7f08006d;
-        public static final int Base_Widget_AppCompat_ButtonBar_AlertDialog=0x7f0800c7;
-        public static final int Base_Widget_AppCompat_CompoundButton_CheckBox=0x7f08006e;
-        public static final int Base_Widget_AppCompat_CompoundButton_RadioButton=0x7f08006f;
-        public static final int Base_Widget_AppCompat_CompoundButton_Switch=0x7f0800c8;
+        public static final int Base_Widget_AppCompat_Button=0x7f08006d;
+        public static final int Base_Widget_AppCompat_Button_Borderless=0x7f08006e;
+        public static final int Base_Widget_AppCompat_Button_Borderless_Colored=0x7f08006f;
+        public static final int Base_Widget_AppCompat_Button_ButtonBar_AlertDialog=0x7f0800c8;
+        public static final int Base_Widget_AppCompat_Button_Colored=0x7f08009a;
+        public static final int Base_Widget_AppCompat_Button_Small=0x7f080070;
+        public static final int Base_Widget_AppCompat_ButtonBar=0x7f080071;
+        public static final int Base_Widget_AppCompat_ButtonBar_AlertDialog=0x7f0800c9;
+        public static final int Base_Widget_AppCompat_CompoundButton_CheckBox=0x7f080072;
+        public static final int Base_Widget_AppCompat_CompoundButton_RadioButton=0x7f080073;
+        public static final int Base_Widget_AppCompat_CompoundButton_Switch=0x7f0800ca;
         public static final int Base_Widget_AppCompat_DrawerArrowToggle=0x7f080000;
-        public static final int Base_Widget_AppCompat_DrawerArrowToggle_Common=0x7f0800c9;
-        public static final int Base_Widget_AppCompat_DropDownItem_Spinner=0x7f080070;
+        public static final int Base_Widget_AppCompat_DrawerArrowToggle_Common=0x7f0800cb;
+        public static final int Base_Widget_AppCompat_DropDownItem_Spinner=0x7f080074;
         public static final int Base_Widget_AppCompat_EditText=0x7f080022;
-        public static final int Base_Widget_AppCompat_ImageButton=0x7f080071;
-        public static final int Base_Widget_AppCompat_Light_ActionBar=0x7f0800ca;
-        public static final int Base_Widget_AppCompat_Light_ActionBar_Solid=0x7f0800cb;
-        public static final int Base_Widget_AppCompat_Light_ActionBar_TabBar=0x7f0800cc;
-        public static final int Base_Widget_AppCompat_Light_ActionBar_TabText=0x7f080072;
-        public static final int Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse=0x7f080073;
-        public static final int Base_Widget_AppCompat_Light_ActionBar_TabView=0x7f080074;
-        public static final int Base_Widget_AppCompat_Light_PopupMenu=0x7f080075;
-        public static final int Base_Widget_AppCompat_Light_PopupMenu_Overflow=0x7f080076;
-        public static final int Base_Widget_AppCompat_ListMenuView=0x7f0800cd;
-        public static final int Base_Widget_AppCompat_ListPopupWindow=0x7f080077;
-        public static final int Base_Widget_AppCompat_ListView=0x7f080078;
-        public static final int Base_Widget_AppCompat_ListView_DropDown=0x7f080079;
-        public static final int Base_Widget_AppCompat_ListView_Menu=0x7f08007a;
-        public static final int Base_Widget_AppCompat_PopupMenu=0x7f08007b;
-        public static final int Base_Widget_AppCompat_PopupMenu_Overflow=0x7f08007c;
-        public static final int Base_Widget_AppCompat_PopupWindow=0x7f0800ce;
+        public static final int Base_Widget_AppCompat_ImageButton=0x7f080075;
+        public static final int Base_Widget_AppCompat_Light_ActionBar=0x7f0800cc;
+        public static final int Base_Widget_AppCompat_Light_ActionBar_Solid=0x7f0800cd;
+        public static final int Base_Widget_AppCompat_Light_ActionBar_TabBar=0x7f0800ce;
+        public static final int Base_Widget_AppCompat_Light_ActionBar_TabText=0x7f080076;
+        public static final int Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse=0x7f080077;
+        public static final int Base_Widget_AppCompat_Light_ActionBar_TabView=0x7f080078;
+        public static final int Base_Widget_AppCompat_Light_PopupMenu=0x7f080079;
+        public static final int Base_Widget_AppCompat_Light_PopupMenu_Overflow=0x7f08007a;
+        public static final int Base_Widget_AppCompat_ListMenuView=0x7f0800cf;
+        public static final int Base_Widget_AppCompat_ListPopupWindow=0x7f08007b;
+        public static final int Base_Widget_AppCompat_ListView=0x7f08007c;
+        public static final int Base_Widget_AppCompat_ListView_DropDown=0x7f08007d;
+        public static final int Base_Widget_AppCompat_ListView_Menu=0x7f08007e;
+        public static final int Base_Widget_AppCompat_PopupMenu=0x7f08007f;
+        public static final int Base_Widget_AppCompat_PopupMenu_Overflow=0x7f080080;
+        public static final int Base_Widget_AppCompat_PopupWindow=0x7f0800d0;
         public static final int Base_Widget_AppCompat_ProgressBar=0x7f080018;
         public static final int Base_Widget_AppCompat_ProgressBar_Horizontal=0x7f080019;
-        public static final int Base_Widget_AppCompat_RatingBar=0x7f08007d;
-        public static final int Base_Widget_AppCompat_RatingBar_Indicator=0x7f080098;
-        public static final int Base_Widget_AppCompat_RatingBar_Small=0x7f080099;
-        public static final int Base_Widget_AppCompat_SearchView=0x7f0800cf;
-        public static final int Base_Widget_AppCompat_SearchView_ActionBar=0x7f0800d0;
-        public static final int Base_Widget_AppCompat_SeekBar=0x7f08007e;
-        public static final int Base_Widget_AppCompat_SeekBar_Discrete=0x7f0800d1;
-        public static final int Base_Widget_AppCompat_Spinner=0x7f08007f;
+        public static final int Base_Widget_AppCompat_RatingBar=0x7f080081;
+        public static final int Base_Widget_AppCompat_RatingBar_Indicator=0x7f08009b;
+        public static final int Base_Widget_AppCompat_RatingBar_Small=0x7f08009c;
+        public static final int Base_Widget_AppCompat_SearchView=0x7f0800d1;
+        public static final int Base_Widget_AppCompat_SearchView_ActionBar=0x7f0800d2;
+        public static final int Base_Widget_AppCompat_SeekBar=0x7f080082;
+        public static final int Base_Widget_AppCompat_SeekBar_Discrete=0x7f0800d3;
+        public static final int Base_Widget_AppCompat_Spinner=0x7f080083;
         public static final int Base_Widget_AppCompat_Spinner_Underlined=0x7f080004;
-        public static final int Base_Widget_AppCompat_TextView_SpinnerItem=0x7f080080;
-        public static final int Base_Widget_AppCompat_Toolbar=0x7f0800d2;
-        public static final int Base_Widget_AppCompat_Toolbar_Button_Navigation=0x7f080081;
-        public static final int Base_Widget_Design_AppBarLayout=0x7f0800d3;
-        public static final int Base_Widget_Design_TabLayout=0x7f0800d4;
-        public static final int CardView=0x7f0800d5;
-        public static final int CardView_Dark=0x7f0800d6;
-        public static final int CardView_Light=0x7f0800d7;
-        public static final int MyTheme_=0x7f080082;
+        public static final int Base_Widget_AppCompat_TextView_SpinnerItem=0x7f080084;
+        public static final int Base_Widget_AppCompat_Toolbar=0x7f0800d4;
+        public static final int Base_Widget_AppCompat_Toolbar_Button_Navigation=0x7f080085;
+        public static final int Base_Widget_Design_AppBarLayout=0x7f0800d5;
+        public static final int Base_Widget_Design_TabLayout=0x7f0800d6;
+        public static final int CardView=0x7f0800d7;
+        public static final int CardView_Dark=0x7f0800d8;
+        public static final int CardView_Light=0x7f0800d9;
         public static final int Platform_AppCompat=0x7f08001a;
         public static final int Platform_AppCompat_Light=0x7f08001b;
-        public static final int Platform_ThemeOverlay_AppCompat=0x7f080083;
-        public static final int Platform_ThemeOverlay_AppCompat_Dark=0x7f080084;
-        public static final int Platform_ThemeOverlay_AppCompat_Light=0x7f080085;
+        public static final int Platform_ThemeOverlay_AppCompat=0x7f080086;
+        public static final int Platform_ThemeOverlay_AppCompat_Dark=0x7f080087;
+        public static final int Platform_ThemeOverlay_AppCompat_Light=0x7f080088;
         public static final int Platform_V11_AppCompat=0x7f08001c;
         public static final int Platform_V11_AppCompat_Light=0x7f08001d;
         public static final int Platform_V14_AppCompat=0x7f080024;
         public static final int Platform_V14_AppCompat_Light=0x7f080025;
-        public static final int Platform_V21_AppCompat=0x7f080086;
-        public static final int Platform_V21_AppCompat_Light=0x7f080087;
-        public static final int Platform_V25_AppCompat=0x7f08009a;
-        public static final int Platform_V25_AppCompat_Light=0x7f08009b;
+        public static final int Platform_V21_AppCompat=0x7f080089;
+        public static final int Platform_V21_AppCompat_Light=0x7f08008a;
+        public static final int Platform_V25_AppCompat=0x7f08009d;
+        public static final int Platform_V25_AppCompat_Light=0x7f08009e;
         public static final int Platform_Widget_AppCompat_Spinner=0x7f08001e;
-        public static final int RtlOverlay_DialogWindowTitle_AppCompat=0x7f08002d;
-        public static final int RtlOverlay_Widget_AppCompat_ActionBar_TitleItem=0x7f08002e;
-        public static final int RtlOverlay_Widget_AppCompat_DialogTitle_Icon=0x7f08002f;
-        public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem=0x7f080030;
-        public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup=0x7f080031;
-        public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_Text=0x7f080032;
-        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown=0x7f080033;
-        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1=0x7f080034;
-        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2=0x7f080035;
-        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Query=0x7f080036;
-        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Text=0x7f080037;
-        public static final int RtlOverlay_Widget_AppCompat_SearchView_MagIcon=0x7f080038;
-        public static final int RtlUnderlay_Widget_AppCompat_ActionButton=0x7f080039;
-        public static final int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow=0x7f08003a;
-        public static final int TextAppearance_AppCompat=0x7f0800d8;
-        public static final int TextAppearance_AppCompat_Body1=0x7f0800d9;
-        public static final int TextAppearance_AppCompat_Body2=0x7f0800da;
-        public static final int TextAppearance_AppCompat_Button=0x7f0800db;
-        public static final int TextAppearance_AppCompat_Caption=0x7f0800dc;
-        public static final int TextAppearance_AppCompat_Display1=0x7f0800dd;
-        public static final int TextAppearance_AppCompat_Display2=0x7f0800de;
-        public static final int TextAppearance_AppCompat_Display3=0x7f0800df;
-        public static final int TextAppearance_AppCompat_Display4=0x7f0800e0;
-        public static final int TextAppearance_AppCompat_Headline=0x7f0800e1;
-        public static final int TextAppearance_AppCompat_Inverse=0x7f0800e2;
-        public static final int TextAppearance_AppCompat_Large=0x7f0800e3;
-        public static final int TextAppearance_AppCompat_Large_Inverse=0x7f0800e4;
-        public static final int TextAppearance_AppCompat_Light_SearchResult_Subtitle=0x7f0800e5;
-        public static final int TextAppearance_AppCompat_Light_SearchResult_Title=0x7f0800e6;
-        public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large=0x7f0800e7;
-        public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small=0x7f0800e8;
-        public static final int TextAppearance_AppCompat_Medium=0x7f0800e9;
-        public static final int TextAppearance_AppCompat_Medium_Inverse=0x7f0800ea;
-        public static final int TextAppearance_AppCompat_Menu=0x7f0800eb;
+        public static final int RtlOverlay_DialogWindowTitle_AppCompat=0x7f080031;
+        public static final int RtlOverlay_Widget_AppCompat_ActionBar_TitleItem=0x7f080032;
+        public static final int RtlOverlay_Widget_AppCompat_DialogTitle_Icon=0x7f080033;
+        public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem=0x7f080034;
+        public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup=0x7f080035;
+        public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_Text=0x7f080036;
+        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown=0x7f080037;
+        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1=0x7f080038;
+        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2=0x7f080039;
+        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Query=0x7f08003a;
+        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Text=0x7f08003b;
+        public static final int RtlOverlay_Widget_AppCompat_SearchView_MagIcon=0x7f08003c;
+        public static final int RtlUnderlay_Widget_AppCompat_ActionButton=0x7f08003d;
+        public static final int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow=0x7f08003e;
+        public static final int TextAppearance_AppCompat=0x7f0800da;
+        public static final int TextAppearance_AppCompat_Body1=0x7f0800db;
+        public static final int TextAppearance_AppCompat_Body2=0x7f0800dc;
+        public static final int TextAppearance_AppCompat_Button=0x7f0800dd;
+        public static final int TextAppearance_AppCompat_Caption=0x7f0800de;
+        public static final int TextAppearance_AppCompat_Display1=0x7f0800df;
+        public static final int TextAppearance_AppCompat_Display2=0x7f0800e0;
+        public static final int TextAppearance_AppCompat_Display3=0x7f0800e1;
+        public static final int TextAppearance_AppCompat_Display4=0x7f0800e2;
+        public static final int TextAppearance_AppCompat_Headline=0x7f0800e3;
+        public static final int TextAppearance_AppCompat_Inverse=0x7f0800e4;
+        public static final int TextAppearance_AppCompat_Large=0x7f0800e5;
+        public static final int TextAppearance_AppCompat_Large_Inverse=0x7f0800e6;
+        public static final int TextAppearance_AppCompat_Light_SearchResult_Subtitle=0x7f0800e7;
+        public static final int TextAppearance_AppCompat_Light_SearchResult_Title=0x7f0800e8;
+        public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large=0x7f0800e9;
+        public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small=0x7f0800ea;
+        public static final int TextAppearance_AppCompat_Medium=0x7f0800eb;
+        public static final int TextAppearance_AppCompat_Medium_Inverse=0x7f0800ec;
+        public static final int TextAppearance_AppCompat_Menu=0x7f0800ed;
         public static final int TextAppearance_AppCompat_Notification=0x7f080026;
-        public static final int TextAppearance_AppCompat_Notification_Info=0x7f080088;
-        public static final int TextAppearance_AppCompat_Notification_Info_Media=0x7f080089;
-        public static final int TextAppearance_AppCompat_Notification_Line2=0x7f0800ec;
-        public static final int TextAppearance_AppCompat_Notification_Line2_Media=0x7f0800ed;
-        public static final int TextAppearance_AppCompat_Notification_Media=0x7f08008a;
-        public static final int TextAppearance_AppCompat_Notification_Time=0x7f08008b;
-        public static final int TextAppearance_AppCompat_Notification_Time_Media=0x7f08008c;
+        public static final int TextAppearance_AppCompat_Notification_Info=0x7f08008b;
+        public static final int TextAppearance_AppCompat_Notification_Info_Media=0x7f08008c;
+        public static final int TextAppearance_AppCompat_Notification_Line2=0x7f0800ee;
+        public static final int TextAppearance_AppCompat_Notification_Line2_Media=0x7f0800ef;
+        public static final int TextAppearance_AppCompat_Notification_Media=0x7f08008d;
+        public static final int TextAppearance_AppCompat_Notification_Time=0x7f08008e;
+        public static final int TextAppearance_AppCompat_Notification_Time_Media=0x7f08008f;
         public static final int TextAppearance_AppCompat_Notification_Title=0x7f080027;
-        public static final int TextAppearance_AppCompat_Notification_Title_Media=0x7f08008d;
-        public static final int TextAppearance_AppCompat_SearchResult_Subtitle=0x7f0800ee;
-        public static final int TextAppearance_AppCompat_SearchResult_Title=0x7f0800ef;
-        public static final int TextAppearance_AppCompat_Small=0x7f0800f0;
-        public static final int TextAppearance_AppCompat_Small_Inverse=0x7f0800f1;
-        public static final int TextAppearance_AppCompat_Subhead=0x7f0800f2;
-        public static final int TextAppearance_AppCompat_Subhead_Inverse=0x7f0800f3;
-        public static final int TextAppearance_AppCompat_Title=0x7f0800f4;
-        public static final int TextAppearance_AppCompat_Title_Inverse=0x7f0800f5;
-        public static final int TextAppearance_AppCompat_Widget_ActionBar_Menu=0x7f0800f6;
-        public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle=0x7f0800f7;
-        public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse=0x7f0800f8;
-        public static final int TextAppearance_AppCompat_Widget_ActionBar_Title=0x7f0800f9;
-        public static final int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse=0x7f0800fa;
-        public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle=0x7f0800fb;
-        public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse=0x7f0800fc;
-        public static final int TextAppearance_AppCompat_Widget_ActionMode_Title=0x7f0800fd;
-        public static final int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse=0x7f0800fe;
-        public static final int TextAppearance_AppCompat_Widget_Button=0x7f0800ff;
-        public static final int TextAppearance_AppCompat_Widget_Button_Inverse=0x7f080100;
-        public static final int TextAppearance_AppCompat_Widget_DropDownItem=0x7f080101;
-        public static final int TextAppearance_AppCompat_Widget_PopupMenu_Header=0x7f080102;
-        public static final int TextAppearance_AppCompat_Widget_PopupMenu_Large=0x7f080103;
-        public static final int TextAppearance_AppCompat_Widget_PopupMenu_Small=0x7f080104;
-        public static final int TextAppearance_AppCompat_Widget_Switch=0x7f080105;
-        public static final int TextAppearance_AppCompat_Widget_TextView_SpinnerItem=0x7f080106;
-        public static final int TextAppearance_Design_CollapsingToolbar_Expanded=0x7f080107;
-        public static final int TextAppearance_Design_Counter=0x7f080108;
-        public static final int TextAppearance_Design_Counter_Overflow=0x7f080109;
-        public static final int TextAppearance_Design_Error=0x7f08010a;
-        public static final int TextAppearance_Design_Hint=0x7f08010b;
-        public static final int TextAppearance_Design_Snackbar_Message=0x7f08010c;
-        public static final int TextAppearance_Design_Tab=0x7f08010d;
+        public static final int TextAppearance_AppCompat_Notification_Title_Media=0x7f080090;
+        public static final int TextAppearance_AppCompat_SearchResult_Subtitle=0x7f0800f0;
+        public static final int TextAppearance_AppCompat_SearchResult_Title=0x7f0800f1;
+        public static final int TextAppearance_AppCompat_Small=0x7f0800f2;
+        public static final int TextAppearance_AppCompat_Small_Inverse=0x7f0800f3;
+        public static final int TextAppearance_AppCompat_Subhead=0x7f0800f4;
+        public static final int TextAppearance_AppCompat_Subhead_Inverse=0x7f0800f5;
+        public static final int TextAppearance_AppCompat_Title=0x7f0800f6;
+        public static final int TextAppearance_AppCompat_Title_Inverse=0x7f0800f7;
+        public static final int TextAppearance_AppCompat_Widget_ActionBar_Menu=0x7f0800f8;
+        public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle=0x7f0800f9;
+        public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse=0x7f0800fa;
+        public static final int TextAppearance_AppCompat_Widget_ActionBar_Title=0x7f0800fb;
+        public static final int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse=0x7f0800fc;
+        public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle=0x7f0800fd;
+        public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse=0x7f0800fe;
+        public static final int TextAppearance_AppCompat_Widget_ActionMode_Title=0x7f0800ff;
+        public static final int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse=0x7f080100;
+        public static final int TextAppearance_AppCompat_Widget_Button=0x7f080101;
+        public static final int TextAppearance_AppCompat_Widget_Button_Inverse=0x7f080102;
+        public static final int TextAppearance_AppCompat_Widget_DropDownItem=0x7f080103;
+        public static final int TextAppearance_AppCompat_Widget_PopupMenu_Header=0x7f080104;
+        public static final int TextAppearance_AppCompat_Widget_PopupMenu_Large=0x7f080105;
+        public static final int TextAppearance_AppCompat_Widget_PopupMenu_Small=0x7f080106;
+        public static final int TextAppearance_AppCompat_Widget_Switch=0x7f080107;
+        public static final int TextAppearance_AppCompat_Widget_TextView_SpinnerItem=0x7f080108;
+        public static final int TextAppearance_Design_CollapsingToolbar_Expanded=0x7f080109;
+        public static final int TextAppearance_Design_Counter=0x7f08010a;
+        public static final int TextAppearance_Design_Counter_Overflow=0x7f08010b;
+        public static final int TextAppearance_Design_Error=0x7f08010c;
+        public static final int TextAppearance_Design_Hint=0x7f08010d;
+        public static final int TextAppearance_Design_Snackbar_Message=0x7f08010e;
+        public static final int TextAppearance_Design_Tab=0x7f08010f;
         public static final int TextAppearance_StatusBar_EventContent=0x7f080028;
         public static final int TextAppearance_StatusBar_EventContent_Info=0x7f080029;
         public static final int TextAppearance_StatusBar_EventContent_Line2=0x7f08002a;
         public static final int TextAppearance_StatusBar_EventContent_Time=0x7f08002b;
         public static final int TextAppearance_StatusBar_EventContent_Title=0x7f08002c;
-        public static final int TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f08010e;
-        public static final int TextAppearance_Widget_AppCompat_Toolbar_Subtitle=0x7f08010f;
-        public static final int TextAppearance_Widget_AppCompat_Toolbar_Title=0x7f080110;
-        public static final int Theme_AppCompat=0x7f080111;
-        public static final int Theme_AppCompat_CompactMenu=0x7f080112;
+        public static final int TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f080110;
+        public static final int TextAppearance_Widget_AppCompat_Toolbar_Subtitle=0x7f080111;
+        public static final int TextAppearance_Widget_AppCompat_Toolbar_Title=0x7f080112;
+        public static final int Theme_AppCompat=0x7f080113;
+        public static final int Theme_AppCompat_CompactMenu=0x7f080114;
         public static final int Theme_AppCompat_DayNight=0x7f080005;
         public static final int Theme_AppCompat_DayNight_DarkActionBar=0x7f080006;
         public static final int Theme_AppCompat_DayNight_Dialog=0x7f080007;
@@ -3639,119 +3637,119 @@ containing a value of this type.
         public static final int Theme_AppCompat_DayNight_Dialog_MinWidth=0x7f080009;
         public static final int Theme_AppCompat_DayNight_DialogWhenLarge=0x7f08000a;
         public static final int Theme_AppCompat_DayNight_NoActionBar=0x7f08000b;
-        public static final int Theme_AppCompat_Dialog=0x7f080113;
-        public static final int Theme_AppCompat_Dialog_Alert=0x7f080114;
-        public static final int Theme_AppCompat_Dialog_MinWidth=0x7f080115;
-        public static final int Theme_AppCompat_DialogWhenLarge=0x7f080116;
-        public static final int Theme_AppCompat_Light=0x7f080117;
-        public static final int Theme_AppCompat_Light_DarkActionBar=0x7f080118;
-        public static final int Theme_AppCompat_Light_Dialog=0x7f080119;
-        public static final int Theme_AppCompat_Light_Dialog_Alert=0x7f08011a;
-        public static final int Theme_AppCompat_Light_Dialog_MinWidth=0x7f08011b;
-        public static final int Theme_AppCompat_Light_DialogWhenLarge=0x7f08011c;
-        public static final int Theme_AppCompat_Light_NoActionBar=0x7f08011d;
-        public static final int Theme_AppCompat_NoActionBar=0x7f08011e;
-        public static final int Theme_Design=0x7f08011f;
-        public static final int Theme_Design_BottomSheetDialog=0x7f080120;
-        public static final int Theme_Design_Light=0x7f080121;
-        public static final int Theme_Design_Light_BottomSheetDialog=0x7f080122;
-        public static final int Theme_Design_Light_NoActionBar=0x7f080123;
-        public static final int Theme_Design_NoActionBar=0x7f080124;
-        public static final int ThemeOverlay_AppCompat=0x7f080125;
-        public static final int ThemeOverlay_AppCompat_ActionBar=0x7f080126;
-        public static final int ThemeOverlay_AppCompat_Dark=0x7f080127;
-        public static final int ThemeOverlay_AppCompat_Dark_ActionBar=0x7f080128;
-        public static final int ThemeOverlay_AppCompat_Dialog=0x7f080129;
-        public static final int ThemeOverlay_AppCompat_Dialog_Alert=0x7f08012a;
-        public static final int ThemeOverlay_AppCompat_Light=0x7f08012b;
-        public static final int ToolBarTheme=0x7f08012c;
-        public static final int Widget_AppCompat_ActionBar=0x7f08012d;
-        public static final int Widget_AppCompat_ActionBar_Solid=0x7f08012e;
-        public static final int Widget_AppCompat_ActionBar_TabBar=0x7f08012f;
-        public static final int Widget_AppCompat_ActionBar_TabText=0x7f080130;
-        public static final int Widget_AppCompat_ActionBar_TabView=0x7f080131;
-        public static final int Widget_AppCompat_ActionButton=0x7f080132;
-        public static final int Widget_AppCompat_ActionButton_CloseMode=0x7f080133;
-        public static final int Widget_AppCompat_ActionButton_Overflow=0x7f080134;
-        public static final int Widget_AppCompat_ActionMode=0x7f080135;
-        public static final int Widget_AppCompat_ActivityChooserView=0x7f080136;
-        public static final int Widget_AppCompat_AutoCompleteTextView=0x7f080137;
-        public static final int Widget_AppCompat_Button=0x7f080138;
-        public static final int Widget_AppCompat_Button_Borderless=0x7f080139;
-        public static final int Widget_AppCompat_Button_Borderless_Colored=0x7f08013a;
-        public static final int Widget_AppCompat_Button_ButtonBar_AlertDialog=0x7f08013b;
-        public static final int Widget_AppCompat_Button_Colored=0x7f08013c;
-        public static final int Widget_AppCompat_Button_Small=0x7f08013d;
-        public static final int Widget_AppCompat_ButtonBar=0x7f08013e;
-        public static final int Widget_AppCompat_ButtonBar_AlertDialog=0x7f08013f;
-        public static final int Widget_AppCompat_CompoundButton_CheckBox=0x7f080140;
-        public static final int Widget_AppCompat_CompoundButton_RadioButton=0x7f080141;
-        public static final int Widget_AppCompat_CompoundButton_Switch=0x7f080142;
-        public static final int Widget_AppCompat_DrawerArrowToggle=0x7f080143;
-        public static final int Widget_AppCompat_DropDownItem_Spinner=0x7f080144;
-        public static final int Widget_AppCompat_EditText=0x7f080145;
-        public static final int Widget_AppCompat_ImageButton=0x7f080146;
-        public static final int Widget_AppCompat_Light_ActionBar=0x7f080147;
-        public static final int Widget_AppCompat_Light_ActionBar_Solid=0x7f080148;
-        public static final int Widget_AppCompat_Light_ActionBar_Solid_Inverse=0x7f080149;
-        public static final int Widget_AppCompat_Light_ActionBar_TabBar=0x7f08014a;
-        public static final int Widget_AppCompat_Light_ActionBar_TabBar_Inverse=0x7f08014b;
-        public static final int Widget_AppCompat_Light_ActionBar_TabText=0x7f08014c;
-        public static final int Widget_AppCompat_Light_ActionBar_TabText_Inverse=0x7f08014d;
-        public static final int Widget_AppCompat_Light_ActionBar_TabView=0x7f08014e;
-        public static final int Widget_AppCompat_Light_ActionBar_TabView_Inverse=0x7f08014f;
-        public static final int Widget_AppCompat_Light_ActionButton=0x7f080150;
-        public static final int Widget_AppCompat_Light_ActionButton_CloseMode=0x7f080151;
-        public static final int Widget_AppCompat_Light_ActionButton_Overflow=0x7f080152;
-        public static final int Widget_AppCompat_Light_ActionMode_Inverse=0x7f080153;
-        public static final int Widget_AppCompat_Light_ActivityChooserView=0x7f080154;
-        public static final int Widget_AppCompat_Light_AutoCompleteTextView=0x7f080155;
-        public static final int Widget_AppCompat_Light_DropDownItem_Spinner=0x7f080156;
-        public static final int Widget_AppCompat_Light_ListPopupWindow=0x7f080157;
-        public static final int Widget_AppCompat_Light_ListView_DropDown=0x7f080158;
-        public static final int Widget_AppCompat_Light_PopupMenu=0x7f080159;
-        public static final int Widget_AppCompat_Light_PopupMenu_Overflow=0x7f08015a;
-        public static final int Widget_AppCompat_Light_SearchView=0x7f08015b;
-        public static final int Widget_AppCompat_Light_Spinner_DropDown_ActionBar=0x7f08015c;
-        public static final int Widget_AppCompat_ListMenuView=0x7f08015d;
-        public static final int Widget_AppCompat_ListPopupWindow=0x7f08015e;
-        public static final int Widget_AppCompat_ListView=0x7f08015f;
-        public static final int Widget_AppCompat_ListView_DropDown=0x7f080160;
-        public static final int Widget_AppCompat_ListView_Menu=0x7f080161;
-        public static final int Widget_AppCompat_NotificationActionContainer=0x7f08008e;
-        public static final int Widget_AppCompat_NotificationActionText=0x7f08008f;
-        public static final int Widget_AppCompat_PopupMenu=0x7f080162;
-        public static final int Widget_AppCompat_PopupMenu_Overflow=0x7f080163;
-        public static final int Widget_AppCompat_PopupWindow=0x7f080164;
-        public static final int Widget_AppCompat_ProgressBar=0x7f080165;
-        public static final int Widget_AppCompat_ProgressBar_Horizontal=0x7f080166;
-        public static final int Widget_AppCompat_RatingBar=0x7f080167;
-        public static final int Widget_AppCompat_RatingBar_Indicator=0x7f080168;
-        public static final int Widget_AppCompat_RatingBar_Small=0x7f080169;
-        public static final int Widget_AppCompat_SearchView=0x7f08016a;
-        public static final int Widget_AppCompat_SearchView_ActionBar=0x7f08016b;
-        public static final int Widget_AppCompat_SeekBar=0x7f08016c;
-        public static final int Widget_AppCompat_SeekBar_Discrete=0x7f08016d;
-        public static final int Widget_AppCompat_Spinner=0x7f08016e;
-        public static final int Widget_AppCompat_Spinner_DropDown=0x7f08016f;
-        public static final int Widget_AppCompat_Spinner_DropDown_ActionBar=0x7f080170;
-        public static final int Widget_AppCompat_Spinner_Underlined=0x7f080171;
-        public static final int Widget_AppCompat_TextView_SpinnerItem=0x7f080172;
-        public static final int Widget_AppCompat_Toolbar=0x7f080173;
-        public static final int Widget_AppCompat_Toolbar_Button_Navigation=0x7f080174;
-        public static final int Widget_Design_AppBarLayout=0x7f080090;
-        public static final int Widget_Design_BottomNavigationView=0x7f080175;
-        public static final int Widget_Design_BottomSheet_Modal=0x7f080176;
-        public static final int Widget_Design_CollapsingToolbar=0x7f080177;
-        public static final int Widget_Design_CoordinatorLayout=0x7f080178;
-        public static final int Widget_Design_FloatingActionButton=0x7f080179;
-        public static final int Widget_Design_NavigationView=0x7f08017a;
-        public static final int Widget_Design_ScrimInsetsFrameLayout=0x7f08017b;
-        public static final int Widget_Design_Snackbar=0x7f08017c;
+        public static final int Theme_AppCompat_Dialog=0x7f080115;
+        public static final int Theme_AppCompat_Dialog_Alert=0x7f080116;
+        public static final int Theme_AppCompat_Dialog_MinWidth=0x7f080117;
+        public static final int Theme_AppCompat_DialogWhenLarge=0x7f080118;
+        public static final int Theme_AppCompat_Light=0x7f080119;
+        public static final int Theme_AppCompat_Light_DarkActionBar=0x7f08011a;
+        public static final int Theme_AppCompat_Light_Dialog=0x7f08011b;
+        public static final int Theme_AppCompat_Light_Dialog_Alert=0x7f08011c;
+        public static final int Theme_AppCompat_Light_Dialog_MinWidth=0x7f08011d;
+        public static final int Theme_AppCompat_Light_DialogWhenLarge=0x7f08011e;
+        public static final int Theme_AppCompat_Light_NoActionBar=0x7f08011f;
+        public static final int Theme_AppCompat_NoActionBar=0x7f080120;
+        public static final int Theme_Design=0x7f080121;
+        public static final int Theme_Design_BottomSheetDialog=0x7f080122;
+        public static final int Theme_Design_Light=0x7f080123;
+        public static final int Theme_Design_Light_BottomSheetDialog=0x7f080124;
+        public static final int Theme_Design_Light_NoActionBar=0x7f080125;
+        public static final int Theme_Design_NoActionBar=0x7f080126;
+        public static final int ThemeOverlay_AppCompat=0x7f080127;
+        public static final int ThemeOverlay_AppCompat_ActionBar=0x7f080128;
+        public static final int ThemeOverlay_AppCompat_Dark=0x7f080129;
+        public static final int ThemeOverlay_AppCompat_Dark_ActionBar=0x7f08012a;
+        public static final int ThemeOverlay_AppCompat_Dialog=0x7f08012b;
+        public static final int ThemeOverlay_AppCompat_Dialog_Alert=0x7f08012c;
+        public static final int ThemeOverlay_AppCompat_Light=0x7f08012d;
+        public static final int ToolBarTheme=0x7f08002e;
+        public static final int Widget_AppCompat_ActionBar=0x7f08012e;
+        public static final int Widget_AppCompat_ActionBar_Solid=0x7f08012f;
+        public static final int Widget_AppCompat_ActionBar_TabBar=0x7f080130;
+        public static final int Widget_AppCompat_ActionBar_TabText=0x7f080131;
+        public static final int Widget_AppCompat_ActionBar_TabView=0x7f080132;
+        public static final int Widget_AppCompat_ActionButton=0x7f080133;
+        public static final int Widget_AppCompat_ActionButton_CloseMode=0x7f080134;
+        public static final int Widget_AppCompat_ActionButton_Overflow=0x7f080135;
+        public static final int Widget_AppCompat_ActionMode=0x7f080136;
+        public static final int Widget_AppCompat_ActivityChooserView=0x7f080137;
+        public static final int Widget_AppCompat_AutoCompleteTextView=0x7f080138;
+        public static final int Widget_AppCompat_Button=0x7f080139;
+        public static final int Widget_AppCompat_Button_Borderless=0x7f08013a;
+        public static final int Widget_AppCompat_Button_Borderless_Colored=0x7f08013b;
+        public static final int Widget_AppCompat_Button_ButtonBar_AlertDialog=0x7f08013c;
+        public static final int Widget_AppCompat_Button_Colored=0x7f08013d;
+        public static final int Widget_AppCompat_Button_Small=0x7f08013e;
+        public static final int Widget_AppCompat_ButtonBar=0x7f08013f;
+        public static final int Widget_AppCompat_ButtonBar_AlertDialog=0x7f080140;
+        public static final int Widget_AppCompat_CompoundButton_CheckBox=0x7f080141;
+        public static final int Widget_AppCompat_CompoundButton_RadioButton=0x7f080142;
+        public static final int Widget_AppCompat_CompoundButton_Switch=0x7f080143;
+        public static final int Widget_AppCompat_DrawerArrowToggle=0x7f080144;
+        public static final int Widget_AppCompat_DropDownItem_Spinner=0x7f080145;
+        public static final int Widget_AppCompat_EditText=0x7f080146;
+        public static final int Widget_AppCompat_ImageButton=0x7f080147;
+        public static final int Widget_AppCompat_Light_ActionBar=0x7f080148;
+        public static final int Widget_AppCompat_Light_ActionBar_Solid=0x7f080149;
+        public static final int Widget_AppCompat_Light_ActionBar_Solid_Inverse=0x7f08014a;
+        public static final int Widget_AppCompat_Light_ActionBar_TabBar=0x7f08014b;
+        public static final int Widget_AppCompat_Light_ActionBar_TabBar_Inverse=0x7f08014c;
+        public static final int Widget_AppCompat_Light_ActionBar_TabText=0x7f08014d;
+        public static final int Widget_AppCompat_Light_ActionBar_TabText_Inverse=0x7f08014e;
+        public static final int Widget_AppCompat_Light_ActionBar_TabView=0x7f08014f;
+        public static final int Widget_AppCompat_Light_ActionBar_TabView_Inverse=0x7f080150;
+        public static final int Widget_AppCompat_Light_ActionButton=0x7f080151;
+        public static final int Widget_AppCompat_Light_ActionButton_CloseMode=0x7f080152;
+        public static final int Widget_AppCompat_Light_ActionButton_Overflow=0x7f080153;
+        public static final int Widget_AppCompat_Light_ActionMode_Inverse=0x7f080154;
+        public static final int Widget_AppCompat_Light_ActivityChooserView=0x7f080155;
+        public static final int Widget_AppCompat_Light_AutoCompleteTextView=0x7f080156;
+        public static final int Widget_AppCompat_Light_DropDownItem_Spinner=0x7f080157;
+        public static final int Widget_AppCompat_Light_ListPopupWindow=0x7f080158;
+        public static final int Widget_AppCompat_Light_ListView_DropDown=0x7f080159;
+        public static final int Widget_AppCompat_Light_PopupMenu=0x7f08015a;
+        public static final int Widget_AppCompat_Light_PopupMenu_Overflow=0x7f08015b;
+        public static final int Widget_AppCompat_Light_SearchView=0x7f08015c;
+        public static final int Widget_AppCompat_Light_Spinner_DropDown_ActionBar=0x7f08015d;
+        public static final int Widget_AppCompat_ListMenuView=0x7f08015e;
+        public static final int Widget_AppCompat_ListPopupWindow=0x7f08015f;
+        public static final int Widget_AppCompat_ListView=0x7f080160;
+        public static final int Widget_AppCompat_ListView_DropDown=0x7f080161;
+        public static final int Widget_AppCompat_ListView_Menu=0x7f080162;
+        public static final int Widget_AppCompat_NotificationActionContainer=0x7f080091;
+        public static final int Widget_AppCompat_NotificationActionText=0x7f080092;
+        public static final int Widget_AppCompat_PopupMenu=0x7f080163;
+        public static final int Widget_AppCompat_PopupMenu_Overflow=0x7f080164;
+        public static final int Widget_AppCompat_PopupWindow=0x7f080165;
+        public static final int Widget_AppCompat_ProgressBar=0x7f080166;
+        public static final int Widget_AppCompat_ProgressBar_Horizontal=0x7f080167;
+        public static final int Widget_AppCompat_RatingBar=0x7f080168;
+        public static final int Widget_AppCompat_RatingBar_Indicator=0x7f080169;
+        public static final int Widget_AppCompat_RatingBar_Small=0x7f08016a;
+        public static final int Widget_AppCompat_SearchView=0x7f08016b;
+        public static final int Widget_AppCompat_SearchView_ActionBar=0x7f08016c;
+        public static final int Widget_AppCompat_SeekBar=0x7f08016d;
+        public static final int Widget_AppCompat_SeekBar_Discrete=0x7f08016e;
+        public static final int Widget_AppCompat_Spinner=0x7f08016f;
+        public static final int Widget_AppCompat_Spinner_DropDown=0x7f080170;
+        public static final int Widget_AppCompat_Spinner_DropDown_ActionBar=0x7f080171;
+        public static final int Widget_AppCompat_Spinner_Underlined=0x7f080172;
+        public static final int Widget_AppCompat_TextView_SpinnerItem=0x7f080173;
+        public static final int Widget_AppCompat_Toolbar=0x7f080174;
+        public static final int Widget_AppCompat_Toolbar_Button_Navigation=0x7f080175;
+        public static final int Widget_Design_AppBarLayout=0x7f080093;
+        public static final int Widget_Design_BottomNavigationView=0x7f080176;
+        public static final int Widget_Design_BottomSheet_Modal=0x7f080177;
+        public static final int Widget_Design_CollapsingToolbar=0x7f080178;
+        public static final int Widget_Design_CoordinatorLayout=0x7f080179;
+        public static final int Widget_Design_FloatingActionButton=0x7f08017a;
+        public static final int Widget_Design_NavigationView=0x7f08017b;
+        public static final int Widget_Design_ScrimInsetsFrameLayout=0x7f08017c;
+        public static final int Widget_Design_Snackbar=0x7f08017d;
         public static final int Widget_Design_TabLayout=0x7f080001;
-        public static final int Widget_Design_TextInputLayout=0x7f08017d;
-        public static final int tabText=0x7f08017e;
-        public static final int titleTextStyle=0x7f08017f;
+        public static final int Widget_Design_TextInputLayout=0x7f08017e;
+        public static final int tabText=0x7f08002f;
+        public static final int titleTextStyle=0x7f080030;
     }
     public static final class styleable {
         /** Attributes that can be used with a ActionBar.
@@ -3760,35 +3758,35 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActionBar_background local.koki.android.eventory:background}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_backgroundSplit local.koki.android.eventory:backgroundSplit}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_backgroundStacked local.koki.android.eventory:backgroundStacked}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetEnd local.koki.android.eventory:contentInsetEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetEndWithActions local.koki.android.eventory:contentInsetEndWithActions}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetLeft local.koki.android.eventory:contentInsetLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetRight local.koki.android.eventory:contentInsetRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetStart local.koki.android.eventory:contentInsetStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetStartWithNavigation local.koki.android.eventory:contentInsetStartWithNavigation}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_customNavigationLayout local.koki.android.eventory:customNavigationLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_displayOptions local.koki.android.eventory:displayOptions}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_divider local.koki.android.eventory:divider}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_elevation local.koki.android.eventory:elevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_height local.koki.android.eventory:height}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_hideOnContentScroll local.koki.android.eventory:hideOnContentScroll}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_homeAsUpIndicator local.koki.android.eventory:homeAsUpIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_homeLayout local.koki.android.eventory:homeLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_icon local.koki.android.eventory:icon}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_indeterminateProgressStyle local.koki.android.eventory:indeterminateProgressStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_itemPadding local.koki.android.eventory:itemPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_logo local.koki.android.eventory:logo}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_navigationMode local.koki.android.eventory:navigationMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_popupTheme local.koki.android.eventory:popupTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_progressBarPadding local.koki.android.eventory:progressBarPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_progressBarStyle local.koki.android.eventory:progressBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_subtitle local.koki.android.eventory:subtitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_subtitleTextStyle local.koki.android.eventory:subtitleTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_title local.koki.android.eventory:title}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_titleTextStyle local.koki.android.eventory:titleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_background local.android.eventory:background}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_backgroundSplit local.android.eventory:backgroundSplit}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_backgroundStacked local.android.eventory:backgroundStacked}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetEnd local.android.eventory:contentInsetEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetEndWithActions local.android.eventory:contentInsetEndWithActions}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetLeft local.android.eventory:contentInsetLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetRight local.android.eventory:contentInsetRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetStart local.android.eventory:contentInsetStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetStartWithNavigation local.android.eventory:contentInsetStartWithNavigation}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_customNavigationLayout local.android.eventory:customNavigationLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_displayOptions local.android.eventory:displayOptions}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_divider local.android.eventory:divider}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_elevation local.android.eventory:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_height local.android.eventory:height}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_hideOnContentScroll local.android.eventory:hideOnContentScroll}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_homeAsUpIndicator local.android.eventory:homeAsUpIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_homeLayout local.android.eventory:homeLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_icon local.android.eventory:icon}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_indeterminateProgressStyle local.android.eventory:indeterminateProgressStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_itemPadding local.android.eventory:itemPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_logo local.android.eventory:logo}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_navigationMode local.android.eventory:navigationMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_popupTheme local.android.eventory:popupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_progressBarPadding local.android.eventory:progressBarPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_progressBarStyle local.android.eventory:progressBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_subtitle local.android.eventory:subtitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_subtitleTextStyle local.android.eventory:subtitleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_title local.android.eventory:title}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_titleTextStyle local.android.eventory:titleTextStyle}</code></td><td></td></tr>
            </table>
            @see #ActionBar_background
            @see #ActionBar_backgroundSplit
@@ -3831,17 +3829,17 @@ containing a value of this type.
             0x7f01005f
         };
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#background}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#background}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:background
+          @attr name local.android.eventory:background
         */
         public static final int ActionBar_background = 10;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#backgroundSplit}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#backgroundSplit}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3849,11 +3847,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name local.koki.android.eventory:backgroundSplit
+          @attr name local.android.eventory:backgroundSplit
         */
         public static final int ActionBar_backgroundSplit = 12;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#backgroundStacked}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#backgroundStacked}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3861,11 +3859,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name local.koki.android.eventory:backgroundStacked
+          @attr name local.android.eventory:backgroundStacked
         */
         public static final int ActionBar_backgroundStacked = 11;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#contentInsetEnd}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#contentInsetEnd}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3877,11 +3875,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:contentInsetEnd
+          @attr name local.android.eventory:contentInsetEnd
         */
         public static final int ActionBar_contentInsetEnd = 21;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#contentInsetEndWithActions}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#contentInsetEndWithActions}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3893,11 +3891,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:contentInsetEndWithActions
+          @attr name local.android.eventory:contentInsetEndWithActions
         */
         public static final int ActionBar_contentInsetEndWithActions = 25;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#contentInsetLeft}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#contentInsetLeft}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3909,11 +3907,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:contentInsetLeft
+          @attr name local.android.eventory:contentInsetLeft
         */
         public static final int ActionBar_contentInsetLeft = 22;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#contentInsetRight}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#contentInsetRight}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3925,11 +3923,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:contentInsetRight
+          @attr name local.android.eventory:contentInsetRight
         */
         public static final int ActionBar_contentInsetRight = 23;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#contentInsetStart}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#contentInsetStart}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3941,11 +3939,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:contentInsetStart
+          @attr name local.android.eventory:contentInsetStart
         */
         public static final int ActionBar_contentInsetStart = 20;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#contentInsetStartWithNavigation}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#contentInsetStartWithNavigation}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3957,21 +3955,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:contentInsetStartWithNavigation
+          @attr name local.android.eventory:contentInsetStartWithNavigation
         */
         public static final int ActionBar_contentInsetStartWithNavigation = 24;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#customNavigationLayout}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#customNavigationLayout}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:customNavigationLayout
+          @attr name local.android.eventory:customNavigationLayout
         */
         public static final int ActionBar_customNavigationLayout = 13;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#displayOptions}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#displayOptions}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3989,21 +3987,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>showCustom</code></td><td>0x10</td><td></td></tr>
 <tr><td><code>disableHome</code></td><td>0x20</td><td></td></tr>
 </table>
-          @attr name local.koki.android.eventory:displayOptions
+          @attr name local.android.eventory:displayOptions
         */
         public static final int ActionBar_displayOptions = 3;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#divider}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#divider}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:divider
+          @attr name local.android.eventory:divider
         */
         public static final int ActionBar_divider = 9;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#elevation}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#elevation}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -4015,11 +4013,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:elevation
+          @attr name local.android.eventory:elevation
         */
         public static final int ActionBar_elevation = 26;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#height}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#height}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -4031,11 +4029,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:height
+          @attr name local.android.eventory:height
         */
         public static final int ActionBar_height = 0;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#hideOnContentScroll}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#hideOnContentScroll}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -4045,51 +4043,51 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:hideOnContentScroll
+          @attr name local.android.eventory:hideOnContentScroll
         */
         public static final int ActionBar_hideOnContentScroll = 19;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#homeAsUpIndicator}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#homeAsUpIndicator}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:homeAsUpIndicator
+          @attr name local.android.eventory:homeAsUpIndicator
         */
         public static final int ActionBar_homeAsUpIndicator = 28;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#homeLayout}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#homeLayout}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:homeLayout
+          @attr name local.android.eventory:homeLayout
         */
         public static final int ActionBar_homeLayout = 14;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#icon}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#icon}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:icon
+          @attr name local.android.eventory:icon
         */
         public static final int ActionBar_icon = 7;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#indeterminateProgressStyle}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#indeterminateProgressStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:indeterminateProgressStyle
+          @attr name local.android.eventory:indeterminateProgressStyle
         */
         public static final int ActionBar_indeterminateProgressStyle = 16;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#itemPadding}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#itemPadding}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -4101,21 +4099,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:itemPadding
+          @attr name local.android.eventory:itemPadding
         */
         public static final int ActionBar_itemPadding = 18;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#logo}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#logo}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:logo
+          @attr name local.android.eventory:logo
         */
         public static final int ActionBar_logo = 8;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#navigationMode}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#navigationMode}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -4129,21 +4127,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>listMode</code></td><td>1</td><td></td></tr>
 <tr><td><code>tabMode</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name local.koki.android.eventory:navigationMode
+          @attr name local.android.eventory:navigationMode
         */
         public static final int ActionBar_navigationMode = 2;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#popupTheme}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#popupTheme}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:popupTheme
+          @attr name local.android.eventory:popupTheme
         */
         public static final int ActionBar_popupTheme = 27;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#progressBarPadding}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#progressBarPadding}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -4155,21 +4153,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:progressBarPadding
+          @attr name local.android.eventory:progressBarPadding
         */
         public static final int ActionBar_progressBarPadding = 17;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#progressBarStyle}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#progressBarStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:progressBarStyle
+          @attr name local.android.eventory:progressBarStyle
         */
         public static final int ActionBar_progressBarStyle = 15;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#subtitle}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#subtitle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -4179,21 +4177,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:subtitle
+          @attr name local.android.eventory:subtitle
         */
         public static final int ActionBar_subtitle = 4;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#subtitleTextStyle}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#subtitleTextStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:subtitleTextStyle
+          @attr name local.android.eventory:subtitleTextStyle
         */
         public static final int ActionBar_subtitleTextStyle = 6;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#title}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#title}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -4203,17 +4201,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:title
+          @attr name local.android.eventory:title
         */
         public static final int ActionBar_title = 1;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#titleTextStyle}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#titleTextStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:titleTextStyle
+          @attr name local.android.eventory:titleTextStyle
         */
         public static final int ActionBar_titleTextStyle = 5;
         /** Attributes that can be used with a ActionBarLayout.
@@ -4265,12 +4263,12 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActionMode_background local.koki.android.eventory:background}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_backgroundSplit local.koki.android.eventory:backgroundSplit}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_closeItemLayout local.koki.android.eventory:closeItemLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_height local.koki.android.eventory:height}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_subtitleTextStyle local.koki.android.eventory:subtitleTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_titleTextStyle local.koki.android.eventory:titleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_background local.android.eventory:background}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_backgroundSplit local.android.eventory:backgroundSplit}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_closeItemLayout local.android.eventory:closeItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_height local.android.eventory:height}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_subtitleTextStyle local.android.eventory:subtitleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_titleTextStyle local.android.eventory:titleTextStyle}</code></td><td></td></tr>
            </table>
            @see #ActionMode_background
            @see #ActionMode_backgroundSplit
@@ -4284,17 +4282,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f01000e, 0x7f01001e
         };
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#background}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#background}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:background
+          @attr name local.android.eventory:background
         */
         public static final int ActionMode_background = 3;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#backgroundSplit}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#backgroundSplit}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
@@ -4302,21 +4300,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name local.koki.android.eventory:backgroundSplit
+          @attr name local.android.eventory:backgroundSplit
         */
         public static final int ActionMode_backgroundSplit = 4;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#closeItemLayout}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#closeItemLayout}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:closeItemLayout
+          @attr name local.android.eventory:closeItemLayout
         */
         public static final int ActionMode_closeItemLayout = 5;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#height}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#height}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
@@ -4328,27 +4326,27 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:height
+          @attr name local.android.eventory:height
         */
         public static final int ActionMode_height = 0;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#subtitleTextStyle}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#subtitleTextStyle}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:subtitleTextStyle
+          @attr name local.android.eventory:subtitleTextStyle
         */
         public static final int ActionMode_subtitleTextStyle = 2;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#titleTextStyle}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#titleTextStyle}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:titleTextStyle
+          @attr name local.android.eventory:titleTextStyle
         */
         public static final int ActionMode_titleTextStyle = 1;
         /** Attributes that can be used with a ActivityChooserView.
@@ -4357,8 +4355,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable local.koki.android.eventory:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActivityChooserView_initialActivityCount local.koki.android.eventory:initialActivityCount}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable local.android.eventory:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActivityChooserView_initialActivityCount local.android.eventory:initialActivityCount}</code></td><td></td></tr>
            </table>
            @see #ActivityChooserView_expandActivityOverflowButtonDrawable
            @see #ActivityChooserView_initialActivityCount
@@ -4367,17 +4365,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f01001f, 0x7f010020
         };
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#expandActivityOverflowButtonDrawable}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#expandActivityOverflowButtonDrawable}
           attribute's value can be found in the {@link #ActivityChooserView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:expandActivityOverflowButtonDrawable
+          @attr name local.android.eventory:expandActivityOverflowButtonDrawable
         */
         public static final int ActivityChooserView_expandActivityOverflowButtonDrawable = 1;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#initialActivityCount}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#initialActivityCount}
           attribute's value can be found in the {@link #ActivityChooserView} array.
 
 
@@ -4387,7 +4385,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:initialActivityCount
+          @attr name local.android.eventory:initialActivityCount
         */
         public static final int ActivityChooserView_initialActivityCount = 0;
         /** Attributes that can be used with a AlertDialog.
@@ -4397,11 +4395,11 @@ containing a value of this type.
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #AlertDialog_android_layout android:layout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout local.koki.android.eventory:buttonPanelSideLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_listItemLayout local.koki.android.eventory:listItemLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_listLayout local.koki.android.eventory:listLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout local.koki.android.eventory:multiChoiceItemLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout local.koki.android.eventory:singleChoiceItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout local.android.eventory:buttonPanelSideLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_listItemLayout local.android.eventory:listItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_listLayout local.android.eventory:listLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout local.android.eventory:multiChoiceItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout local.android.eventory:singleChoiceItemLayout}</code></td><td></td></tr>
            </table>
            @see #AlertDialog_android_layout
            @see #AlertDialog_buttonPanelSideLayout
@@ -4421,53 +4419,53 @@ containing a value of this type.
         */
         public static final int AlertDialog_android_layout = 0;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#buttonPanelSideLayout}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#buttonPanelSideLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:buttonPanelSideLayout
+          @attr name local.android.eventory:buttonPanelSideLayout
         */
         public static final int AlertDialog_buttonPanelSideLayout = 1;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#listItemLayout}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#listItemLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:listItemLayout
+          @attr name local.android.eventory:listItemLayout
         */
         public static final int AlertDialog_listItemLayout = 5;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#listLayout}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#listLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:listLayout
+          @attr name local.android.eventory:listLayout
         */
         public static final int AlertDialog_listLayout = 2;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#multiChoiceItemLayout}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#multiChoiceItemLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:multiChoiceItemLayout
+          @attr name local.android.eventory:multiChoiceItemLayout
         */
         public static final int AlertDialog_multiChoiceItemLayout = 3;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#singleChoiceItemLayout}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#singleChoiceItemLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:singleChoiceItemLayout
+          @attr name local.android.eventory:singleChoiceItemLayout
         */
         public static final int AlertDialog_singleChoiceItemLayout = 4;
         /** Attributes that can be used with a AppBarLayout.
@@ -4477,8 +4475,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #AppBarLayout_android_background android:background}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppBarLayout_elevation local.koki.android.eventory:elevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppBarLayout_expanded local.koki.android.eventory:expanded}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppBarLayout_elevation local.android.eventory:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppBarLayout_expanded local.android.eventory:expanded}</code></td><td></td></tr>
            </table>
            @see #AppBarLayout_android_background
            @see #AppBarLayout_elevation
@@ -4494,7 +4492,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppBarLayout_android_background = 0;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#elevation}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#elevation}
           attribute's value can be found in the {@link #AppBarLayout} array.
 
 
@@ -4506,11 +4504,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:elevation
+          @attr name local.android.eventory:elevation
         */
         public static final int AppBarLayout_elevation = 1;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#expanded}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#expanded}
           attribute's value can be found in the {@link #AppBarLayout} array.
 
 
@@ -4520,7 +4518,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:expanded
+          @attr name local.android.eventory:expanded
         */
         public static final int AppBarLayout_expanded = 2;
         /** Attributes that can be used with a AppBarLayoutStates.
@@ -4529,8 +4527,8 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #AppBarLayoutStates_state_collapsed local.koki.android.eventory:state_collapsed}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppBarLayoutStates_state_collapsible local.koki.android.eventory:state_collapsible}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppBarLayoutStates_state_collapsed local.android.eventory:state_collapsed}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppBarLayoutStates_state_collapsible local.android.eventory:state_collapsible}</code></td><td></td></tr>
            </table>
            @see #AppBarLayoutStates_state_collapsed
            @see #AppBarLayoutStates_state_collapsible
@@ -4539,7 +4537,7 @@ containing a value of this type.
             0x7f010027, 0x7f010028
         };
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#state_collapsed}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#state_collapsed}
           attribute's value can be found in the {@link #AppBarLayoutStates} array.
 
 
@@ -4549,11 +4547,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:state_collapsed
+          @attr name local.android.eventory:state_collapsed
         */
         public static final int AppBarLayoutStates_state_collapsed = 0;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#state_collapsible}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#state_collapsible}
           attribute's value can be found in the {@link #AppBarLayoutStates} array.
 
 
@@ -4563,7 +4561,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:state_collapsible
+          @attr name local.android.eventory:state_collapsible
         */
         public static final int AppBarLayoutStates_state_collapsible = 1;
         /** Attributes that can be used with a AppBarLayout_Layout.
@@ -4572,8 +4570,8 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #AppBarLayout_Layout_layout_scrollFlags local.koki.android.eventory:layout_scrollFlags}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppBarLayout_Layout_layout_scrollInterpolator local.koki.android.eventory:layout_scrollInterpolator}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppBarLayout_Layout_layout_scrollFlags local.android.eventory:layout_scrollFlags}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppBarLayout_Layout_layout_scrollInterpolator local.android.eventory:layout_scrollInterpolator}</code></td><td></td></tr>
            </table>
            @see #AppBarLayout_Layout_layout_scrollFlags
            @see #AppBarLayout_Layout_layout_scrollInterpolator
@@ -4582,7 +4580,7 @@ containing a value of this type.
             0x7f010029, 0x7f01002a
         };
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#layout_scrollFlags}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#layout_scrollFlags}
           attribute's value can be found in the {@link #AppBarLayout_Layout} array.
 
 
@@ -4598,17 +4596,17 @@ containing a value of this type.
 <tr><td><code>enterAlwaysCollapsed</code></td><td>0x8</td><td></td></tr>
 <tr><td><code>snap</code></td><td>0x10</td><td></td></tr>
 </table>
-          @attr name local.koki.android.eventory:layout_scrollFlags
+          @attr name local.android.eventory:layout_scrollFlags
         */
         public static final int AppBarLayout_Layout_layout_scrollFlags = 0;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#layout_scrollInterpolator}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#layout_scrollInterpolator}
           attribute's value can be found in the {@link #AppBarLayout_Layout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:layout_scrollInterpolator
+          @attr name local.android.eventory:layout_scrollInterpolator
         */
         public static final int AppBarLayout_Layout_layout_scrollInterpolator = 1;
         /** Attributes that can be used with a AppCompatImageView.
@@ -4618,7 +4616,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #AppCompatImageView_android_src android:src}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatImageView_srcCompat local.koki.android.eventory:srcCompat}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatImageView_srcCompat local.android.eventory:srcCompat}</code></td><td></td></tr>
            </table>
            @see #AppCompatImageView_android_src
            @see #AppCompatImageView_srcCompat
@@ -4633,13 +4631,13 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatImageView_android_src = 0;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#srcCompat}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#srcCompat}
           attribute's value can be found in the {@link #AppCompatImageView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:srcCompat
+          @attr name local.android.eventory:srcCompat
         */
         public static final int AppCompatImageView_srcCompat = 1;
         /** Attributes that can be used with a AppCompatSeekBar.
@@ -4649,9 +4647,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #AppCompatSeekBar_android_thumb android:thumb}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatSeekBar_tickMark local.koki.android.eventory:tickMark}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatSeekBar_tickMarkTint local.koki.android.eventory:tickMarkTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatSeekBar_tickMarkTintMode local.koki.android.eventory:tickMarkTintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatSeekBar_tickMark local.android.eventory:tickMark}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatSeekBar_tickMarkTint local.android.eventory:tickMarkTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatSeekBar_tickMarkTintMode local.android.eventory:tickMarkTintMode}</code></td><td></td></tr>
            </table>
            @see #AppCompatSeekBar_android_thumb
            @see #AppCompatSeekBar_tickMark
@@ -4668,17 +4666,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatSeekBar_android_thumb = 0;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#tickMark}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#tickMark}
           attribute's value can be found in the {@link #AppCompatSeekBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:tickMark
+          @attr name local.android.eventory:tickMark
         */
         public static final int AppCompatSeekBar_tickMark = 1;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#tickMarkTint}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#tickMarkTint}
           attribute's value can be found in the {@link #AppCompatSeekBar} array.
 
 
@@ -4689,11 +4687,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:tickMarkTint
+          @attr name local.android.eventory:tickMarkTint
         */
         public static final int AppCompatSeekBar_tickMarkTint = 2;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#tickMarkTintMode}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#tickMarkTintMode}
           attribute's value can be found in the {@link #AppCompatSeekBar} array.
 
 
@@ -4710,7 +4708,7 @@ containing a value of this type.
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 <tr><td><code>add</code></td><td>16</td><td></td></tr>
 </table>
-          @attr name local.koki.android.eventory:tickMarkTintMode
+          @attr name local.android.eventory:tickMarkTintMode
         */
         public static final int AppCompatSeekBar_tickMarkTintMode = 3;
         /** Attributes that can be used with a AppCompatTextHelper.
@@ -4788,7 +4786,7 @@ containing a value of this type.
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #AppCompatTextView_android_textAppearance android:textAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTextView_textAllCaps local.koki.android.eventory:textAllCaps}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTextView_textAllCaps local.android.eventory:textAllCaps}</code></td><td></td></tr>
            </table>
            @see #AppCompatTextView_android_textAppearance
            @see #AppCompatTextView_textAllCaps
@@ -4803,14 +4801,14 @@ containing a value of this type.
         */
         public static final int AppCompatTextView_android_textAppearance = 0;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#textAllCaps}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#textAllCaps}
           attribute's value can be found in the {@link #AppCompatTextView} array.
 
 
           <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
-          @attr name local.koki.android.eventory:textAllCaps
+          @attr name local.android.eventory:textAllCaps
         */
         public static final int AppCompatTextView_textAllCaps = 1;
         /** Attributes that can be used with a AppCompatTheme.
@@ -4819,121 +4817,121 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarDivider local.koki.android.eventory:actionBarDivider}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarItemBackground local.koki.android.eventory:actionBarItemBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarPopupTheme local.koki.android.eventory:actionBarPopupTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarSize local.koki.android.eventory:actionBarSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarSplitStyle local.koki.android.eventory:actionBarSplitStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarStyle local.koki.android.eventory:actionBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarTabBarStyle local.koki.android.eventory:actionBarTabBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarTabStyle local.koki.android.eventory:actionBarTabStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarTabTextStyle local.koki.android.eventory:actionBarTabTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarTheme local.koki.android.eventory:actionBarTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarWidgetTheme local.koki.android.eventory:actionBarWidgetTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionButtonStyle local.koki.android.eventory:actionButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionDropDownStyle local.koki.android.eventory:actionDropDownStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionMenuTextAppearance local.koki.android.eventory:actionMenuTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionMenuTextColor local.koki.android.eventory:actionMenuTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeBackground local.koki.android.eventory:actionModeBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeCloseButtonStyle local.koki.android.eventory:actionModeCloseButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeCloseDrawable local.koki.android.eventory:actionModeCloseDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeCopyDrawable local.koki.android.eventory:actionModeCopyDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeCutDrawable local.koki.android.eventory:actionModeCutDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeFindDrawable local.koki.android.eventory:actionModeFindDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModePasteDrawable local.koki.android.eventory:actionModePasteDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModePopupWindowStyle local.koki.android.eventory:actionModePopupWindowStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeSelectAllDrawable local.koki.android.eventory:actionModeSelectAllDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeShareDrawable local.koki.android.eventory:actionModeShareDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeSplitBackground local.koki.android.eventory:actionModeSplitBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeStyle local.koki.android.eventory:actionModeStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeWebSearchDrawable local.koki.android.eventory:actionModeWebSearchDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionOverflowButtonStyle local.koki.android.eventory:actionOverflowButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionOverflowMenuStyle local.koki.android.eventory:actionOverflowMenuStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_activityChooserViewStyle local.koki.android.eventory:activityChooserViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_alertDialogButtonGroupStyle local.koki.android.eventory:alertDialogButtonGroupStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_alertDialogCenterButtons local.koki.android.eventory:alertDialogCenterButtons}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_alertDialogStyle local.koki.android.eventory:alertDialogStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_alertDialogTheme local.koki.android.eventory:alertDialogTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarDivider local.android.eventory:actionBarDivider}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarItemBackground local.android.eventory:actionBarItemBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarPopupTheme local.android.eventory:actionBarPopupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarSize local.android.eventory:actionBarSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarSplitStyle local.android.eventory:actionBarSplitStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarStyle local.android.eventory:actionBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarTabBarStyle local.android.eventory:actionBarTabBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarTabStyle local.android.eventory:actionBarTabStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarTabTextStyle local.android.eventory:actionBarTabTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarTheme local.android.eventory:actionBarTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarWidgetTheme local.android.eventory:actionBarWidgetTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionButtonStyle local.android.eventory:actionButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionDropDownStyle local.android.eventory:actionDropDownStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionMenuTextAppearance local.android.eventory:actionMenuTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionMenuTextColor local.android.eventory:actionMenuTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeBackground local.android.eventory:actionModeBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeCloseButtonStyle local.android.eventory:actionModeCloseButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeCloseDrawable local.android.eventory:actionModeCloseDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeCopyDrawable local.android.eventory:actionModeCopyDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeCutDrawable local.android.eventory:actionModeCutDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeFindDrawable local.android.eventory:actionModeFindDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModePasteDrawable local.android.eventory:actionModePasteDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModePopupWindowStyle local.android.eventory:actionModePopupWindowStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeSelectAllDrawable local.android.eventory:actionModeSelectAllDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeShareDrawable local.android.eventory:actionModeShareDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeSplitBackground local.android.eventory:actionModeSplitBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeStyle local.android.eventory:actionModeStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeWebSearchDrawable local.android.eventory:actionModeWebSearchDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionOverflowButtonStyle local.android.eventory:actionOverflowButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionOverflowMenuStyle local.android.eventory:actionOverflowMenuStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_activityChooserViewStyle local.android.eventory:activityChooserViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_alertDialogButtonGroupStyle local.android.eventory:alertDialogButtonGroupStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_alertDialogCenterButtons local.android.eventory:alertDialogCenterButtons}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_alertDialogStyle local.android.eventory:alertDialogStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_alertDialogTheme local.android.eventory:alertDialogTheme}</code></td><td></td></tr>
            <tr><td><code>{@link #AppCompatTheme_android_windowAnimationStyle android:windowAnimationStyle}</code></td><td></td></tr>
            <tr><td><code>{@link #AppCompatTheme_android_windowIsFloating android:windowIsFloating}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_autoCompleteTextViewStyle local.koki.android.eventory:autoCompleteTextViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_borderlessButtonStyle local.koki.android.eventory:borderlessButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonBarButtonStyle local.koki.android.eventory:buttonBarButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonBarNegativeButtonStyle local.koki.android.eventory:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonBarNeutralButtonStyle local.koki.android.eventory:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonBarPositiveButtonStyle local.koki.android.eventory:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonBarStyle local.koki.android.eventory:buttonBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonStyle local.koki.android.eventory:buttonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonStyleSmall local.koki.android.eventory:buttonStyleSmall}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_checkboxStyle local.koki.android.eventory:checkboxStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_checkedTextViewStyle local.koki.android.eventory:checkedTextViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorAccent local.koki.android.eventory:colorAccent}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorBackgroundFloating local.koki.android.eventory:colorBackgroundFloating}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorButtonNormal local.koki.android.eventory:colorButtonNormal}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorControlActivated local.koki.android.eventory:colorControlActivated}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorControlHighlight local.koki.android.eventory:colorControlHighlight}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorControlNormal local.koki.android.eventory:colorControlNormal}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorPrimary local.koki.android.eventory:colorPrimary}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorPrimaryDark local.koki.android.eventory:colorPrimaryDark}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorSwitchThumbNormal local.koki.android.eventory:colorSwitchThumbNormal}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_controlBackground local.koki.android.eventory:controlBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_dialogPreferredPadding local.koki.android.eventory:dialogPreferredPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_dialogTheme local.koki.android.eventory:dialogTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_dividerHorizontal local.koki.android.eventory:dividerHorizontal}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_dividerVertical local.koki.android.eventory:dividerVertical}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_dropDownListViewStyle local.koki.android.eventory:dropDownListViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_dropdownListPreferredItemHeight local.koki.android.eventory:dropdownListPreferredItemHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_editTextBackground local.koki.android.eventory:editTextBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_editTextColor local.koki.android.eventory:editTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_editTextStyle local.koki.android.eventory:editTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_homeAsUpIndicator local.koki.android.eventory:homeAsUpIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_imageButtonStyle local.koki.android.eventory:imageButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listChoiceBackgroundIndicator local.koki.android.eventory:listChoiceBackgroundIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listDividerAlertDialog local.koki.android.eventory:listDividerAlertDialog}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listMenuViewStyle local.koki.android.eventory:listMenuViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listPopupWindowStyle local.koki.android.eventory:listPopupWindowStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeight local.koki.android.eventory:listPreferredItemHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightLarge local.koki.android.eventory:listPreferredItemHeightLarge}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightSmall local.koki.android.eventory:listPreferredItemHeightSmall}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingLeft local.koki.android.eventory:listPreferredItemPaddingLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingRight local.koki.android.eventory:listPreferredItemPaddingRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_panelBackground local.koki.android.eventory:panelBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_panelMenuListTheme local.koki.android.eventory:panelMenuListTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_panelMenuListWidth local.koki.android.eventory:panelMenuListWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_popupMenuStyle local.koki.android.eventory:popupMenuStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_popupWindowStyle local.koki.android.eventory:popupWindowStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_radioButtonStyle local.koki.android.eventory:radioButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_ratingBarStyle local.koki.android.eventory:ratingBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_ratingBarStyleIndicator local.koki.android.eventory:ratingBarStyleIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_ratingBarStyleSmall local.koki.android.eventory:ratingBarStyleSmall}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_searchViewStyle local.koki.android.eventory:searchViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_seekBarStyle local.koki.android.eventory:seekBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_selectableItemBackground local.koki.android.eventory:selectableItemBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_selectableItemBackgroundBorderless local.koki.android.eventory:selectableItemBackgroundBorderless}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_spinnerDropDownItemStyle local.koki.android.eventory:spinnerDropDownItemStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_spinnerStyle local.koki.android.eventory:spinnerStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_switchStyle local.koki.android.eventory:switchStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearanceLargePopupMenu local.koki.android.eventory:textAppearanceLargePopupMenu}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearanceListItem local.koki.android.eventory:textAppearanceListItem}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSmall local.koki.android.eventory:textAppearanceListItemSmall}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearancePopupMenuHeader local.koki.android.eventory:textAppearancePopupMenuHeader}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultSubtitle local.koki.android.eventory:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultTitle local.koki.android.eventory:textAppearanceSearchResultTitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearanceSmallPopupMenu local.koki.android.eventory:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textColorAlertDialogListItem local.koki.android.eventory:textColorAlertDialogListItem}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textColorSearchUrl local.koki.android.eventory:textColorSearchUrl}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_toolbarNavigationButtonStyle local.koki.android.eventory:toolbarNavigationButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_toolbarStyle local.koki.android.eventory:toolbarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowActionBar local.koki.android.eventory:windowActionBar}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowActionBarOverlay local.koki.android.eventory:windowActionBarOverlay}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowActionModeOverlay local.koki.android.eventory:windowActionModeOverlay}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMajor local.koki.android.eventory:windowFixedHeightMajor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMinor local.koki.android.eventory:windowFixedHeightMinor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMajor local.koki.android.eventory:windowFixedWidthMajor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMinor local.koki.android.eventory:windowFixedWidthMinor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowMinWidthMajor local.koki.android.eventory:windowMinWidthMajor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowMinWidthMinor local.koki.android.eventory:windowMinWidthMinor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowNoTitle local.koki.android.eventory:windowNoTitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_autoCompleteTextViewStyle local.android.eventory:autoCompleteTextViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_borderlessButtonStyle local.android.eventory:borderlessButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonBarButtonStyle local.android.eventory:buttonBarButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonBarNegativeButtonStyle local.android.eventory:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonBarNeutralButtonStyle local.android.eventory:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonBarPositiveButtonStyle local.android.eventory:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonBarStyle local.android.eventory:buttonBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonStyle local.android.eventory:buttonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonStyleSmall local.android.eventory:buttonStyleSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_checkboxStyle local.android.eventory:checkboxStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_checkedTextViewStyle local.android.eventory:checkedTextViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorAccent local.android.eventory:colorAccent}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorBackgroundFloating local.android.eventory:colorBackgroundFloating}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorButtonNormal local.android.eventory:colorButtonNormal}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorControlActivated local.android.eventory:colorControlActivated}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorControlHighlight local.android.eventory:colorControlHighlight}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorControlNormal local.android.eventory:colorControlNormal}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorPrimary local.android.eventory:colorPrimary}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorPrimaryDark local.android.eventory:colorPrimaryDark}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorSwitchThumbNormal local.android.eventory:colorSwitchThumbNormal}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_controlBackground local.android.eventory:controlBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dialogPreferredPadding local.android.eventory:dialogPreferredPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dialogTheme local.android.eventory:dialogTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dividerHorizontal local.android.eventory:dividerHorizontal}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dividerVertical local.android.eventory:dividerVertical}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dropDownListViewStyle local.android.eventory:dropDownListViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dropdownListPreferredItemHeight local.android.eventory:dropdownListPreferredItemHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_editTextBackground local.android.eventory:editTextBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_editTextColor local.android.eventory:editTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_editTextStyle local.android.eventory:editTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_homeAsUpIndicator local.android.eventory:homeAsUpIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_imageButtonStyle local.android.eventory:imageButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listChoiceBackgroundIndicator local.android.eventory:listChoiceBackgroundIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listDividerAlertDialog local.android.eventory:listDividerAlertDialog}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listMenuViewStyle local.android.eventory:listMenuViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPopupWindowStyle local.android.eventory:listPopupWindowStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeight local.android.eventory:listPreferredItemHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightLarge local.android.eventory:listPreferredItemHeightLarge}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightSmall local.android.eventory:listPreferredItemHeightSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingLeft local.android.eventory:listPreferredItemPaddingLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingRight local.android.eventory:listPreferredItemPaddingRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_panelBackground local.android.eventory:panelBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_panelMenuListTheme local.android.eventory:panelMenuListTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_panelMenuListWidth local.android.eventory:panelMenuListWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_popupMenuStyle local.android.eventory:popupMenuStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_popupWindowStyle local.android.eventory:popupWindowStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_radioButtonStyle local.android.eventory:radioButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_ratingBarStyle local.android.eventory:ratingBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_ratingBarStyleIndicator local.android.eventory:ratingBarStyleIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_ratingBarStyleSmall local.android.eventory:ratingBarStyleSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_searchViewStyle local.android.eventory:searchViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_seekBarStyle local.android.eventory:seekBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_selectableItemBackground local.android.eventory:selectableItemBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_selectableItemBackgroundBorderless local.android.eventory:selectableItemBackgroundBorderless}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_spinnerDropDownItemStyle local.android.eventory:spinnerDropDownItemStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_spinnerStyle local.android.eventory:spinnerStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_switchStyle local.android.eventory:switchStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceLargePopupMenu local.android.eventory:textAppearanceLargePopupMenu}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceListItem local.android.eventory:textAppearanceListItem}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSmall local.android.eventory:textAppearanceListItemSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearancePopupMenuHeader local.android.eventory:textAppearancePopupMenuHeader}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultSubtitle local.android.eventory:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultTitle local.android.eventory:textAppearanceSearchResultTitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceSmallPopupMenu local.android.eventory:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textColorAlertDialogListItem local.android.eventory:textColorAlertDialogListItem}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textColorSearchUrl local.android.eventory:textColorSearchUrl}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_toolbarNavigationButtonStyle local.android.eventory:toolbarNavigationButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_toolbarStyle local.android.eventory:toolbarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowActionBar local.android.eventory:windowActionBar}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowActionBarOverlay local.android.eventory:windowActionBarOverlay}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowActionModeOverlay local.android.eventory:windowActionModeOverlay}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMajor local.android.eventory:windowFixedHeightMajor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMinor local.android.eventory:windowFixedHeightMinor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMajor local.android.eventory:windowFixedWidthMajor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMinor local.android.eventory:windowFixedWidthMinor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowMinWidthMajor local.android.eventory:windowMinWidthMajor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowMinWidthMinor local.android.eventory:windowMinWidthMinor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowNoTitle local.android.eventory:windowNoTitle}</code></td><td></td></tr>
            </table>
            @see #AppCompatTheme_actionBarDivider
            @see #AppCompatTheme_actionBarItemBackground
@@ -5083,37 +5081,37 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f01009e, 0x7f01009f, 0x7f0100a0
         };
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#actionBarDivider}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#actionBarDivider}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:actionBarDivider
+          @attr name local.android.eventory:actionBarDivider
         */
         public static final int AppCompatTheme_actionBarDivider = 23;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#actionBarItemBackground}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#actionBarItemBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:actionBarItemBackground
+          @attr name local.android.eventory:actionBarItemBackground
         */
         public static final int AppCompatTheme_actionBarItemBackground = 24;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#actionBarPopupTheme}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#actionBarPopupTheme}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:actionBarPopupTheme
+          @attr name local.android.eventory:actionBarPopupTheme
         */
         public static final int AppCompatTheme_actionBarPopupTheme = 17;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#actionBarSize}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#actionBarSize}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5133,111 +5131,111 @@ containing a value of this type.
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>wrap_content</code></td><td>0</td><td></td></tr>
 </table>
-          @attr name local.koki.android.eventory:actionBarSize
+          @attr name local.android.eventory:actionBarSize
         */
         public static final int AppCompatTheme_actionBarSize = 22;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#actionBarSplitStyle}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#actionBarSplitStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:actionBarSplitStyle
+          @attr name local.android.eventory:actionBarSplitStyle
         */
         public static final int AppCompatTheme_actionBarSplitStyle = 19;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#actionBarStyle}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#actionBarStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:actionBarStyle
+          @attr name local.android.eventory:actionBarStyle
         */
         public static final int AppCompatTheme_actionBarStyle = 18;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#actionBarTabBarStyle}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#actionBarTabBarStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:actionBarTabBarStyle
+          @attr name local.android.eventory:actionBarTabBarStyle
         */
         public static final int AppCompatTheme_actionBarTabBarStyle = 13;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#actionBarTabStyle}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#actionBarTabStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:actionBarTabStyle
+          @attr name local.android.eventory:actionBarTabStyle
         */
         public static final int AppCompatTheme_actionBarTabStyle = 12;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#actionBarTabTextStyle}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#actionBarTabTextStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:actionBarTabTextStyle
+          @attr name local.android.eventory:actionBarTabTextStyle
         */
         public static final int AppCompatTheme_actionBarTabTextStyle = 14;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#actionBarTheme}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#actionBarTheme}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:actionBarTheme
+          @attr name local.android.eventory:actionBarTheme
         */
         public static final int AppCompatTheme_actionBarTheme = 20;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#actionBarWidgetTheme}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#actionBarWidgetTheme}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:actionBarWidgetTheme
+          @attr name local.android.eventory:actionBarWidgetTheme
         */
         public static final int AppCompatTheme_actionBarWidgetTheme = 21;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#actionButtonStyle}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#actionButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:actionButtonStyle
+          @attr name local.android.eventory:actionButtonStyle
         */
         public static final int AppCompatTheme_actionButtonStyle = 50;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#actionDropDownStyle}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#actionDropDownStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:actionDropDownStyle
+          @attr name local.android.eventory:actionDropDownStyle
         */
         public static final int AppCompatTheme_actionDropDownStyle = 46;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#actionMenuTextAppearance}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#actionMenuTextAppearance}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:actionMenuTextAppearance
+          @attr name local.android.eventory:actionMenuTextAppearance
         */
         public static final int AppCompatTheme_actionMenuTextAppearance = 25;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#actionMenuTextColor}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#actionMenuTextColor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5245,181 +5243,181 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name local.koki.android.eventory:actionMenuTextColor
+          @attr name local.android.eventory:actionMenuTextColor
         */
         public static final int AppCompatTheme_actionMenuTextColor = 26;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#actionModeBackground}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#actionModeBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:actionModeBackground
+          @attr name local.android.eventory:actionModeBackground
         */
         public static final int AppCompatTheme_actionModeBackground = 29;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#actionModeCloseButtonStyle}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#actionModeCloseButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:actionModeCloseButtonStyle
+          @attr name local.android.eventory:actionModeCloseButtonStyle
         */
         public static final int AppCompatTheme_actionModeCloseButtonStyle = 28;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#actionModeCloseDrawable}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#actionModeCloseDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:actionModeCloseDrawable
+          @attr name local.android.eventory:actionModeCloseDrawable
         */
         public static final int AppCompatTheme_actionModeCloseDrawable = 31;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#actionModeCopyDrawable}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#actionModeCopyDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:actionModeCopyDrawable
+          @attr name local.android.eventory:actionModeCopyDrawable
         */
         public static final int AppCompatTheme_actionModeCopyDrawable = 33;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#actionModeCutDrawable}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#actionModeCutDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:actionModeCutDrawable
+          @attr name local.android.eventory:actionModeCutDrawable
         */
         public static final int AppCompatTheme_actionModeCutDrawable = 32;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#actionModeFindDrawable}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#actionModeFindDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:actionModeFindDrawable
+          @attr name local.android.eventory:actionModeFindDrawable
         */
         public static final int AppCompatTheme_actionModeFindDrawable = 37;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#actionModePasteDrawable}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#actionModePasteDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:actionModePasteDrawable
+          @attr name local.android.eventory:actionModePasteDrawable
         */
         public static final int AppCompatTheme_actionModePasteDrawable = 34;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#actionModePopupWindowStyle}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#actionModePopupWindowStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:actionModePopupWindowStyle
+          @attr name local.android.eventory:actionModePopupWindowStyle
         */
         public static final int AppCompatTheme_actionModePopupWindowStyle = 39;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#actionModeSelectAllDrawable}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#actionModeSelectAllDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:actionModeSelectAllDrawable
+          @attr name local.android.eventory:actionModeSelectAllDrawable
         */
         public static final int AppCompatTheme_actionModeSelectAllDrawable = 35;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#actionModeShareDrawable}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#actionModeShareDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:actionModeShareDrawable
+          @attr name local.android.eventory:actionModeShareDrawable
         */
         public static final int AppCompatTheme_actionModeShareDrawable = 36;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#actionModeSplitBackground}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#actionModeSplitBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:actionModeSplitBackground
+          @attr name local.android.eventory:actionModeSplitBackground
         */
         public static final int AppCompatTheme_actionModeSplitBackground = 30;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#actionModeStyle}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#actionModeStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:actionModeStyle
+          @attr name local.android.eventory:actionModeStyle
         */
         public static final int AppCompatTheme_actionModeStyle = 27;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#actionModeWebSearchDrawable}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#actionModeWebSearchDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:actionModeWebSearchDrawable
+          @attr name local.android.eventory:actionModeWebSearchDrawable
         */
         public static final int AppCompatTheme_actionModeWebSearchDrawable = 38;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#actionOverflowButtonStyle}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#actionOverflowButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:actionOverflowButtonStyle
+          @attr name local.android.eventory:actionOverflowButtonStyle
         */
         public static final int AppCompatTheme_actionOverflowButtonStyle = 15;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#actionOverflowMenuStyle}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#actionOverflowMenuStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:actionOverflowMenuStyle
+          @attr name local.android.eventory:actionOverflowMenuStyle
         */
         public static final int AppCompatTheme_actionOverflowMenuStyle = 16;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#activityChooserViewStyle}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#activityChooserViewStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:activityChooserViewStyle
+          @attr name local.android.eventory:activityChooserViewStyle
         */
         public static final int AppCompatTheme_activityChooserViewStyle = 58;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#alertDialogButtonGroupStyle}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#alertDialogButtonGroupStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:alertDialogButtonGroupStyle
+          @attr name local.android.eventory:alertDialogButtonGroupStyle
         */
         public static final int AppCompatTheme_alertDialogButtonGroupStyle = 94;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#alertDialogCenterButtons}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#alertDialogCenterButtons}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5429,27 +5427,27 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:alertDialogCenterButtons
+          @attr name local.android.eventory:alertDialogCenterButtons
         */
         public static final int AppCompatTheme_alertDialogCenterButtons = 95;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#alertDialogStyle}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#alertDialogStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:alertDialogStyle
+          @attr name local.android.eventory:alertDialogStyle
         */
         public static final int AppCompatTheme_alertDialogStyle = 93;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#alertDialogTheme}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#alertDialogTheme}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:alertDialogTheme
+          @attr name local.android.eventory:alertDialogTheme
         */
         public static final int AppCompatTheme_alertDialogTheme = 96;
         /**
@@ -5465,117 +5463,117 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatTheme_android_windowIsFloating = 0;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#autoCompleteTextViewStyle}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#autoCompleteTextViewStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:autoCompleteTextViewStyle
+          @attr name local.android.eventory:autoCompleteTextViewStyle
         */
         public static final int AppCompatTheme_autoCompleteTextViewStyle = 101;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#borderlessButtonStyle}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#borderlessButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:borderlessButtonStyle
+          @attr name local.android.eventory:borderlessButtonStyle
         */
         public static final int AppCompatTheme_borderlessButtonStyle = 55;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#buttonBarButtonStyle}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#buttonBarButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:buttonBarButtonStyle
+          @attr name local.android.eventory:buttonBarButtonStyle
         */
         public static final int AppCompatTheme_buttonBarButtonStyle = 52;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#buttonBarNegativeButtonStyle}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#buttonBarNegativeButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:buttonBarNegativeButtonStyle
+          @attr name local.android.eventory:buttonBarNegativeButtonStyle
         */
         public static final int AppCompatTheme_buttonBarNegativeButtonStyle = 99;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#buttonBarNeutralButtonStyle}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#buttonBarNeutralButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:buttonBarNeutralButtonStyle
+          @attr name local.android.eventory:buttonBarNeutralButtonStyle
         */
         public static final int AppCompatTheme_buttonBarNeutralButtonStyle = 100;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#buttonBarPositiveButtonStyle}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#buttonBarPositiveButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:buttonBarPositiveButtonStyle
+          @attr name local.android.eventory:buttonBarPositiveButtonStyle
         */
         public static final int AppCompatTheme_buttonBarPositiveButtonStyle = 98;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#buttonBarStyle}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#buttonBarStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:buttonBarStyle
+          @attr name local.android.eventory:buttonBarStyle
         */
         public static final int AppCompatTheme_buttonBarStyle = 51;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#buttonStyle}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#buttonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:buttonStyle
+          @attr name local.android.eventory:buttonStyle
         */
         public static final int AppCompatTheme_buttonStyle = 102;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#buttonStyleSmall}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#buttonStyleSmall}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:buttonStyleSmall
+          @attr name local.android.eventory:buttonStyleSmall
         */
         public static final int AppCompatTheme_buttonStyleSmall = 103;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#checkboxStyle}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#checkboxStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:checkboxStyle
+          @attr name local.android.eventory:checkboxStyle
         */
         public static final int AppCompatTheme_checkboxStyle = 104;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#checkedTextViewStyle}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#checkedTextViewStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:checkedTextViewStyle
+          @attr name local.android.eventory:checkedTextViewStyle
         */
         public static final int AppCompatTheme_checkedTextViewStyle = 105;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#colorAccent}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#colorAccent}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5586,11 +5584,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:colorAccent
+          @attr name local.android.eventory:colorAccent
         */
         public static final int AppCompatTheme_colorAccent = 85;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#colorBackgroundFloating}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#colorBackgroundFloating}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5601,11 +5599,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:colorBackgroundFloating
+          @attr name local.android.eventory:colorBackgroundFloating
         */
         public static final int AppCompatTheme_colorBackgroundFloating = 92;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#colorButtonNormal}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#colorButtonNormal}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5616,11 +5614,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:colorButtonNormal
+          @attr name local.android.eventory:colorButtonNormal
         */
         public static final int AppCompatTheme_colorButtonNormal = 89;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#colorControlActivated}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#colorControlActivated}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5631,11 +5629,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:colorControlActivated
+          @attr name local.android.eventory:colorControlActivated
         */
         public static final int AppCompatTheme_colorControlActivated = 87;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#colorControlHighlight}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#colorControlHighlight}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5646,11 +5644,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:colorControlHighlight
+          @attr name local.android.eventory:colorControlHighlight
         */
         public static final int AppCompatTheme_colorControlHighlight = 88;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#colorControlNormal}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#colorControlNormal}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5661,11 +5659,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:colorControlNormal
+          @attr name local.android.eventory:colorControlNormal
         */
         public static final int AppCompatTheme_colorControlNormal = 86;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#colorPrimary}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#colorPrimary}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5676,11 +5674,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:colorPrimary
+          @attr name local.android.eventory:colorPrimary
         */
         public static final int AppCompatTheme_colorPrimary = 83;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#colorPrimaryDark}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#colorPrimaryDark}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5691,11 +5689,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:colorPrimaryDark
+          @attr name local.android.eventory:colorPrimaryDark
         */
         public static final int AppCompatTheme_colorPrimaryDark = 84;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#colorSwitchThumbNormal}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#colorSwitchThumbNormal}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5706,21 +5704,21 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:colorSwitchThumbNormal
+          @attr name local.android.eventory:colorSwitchThumbNormal
         */
         public static final int AppCompatTheme_colorSwitchThumbNormal = 90;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#controlBackground}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#controlBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:controlBackground
+          @attr name local.android.eventory:controlBackground
         */
         public static final int AppCompatTheme_controlBackground = 91;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#dialogPreferredPadding}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#dialogPreferredPadding}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5732,51 +5730,51 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:dialogPreferredPadding
+          @attr name local.android.eventory:dialogPreferredPadding
         */
         public static final int AppCompatTheme_dialogPreferredPadding = 44;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#dialogTheme}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#dialogTheme}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:dialogTheme
+          @attr name local.android.eventory:dialogTheme
         */
         public static final int AppCompatTheme_dialogTheme = 43;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#dividerHorizontal}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#dividerHorizontal}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:dividerHorizontal
+          @attr name local.android.eventory:dividerHorizontal
         */
         public static final int AppCompatTheme_dividerHorizontal = 57;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#dividerVertical}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#dividerVertical}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:dividerVertical
+          @attr name local.android.eventory:dividerVertical
         */
         public static final int AppCompatTheme_dividerVertical = 56;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#dropDownListViewStyle}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#dropDownListViewStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:dropDownListViewStyle
+          @attr name local.android.eventory:dropDownListViewStyle
         */
         public static final int AppCompatTheme_dropDownListViewStyle = 75;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#dropdownListPreferredItemHeight}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#dropdownListPreferredItemHeight}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5788,21 +5786,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:dropdownListPreferredItemHeight
+          @attr name local.android.eventory:dropdownListPreferredItemHeight
         */
         public static final int AppCompatTheme_dropdownListPreferredItemHeight = 47;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#editTextBackground}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#editTextBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:editTextBackground
+          @attr name local.android.eventory:editTextBackground
         */
         public static final int AppCompatTheme_editTextBackground = 64;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#editTextColor}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#editTextColor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5810,81 +5808,81 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name local.koki.android.eventory:editTextColor
+          @attr name local.android.eventory:editTextColor
         */
         public static final int AppCompatTheme_editTextColor = 63;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#editTextStyle}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#editTextStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:editTextStyle
+          @attr name local.android.eventory:editTextStyle
         */
         public static final int AppCompatTheme_editTextStyle = 106;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#homeAsUpIndicator}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#homeAsUpIndicator}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:homeAsUpIndicator
+          @attr name local.android.eventory:homeAsUpIndicator
         */
         public static final int AppCompatTheme_homeAsUpIndicator = 49;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#imageButtonStyle}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#imageButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:imageButtonStyle
+          @attr name local.android.eventory:imageButtonStyle
         */
         public static final int AppCompatTheme_imageButtonStyle = 65;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#listChoiceBackgroundIndicator}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#listChoiceBackgroundIndicator}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:listChoiceBackgroundIndicator
+          @attr name local.android.eventory:listChoiceBackgroundIndicator
         */
         public static final int AppCompatTheme_listChoiceBackgroundIndicator = 82;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#listDividerAlertDialog}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#listDividerAlertDialog}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:listDividerAlertDialog
+          @attr name local.android.eventory:listDividerAlertDialog
         */
         public static final int AppCompatTheme_listDividerAlertDialog = 45;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#listMenuViewStyle}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#listMenuViewStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:listMenuViewStyle
+          @attr name local.android.eventory:listMenuViewStyle
         */
         public static final int AppCompatTheme_listMenuViewStyle = 114;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#listPopupWindowStyle}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#listPopupWindowStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:listPopupWindowStyle
+          @attr name local.android.eventory:listPopupWindowStyle
         */
         public static final int AppCompatTheme_listPopupWindowStyle = 76;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#listPreferredItemHeight}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#listPreferredItemHeight}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5896,11 +5894,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:listPreferredItemHeight
+          @attr name local.android.eventory:listPreferredItemHeight
         */
         public static final int AppCompatTheme_listPreferredItemHeight = 70;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#listPreferredItemHeightLarge}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#listPreferredItemHeightLarge}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5912,11 +5910,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:listPreferredItemHeightLarge
+          @attr name local.android.eventory:listPreferredItemHeightLarge
         */
         public static final int AppCompatTheme_listPreferredItemHeightLarge = 72;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#listPreferredItemHeightSmall}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#listPreferredItemHeightSmall}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5928,11 +5926,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:listPreferredItemHeightSmall
+          @attr name local.android.eventory:listPreferredItemHeightSmall
         */
         public static final int AppCompatTheme_listPreferredItemHeightSmall = 71;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#listPreferredItemPaddingLeft}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#listPreferredItemPaddingLeft}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5944,11 +5942,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:listPreferredItemPaddingLeft
+          @attr name local.android.eventory:listPreferredItemPaddingLeft
         */
         public static final int AppCompatTheme_listPreferredItemPaddingLeft = 73;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#listPreferredItemPaddingRight}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#listPreferredItemPaddingRight}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5960,31 +5958,31 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:listPreferredItemPaddingRight
+          @attr name local.android.eventory:listPreferredItemPaddingRight
         */
         public static final int AppCompatTheme_listPreferredItemPaddingRight = 74;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#panelBackground}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#panelBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:panelBackground
+          @attr name local.android.eventory:panelBackground
         */
         public static final int AppCompatTheme_panelBackground = 79;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#panelMenuListTheme}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#panelMenuListTheme}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:panelMenuListTheme
+          @attr name local.android.eventory:panelMenuListTheme
         */
         public static final int AppCompatTheme_panelMenuListTheme = 81;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#panelMenuListWidth}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#panelMenuListWidth}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5996,211 +5994,211 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:panelMenuListWidth
+          @attr name local.android.eventory:panelMenuListWidth
         */
         public static final int AppCompatTheme_panelMenuListWidth = 80;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#popupMenuStyle}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#popupMenuStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:popupMenuStyle
+          @attr name local.android.eventory:popupMenuStyle
         */
         public static final int AppCompatTheme_popupMenuStyle = 61;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#popupWindowStyle}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#popupWindowStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:popupWindowStyle
+          @attr name local.android.eventory:popupWindowStyle
         */
         public static final int AppCompatTheme_popupWindowStyle = 62;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#radioButtonStyle}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#radioButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:radioButtonStyle
+          @attr name local.android.eventory:radioButtonStyle
         */
         public static final int AppCompatTheme_radioButtonStyle = 107;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#ratingBarStyle}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#ratingBarStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:ratingBarStyle
+          @attr name local.android.eventory:ratingBarStyle
         */
         public static final int AppCompatTheme_ratingBarStyle = 108;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#ratingBarStyleIndicator}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#ratingBarStyleIndicator}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:ratingBarStyleIndicator
+          @attr name local.android.eventory:ratingBarStyleIndicator
         */
         public static final int AppCompatTheme_ratingBarStyleIndicator = 109;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#ratingBarStyleSmall}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#ratingBarStyleSmall}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:ratingBarStyleSmall
+          @attr name local.android.eventory:ratingBarStyleSmall
         */
         public static final int AppCompatTheme_ratingBarStyleSmall = 110;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#searchViewStyle}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#searchViewStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:searchViewStyle
+          @attr name local.android.eventory:searchViewStyle
         */
         public static final int AppCompatTheme_searchViewStyle = 69;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#seekBarStyle}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#seekBarStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:seekBarStyle
+          @attr name local.android.eventory:seekBarStyle
         */
         public static final int AppCompatTheme_seekBarStyle = 111;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#selectableItemBackground}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#selectableItemBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:selectableItemBackground
+          @attr name local.android.eventory:selectableItemBackground
         */
         public static final int AppCompatTheme_selectableItemBackground = 53;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#selectableItemBackgroundBorderless}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#selectableItemBackgroundBorderless}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:selectableItemBackgroundBorderless
+          @attr name local.android.eventory:selectableItemBackgroundBorderless
         */
         public static final int AppCompatTheme_selectableItemBackgroundBorderless = 54;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#spinnerDropDownItemStyle}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#spinnerDropDownItemStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:spinnerDropDownItemStyle
+          @attr name local.android.eventory:spinnerDropDownItemStyle
         */
         public static final int AppCompatTheme_spinnerDropDownItemStyle = 48;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#spinnerStyle}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#spinnerStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:spinnerStyle
+          @attr name local.android.eventory:spinnerStyle
         */
         public static final int AppCompatTheme_spinnerStyle = 112;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#switchStyle}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#switchStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:switchStyle
+          @attr name local.android.eventory:switchStyle
         */
         public static final int AppCompatTheme_switchStyle = 113;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#textAppearanceLargePopupMenu}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#textAppearanceLargePopupMenu}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:textAppearanceLargePopupMenu
+          @attr name local.android.eventory:textAppearanceLargePopupMenu
         */
         public static final int AppCompatTheme_textAppearanceLargePopupMenu = 40;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#textAppearanceListItem}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#textAppearanceListItem}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:textAppearanceListItem
+          @attr name local.android.eventory:textAppearanceListItem
         */
         public static final int AppCompatTheme_textAppearanceListItem = 77;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#textAppearanceListItemSmall}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#textAppearanceListItemSmall}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:textAppearanceListItemSmall
+          @attr name local.android.eventory:textAppearanceListItemSmall
         */
         public static final int AppCompatTheme_textAppearanceListItemSmall = 78;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#textAppearancePopupMenuHeader}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#textAppearancePopupMenuHeader}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:textAppearancePopupMenuHeader
+          @attr name local.android.eventory:textAppearancePopupMenuHeader
         */
         public static final int AppCompatTheme_textAppearancePopupMenuHeader = 42;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#textAppearanceSearchResultSubtitle}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#textAppearanceSearchResultSubtitle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:textAppearanceSearchResultSubtitle
+          @attr name local.android.eventory:textAppearanceSearchResultSubtitle
         */
         public static final int AppCompatTheme_textAppearanceSearchResultSubtitle = 67;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#textAppearanceSearchResultTitle}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#textAppearanceSearchResultTitle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:textAppearanceSearchResultTitle
+          @attr name local.android.eventory:textAppearanceSearchResultTitle
         */
         public static final int AppCompatTheme_textAppearanceSearchResultTitle = 66;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#textAppearanceSmallPopupMenu}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#textAppearanceSmallPopupMenu}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:textAppearanceSmallPopupMenu
+          @attr name local.android.eventory:textAppearanceSmallPopupMenu
         */
         public static final int AppCompatTheme_textAppearanceSmallPopupMenu = 41;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#textColorAlertDialogListItem}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#textColorAlertDialogListItem}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -6208,11 +6206,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name local.koki.android.eventory:textColorAlertDialogListItem
+          @attr name local.android.eventory:textColorAlertDialogListItem
         */
         public static final int AppCompatTheme_textColorAlertDialogListItem = 97;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#textColorSearchUrl}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#textColorSearchUrl}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -6220,31 +6218,31 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name local.koki.android.eventory:textColorSearchUrl
+          @attr name local.android.eventory:textColorSearchUrl
         */
         public static final int AppCompatTheme_textColorSearchUrl = 68;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#toolbarNavigationButtonStyle}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#toolbarNavigationButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:toolbarNavigationButtonStyle
+          @attr name local.android.eventory:toolbarNavigationButtonStyle
         */
         public static final int AppCompatTheme_toolbarNavigationButtonStyle = 60;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#toolbarStyle}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#toolbarStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:toolbarStyle
+          @attr name local.android.eventory:toolbarStyle
         */
         public static final int AppCompatTheme_toolbarStyle = 59;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#windowActionBar}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#windowActionBar}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -6254,11 +6252,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:windowActionBar
+          @attr name local.android.eventory:windowActionBar
         */
         public static final int AppCompatTheme_windowActionBar = 2;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#windowActionBarOverlay}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#windowActionBarOverlay}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -6268,11 +6266,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:windowActionBarOverlay
+          @attr name local.android.eventory:windowActionBarOverlay
         */
         public static final int AppCompatTheme_windowActionBarOverlay = 4;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#windowActionModeOverlay}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#windowActionModeOverlay}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -6282,11 +6280,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:windowActionModeOverlay
+          @attr name local.android.eventory:windowActionModeOverlay
         */
         public static final int AppCompatTheme_windowActionModeOverlay = 5;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#windowFixedHeightMajor}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#windowFixedHeightMajor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -6301,11 +6299,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:windowFixedHeightMajor
+          @attr name local.android.eventory:windowFixedHeightMajor
         */
         public static final int AppCompatTheme_windowFixedHeightMajor = 9;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#windowFixedHeightMinor}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#windowFixedHeightMinor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -6320,11 +6318,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:windowFixedHeightMinor
+          @attr name local.android.eventory:windowFixedHeightMinor
         */
         public static final int AppCompatTheme_windowFixedHeightMinor = 7;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#windowFixedWidthMajor}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#windowFixedWidthMajor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -6339,11 +6337,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:windowFixedWidthMajor
+          @attr name local.android.eventory:windowFixedWidthMajor
         */
         public static final int AppCompatTheme_windowFixedWidthMajor = 6;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#windowFixedWidthMinor}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#windowFixedWidthMinor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -6358,11 +6356,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:windowFixedWidthMinor
+          @attr name local.android.eventory:windowFixedWidthMinor
         */
         public static final int AppCompatTheme_windowFixedWidthMinor = 8;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#windowMinWidthMajor}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#windowMinWidthMajor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -6377,11 +6375,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:windowMinWidthMajor
+          @attr name local.android.eventory:windowMinWidthMajor
         */
         public static final int AppCompatTheme_windowMinWidthMajor = 10;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#windowMinWidthMinor}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#windowMinWidthMinor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -6396,11 +6394,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:windowMinWidthMinor
+          @attr name local.android.eventory:windowMinWidthMinor
         */
         public static final int AppCompatTheme_windowMinWidthMinor = 11;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#windowNoTitle}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#windowNoTitle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -6410,7 +6408,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:windowNoTitle
+          @attr name local.android.eventory:windowNoTitle
         */
         public static final int AppCompatTheme_windowNoTitle = 3;
         /** Attributes that can be used with a BottomNavigationView.
@@ -6419,11 +6417,11 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #BottomNavigationView_elevation local.koki.android.eventory:elevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #BottomNavigationView_itemBackground local.koki.android.eventory:itemBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #BottomNavigationView_itemIconTint local.koki.android.eventory:itemIconTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #BottomNavigationView_itemTextColor local.koki.android.eventory:itemTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #BottomNavigationView_menu local.koki.android.eventory:menu}</code></td><td></td></tr>
+           <tr><td><code>{@link #BottomNavigationView_elevation local.android.eventory:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #BottomNavigationView_itemBackground local.android.eventory:itemBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #BottomNavigationView_itemIconTint local.android.eventory:itemIconTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #BottomNavigationView_itemTextColor local.android.eventory:itemTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #BottomNavigationView_menu local.android.eventory:menu}</code></td><td></td></tr>
            </table>
            @see #BottomNavigationView_elevation
            @see #BottomNavigationView_itemBackground
@@ -6436,7 +6434,7 @@ containing a value of this type.
             0x7f0100ea
         };
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#elevation}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#elevation}
           attribute's value can be found in the {@link #BottomNavigationView} array.
 
 
@@ -6448,21 +6446,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:elevation
+          @attr name local.android.eventory:elevation
         */
         public static final int BottomNavigationView_elevation = 0;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#itemBackground}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#itemBackground}
           attribute's value can be found in the {@link #BottomNavigationView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:itemBackground
+          @attr name local.android.eventory:itemBackground
         */
         public static final int BottomNavigationView_itemBackground = 4;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#itemIconTint}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#itemIconTint}
           attribute's value can be found in the {@link #BottomNavigationView} array.
 
 
@@ -6473,11 +6471,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:itemIconTint
+          @attr name local.android.eventory:itemIconTint
         */
         public static final int BottomNavigationView_itemIconTint = 2;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#itemTextColor}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#itemTextColor}
           attribute's value can be found in the {@link #BottomNavigationView} array.
 
 
@@ -6488,17 +6486,17 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:itemTextColor
+          @attr name local.android.eventory:itemTextColor
         */
         public static final int BottomNavigationView_itemTextColor = 3;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#menu}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#menu}
           attribute's value can be found in the {@link #BottomNavigationView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:menu
+          @attr name local.android.eventory:menu
         */
         public static final int BottomNavigationView_menu = 1;
         /** Attributes that can be used with a BottomSheetBehavior_Layout.
@@ -6507,9 +6505,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_hideable local.koki.android.eventory:behavior_hideable}</code></td><td></td></tr>
-           <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_peekHeight local.koki.android.eventory:behavior_peekHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_skipCollapsed local.koki.android.eventory:behavior_skipCollapsed}</code></td><td></td></tr>
+           <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_hideable local.android.eventory:behavior_hideable}</code></td><td></td></tr>
+           <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_peekHeight local.android.eventory:behavior_peekHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_skipCollapsed local.android.eventory:behavior_skipCollapsed}</code></td><td></td></tr>
            </table>
            @see #BottomSheetBehavior_Layout_behavior_hideable
            @see #BottomSheetBehavior_Layout_behavior_peekHeight
@@ -6519,7 +6517,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f0100a1, 0x7f0100a2, 0x7f0100a3
         };
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#behavior_hideable}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#behavior_hideable}
           attribute's value can be found in the {@link #BottomSheetBehavior_Layout} array.
 
 
@@ -6529,11 +6527,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:behavior_hideable
+          @attr name local.android.eventory:behavior_hideable
         */
         public static final int BottomSheetBehavior_Layout_behavior_hideable = 1;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#behavior_peekHeight}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#behavior_peekHeight}
           attribute's value can be found in the {@link #BottomSheetBehavior_Layout} array.
 
 
@@ -6553,11 +6551,11 @@ containing a value of this type.
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>auto</code></td><td>-1</td><td></td></tr>
 </table>
-          @attr name local.koki.android.eventory:behavior_peekHeight
+          @attr name local.android.eventory:behavior_peekHeight
         */
         public static final int BottomSheetBehavior_Layout_behavior_peekHeight = 0;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#behavior_skipCollapsed}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#behavior_skipCollapsed}
           attribute's value can be found in the {@link #BottomSheetBehavior_Layout} array.
 
 
@@ -6567,7 +6565,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:behavior_skipCollapsed
+          @attr name local.android.eventory:behavior_skipCollapsed
         */
         public static final int BottomSheetBehavior_Layout_behavior_skipCollapsed = 2;
         /** Attributes that can be used with a ButtonBarLayout.
@@ -6576,7 +6574,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ButtonBarLayout_allowStacking local.koki.android.eventory:allowStacking}</code></td><td></td></tr>
+           <tr><td><code>{@link #ButtonBarLayout_allowStacking local.android.eventory:allowStacking}</code></td><td></td></tr>
            </table>
            @see #ButtonBarLayout_allowStacking
          */
@@ -6584,7 +6582,7 @@ containing a value of this type.
             0x7f0100a4
         };
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#allowStacking}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#allowStacking}
           attribute's value can be found in the {@link #ButtonBarLayout} array.
 
 
@@ -6594,7 +6592,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:allowStacking
+          @attr name local.android.eventory:allowStacking
         */
         public static final int ButtonBarLayout_allowStacking = 0;
         /** Attributes that can be used with a CardView.
@@ -6603,17 +6601,17 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #CardView_cardBackgroundColor local.koki.android.eventory:cardBackgroundColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #CardView_cardCornerRadius local.koki.android.eventory:cardCornerRadius}</code></td><td></td></tr>
-           <tr><td><code>{@link #CardView_cardElevation local.koki.android.eventory:cardElevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #CardView_cardMaxElevation local.koki.android.eventory:cardMaxElevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #CardView_cardPreventCornerOverlap local.koki.android.eventory:cardPreventCornerOverlap}</code></td><td></td></tr>
-           <tr><td><code>{@link #CardView_cardUseCompatPadding local.koki.android.eventory:cardUseCompatPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #CardView_contentPadding local.koki.android.eventory:contentPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #CardView_contentPaddingBottom local.koki.android.eventory:contentPaddingBottom}</code></td><td></td></tr>
-           <tr><td><code>{@link #CardView_contentPaddingLeft local.koki.android.eventory:contentPaddingLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #CardView_contentPaddingRight local.koki.android.eventory:contentPaddingRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #CardView_contentPaddingTop local.koki.android.eventory:contentPaddingTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_cardBackgroundColor local.android.eventory:cardBackgroundColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_cardCornerRadius local.android.eventory:cardCornerRadius}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_cardElevation local.android.eventory:cardElevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_cardMaxElevation local.android.eventory:cardMaxElevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_cardPreventCornerOverlap local.android.eventory:cardPreventCornerOverlap}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_cardUseCompatPadding local.android.eventory:cardUseCompatPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_contentPadding local.android.eventory:contentPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_contentPaddingBottom local.android.eventory:contentPaddingBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_contentPaddingLeft local.android.eventory:contentPaddingLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_contentPaddingRight local.android.eventory:contentPaddingRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_contentPaddingTop local.android.eventory:contentPaddingTop}</code></td><td></td></tr>
            </table>
            @see #CardView_cardBackgroundColor
            @see #CardView_cardCornerRadius
@@ -6633,7 +6631,7 @@ containing a value of this type.
             0x7f0100ad, 0x7f0100ae, 0x7f0100af
         };
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#cardBackgroundColor}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#cardBackgroundColor}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -6644,11 +6642,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:cardBackgroundColor
+          @attr name local.android.eventory:cardBackgroundColor
         */
         public static final int CardView_cardBackgroundColor = 0;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#cardCornerRadius}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#cardCornerRadius}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -6660,11 +6658,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:cardCornerRadius
+          @attr name local.android.eventory:cardCornerRadius
         */
         public static final int CardView_cardCornerRadius = 1;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#cardElevation}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#cardElevation}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -6676,11 +6674,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:cardElevation
+          @attr name local.android.eventory:cardElevation
         */
         public static final int CardView_cardElevation = 2;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#cardMaxElevation}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#cardMaxElevation}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -6692,11 +6690,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:cardMaxElevation
+          @attr name local.android.eventory:cardMaxElevation
         */
         public static final int CardView_cardMaxElevation = 3;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#cardPreventCornerOverlap}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#cardPreventCornerOverlap}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -6706,11 +6704,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:cardPreventCornerOverlap
+          @attr name local.android.eventory:cardPreventCornerOverlap
         */
         public static final int CardView_cardPreventCornerOverlap = 5;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#cardUseCompatPadding}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#cardUseCompatPadding}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -6720,11 +6718,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:cardUseCompatPadding
+          @attr name local.android.eventory:cardUseCompatPadding
         */
         public static final int CardView_cardUseCompatPadding = 4;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#contentPadding}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#contentPadding}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -6736,11 +6734,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:contentPadding
+          @attr name local.android.eventory:contentPadding
         */
         public static final int CardView_contentPadding = 6;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#contentPaddingBottom}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#contentPaddingBottom}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -6752,11 +6750,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:contentPaddingBottom
+          @attr name local.android.eventory:contentPaddingBottom
         */
         public static final int CardView_contentPaddingBottom = 10;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#contentPaddingLeft}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#contentPaddingLeft}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -6768,11 +6766,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:contentPaddingLeft
+          @attr name local.android.eventory:contentPaddingLeft
         */
         public static final int CardView_contentPaddingLeft = 7;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#contentPaddingRight}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#contentPaddingRight}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -6784,11 +6782,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:contentPaddingRight
+          @attr name local.android.eventory:contentPaddingRight
         */
         public static final int CardView_contentPaddingRight = 8;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#contentPaddingTop}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#contentPaddingTop}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -6800,7 +6798,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:contentPaddingTop
+          @attr name local.android.eventory:contentPaddingTop
         */
         public static final int CardView_contentPaddingTop = 9;
         /** Attributes that can be used with a CollapsingToolbarLayout.
@@ -6809,22 +6807,22 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleGravity local.koki.android.eventory:collapsedTitleGravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleTextAppearance local.koki.android.eventory:collapsedTitleTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_contentScrim local.koki.android.eventory:contentScrim}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleGravity local.koki.android.eventory:expandedTitleGravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMargin local.koki.android.eventory:expandedTitleMargin}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginBottom local.koki.android.eventory:expandedTitleMarginBottom}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginEnd local.koki.android.eventory:expandedTitleMarginEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginStart local.koki.android.eventory:expandedTitleMarginStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginTop local.koki.android.eventory:expandedTitleMarginTop}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleTextAppearance local.koki.android.eventory:expandedTitleTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_scrimAnimationDuration local.koki.android.eventory:scrimAnimationDuration}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_scrimVisibleHeightTrigger local.koki.android.eventory:scrimVisibleHeightTrigger}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_statusBarScrim local.koki.android.eventory:statusBarScrim}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_title local.koki.android.eventory:title}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_titleEnabled local.koki.android.eventory:titleEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_toolbarId local.koki.android.eventory:toolbarId}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleGravity local.android.eventory:collapsedTitleGravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleTextAppearance local.android.eventory:collapsedTitleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_contentScrim local.android.eventory:contentScrim}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleGravity local.android.eventory:expandedTitleGravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMargin local.android.eventory:expandedTitleMargin}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginBottom local.android.eventory:expandedTitleMarginBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginEnd local.android.eventory:expandedTitleMarginEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginStart local.android.eventory:expandedTitleMarginStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginTop local.android.eventory:expandedTitleMarginTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleTextAppearance local.android.eventory:expandedTitleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_scrimAnimationDuration local.android.eventory:scrimAnimationDuration}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_scrimVisibleHeightTrigger local.android.eventory:scrimVisibleHeightTrigger}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_statusBarScrim local.android.eventory:statusBarScrim}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_title local.android.eventory:title}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_titleEnabled local.android.eventory:titleEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_toolbarId local.android.eventory:toolbarId}</code></td><td></td></tr>
            </table>
            @see #CollapsingToolbarLayout_collapsedTitleGravity
            @see #CollapsingToolbarLayout_collapsedTitleTextAppearance
@@ -6850,7 +6848,7 @@ containing a value of this type.
             0x7f0100bb, 0x7f0100bc, 0x7f0100bd, 0x7f0100be
         };
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#collapsedTitleGravity}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#collapsedTitleGravity}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -6871,21 +6869,21 @@ containing a value of this type.
 <tr><td><code>start</code></td><td>0x00800003</td><td></td></tr>
 <tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
 </table>
-          @attr name local.koki.android.eventory:collapsedTitleGravity
+          @attr name local.android.eventory:collapsedTitleGravity
         */
         public static final int CollapsingToolbarLayout_collapsedTitleGravity = 13;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#collapsedTitleTextAppearance}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#collapsedTitleTextAppearance}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:collapsedTitleTextAppearance
+          @attr name local.android.eventory:collapsedTitleTextAppearance
         */
         public static final int CollapsingToolbarLayout_collapsedTitleTextAppearance = 7;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#contentScrim}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#contentScrim}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -6896,11 +6894,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:contentScrim
+          @attr name local.android.eventory:contentScrim
         */
         public static final int CollapsingToolbarLayout_contentScrim = 8;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#expandedTitleGravity}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#expandedTitleGravity}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -6921,11 +6919,11 @@ containing a value of this type.
 <tr><td><code>start</code></td><td>0x00800003</td><td></td></tr>
 <tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
 </table>
-          @attr name local.koki.android.eventory:expandedTitleGravity
+          @attr name local.android.eventory:expandedTitleGravity
         */
         public static final int CollapsingToolbarLayout_expandedTitleGravity = 14;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#expandedTitleMargin}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#expandedTitleMargin}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -6937,11 +6935,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:expandedTitleMargin
+          @attr name local.android.eventory:expandedTitleMargin
         */
         public static final int CollapsingToolbarLayout_expandedTitleMargin = 1;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#expandedTitleMarginBottom}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#expandedTitleMarginBottom}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -6953,11 +6951,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:expandedTitleMarginBottom
+          @attr name local.android.eventory:expandedTitleMarginBottom
         */
         public static final int CollapsingToolbarLayout_expandedTitleMarginBottom = 5;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#expandedTitleMarginEnd}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#expandedTitleMarginEnd}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -6969,11 +6967,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:expandedTitleMarginEnd
+          @attr name local.android.eventory:expandedTitleMarginEnd
         */
         public static final int CollapsingToolbarLayout_expandedTitleMarginEnd = 4;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#expandedTitleMarginStart}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#expandedTitleMarginStart}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -6985,11 +6983,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:expandedTitleMarginStart
+          @attr name local.android.eventory:expandedTitleMarginStart
         */
         public static final int CollapsingToolbarLayout_expandedTitleMarginStart = 2;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#expandedTitleMarginTop}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#expandedTitleMarginTop}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -7001,21 +6999,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:expandedTitleMarginTop
+          @attr name local.android.eventory:expandedTitleMarginTop
         */
         public static final int CollapsingToolbarLayout_expandedTitleMarginTop = 3;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#expandedTitleTextAppearance}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#expandedTitleTextAppearance}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:expandedTitleTextAppearance
+          @attr name local.android.eventory:expandedTitleTextAppearance
         */
         public static final int CollapsingToolbarLayout_expandedTitleTextAppearance = 6;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#scrimAnimationDuration}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#scrimAnimationDuration}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -7025,11 +7023,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:scrimAnimationDuration
+          @attr name local.android.eventory:scrimAnimationDuration
         */
         public static final int CollapsingToolbarLayout_scrimAnimationDuration = 12;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#scrimVisibleHeightTrigger}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#scrimVisibleHeightTrigger}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -7041,11 +7039,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:scrimVisibleHeightTrigger
+          @attr name local.android.eventory:scrimVisibleHeightTrigger
         */
         public static final int CollapsingToolbarLayout_scrimVisibleHeightTrigger = 11;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#statusBarScrim}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#statusBarScrim}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -7056,11 +7054,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:statusBarScrim
+          @attr name local.android.eventory:statusBarScrim
         */
         public static final int CollapsingToolbarLayout_statusBarScrim = 9;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#title}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#title}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -7070,11 +7068,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:title
+          @attr name local.android.eventory:title
         */
         public static final int CollapsingToolbarLayout_title = 0;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#titleEnabled}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#titleEnabled}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -7084,17 +7082,17 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:titleEnabled
+          @attr name local.android.eventory:titleEnabled
         */
         public static final int CollapsingToolbarLayout_titleEnabled = 15;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#toolbarId}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#toolbarId}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:toolbarId
+          @attr name local.android.eventory:toolbarId
         */
         public static final int CollapsingToolbarLayout_toolbarId = 10;
         /** Attributes that can be used with a CollapsingToolbarLayout_Layout.
@@ -7103,8 +7101,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_Layout_layout_collapseMode local.koki.android.eventory:layout_collapseMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier local.koki.android.eventory:layout_collapseParallaxMultiplier}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_Layout_layout_collapseMode local.android.eventory:layout_collapseMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier local.android.eventory:layout_collapseParallaxMultiplier}</code></td><td></td></tr>
            </table>
            @see #CollapsingToolbarLayout_Layout_layout_collapseMode
            @see #CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier
@@ -7113,7 +7111,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f0100bf, 0x7f0100c0
         };
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#layout_collapseMode}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#layout_collapseMode}
           attribute's value can be found in the {@link #CollapsingToolbarLayout_Layout} array.
 
 
@@ -7127,11 +7125,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>pin</code></td><td>1</td><td></td></tr>
 <tr><td><code>parallax</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name local.koki.android.eventory:layout_collapseMode
+          @attr name local.android.eventory:layout_collapseMode
         */
         public static final int CollapsingToolbarLayout_Layout_layout_collapseMode = 0;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#layout_collapseParallaxMultiplier}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#layout_collapseParallaxMultiplier}
           attribute's value can be found in the {@link #CollapsingToolbarLayout_Layout} array.
 
 
@@ -7141,7 +7139,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:layout_collapseParallaxMultiplier
+          @attr name local.android.eventory:layout_collapseParallaxMultiplier
         */
         public static final int CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = 1;
         /** Attributes that can be used with a ColorStateListItem.
@@ -7150,7 +7148,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ColorStateListItem_alpha local.koki.android.eventory:alpha}</code></td><td></td></tr>
+           <tr><td><code>{@link #ColorStateListItem_alpha local.android.eventory:alpha}</code></td><td></td></tr>
            <tr><td><code>{@link #ColorStateListItem_android_alpha android:alpha}</code></td><td></td></tr>
            <tr><td><code>{@link #ColorStateListItem_android_color android:color}</code></td><td></td></tr>
            </table>
@@ -7162,7 +7160,7 @@ containing a value of this type.
             0x010101a5, 0x0101031f, 0x7f0100c1
         };
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#alpha}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#alpha}
           attribute's value can be found in the {@link #ColorStateListItem} array.
 
 
@@ -7172,7 +7170,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:alpha
+          @attr name local.android.eventory:alpha
         */
         public static final int ColorStateListItem_alpha = 2;
         /**
@@ -7194,8 +7192,8 @@ containing a value of this type.
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #CompoundButton_android_button android:button}</code></td><td></td></tr>
-           <tr><td><code>{@link #CompoundButton_buttonTint local.koki.android.eventory:buttonTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #CompoundButton_buttonTintMode local.koki.android.eventory:buttonTintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #CompoundButton_buttonTint local.android.eventory:buttonTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #CompoundButton_buttonTintMode local.android.eventory:buttonTintMode}</code></td><td></td></tr>
            </table>
            @see #CompoundButton_android_button
            @see #CompoundButton_buttonTint
@@ -7211,7 +7209,7 @@ containing a value of this type.
         */
         public static final int CompoundButton_android_button = 0;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#buttonTint}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#buttonTint}
           attribute's value can be found in the {@link #CompoundButton} array.
 
 
@@ -7222,11 +7220,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:buttonTint
+          @attr name local.android.eventory:buttonTint
         */
         public static final int CompoundButton_buttonTint = 1;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#buttonTintMode}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#buttonTintMode}
           attribute's value can be found in the {@link #CompoundButton} array.
 
 
@@ -7242,7 +7240,7 @@ containing a value of this type.
 <tr><td><code>multiply</code></td><td>14</td><td></td></tr>
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 </table>
-          @attr name local.koki.android.eventory:buttonTintMode
+          @attr name local.android.eventory:buttonTintMode
         */
         public static final int CompoundButton_buttonTintMode = 2;
         /** Attributes that can be used with a CoordinatorLayout.
@@ -7251,8 +7249,8 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #CoordinatorLayout_keylines local.koki.android.eventory:keylines}</code></td><td></td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_statusBarBackground local.koki.android.eventory:statusBarBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_keylines local.android.eventory:keylines}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_statusBarBackground local.android.eventory:statusBarBackground}</code></td><td></td></tr>
            </table>
            @see #CoordinatorLayout_keylines
            @see #CoordinatorLayout_statusBarBackground
@@ -7261,23 +7259,23 @@ containing a value of this type.
             0x7f0100c4, 0x7f0100c5
         };
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#keylines}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#keylines}
           attribute's value can be found in the {@link #CoordinatorLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:keylines
+          @attr name local.android.eventory:keylines
         */
         public static final int CoordinatorLayout_keylines = 0;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#statusBarBackground}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#statusBarBackground}
           attribute's value can be found in the {@link #CoordinatorLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:statusBarBackground
+          @attr name local.android.eventory:statusBarBackground
         */
         public static final int CoordinatorLayout_statusBarBackground = 1;
         /** Attributes that can be used with a CoordinatorLayout_Layout.
@@ -7287,12 +7285,12 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #CoordinatorLayout_Layout_android_layout_gravity android:layout_gravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchor local.koki.android.eventory:layout_anchor}</code></td><td></td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchorGravity local.koki.android.eventory:layout_anchorGravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_Layout_layout_behavior local.koki.android.eventory:layout_behavior}</code></td><td></td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_Layout_layout_dodgeInsetEdges local.koki.android.eventory:layout_dodgeInsetEdges}</code></td><td></td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_Layout_layout_insetEdge local.koki.android.eventory:layout_insetEdge}</code></td><td></td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_Layout_layout_keyline local.koki.android.eventory:layout_keyline}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchor local.android.eventory:layout_anchor}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchorGravity local.android.eventory:layout_anchorGravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_Layout_layout_behavior local.android.eventory:layout_behavior}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_Layout_layout_dodgeInsetEdges local.android.eventory:layout_dodgeInsetEdges}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_Layout_layout_insetEdge local.android.eventory:layout_insetEdge}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_Layout_layout_keyline local.android.eventory:layout_keyline}</code></td><td></td></tr>
            </table>
            @see #CoordinatorLayout_Layout_android_layout_gravity
            @see #CoordinatorLayout_Layout_layout_anchor
@@ -7313,17 +7311,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int CoordinatorLayout_Layout_android_layout_gravity = 0;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#layout_anchor}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#layout_anchor}
           attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:layout_anchor
+          @attr name local.android.eventory:layout_anchor
         */
         public static final int CoordinatorLayout_Layout_layout_anchor = 2;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#layout_anchorGravity}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#layout_anchorGravity}
           attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
 
 
@@ -7348,11 +7346,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>start</code></td><td>0x00800003</td><td></td></tr>
 <tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
 </table>
-          @attr name local.koki.android.eventory:layout_anchorGravity
+          @attr name local.android.eventory:layout_anchorGravity
         */
         public static final int CoordinatorLayout_Layout_layout_anchorGravity = 4;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#layout_behavior}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#layout_behavior}
           attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
 
 
@@ -7362,11 +7360,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:layout_behavior
+          @attr name local.android.eventory:layout_behavior
         */
         public static final int CoordinatorLayout_Layout_layout_behavior = 1;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#layout_dodgeInsetEdges}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#layout_dodgeInsetEdges}
           attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
 
 
@@ -7385,11 +7383,11 @@ containing a value of this type.
 <tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
 <tr><td><code>all</code></td><td>0x77</td><td></td></tr>
 </table>
-          @attr name local.koki.android.eventory:layout_dodgeInsetEdges
+          @attr name local.android.eventory:layout_dodgeInsetEdges
         */
         public static final int CoordinatorLayout_Layout_layout_dodgeInsetEdges = 6;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#layout_insetEdge}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#layout_insetEdge}
           attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
 
 
@@ -7407,11 +7405,11 @@ containing a value of this type.
 <tr><td><code>start</code></td><td>0x00800003</td><td></td></tr>
 <tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
 </table>
-          @attr name local.koki.android.eventory:layout_insetEdge
+          @attr name local.android.eventory:layout_insetEdge
         */
         public static final int CoordinatorLayout_Layout_layout_insetEdge = 5;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#layout_keyline}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#layout_keyline}
           attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
 
 
@@ -7421,7 +7419,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:layout_keyline
+          @attr name local.android.eventory:layout_keyline
         */
         public static final int CoordinatorLayout_Layout_layout_keyline = 3;
         /** Attributes that can be used with a DesignTheme.
@@ -7430,9 +7428,9 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #DesignTheme_bottomSheetDialogTheme local.koki.android.eventory:bottomSheetDialogTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #DesignTheme_bottomSheetStyle local.koki.android.eventory:bottomSheetStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #DesignTheme_textColorError local.koki.android.eventory:textColorError}</code></td><td></td></tr>
+           <tr><td><code>{@link #DesignTheme_bottomSheetDialogTheme local.android.eventory:bottomSheetDialogTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #DesignTheme_bottomSheetStyle local.android.eventory:bottomSheetStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #DesignTheme_textColorError local.android.eventory:textColorError}</code></td><td></td></tr>
            </table>
            @see #DesignTheme_bottomSheetDialogTheme
            @see #DesignTheme_bottomSheetStyle
@@ -7442,27 +7440,27 @@ containing a value of this type.
             0x7f0100cc, 0x7f0100cd, 0x7f0100ce
         };
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#bottomSheetDialogTheme}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#bottomSheetDialogTheme}
           attribute's value can be found in the {@link #DesignTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:bottomSheetDialogTheme
+          @attr name local.android.eventory:bottomSheetDialogTheme
         */
         public static final int DesignTheme_bottomSheetDialogTheme = 0;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#bottomSheetStyle}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#bottomSheetStyle}
           attribute's value can be found in the {@link #DesignTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:bottomSheetStyle
+          @attr name local.android.eventory:bottomSheetStyle
         */
         public static final int DesignTheme_bottomSheetStyle = 1;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#textColorError}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#textColorError}
           attribute's value can be found in the {@link #DesignTheme} array.
 
 
@@ -7473,7 +7471,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:textColorError
+          @attr name local.android.eventory:textColorError
         */
         public static final int DesignTheme_textColorError = 2;
         /** Attributes that can be used with a DrawerArrowToggle.
@@ -7482,14 +7480,14 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_arrowHeadLength local.koki.android.eventory:arrowHeadLength}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_arrowShaftLength local.koki.android.eventory:arrowShaftLength}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_barLength local.koki.android.eventory:barLength}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_color local.koki.android.eventory:color}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_drawableSize local.koki.android.eventory:drawableSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars local.koki.android.eventory:gapBetweenBars}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_spinBars local.koki.android.eventory:spinBars}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_thickness local.koki.android.eventory:thickness}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_arrowHeadLength local.android.eventory:arrowHeadLength}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_arrowShaftLength local.android.eventory:arrowShaftLength}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_barLength local.android.eventory:barLength}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_color local.android.eventory:color}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_drawableSize local.android.eventory:drawableSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars local.android.eventory:gapBetweenBars}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_spinBars local.android.eventory:spinBars}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_thickness local.android.eventory:thickness}</code></td><td></td></tr>
            </table>
            @see #DrawerArrowToggle_arrowHeadLength
            @see #DrawerArrowToggle_arrowShaftLength
@@ -7505,7 +7503,7 @@ containing a value of this type.
             0x7f0100d3, 0x7f0100d4, 0x7f0100d5, 0x7f0100d6
         };
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#arrowHeadLength}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#arrowHeadLength}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -7517,11 +7515,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:arrowHeadLength
+          @attr name local.android.eventory:arrowHeadLength
         */
         public static final int DrawerArrowToggle_arrowHeadLength = 4;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#arrowShaftLength}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#arrowShaftLength}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -7533,11 +7531,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:arrowShaftLength
+          @attr name local.android.eventory:arrowShaftLength
         */
         public static final int DrawerArrowToggle_arrowShaftLength = 5;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#barLength}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#barLength}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -7549,11 +7547,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:barLength
+          @attr name local.android.eventory:barLength
         */
         public static final int DrawerArrowToggle_barLength = 6;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#color}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#color}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -7564,11 +7562,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:color
+          @attr name local.android.eventory:color
         */
         public static final int DrawerArrowToggle_color = 0;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#drawableSize}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#drawableSize}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -7580,11 +7578,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:drawableSize
+          @attr name local.android.eventory:drawableSize
         */
         public static final int DrawerArrowToggle_drawableSize = 2;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#gapBetweenBars}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#gapBetweenBars}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -7596,11 +7594,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:gapBetweenBars
+          @attr name local.android.eventory:gapBetweenBars
         */
         public static final int DrawerArrowToggle_gapBetweenBars = 3;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#spinBars}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#spinBars}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -7610,11 +7608,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:spinBars
+          @attr name local.android.eventory:spinBars
         */
         public static final int DrawerArrowToggle_spinBars = 1;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#thickness}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#thickness}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -7626,7 +7624,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:thickness
+          @attr name local.android.eventory:thickness
         */
         public static final int DrawerArrowToggle_thickness = 7;
         /** Attributes that can be used with a FloatingActionButton.
@@ -7635,14 +7633,14 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #FloatingActionButton_backgroundTint local.koki.android.eventory:backgroundTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_backgroundTintMode local.koki.android.eventory:backgroundTintMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_borderWidth local.koki.android.eventory:borderWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_elevation local.koki.android.eventory:elevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_fabSize local.koki.android.eventory:fabSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_pressedTranslationZ local.koki.android.eventory:pressedTranslationZ}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_rippleColor local.koki.android.eventory:rippleColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_useCompatPadding local.koki.android.eventory:useCompatPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_backgroundTint local.android.eventory:backgroundTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_backgroundTintMode local.android.eventory:backgroundTintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_borderWidth local.android.eventory:borderWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_elevation local.android.eventory:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_fabSize local.android.eventory:fabSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_pressedTranslationZ local.android.eventory:pressedTranslationZ}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_rippleColor local.android.eventory:rippleColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_useCompatPadding local.android.eventory:useCompatPadding}</code></td><td></td></tr>
            </table>
            @see #FloatingActionButton_backgroundTint
            @see #FloatingActionButton_backgroundTintMode
@@ -7658,7 +7656,7 @@ containing a value of this type.
             0x7f0100da, 0x7f0100db, 0x7f010151, 0x7f010152
         };
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#backgroundTint}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#backgroundTint}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -7669,11 +7667,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:backgroundTint
+          @attr name local.android.eventory:backgroundTint
         */
         public static final int FloatingActionButton_backgroundTint = 6;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#backgroundTintMode}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#backgroundTintMode}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -7689,11 +7687,11 @@ containing a value of this type.
 <tr><td><code>multiply</code></td><td>14</td><td></td></tr>
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 </table>
-          @attr name local.koki.android.eventory:backgroundTintMode
+          @attr name local.android.eventory:backgroundTintMode
         */
         public static final int FloatingActionButton_backgroundTintMode = 7;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#borderWidth}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#borderWidth}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -7705,11 +7703,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:borderWidth
+          @attr name local.android.eventory:borderWidth
         */
         public static final int FloatingActionButton_borderWidth = 4;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#elevation}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#elevation}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -7721,11 +7719,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:elevation
+          @attr name local.android.eventory:elevation
         */
         public static final int FloatingActionButton_elevation = 0;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#fabSize}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#fabSize}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -7739,11 +7737,11 @@ containing a value of this type.
 <tr><td><code>normal</code></td><td>0</td><td></td></tr>
 <tr><td><code>mini</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name local.koki.android.eventory:fabSize
+          @attr name local.android.eventory:fabSize
         */
         public static final int FloatingActionButton_fabSize = 2;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#pressedTranslationZ}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#pressedTranslationZ}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -7755,11 +7753,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:pressedTranslationZ
+          @attr name local.android.eventory:pressedTranslationZ
         */
         public static final int FloatingActionButton_pressedTranslationZ = 3;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#rippleColor}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#rippleColor}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -7770,11 +7768,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:rippleColor
+          @attr name local.android.eventory:rippleColor
         */
         public static final int FloatingActionButton_rippleColor = 1;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#useCompatPadding}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#useCompatPadding}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -7784,7 +7782,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:useCompatPadding
+          @attr name local.android.eventory:useCompatPadding
         */
         public static final int FloatingActionButton_useCompatPadding = 5;
         /** Attributes that can be used with a FloatingActionButton_Behavior_Layout.
@@ -7793,7 +7791,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #FloatingActionButton_Behavior_Layout_behavior_autoHide local.koki.android.eventory:behavior_autoHide}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_Behavior_Layout_behavior_autoHide local.android.eventory:behavior_autoHide}</code></td><td></td></tr>
            </table>
            @see #FloatingActionButton_Behavior_Layout_behavior_autoHide
          */
@@ -7801,7 +7799,7 @@ containing a value of this type.
             0x7f0100dc
         };
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#behavior_autoHide}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#behavior_autoHide}
           attribute's value can be found in the {@link #FloatingActionButton_Behavior_Layout} array.
 
 
@@ -7811,7 +7809,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:behavior_autoHide
+          @attr name local.android.eventory:behavior_autoHide
         */
         public static final int FloatingActionButton_Behavior_Layout_behavior_autoHide = 0;
         /** Attributes that can be used with a ForegroundLinearLayout.
@@ -7822,7 +7820,7 @@ containing a value of this type.
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #ForegroundLinearLayout_android_foreground android:foreground}</code></td><td></td></tr>
            <tr><td><code>{@link #ForegroundLinearLayout_android_foregroundGravity android:foregroundGravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #ForegroundLinearLayout_foregroundInsidePadding local.koki.android.eventory:foregroundInsidePadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #ForegroundLinearLayout_foregroundInsidePadding local.android.eventory:foregroundInsidePadding}</code></td><td></td></tr>
            </table>
            @see #ForegroundLinearLayout_android_foreground
            @see #ForegroundLinearLayout_android_foregroundGravity
@@ -7844,7 +7842,7 @@ containing a value of this type.
         */
         public static final int ForegroundLinearLayout_android_foregroundGravity = 1;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#foregroundInsidePadding}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#foregroundInsidePadding}
           attribute's value can be found in the {@link #ForegroundLinearLayout} array.
 
 
@@ -7854,7 +7852,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:foregroundInsidePadding
+          @attr name local.android.eventory:foregroundInsidePadding
         */
         public static final int ForegroundLinearLayout_foregroundInsidePadding = 2;
         /** Attributes that can be used with a LinearLayoutCompat.
@@ -7868,10 +7866,10 @@ containing a value of this type.
            <tr><td><code>{@link #LinearLayoutCompat_android_gravity android:gravity}</code></td><td></td></tr>
            <tr><td><code>{@link #LinearLayoutCompat_android_orientation android:orientation}</code></td><td></td></tr>
            <tr><td><code>{@link #LinearLayoutCompat_android_weightSum android:weightSum}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_divider local.koki.android.eventory:divider}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_dividerPadding local.koki.android.eventory:dividerPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild local.koki.android.eventory:measureWithLargestChild}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_showDividers local.koki.android.eventory:showDividers}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_divider local.android.eventory:divider}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_dividerPadding local.android.eventory:dividerPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild local.android.eventory:measureWithLargestChild}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_showDividers local.android.eventory:showDividers}</code></td><td></td></tr>
            </table>
            @see #LinearLayoutCompat_android_baselineAligned
            @see #LinearLayoutCompat_android_baselineAlignedChildIndex
@@ -7919,17 +7917,17 @@ containing a value of this type.
         */
         public static final int LinearLayoutCompat_android_weightSum = 4;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#divider}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#divider}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:divider
+          @attr name local.android.eventory:divider
         */
         public static final int LinearLayoutCompat_divider = 5;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#dividerPadding}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#dividerPadding}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -7941,11 +7939,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:dividerPadding
+          @attr name local.android.eventory:dividerPadding
         */
         public static final int LinearLayoutCompat_dividerPadding = 8;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#measureWithLargestChild}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#measureWithLargestChild}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -7955,11 +7953,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:measureWithLargestChild
+          @attr name local.android.eventory:measureWithLargestChild
         */
         public static final int LinearLayoutCompat_measureWithLargestChild = 6;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#showDividers}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#showDividers}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -7974,7 +7972,7 @@ containing a value of this type.
 <tr><td><code>middle</code></td><td>2</td><td></td></tr>
 <tr><td><code>end</code></td><td>4</td><td></td></tr>
 </table>
-          @attr name local.koki.android.eventory:showDividers
+          @attr name local.android.eventory:showDividers
         */
         public static final int LinearLayoutCompat_showDividers = 7;
         /** Attributes that can be used with a LinearLayoutCompat_Layout.
@@ -8113,9 +8111,9 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #MenuItem_actionLayout local.koki.android.eventory:actionLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_actionProviderClass local.koki.android.eventory:actionProviderClass}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_actionViewClass local.koki.android.eventory:actionViewClass}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_actionLayout local.android.eventory:actionLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_actionProviderClass local.android.eventory:actionProviderClass}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_actionViewClass local.android.eventory:actionViewClass}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_alphabeticShortcut android:alphabeticShortcut}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_checkable android:checkable}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_checked android:checked}</code></td><td></td></tr>
@@ -8129,7 +8127,7 @@ containing a value of this type.
            <tr><td><code>{@link #MenuItem_android_title android:title}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_titleCondensed android:titleCondensed}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_visible android:visible}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_showAsAction local.koki.android.eventory:showAsAction}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_showAsAction local.android.eventory:showAsAction}</code></td><td></td></tr>
            </table>
            @see #MenuItem_actionLayout
            @see #MenuItem_actionProviderClass
@@ -8157,17 +8155,17 @@ containing a value of this type.
             0x7f0100e4
         };
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#actionLayout}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#actionLayout}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:actionLayout
+          @attr name local.android.eventory:actionLayout
         */
         public static final int MenuItem_actionLayout = 14;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#actionProviderClass}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#actionProviderClass}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -8177,11 +8175,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:actionProviderClass
+          @attr name local.android.eventory:actionProviderClass
         */
         public static final int MenuItem_actionProviderClass = 16;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#actionViewClass}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#actionViewClass}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -8191,7 +8189,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:actionViewClass
+          @attr name local.android.eventory:actionViewClass
         */
         public static final int MenuItem_actionViewClass = 15;
         /**
@@ -8273,7 +8271,7 @@ containing a value of this type.
         */
         public static final int MenuItem_android_visible = 4;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#showAsAction}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#showAsAction}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -8289,7 +8287,7 @@ containing a value of this type.
 <tr><td><code>withText</code></td><td>4</td><td></td></tr>
 <tr><td><code>collapseActionView</code></td><td>8</td><td></td></tr>
 </table>
-          @attr name local.koki.android.eventory:showAsAction
+          @attr name local.android.eventory:showAsAction
         */
         public static final int MenuItem_showAsAction = 13;
         /** Attributes that can be used with a MenuView.
@@ -8305,8 +8303,8 @@ containing a value of this type.
            <tr><td><code>{@link #MenuView_android_itemTextAppearance android:itemTextAppearance}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuView_android_verticalDivider android:verticalDivider}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuView_android_windowAnimationStyle android:windowAnimationStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuView_preserveIconSpacing local.koki.android.eventory:preserveIconSpacing}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuView_subMenuArrow local.koki.android.eventory:subMenuArrow}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuView_preserveIconSpacing local.android.eventory:preserveIconSpacing}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuView_subMenuArrow local.android.eventory:subMenuArrow}</code></td><td></td></tr>
            </table>
            @see #MenuView_android_headerBackground
            @see #MenuView_android_horizontalDivider
@@ -8366,7 +8364,7 @@ containing a value of this type.
         */
         public static final int MenuView_android_windowAnimationStyle = 0;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#preserveIconSpacing}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#preserveIconSpacing}
           attribute's value can be found in the {@link #MenuView} array.
 
 
@@ -8376,17 +8374,17 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:preserveIconSpacing
+          @attr name local.android.eventory:preserveIconSpacing
         */
         public static final int MenuView_preserveIconSpacing = 7;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#subMenuArrow}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#subMenuArrow}
           attribute's value can be found in the {@link #MenuView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:subMenuArrow
+          @attr name local.android.eventory:subMenuArrow
         */
         public static final int MenuView_subMenuArrow = 8;
         /** Attributes that can be used with a NavigationView.
@@ -8398,13 +8396,13 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><td><code>{@link #NavigationView_android_background android:background}</code></td><td></td></tr>
            <tr><td><code>{@link #NavigationView_android_fitsSystemWindows android:fitsSystemWindows}</code></td><td></td></tr>
            <tr><td><code>{@link #NavigationView_android_maxWidth android:maxWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_elevation local.koki.android.eventory:elevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_headerLayout local.koki.android.eventory:headerLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_itemBackground local.koki.android.eventory:itemBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_itemIconTint local.koki.android.eventory:itemIconTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_itemTextAppearance local.koki.android.eventory:itemTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_itemTextColor local.koki.android.eventory:itemTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_menu local.koki.android.eventory:menu}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_elevation local.android.eventory:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_headerLayout local.android.eventory:headerLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_itemBackground local.android.eventory:itemBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_itemIconTint local.android.eventory:itemIconTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_itemTextAppearance local.android.eventory:itemTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_itemTextColor local.android.eventory:itemTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_menu local.android.eventory:menu}</code></td><td></td></tr>
            </table>
            @see #NavigationView_android_background
            @see #NavigationView_android_fitsSystemWindows
@@ -8441,7 +8439,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int NavigationView_android_maxWidth = 2;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#elevation}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#elevation}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
@@ -8453,31 +8451,31 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:elevation
+          @attr name local.android.eventory:elevation
         */
         public static final int NavigationView_elevation = 3;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#headerLayout}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#headerLayout}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:headerLayout
+          @attr name local.android.eventory:headerLayout
         */
         public static final int NavigationView_headerLayout = 9;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#itemBackground}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#itemBackground}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:itemBackground
+          @attr name local.android.eventory:itemBackground
         */
         public static final int NavigationView_itemBackground = 7;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#itemIconTint}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#itemIconTint}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
@@ -8488,21 +8486,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:itemIconTint
+          @attr name local.android.eventory:itemIconTint
         */
         public static final int NavigationView_itemIconTint = 5;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#itemTextAppearance}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#itemTextAppearance}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:itemTextAppearance
+          @attr name local.android.eventory:itemTextAppearance
         */
         public static final int NavigationView_itemTextAppearance = 8;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#itemTextColor}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#itemTextColor}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
@@ -8513,17 +8511,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:itemTextColor
+          @attr name local.android.eventory:itemTextColor
         */
         public static final int NavigationView_itemTextColor = 6;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#menu}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#menu}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:menu
+          @attr name local.android.eventory:menu
         */
         public static final int NavigationView_menu = 4;
         /** Attributes that can be used with a PopupWindow.
@@ -8534,7 +8532,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #PopupWindow_android_popupAnimationStyle android:popupAnimationStyle}</code></td><td></td></tr>
            <tr><td><code>{@link #PopupWindow_android_popupBackground android:popupBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #PopupWindow_overlapAnchor local.koki.android.eventory:overlapAnchor}</code></td><td></td></tr>
+           <tr><td><code>{@link #PopupWindow_overlapAnchor local.android.eventory:overlapAnchor}</code></td><td></td></tr>
            </table>
            @see #PopupWindow_android_popupAnimationStyle
            @see #PopupWindow_android_popupBackground
@@ -8556,7 +8554,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int PopupWindow_android_popupBackground = 0;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#overlapAnchor}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#overlapAnchor}
           attribute's value can be found in the {@link #PopupWindow} array.
 
 
@@ -8566,7 +8564,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:overlapAnchor
+          @attr name local.android.eventory:overlapAnchor
         */
         public static final int PopupWindow_overlapAnchor = 2;
         /** Attributes that can be used with a PopupWindowBackgroundState.
@@ -8575,7 +8573,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor local.koki.android.eventory:state_above_anchor}</code></td><td></td></tr>
+           <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor local.android.eventory:state_above_anchor}</code></td><td></td></tr>
            </table>
            @see #PopupWindowBackgroundState_state_above_anchor
          */
@@ -8583,7 +8581,7 @@ containing a value of this type.
             0x7f0100ee
         };
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#state_above_anchor}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#state_above_anchor}
           attribute's value can be found in the {@link #PopupWindowBackgroundState} array.
 
 
@@ -8593,7 +8591,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:state_above_anchor
+          @attr name local.android.eventory:state_above_anchor
         */
         public static final int PopupWindowBackgroundState_state_above_anchor = 0;
         /** Attributes that can be used with a ProgressWheel.
@@ -8602,16 +8600,16 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ProgressWheel_matProg_barColor local.koki.android.eventory:matProg_barColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #ProgressWheel_matProg_barSpinCycleTime local.koki.android.eventory:matProg_barSpinCycleTime}</code></td><td></td></tr>
-           <tr><td><code>{@link #ProgressWheel_matProg_barWidth local.koki.android.eventory:matProg_barWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #ProgressWheel_matProg_circleRadius local.koki.android.eventory:matProg_circleRadius}</code></td><td></td></tr>
-           <tr><td><code>{@link #ProgressWheel_matProg_fillRadius local.koki.android.eventory:matProg_fillRadius}</code></td><td></td></tr>
-           <tr><td><code>{@link #ProgressWheel_matProg_linearProgress local.koki.android.eventory:matProg_linearProgress}</code></td><td></td></tr>
-           <tr><td><code>{@link #ProgressWheel_matProg_progressIndeterminate local.koki.android.eventory:matProg_progressIndeterminate}</code></td><td></td></tr>
-           <tr><td><code>{@link #ProgressWheel_matProg_rimColor local.koki.android.eventory:matProg_rimColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #ProgressWheel_matProg_rimWidth local.koki.android.eventory:matProg_rimWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #ProgressWheel_matProg_spinSpeed local.koki.android.eventory:matProg_spinSpeed}</code></td><td></td></tr>
+           <tr><td><code>{@link #ProgressWheel_matProg_barColor local.android.eventory:matProg_barColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #ProgressWheel_matProg_barSpinCycleTime local.android.eventory:matProg_barSpinCycleTime}</code></td><td></td></tr>
+           <tr><td><code>{@link #ProgressWheel_matProg_barWidth local.android.eventory:matProg_barWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #ProgressWheel_matProg_circleRadius local.android.eventory:matProg_circleRadius}</code></td><td></td></tr>
+           <tr><td><code>{@link #ProgressWheel_matProg_fillRadius local.android.eventory:matProg_fillRadius}</code></td><td></td></tr>
+           <tr><td><code>{@link #ProgressWheel_matProg_linearProgress local.android.eventory:matProg_linearProgress}</code></td><td></td></tr>
+           <tr><td><code>{@link #ProgressWheel_matProg_progressIndeterminate local.android.eventory:matProg_progressIndeterminate}</code></td><td></td></tr>
+           <tr><td><code>{@link #ProgressWheel_matProg_rimColor local.android.eventory:matProg_rimColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #ProgressWheel_matProg_rimWidth local.android.eventory:matProg_rimWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #ProgressWheel_matProg_spinSpeed local.android.eventory:matProg_spinSpeed}</code></td><td></td></tr>
            </table>
            @see #ProgressWheel_matProg_barColor
            @see #ProgressWheel_matProg_barSpinCycleTime
@@ -8630,7 +8628,7 @@ containing a value of this type.
             0x7f0100f7, 0x7f0100f8
         };
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#matProg_barColor}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#matProg_barColor}
           attribute's value can be found in the {@link #ProgressWheel} array.
 
 
@@ -8641,11 +8639,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:matProg_barColor
+          @attr name local.android.eventory:matProg_barColor
         */
         public static final int ProgressWheel_matProg_barColor = 1;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#matProg_barSpinCycleTime}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#matProg_barSpinCycleTime}
           attribute's value can be found in the {@link #ProgressWheel} array.
 
 
@@ -8655,11 +8653,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:matProg_barSpinCycleTime
+          @attr name local.android.eventory:matProg_barSpinCycleTime
         */
         public static final int ProgressWheel_matProg_barSpinCycleTime = 5;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#matProg_barWidth}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#matProg_barWidth}
           attribute's value can be found in the {@link #ProgressWheel} array.
 
 
@@ -8671,11 +8669,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:matProg_barWidth
+          @attr name local.android.eventory:matProg_barWidth
         */
         public static final int ProgressWheel_matProg_barWidth = 8;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#matProg_circleRadius}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#matProg_circleRadius}
           attribute's value can be found in the {@link #ProgressWheel} array.
 
 
@@ -8687,11 +8685,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:matProg_circleRadius
+          @attr name local.android.eventory:matProg_circleRadius
         */
         public static final int ProgressWheel_matProg_circleRadius = 6;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#matProg_fillRadius}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#matProg_fillRadius}
           attribute's value can be found in the {@link #ProgressWheel} array.
 
 
@@ -8701,11 +8699,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:matProg_fillRadius
+          @attr name local.android.eventory:matProg_fillRadius
         */
         public static final int ProgressWheel_matProg_fillRadius = 7;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#matProg_linearProgress}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#matProg_linearProgress}
           attribute's value can be found in the {@link #ProgressWheel} array.
 
 
@@ -8715,11 +8713,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:matProg_linearProgress
+          @attr name local.android.eventory:matProg_linearProgress
         */
         public static final int ProgressWheel_matProg_linearProgress = 9;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#matProg_progressIndeterminate}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#matProg_progressIndeterminate}
           attribute's value can be found in the {@link #ProgressWheel} array.
 
 
@@ -8729,11 +8727,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:matProg_progressIndeterminate
+          @attr name local.android.eventory:matProg_progressIndeterminate
         */
         public static final int ProgressWheel_matProg_progressIndeterminate = 0;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#matProg_rimColor}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#matProg_rimColor}
           attribute's value can be found in the {@link #ProgressWheel} array.
 
 
@@ -8744,11 +8742,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:matProg_rimColor
+          @attr name local.android.eventory:matProg_rimColor
         */
         public static final int ProgressWheel_matProg_rimColor = 2;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#matProg_rimWidth}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#matProg_rimWidth}
           attribute's value can be found in the {@link #ProgressWheel} array.
 
 
@@ -8760,11 +8758,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:matProg_rimWidth
+          @attr name local.android.eventory:matProg_rimWidth
         */
         public static final int ProgressWheel_matProg_rimWidth = 3;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#matProg_spinSpeed}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#matProg_spinSpeed}
           attribute's value can be found in the {@link #ProgressWheel} array.
 
 
@@ -8774,7 +8772,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:matProg_spinSpeed
+          @attr name local.android.eventory:matProg_spinSpeed
         */
         public static final int ProgressWheel_matProg_spinSpeed = 4;
         /** Attributes that can be used with a RealmRecyclerView.
@@ -8783,13 +8781,13 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #RealmRecyclerView_rrvEmptyLayoutId local.koki.android.eventory:rrvEmptyLayoutId}</code></td><td></td></tr>
-           <tr><td><code>{@link #RealmRecyclerView_rrvGridLayoutItemWidth local.koki.android.eventory:rrvGridLayoutItemWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #RealmRecyclerView_rrvGridLayoutSpanCount local.koki.android.eventory:rrvGridLayoutSpanCount}</code></td><td></td></tr>
-           <tr><td><code>{@link #RealmRecyclerView_rrvHeaderColumnName local.koki.android.eventory:rrvHeaderColumnName}</code></td><td></td></tr>
-           <tr><td><code>{@link #RealmRecyclerView_rrvIsRefreshable local.koki.android.eventory:rrvIsRefreshable}</code></td><td></td></tr>
-           <tr><td><code>{@link #RealmRecyclerView_rrvLayoutType local.koki.android.eventory:rrvLayoutType}</code></td><td></td></tr>
-           <tr><td><code>{@link #RealmRecyclerView_rrvSwipeToDelete local.koki.android.eventory:rrvSwipeToDelete}</code></td><td></td></tr>
+           <tr><td><code>{@link #RealmRecyclerView_rrvEmptyLayoutId local.android.eventory:rrvEmptyLayoutId}</code></td><td></td></tr>
+           <tr><td><code>{@link #RealmRecyclerView_rrvGridLayoutItemWidth local.android.eventory:rrvGridLayoutItemWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #RealmRecyclerView_rrvGridLayoutSpanCount local.android.eventory:rrvGridLayoutSpanCount}</code></td><td></td></tr>
+           <tr><td><code>{@link #RealmRecyclerView_rrvHeaderColumnName local.android.eventory:rrvHeaderColumnName}</code></td><td></td></tr>
+           <tr><td><code>{@link #RealmRecyclerView_rrvIsRefreshable local.android.eventory:rrvIsRefreshable}</code></td><td></td></tr>
+           <tr><td><code>{@link #RealmRecyclerView_rrvLayoutType local.android.eventory:rrvLayoutType}</code></td><td></td></tr>
+           <tr><td><code>{@link #RealmRecyclerView_rrvSwipeToDelete local.android.eventory:rrvSwipeToDelete}</code></td><td></td></tr>
            </table>
            @see #RealmRecyclerView_rrvEmptyLayoutId
            @see #RealmRecyclerView_rrvGridLayoutItemWidth
@@ -8804,17 +8802,17 @@ containing a value of this type.
             0x7f0100fd, 0x7f0100fe, 0x7f0100ff
         };
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#rrvEmptyLayoutId}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#rrvEmptyLayoutId}
           attribute's value can be found in the {@link #RealmRecyclerView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:rrvEmptyLayoutId
+          @attr name local.android.eventory:rrvEmptyLayoutId
         */
         public static final int RealmRecyclerView_rrvEmptyLayoutId = 1;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#rrvGridLayoutItemWidth}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#rrvGridLayoutItemWidth}
           attribute's value can be found in the {@link #RealmRecyclerView} array.
 
 
@@ -8826,11 +8824,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:rrvGridLayoutItemWidth
+          @attr name local.android.eventory:rrvGridLayoutItemWidth
         */
         public static final int RealmRecyclerView_rrvGridLayoutItemWidth = 4;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#rrvGridLayoutSpanCount}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#rrvGridLayoutSpanCount}
           attribute's value can be found in the {@link #RealmRecyclerView} array.
 
 
@@ -8840,11 +8838,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:rrvGridLayoutSpanCount
+          @attr name local.android.eventory:rrvGridLayoutSpanCount
         */
         public static final int RealmRecyclerView_rrvGridLayoutSpanCount = 3;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#rrvHeaderColumnName}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#rrvHeaderColumnName}
           attribute's value can be found in the {@link #RealmRecyclerView} array.
 
 
@@ -8854,11 +8852,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:rrvHeaderColumnName
+          @attr name local.android.eventory:rrvHeaderColumnName
         */
         public static final int RealmRecyclerView_rrvHeaderColumnName = 5;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#rrvIsRefreshable}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#rrvIsRefreshable}
           attribute's value can be found in the {@link #RealmRecyclerView} array.
 
 
@@ -8868,11 +8866,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:rrvIsRefreshable
+          @attr name local.android.eventory:rrvIsRefreshable
         */
         public static final int RealmRecyclerView_rrvIsRefreshable = 0;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#rrvLayoutType}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#rrvLayoutType}
           attribute's value can be found in the {@link #RealmRecyclerView} array.
 
 
@@ -8887,11 +8885,11 @@ containing a value of this type.
 <tr><td><code>LinearLayoutWithHeaders</code></td><td>2</td><td></td></tr>
 <tr><td><code>StaggeredGridLayout</code></td><td>3</td><td></td></tr>
 </table>
-          @attr name local.koki.android.eventory:rrvLayoutType
+          @attr name local.android.eventory:rrvLayoutType
         */
         public static final int RealmRecyclerView_rrvLayoutType = 2;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#rrvSwipeToDelete}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#rrvSwipeToDelete}
           attribute's value can be found in the {@link #RealmRecyclerView} array.
 
 
@@ -8901,7 +8899,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:rrvSwipeToDelete
+          @attr name local.android.eventory:rrvSwipeToDelete
         */
         public static final int RealmRecyclerView_rrvSwipeToDelete = 6;
         /** Attributes that can be used with a RecyclerView.
@@ -8912,10 +8910,10 @@ containing a value of this type.
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #RecyclerView_android_descendantFocusability android:descendantFocusability}</code></td><td></td></tr>
            <tr><td><code>{@link #RecyclerView_android_orientation android:orientation}</code></td><td></td></tr>
-           <tr><td><code>{@link #RecyclerView_layoutManager local.koki.android.eventory:layoutManager}</code></td><td></td></tr>
-           <tr><td><code>{@link #RecyclerView_reverseLayout local.koki.android.eventory:reverseLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #RecyclerView_spanCount local.koki.android.eventory:spanCount}</code></td><td></td></tr>
-           <tr><td><code>{@link #RecyclerView_stackFromEnd local.koki.android.eventory:stackFromEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecyclerView_layoutManager local.android.eventory:layoutManager}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecyclerView_reverseLayout local.android.eventory:reverseLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecyclerView_spanCount local.android.eventory:spanCount}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecyclerView_stackFromEnd local.android.eventory:stackFromEnd}</code></td><td></td></tr>
            </table>
            @see #RecyclerView_android_descendantFocusability
            @see #RecyclerView_android_orientation
@@ -8941,7 +8939,7 @@ containing a value of this type.
         */
         public static final int RecyclerView_android_orientation = 0;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#layoutManager}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#layoutManager}
           attribute's value can be found in the {@link #RecyclerView} array.
 
 
@@ -8951,11 +8949,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:layoutManager
+          @attr name local.android.eventory:layoutManager
         */
         public static final int RecyclerView_layoutManager = 2;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#reverseLayout}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#reverseLayout}
           attribute's value can be found in the {@link #RecyclerView} array.
 
 
@@ -8965,11 +8963,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:reverseLayout
+          @attr name local.android.eventory:reverseLayout
         */
         public static final int RecyclerView_reverseLayout = 4;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#spanCount}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#spanCount}
           attribute's value can be found in the {@link #RecyclerView} array.
 
 
@@ -8979,11 +8977,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:spanCount
+          @attr name local.android.eventory:spanCount
         */
         public static final int RecyclerView_spanCount = 3;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#stackFromEnd}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#stackFromEnd}
           attribute's value can be found in the {@link #RecyclerView} array.
 
 
@@ -8993,7 +8991,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:stackFromEnd
+          @attr name local.android.eventory:stackFromEnd
         */
         public static final int RecyclerView_stackFromEnd = 5;
         /** Attributes that can be used with a ScrimInsetsFrameLayout.
@@ -9002,7 +9000,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ScrimInsetsFrameLayout_insetForeground local.koki.android.eventory:insetForeground}</code></td><td></td></tr>
+           <tr><td><code>{@link #ScrimInsetsFrameLayout_insetForeground local.android.eventory:insetForeground}</code></td><td></td></tr>
            </table>
            @see #ScrimInsetsFrameLayout_insetForeground
          */
@@ -9010,7 +9008,7 @@ containing a value of this type.
             0x7f010104
         };
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#insetForeground}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#insetForeground}
           attribute's value can be found in the {@link #ScrimInsetsFrameLayout} array.
 
 
@@ -9018,7 +9016,7 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name local.koki.android.eventory:insetForeground
+          @attr name local.android.eventory:insetForeground
         */
         public static final int ScrimInsetsFrameLayout_insetForeground = 0;
         /** Attributes that can be used with a ScrollingViewBehavior_Layout.
@@ -9027,7 +9025,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ScrollingViewBehavior_Layout_behavior_overlapTop local.koki.android.eventory:behavior_overlapTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #ScrollingViewBehavior_Layout_behavior_overlapTop local.android.eventory:behavior_overlapTop}</code></td><td></td></tr>
            </table>
            @see #ScrollingViewBehavior_Layout_behavior_overlapTop
          */
@@ -9035,7 +9033,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f010105
         };
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#behavior_overlapTop}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#behavior_overlapTop}
           attribute's value can be found in the {@link #ScrollingViewBehavior_Layout} array.
 
 
@@ -9047,7 +9045,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:behavior_overlapTop
+          @attr name local.android.eventory:behavior_overlapTop
         */
         public static final int ScrollingViewBehavior_Layout_behavior_overlapTop = 0;
         /** Attributes that can be used with a SearchView.
@@ -9060,19 +9058,19 @@ containing a value of this type.
            <tr><td><code>{@link #SearchView_android_imeOptions android:imeOptions}</code></td><td></td></tr>
            <tr><td><code>{@link #SearchView_android_inputType android:inputType}</code></td><td></td></tr>
            <tr><td><code>{@link #SearchView_android_maxWidth android:maxWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_closeIcon local.koki.android.eventory:closeIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_commitIcon local.koki.android.eventory:commitIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_defaultQueryHint local.koki.android.eventory:defaultQueryHint}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_goIcon local.koki.android.eventory:goIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_iconifiedByDefault local.koki.android.eventory:iconifiedByDefault}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_layout local.koki.android.eventory:layout}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_queryBackground local.koki.android.eventory:queryBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_queryHint local.koki.android.eventory:queryHint}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_searchHintIcon local.koki.android.eventory:searchHintIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_searchIcon local.koki.android.eventory:searchIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_submitBackground local.koki.android.eventory:submitBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_suggestionRowLayout local.koki.android.eventory:suggestionRowLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_voiceIcon local.koki.android.eventory:voiceIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_closeIcon local.android.eventory:closeIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_commitIcon local.android.eventory:commitIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_defaultQueryHint local.android.eventory:defaultQueryHint}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_goIcon local.android.eventory:goIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_iconifiedByDefault local.android.eventory:iconifiedByDefault}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_layout local.android.eventory:layout}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_queryBackground local.android.eventory:queryBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_queryHint local.android.eventory:queryHint}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_searchHintIcon local.android.eventory:searchHintIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_searchIcon local.android.eventory:searchIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_submitBackground local.android.eventory:submitBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_suggestionRowLayout local.android.eventory:suggestionRowLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_voiceIcon local.android.eventory:voiceIcon}</code></td><td></td></tr>
            </table>
            @see #SearchView_android_focusable
            @see #SearchView_android_imeOptions
@@ -9124,27 +9122,27 @@ containing a value of this type.
         */
         public static final int SearchView_android_maxWidth = 1;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#closeIcon}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#closeIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:closeIcon
+          @attr name local.android.eventory:closeIcon
         */
         public static final int SearchView_closeIcon = 8;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#commitIcon}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#commitIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:commitIcon
+          @attr name local.android.eventory:commitIcon
         */
         public static final int SearchView_commitIcon = 13;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#defaultQueryHint}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#defaultQueryHint}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -9154,21 +9152,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:defaultQueryHint
+          @attr name local.android.eventory:defaultQueryHint
         */
         public static final int SearchView_defaultQueryHint = 7;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#goIcon}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#goIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:goIcon
+          @attr name local.android.eventory:goIcon
         */
         public static final int SearchView_goIcon = 9;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#iconifiedByDefault}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#iconifiedByDefault}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -9178,31 +9176,31 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:iconifiedByDefault
+          @attr name local.android.eventory:iconifiedByDefault
         */
         public static final int SearchView_iconifiedByDefault = 5;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#layout}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#layout}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:layout
+          @attr name local.android.eventory:layout
         */
         public static final int SearchView_layout = 4;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#queryBackground}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#queryBackground}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:queryBackground
+          @attr name local.android.eventory:queryBackground
         */
         public static final int SearchView_queryBackground = 15;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#queryHint}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#queryHint}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -9212,57 +9210,57 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:queryHint
+          @attr name local.android.eventory:queryHint
         */
         public static final int SearchView_queryHint = 6;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#searchHintIcon}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#searchHintIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:searchHintIcon
+          @attr name local.android.eventory:searchHintIcon
         */
         public static final int SearchView_searchHintIcon = 11;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#searchIcon}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#searchIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:searchIcon
+          @attr name local.android.eventory:searchIcon
         */
         public static final int SearchView_searchIcon = 10;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#submitBackground}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#submitBackground}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:submitBackground
+          @attr name local.android.eventory:submitBackground
         */
         public static final int SearchView_submitBackground = 16;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#suggestionRowLayout}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#suggestionRowLayout}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:suggestionRowLayout
+          @attr name local.android.eventory:suggestionRowLayout
         */
         public static final int SearchView_suggestionRowLayout = 14;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#voiceIcon}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#voiceIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:voiceIcon
+          @attr name local.android.eventory:voiceIcon
         */
         public static final int SearchView_voiceIcon = 12;
         /** Attributes that can be used with a SnackbarLayout.
@@ -9272,8 +9270,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #SnackbarLayout_android_maxWidth android:maxWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #SnackbarLayout_elevation local.koki.android.eventory:elevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #SnackbarLayout_maxActionInlineWidth local.koki.android.eventory:maxActionInlineWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #SnackbarLayout_elevation local.android.eventory:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #SnackbarLayout_maxActionInlineWidth local.android.eventory:maxActionInlineWidth}</code></td><td></td></tr>
            </table>
            @see #SnackbarLayout_android_maxWidth
            @see #SnackbarLayout_elevation
@@ -9289,7 +9287,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int SnackbarLayout_android_maxWidth = 0;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#elevation}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#elevation}
           attribute's value can be found in the {@link #SnackbarLayout} array.
 
 
@@ -9301,11 +9299,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:elevation
+          @attr name local.android.eventory:elevation
         */
         public static final int SnackbarLayout_elevation = 1;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#maxActionInlineWidth}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#maxActionInlineWidth}
           attribute's value can be found in the {@link #SnackbarLayout} array.
 
 
@@ -9317,7 +9315,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:maxActionInlineWidth
+          @attr name local.android.eventory:maxActionInlineWidth
         */
         public static final int SnackbarLayout_maxActionInlineWidth = 2;
         /** Attributes that can be used with a Spinner.
@@ -9330,7 +9328,7 @@ containing a value of this type.
            <tr><td><code>{@link #Spinner_android_entries android:entries}</code></td><td></td></tr>
            <tr><td><code>{@link #Spinner_android_popupBackground android:popupBackground}</code></td><td></td></tr>
            <tr><td><code>{@link #Spinner_android_prompt android:prompt}</code></td><td></td></tr>
-           <tr><td><code>{@link #Spinner_popupTheme local.koki.android.eventory:popupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Spinner_popupTheme local.android.eventory:popupTheme}</code></td><td></td></tr>
            </table>
            @see #Spinner_android_dropDownWidth
            @see #Spinner_android_entries
@@ -9367,13 +9365,13 @@ containing a value of this type.
         */
         public static final int Spinner_android_prompt = 2;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#popupTheme}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#popupTheme}
           attribute's value can be found in the {@link #Spinner} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:popupTheme
+          @attr name local.android.eventory:popupTheme
         */
         public static final int Spinner_popupTheme = 4;
         /** Attributes that can be used with a SwitchCompat.
@@ -9385,17 +9383,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><td><code>{@link #SwitchCompat_android_textOff android:textOff}</code></td><td></td></tr>
            <tr><td><code>{@link #SwitchCompat_android_textOn android:textOn}</code></td><td></td></tr>
            <tr><td><code>{@link #SwitchCompat_android_thumb android:thumb}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_showText local.koki.android.eventory:showText}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_splitTrack local.koki.android.eventory:splitTrack}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_switchMinWidth local.koki.android.eventory:switchMinWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_switchPadding local.koki.android.eventory:switchPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_switchTextAppearance local.koki.android.eventory:switchTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_thumbTextPadding local.koki.android.eventory:thumbTextPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_thumbTint local.koki.android.eventory:thumbTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_thumbTintMode local.koki.android.eventory:thumbTintMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_track local.koki.android.eventory:track}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_trackTint local.koki.android.eventory:trackTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_trackTintMode local.koki.android.eventory:trackTintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_showText local.android.eventory:showText}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_splitTrack local.android.eventory:splitTrack}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_switchMinWidth local.android.eventory:switchMinWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_switchPadding local.android.eventory:switchPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_switchTextAppearance local.android.eventory:switchTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_thumbTextPadding local.android.eventory:thumbTextPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_thumbTint local.android.eventory:thumbTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_thumbTintMode local.android.eventory:thumbTintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_track local.android.eventory:track}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_trackTint local.android.eventory:trackTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_trackTintMode local.android.eventory:trackTintMode}</code></td><td></td></tr>
            </table>
            @see #SwitchCompat_android_textOff
            @see #SwitchCompat_android_textOn
@@ -9437,7 +9435,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int SwitchCompat_android_thumb = 2;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#showText}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#showText}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -9447,11 +9445,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:showText
+          @attr name local.android.eventory:showText
         */
         public static final int SwitchCompat_showText = 13;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#splitTrack}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#splitTrack}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -9461,11 +9459,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:splitTrack
+          @attr name local.android.eventory:splitTrack
         */
         public static final int SwitchCompat_splitTrack = 12;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#switchMinWidth}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#switchMinWidth}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -9477,11 +9475,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:switchMinWidth
+          @attr name local.android.eventory:switchMinWidth
         */
         public static final int SwitchCompat_switchMinWidth = 10;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#switchPadding}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#switchPadding}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -9493,21 +9491,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:switchPadding
+          @attr name local.android.eventory:switchPadding
         */
         public static final int SwitchCompat_switchPadding = 11;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#switchTextAppearance}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#switchTextAppearance}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:switchTextAppearance
+          @attr name local.android.eventory:switchTextAppearance
         */
         public static final int SwitchCompat_switchTextAppearance = 9;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#thumbTextPadding}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#thumbTextPadding}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -9519,11 +9517,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:thumbTextPadding
+          @attr name local.android.eventory:thumbTextPadding
         */
         public static final int SwitchCompat_thumbTextPadding = 8;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#thumbTint}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#thumbTint}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -9534,11 +9532,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:thumbTint
+          @attr name local.android.eventory:thumbTint
         */
         public static final int SwitchCompat_thumbTint = 3;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#thumbTintMode}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#thumbTintMode}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -9555,21 +9553,21 @@ containing a value of this type.
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 <tr><td><code>add</code></td><td>16</td><td></td></tr>
 </table>
-          @attr name local.koki.android.eventory:thumbTintMode
+          @attr name local.android.eventory:thumbTintMode
         */
         public static final int SwitchCompat_thumbTintMode = 4;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#track}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#track}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:track
+          @attr name local.android.eventory:track
         */
         public static final int SwitchCompat_track = 5;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#trackTint}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#trackTint}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -9580,11 +9578,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:trackTint
+          @attr name local.android.eventory:trackTint
         */
         public static final int SwitchCompat_trackTint = 6;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#trackTintMode}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#trackTintMode}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -9601,7 +9599,7 @@ containing a value of this type.
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 <tr><td><code>add</code></td><td>16</td><td></td></tr>
 </table>
-          @attr name local.koki.android.eventory:trackTintMode
+          @attr name local.android.eventory:trackTintMode
         */
         public static final int SwitchCompat_trackTintMode = 7;
         /** Attributes that can be used with a TabItem.
@@ -9645,22 +9643,22 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #TabLayout_tabBackground local.koki.android.eventory:tabBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabContentStart local.koki.android.eventory:tabContentStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabGravity local.koki.android.eventory:tabGravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabIndicatorColor local.koki.android.eventory:tabIndicatorColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabIndicatorHeight local.koki.android.eventory:tabIndicatorHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabMaxWidth local.koki.android.eventory:tabMaxWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabMinWidth local.koki.android.eventory:tabMinWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabMode local.koki.android.eventory:tabMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabPadding local.koki.android.eventory:tabPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabPaddingBottom local.koki.android.eventory:tabPaddingBottom}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabPaddingEnd local.koki.android.eventory:tabPaddingEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabPaddingStart local.koki.android.eventory:tabPaddingStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabPaddingTop local.koki.android.eventory:tabPaddingTop}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabSelectedTextColor local.koki.android.eventory:tabSelectedTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabTextAppearance local.koki.android.eventory:tabTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabTextColor local.koki.android.eventory:tabTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabBackground local.android.eventory:tabBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabContentStart local.android.eventory:tabContentStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabGravity local.android.eventory:tabGravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabIndicatorColor local.android.eventory:tabIndicatorColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabIndicatorHeight local.android.eventory:tabIndicatorHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabMaxWidth local.android.eventory:tabMaxWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabMinWidth local.android.eventory:tabMinWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabMode local.android.eventory:tabMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabPadding local.android.eventory:tabPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabPaddingBottom local.android.eventory:tabPaddingBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabPaddingEnd local.android.eventory:tabPaddingEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabPaddingStart local.android.eventory:tabPaddingStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabPaddingTop local.android.eventory:tabPaddingTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabSelectedTextColor local.android.eventory:tabSelectedTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabTextAppearance local.android.eventory:tabTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabTextColor local.android.eventory:tabTextColor}</code></td><td></td></tr>
            </table>
            @see #TabLayout_tabBackground
            @see #TabLayout_tabContentStart
@@ -9686,17 +9684,17 @@ containing a value of this type.
             0x7f01012b, 0x7f01012c, 0x7f01012d, 0x7f01012e
         };
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#tabBackground}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#tabBackground}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:tabBackground
+          @attr name local.android.eventory:tabBackground
         */
         public static final int TabLayout_tabBackground = 3;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#tabContentStart}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#tabContentStart}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -9708,11 +9706,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:tabContentStart
+          @attr name local.android.eventory:tabContentStart
         */
         public static final int TabLayout_tabContentStart = 2;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#tabGravity}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#tabGravity}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -9725,11 +9723,11 @@ containing a value of this type.
 <tr><td><code>fill</code></td><td>0</td><td></td></tr>
 <tr><td><code>center</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name local.koki.android.eventory:tabGravity
+          @attr name local.android.eventory:tabGravity
         */
         public static final int TabLayout_tabGravity = 5;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#tabIndicatorColor}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#tabIndicatorColor}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -9740,11 +9738,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:tabIndicatorColor
+          @attr name local.android.eventory:tabIndicatorColor
         */
         public static final int TabLayout_tabIndicatorColor = 0;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#tabIndicatorHeight}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#tabIndicatorHeight}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -9756,11 +9754,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:tabIndicatorHeight
+          @attr name local.android.eventory:tabIndicatorHeight
         */
         public static final int TabLayout_tabIndicatorHeight = 1;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#tabMaxWidth}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#tabMaxWidth}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -9772,11 +9770,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:tabMaxWidth
+          @attr name local.android.eventory:tabMaxWidth
         */
         public static final int TabLayout_tabMaxWidth = 7;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#tabMinWidth}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#tabMinWidth}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -9788,11 +9786,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:tabMinWidth
+          @attr name local.android.eventory:tabMinWidth
         */
         public static final int TabLayout_tabMinWidth = 6;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#tabMode}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#tabMode}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -9805,11 +9803,11 @@ containing a value of this type.
 <tr><td><code>scrollable</code></td><td>0</td><td></td></tr>
 <tr><td><code>fixed</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name local.koki.android.eventory:tabMode
+          @attr name local.android.eventory:tabMode
         */
         public static final int TabLayout_tabMode = 4;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#tabPadding}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#tabPadding}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -9821,11 +9819,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:tabPadding
+          @attr name local.android.eventory:tabPadding
         */
         public static final int TabLayout_tabPadding = 15;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#tabPaddingBottom}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#tabPaddingBottom}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -9837,11 +9835,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:tabPaddingBottom
+          @attr name local.android.eventory:tabPaddingBottom
         */
         public static final int TabLayout_tabPaddingBottom = 14;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#tabPaddingEnd}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#tabPaddingEnd}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -9853,11 +9851,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:tabPaddingEnd
+          @attr name local.android.eventory:tabPaddingEnd
         */
         public static final int TabLayout_tabPaddingEnd = 13;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#tabPaddingStart}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#tabPaddingStart}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -9869,11 +9867,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:tabPaddingStart
+          @attr name local.android.eventory:tabPaddingStart
         */
         public static final int TabLayout_tabPaddingStart = 11;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#tabPaddingTop}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#tabPaddingTop}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -9885,11 +9883,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:tabPaddingTop
+          @attr name local.android.eventory:tabPaddingTop
         */
         public static final int TabLayout_tabPaddingTop = 12;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#tabSelectedTextColor}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#tabSelectedTextColor}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -9900,21 +9898,21 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:tabSelectedTextColor
+          @attr name local.android.eventory:tabSelectedTextColor
         */
         public static final int TabLayout_tabSelectedTextColor = 10;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#tabTextAppearance}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#tabTextAppearance}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:tabTextAppearance
+          @attr name local.android.eventory:tabTextAppearance
         */
         public static final int TabLayout_tabTextAppearance = 8;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#tabTextColor}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#tabTextColor}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -9925,7 +9923,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:tabTextColor
+          @attr name local.android.eventory:tabTextColor
         */
         public static final int TabLayout_tabTextColor = 9;
         /** Attributes that can be used with a TextAppearance.
@@ -9943,7 +9941,7 @@ containing a value of this type.
            <tr><td><code>{@link #TextAppearance_android_textSize android:textSize}</code></td><td></td></tr>
            <tr><td><code>{@link #TextAppearance_android_textStyle android:textStyle}</code></td><td></td></tr>
            <tr><td><code>{@link #TextAppearance_android_typeface android:typeface}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextAppearance_textAllCaps local.koki.android.eventory:textAllCaps}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextAppearance_textAllCaps local.android.eventory:textAllCaps}</code></td><td></td></tr>
            </table>
            @see #TextAppearance_android_shadowColor
            @see #TextAppearance_android_shadowDx
@@ -10016,14 +10014,14 @@ containing a value of this type.
         */
         public static final int TextAppearance_android_typeface = 1;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#textAllCaps}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#textAllCaps}
           attribute's value can be found in the {@link #TextAppearance} array.
 
 
           <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
-          @attr name local.koki.android.eventory:textAllCaps
+          @attr name local.android.eventory:textAllCaps
         */
         public static final int TextAppearance_textAllCaps = 9;
         /** Attributes that can be used with a TextInputLayout.
@@ -10034,20 +10032,20 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #TextInputLayout_android_hint android:hint}</code></td><td></td></tr>
            <tr><td><code>{@link #TextInputLayout_android_textColorHint android:textColorHint}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_counterEnabled local.koki.android.eventory:counterEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_counterMaxLength local.koki.android.eventory:counterMaxLength}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_counterOverflowTextAppearance local.koki.android.eventory:counterOverflowTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_counterTextAppearance local.koki.android.eventory:counterTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_errorEnabled local.koki.android.eventory:errorEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_errorTextAppearance local.koki.android.eventory:errorTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_hintAnimationEnabled local.koki.android.eventory:hintAnimationEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_hintEnabled local.koki.android.eventory:hintEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_hintTextAppearance local.koki.android.eventory:hintTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_passwordToggleContentDescription local.koki.android.eventory:passwordToggleContentDescription}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_passwordToggleDrawable local.koki.android.eventory:passwordToggleDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_passwordToggleEnabled local.koki.android.eventory:passwordToggleEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_passwordToggleTint local.koki.android.eventory:passwordToggleTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_passwordToggleTintMode local.koki.android.eventory:passwordToggleTintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_counterEnabled local.android.eventory:counterEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_counterMaxLength local.android.eventory:counterMaxLength}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_counterOverflowTextAppearance local.android.eventory:counterOverflowTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_counterTextAppearance local.android.eventory:counterTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_errorEnabled local.android.eventory:errorEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_errorTextAppearance local.android.eventory:errorTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_hintAnimationEnabled local.android.eventory:hintAnimationEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_hintEnabled local.android.eventory:hintEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_hintTextAppearance local.android.eventory:hintTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_passwordToggleContentDescription local.android.eventory:passwordToggleContentDescription}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_passwordToggleDrawable local.android.eventory:passwordToggleDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_passwordToggleEnabled local.android.eventory:passwordToggleEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_passwordToggleTint local.android.eventory:passwordToggleTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_passwordToggleTintMode local.android.eventory:passwordToggleTintMode}</code></td><td></td></tr>
            </table>
            @see #TextInputLayout_android_hint
            @see #TextInputLayout_android_textColorHint
@@ -10085,7 +10083,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int TextInputLayout_android_textColorHint = 0;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#counterEnabled}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#counterEnabled}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -10095,11 +10093,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:counterEnabled
+          @attr name local.android.eventory:counterEnabled
         */
         public static final int TextInputLayout_counterEnabled = 6;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#counterMaxLength}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#counterMaxLength}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -10109,31 +10107,31 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:counterMaxLength
+          @attr name local.android.eventory:counterMaxLength
         */
         public static final int TextInputLayout_counterMaxLength = 7;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#counterOverflowTextAppearance}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#counterOverflowTextAppearance}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:counterOverflowTextAppearance
+          @attr name local.android.eventory:counterOverflowTextAppearance
         */
         public static final int TextInputLayout_counterOverflowTextAppearance = 9;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#counterTextAppearance}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#counterTextAppearance}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:counterTextAppearance
+          @attr name local.android.eventory:counterTextAppearance
         */
         public static final int TextInputLayout_counterTextAppearance = 8;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#errorEnabled}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#errorEnabled}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -10143,21 +10141,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:errorEnabled
+          @attr name local.android.eventory:errorEnabled
         */
         public static final int TextInputLayout_errorEnabled = 4;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#errorTextAppearance}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#errorTextAppearance}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:errorTextAppearance
+          @attr name local.android.eventory:errorTextAppearance
         */
         public static final int TextInputLayout_errorTextAppearance = 5;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#hintAnimationEnabled}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#hintAnimationEnabled}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -10167,11 +10165,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:hintAnimationEnabled
+          @attr name local.android.eventory:hintAnimationEnabled
         */
         public static final int TextInputLayout_hintAnimationEnabled = 10;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#hintEnabled}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#hintEnabled}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -10181,21 +10179,21 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:hintEnabled
+          @attr name local.android.eventory:hintEnabled
         */
         public static final int TextInputLayout_hintEnabled = 3;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#hintTextAppearance}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#hintTextAppearance}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:hintTextAppearance
+          @attr name local.android.eventory:hintTextAppearance
         */
         public static final int TextInputLayout_hintTextAppearance = 2;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#passwordToggleContentDescription}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#passwordToggleContentDescription}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -10205,21 +10203,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:passwordToggleContentDescription
+          @attr name local.android.eventory:passwordToggleContentDescription
         */
         public static final int TextInputLayout_passwordToggleContentDescription = 13;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#passwordToggleDrawable}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#passwordToggleDrawable}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:passwordToggleDrawable
+          @attr name local.android.eventory:passwordToggleDrawable
         */
         public static final int TextInputLayout_passwordToggleDrawable = 12;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#passwordToggleEnabled}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#passwordToggleEnabled}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -10229,11 +10227,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:passwordToggleEnabled
+          @attr name local.android.eventory:passwordToggleEnabled
         */
         public static final int TextInputLayout_passwordToggleEnabled = 11;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#passwordToggleTint}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#passwordToggleTint}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -10244,11 +10242,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:passwordToggleTint
+          @attr name local.android.eventory:passwordToggleTint
         */
         public static final int TextInputLayout_passwordToggleTint = 14;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#passwordToggleTintMode}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#passwordToggleTintMode}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -10264,7 +10262,7 @@ containing a value of this type.
 <tr><td><code>multiply</code></td><td>14</td><td></td></tr>
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 </table>
-          @attr name local.koki.android.eventory:passwordToggleTintMode
+          @attr name local.android.eventory:passwordToggleTintMode
         */
         public static final int TextInputLayout_passwordToggleTintMode = 15;
         /** Attributes that can be used with a Toolbar.
@@ -10275,33 +10273,33 @@ containing a value of this type.
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #Toolbar_android_gravity android:gravity}</code></td><td></td></tr>
            <tr><td><code>{@link #Toolbar_android_minHeight android:minHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_buttonGravity local.koki.android.eventory:buttonGravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_collapseContentDescription local.koki.android.eventory:collapseContentDescription}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_collapseIcon local.koki.android.eventory:collapseIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetEnd local.koki.android.eventory:contentInsetEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetEndWithActions local.koki.android.eventory:contentInsetEndWithActions}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetLeft local.koki.android.eventory:contentInsetLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetRight local.koki.android.eventory:contentInsetRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetStart local.koki.android.eventory:contentInsetStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetStartWithNavigation local.koki.android.eventory:contentInsetStartWithNavigation}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_logo local.koki.android.eventory:logo}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_logoDescription local.koki.android.eventory:logoDescription}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_maxButtonHeight local.koki.android.eventory:maxButtonHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_navigationContentDescription local.koki.android.eventory:navigationContentDescription}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_navigationIcon local.koki.android.eventory:navigationIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_popupTheme local.koki.android.eventory:popupTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_subtitle local.koki.android.eventory:subtitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_subtitleTextAppearance local.koki.android.eventory:subtitleTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_subtitleTextColor local.koki.android.eventory:subtitleTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_title local.koki.android.eventory:title}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMargin local.koki.android.eventory:titleMargin}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginBottom local.koki.android.eventory:titleMarginBottom}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginEnd local.koki.android.eventory:titleMarginEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginStart local.koki.android.eventory:titleMarginStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginTop local.koki.android.eventory:titleMarginTop}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMargins local.koki.android.eventory:titleMargins}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleTextAppearance local.koki.android.eventory:titleTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleTextColor local.koki.android.eventory:titleTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_buttonGravity local.android.eventory:buttonGravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_collapseContentDescription local.android.eventory:collapseContentDescription}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_collapseIcon local.android.eventory:collapseIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetEnd local.android.eventory:contentInsetEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetEndWithActions local.android.eventory:contentInsetEndWithActions}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetLeft local.android.eventory:contentInsetLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetRight local.android.eventory:contentInsetRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetStart local.android.eventory:contentInsetStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetStartWithNavigation local.android.eventory:contentInsetStartWithNavigation}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_logo local.android.eventory:logo}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_logoDescription local.android.eventory:logoDescription}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_maxButtonHeight local.android.eventory:maxButtonHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_navigationContentDescription local.android.eventory:navigationContentDescription}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_navigationIcon local.android.eventory:navigationIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_popupTheme local.android.eventory:popupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_subtitle local.android.eventory:subtitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_subtitleTextAppearance local.android.eventory:subtitleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_subtitleTextColor local.android.eventory:subtitleTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_title local.android.eventory:title}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMargin local.android.eventory:titleMargin}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginBottom local.android.eventory:titleMarginBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginEnd local.android.eventory:titleMarginEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginStart local.android.eventory:titleMarginStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginTop local.android.eventory:titleMarginTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMargins local.android.eventory:titleMargins}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleTextAppearance local.android.eventory:titleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleTextColor local.android.eventory:titleTextColor}</code></td><td></td></tr>
            </table>
            @see #Toolbar_android_gravity
            @see #Toolbar_android_minHeight
@@ -10356,7 +10354,7 @@ containing a value of this type.
         */
         public static final int Toolbar_android_minHeight = 1;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#buttonGravity}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#buttonGravity}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -10369,11 +10367,11 @@ containing a value of this type.
 <tr><td><code>top</code></td><td>0x30</td><td></td></tr>
 <tr><td><code>bottom</code></td><td>0x50</td><td></td></tr>
 </table>
-          @attr name local.koki.android.eventory:buttonGravity
+          @attr name local.android.eventory:buttonGravity
         */
         public static final int Toolbar_buttonGravity = 21;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#collapseContentDescription}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#collapseContentDescription}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -10383,21 +10381,21 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:collapseContentDescription
+          @attr name local.android.eventory:collapseContentDescription
         */
         public static final int Toolbar_collapseContentDescription = 23;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#collapseIcon}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#collapseIcon}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:collapseIcon
+          @attr name local.android.eventory:collapseIcon
         */
         public static final int Toolbar_collapseIcon = 22;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#contentInsetEnd}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#contentInsetEnd}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -10409,11 +10407,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:contentInsetEnd
+          @attr name local.android.eventory:contentInsetEnd
         */
         public static final int Toolbar_contentInsetEnd = 6;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#contentInsetEndWithActions}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#contentInsetEndWithActions}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -10425,11 +10423,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:contentInsetEndWithActions
+          @attr name local.android.eventory:contentInsetEndWithActions
         */
         public static final int Toolbar_contentInsetEndWithActions = 10;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#contentInsetLeft}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#contentInsetLeft}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -10441,11 +10439,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:contentInsetLeft
+          @attr name local.android.eventory:contentInsetLeft
         */
         public static final int Toolbar_contentInsetLeft = 7;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#contentInsetRight}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#contentInsetRight}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -10457,11 +10455,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:contentInsetRight
+          @attr name local.android.eventory:contentInsetRight
         */
         public static final int Toolbar_contentInsetRight = 8;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#contentInsetStart}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#contentInsetStart}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -10473,11 +10471,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:contentInsetStart
+          @attr name local.android.eventory:contentInsetStart
         */
         public static final int Toolbar_contentInsetStart = 5;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#contentInsetStartWithNavigation}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#contentInsetStartWithNavigation}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -10489,21 +10487,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:contentInsetStartWithNavigation
+          @attr name local.android.eventory:contentInsetStartWithNavigation
         */
         public static final int Toolbar_contentInsetStartWithNavigation = 9;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#logo}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#logo}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:logo
+          @attr name local.android.eventory:logo
         */
         public static final int Toolbar_logo = 4;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#logoDescription}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#logoDescription}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -10513,11 +10511,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:logoDescription
+          @attr name local.android.eventory:logoDescription
         */
         public static final int Toolbar_logoDescription = 26;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#maxButtonHeight}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#maxButtonHeight}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -10529,11 +10527,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:maxButtonHeight
+          @attr name local.android.eventory:maxButtonHeight
         */
         public static final int Toolbar_maxButtonHeight = 20;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#navigationContentDescription}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#navigationContentDescription}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -10543,31 +10541,31 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:navigationContentDescription
+          @attr name local.android.eventory:navigationContentDescription
         */
         public static final int Toolbar_navigationContentDescription = 25;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#navigationIcon}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#navigationIcon}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:navigationIcon
+          @attr name local.android.eventory:navigationIcon
         */
         public static final int Toolbar_navigationIcon = 24;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#popupTheme}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#popupTheme}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:popupTheme
+          @attr name local.android.eventory:popupTheme
         */
         public static final int Toolbar_popupTheme = 11;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#subtitle}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#subtitle}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -10577,21 +10575,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:subtitle
+          @attr name local.android.eventory:subtitle
         */
         public static final int Toolbar_subtitle = 3;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#subtitleTextAppearance}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#subtitleTextAppearance}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:subtitleTextAppearance
+          @attr name local.android.eventory:subtitleTextAppearance
         */
         public static final int Toolbar_subtitleTextAppearance = 13;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#subtitleTextColor}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#subtitleTextColor}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -10602,11 +10600,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:subtitleTextColor
+          @attr name local.android.eventory:subtitleTextColor
         */
         public static final int Toolbar_subtitleTextColor = 28;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#title}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#title}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -10616,11 +10614,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:title
+          @attr name local.android.eventory:title
         */
         public static final int Toolbar_title = 2;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#titleMargin}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#titleMargin}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -10632,11 +10630,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:titleMargin
+          @attr name local.android.eventory:titleMargin
         */
         public static final int Toolbar_titleMargin = 14;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#titleMarginBottom}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#titleMarginBottom}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -10648,11 +10646,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:titleMarginBottom
+          @attr name local.android.eventory:titleMarginBottom
         */
         public static final int Toolbar_titleMarginBottom = 18;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#titleMarginEnd}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#titleMarginEnd}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -10664,11 +10662,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:titleMarginEnd
+          @attr name local.android.eventory:titleMarginEnd
         */
         public static final int Toolbar_titleMarginEnd = 16;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#titleMarginStart}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#titleMarginStart}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -10680,11 +10678,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:titleMarginStart
+          @attr name local.android.eventory:titleMarginStart
         */
         public static final int Toolbar_titleMarginStart = 15;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#titleMarginTop}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#titleMarginTop}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -10696,11 +10694,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:titleMarginTop
+          @attr name local.android.eventory:titleMarginTop
         */
         public static final int Toolbar_titleMarginTop = 17;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#titleMargins}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#titleMargins}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -10712,21 +10710,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:titleMargins
+          @attr name local.android.eventory:titleMargins
         */
         public static final int Toolbar_titleMargins = 19;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#titleTextAppearance}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#titleTextAppearance}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:titleTextAppearance
+          @attr name local.android.eventory:titleTextAppearance
         */
         public static final int Toolbar_titleTextAppearance = 12;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#titleTextColor}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#titleTextColor}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -10737,7 +10735,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:titleTextColor
+          @attr name local.android.eventory:titleTextColor
         */
         public static final int Toolbar_titleTextColor = 27;
         /** Attributes that can be used with a View.
@@ -10748,9 +10746,9 @@ containing a value of this type.
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #View_android_focusable android:focusable}</code></td><td></td></tr>
            <tr><td><code>{@link #View_android_theme android:theme}</code></td><td></td></tr>
-           <tr><td><code>{@link #View_paddingEnd local.koki.android.eventory:paddingEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #View_paddingStart local.koki.android.eventory:paddingStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #View_theme local.koki.android.eventory:theme}</code></td><td></td></tr>
+           <tr><td><code>{@link #View_paddingEnd local.android.eventory:paddingEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #View_paddingStart local.android.eventory:paddingStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #View_theme local.android.eventory:theme}</code></td><td></td></tr>
            </table>
            @see #View_android_focusable
            @see #View_android_theme
@@ -10775,7 +10773,7 @@ containing a value of this type.
         */
         public static final int View_android_theme = 0;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#paddingEnd}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#paddingEnd}
           attribute's value can be found in the {@link #View} array.
 
 
@@ -10787,11 +10785,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:paddingEnd
+          @attr name local.android.eventory:paddingEnd
         */
         public static final int View_paddingEnd = 3;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#paddingStart}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#paddingStart}
           attribute's value can be found in the {@link #View} array.
 
 
@@ -10803,17 +10801,17 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:paddingStart
+          @attr name local.android.eventory:paddingStart
         */
         public static final int View_paddingStart = 2;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#theme}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#theme}
           attribute's value can be found in the {@link #View} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name local.koki.android.eventory:theme
+          @attr name local.android.eventory:theme
         */
         public static final int View_theme = 4;
         /** Attributes that can be used with a ViewBackgroundHelper.
@@ -10823,8 +10821,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #ViewBackgroundHelper_android_background android:background}</code></td><td></td></tr>
-           <tr><td><code>{@link #ViewBackgroundHelper_backgroundTint local.koki.android.eventory:backgroundTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #ViewBackgroundHelper_backgroundTintMode local.koki.android.eventory:backgroundTintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #ViewBackgroundHelper_backgroundTint local.android.eventory:backgroundTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #ViewBackgroundHelper_backgroundTintMode local.android.eventory:backgroundTintMode}</code></td><td></td></tr>
            </table>
            @see #ViewBackgroundHelper_android_background
            @see #ViewBackgroundHelper_backgroundTint
@@ -10840,7 +10838,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ViewBackgroundHelper_android_background = 0;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#backgroundTint}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#backgroundTint}
           attribute's value can be found in the {@link #ViewBackgroundHelper} array.
 
 
@@ -10851,11 +10849,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:backgroundTint
+          @attr name local.android.eventory:backgroundTint
         */
         public static final int ViewBackgroundHelper_backgroundTint = 1;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#backgroundTintMode}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#backgroundTintMode}
           attribute's value can be found in the {@link #ViewBackgroundHelper} array.
 
 
@@ -10871,7 +10869,7 @@ containing a value of this type.
 <tr><td><code>multiply</code></td><td>14</td><td></td></tr>
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 </table>
-          @attr name local.koki.android.eventory:backgroundTintMode
+          @attr name local.android.eventory:backgroundTintMode
         */
         public static final int ViewBackgroundHelper_backgroundTintMode = 2;
         /** Attributes that can be used with a ViewStubCompat.
@@ -10915,8 +10913,8 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #superslim_GridSLM_slm_grid_columnWidth local.koki.android.eventory:slm_grid_columnWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #superslim_GridSLM_slm_grid_numColumns local.koki.android.eventory:slm_grid_numColumns}</code></td><td></td></tr>
+           <tr><td><code>{@link #superslim_GridSLM_slm_grid_columnWidth local.android.eventory:slm_grid_columnWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #superslim_GridSLM_slm_grid_numColumns local.android.eventory:slm_grid_numColumns}</code></td><td></td></tr>
            </table>
            @see #superslim_GridSLM_slm_grid_columnWidth
            @see #superslim_GridSLM_slm_grid_numColumns
@@ -10925,7 +10923,7 @@ containing a value of this type.
             0x7f010153, 0x7f010154
         };
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#slm_grid_columnWidth}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#slm_grid_columnWidth}
           attribute's value can be found in the {@link #superslim_GridSLM} array.
 
 
@@ -10937,11 +10935,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:slm_grid_columnWidth
+          @attr name local.android.eventory:slm_grid_columnWidth
         */
         public static final int superslim_GridSLM_slm_grid_columnWidth = 0;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#slm_grid_numColumns}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#slm_grid_numColumns}
           attribute's value can be found in the {@link #superslim_GridSLM} array.
 
 
@@ -10959,7 +10957,7 @@ containing a value of this type.
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>auto_fit</code></td><td>-1</td><td></td></tr>
 </table>
-          @attr name local.koki.android.eventory:slm_grid_numColumns
+          @attr name local.android.eventory:slm_grid_numColumns
         */
         public static final int superslim_GridSLM_slm_grid_numColumns = 1;
         /** Attributes that can be used with a superslim_LayoutManager.
@@ -10968,12 +10966,12 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #superslim_LayoutManager_slm_headerDisplay local.koki.android.eventory:slm_headerDisplay}</code></td><td></td></tr>
-           <tr><td><code>{@link #superslim_LayoutManager_slm_isHeader local.koki.android.eventory:slm_isHeader}</code></td><td></td></tr>
-           <tr><td><code>{@link #superslim_LayoutManager_slm_section_firstPosition local.koki.android.eventory:slm_section_firstPosition}</code></td><td></td></tr>
-           <tr><td><code>{@link #superslim_LayoutManager_slm_section_headerMarginEnd local.koki.android.eventory:slm_section_headerMarginEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #superslim_LayoutManager_slm_section_headerMarginStart local.koki.android.eventory:slm_section_headerMarginStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #superslim_LayoutManager_slm_section_sectionManager local.koki.android.eventory:slm_section_sectionManager}</code></td><td></td></tr>
+           <tr><td><code>{@link #superslim_LayoutManager_slm_headerDisplay local.android.eventory:slm_headerDisplay}</code></td><td></td></tr>
+           <tr><td><code>{@link #superslim_LayoutManager_slm_isHeader local.android.eventory:slm_isHeader}</code></td><td></td></tr>
+           <tr><td><code>{@link #superslim_LayoutManager_slm_section_firstPosition local.android.eventory:slm_section_firstPosition}</code></td><td></td></tr>
+           <tr><td><code>{@link #superslim_LayoutManager_slm_section_headerMarginEnd local.android.eventory:slm_section_headerMarginEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #superslim_LayoutManager_slm_section_headerMarginStart local.android.eventory:slm_section_headerMarginStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #superslim_LayoutManager_slm_section_sectionManager local.android.eventory:slm_section_sectionManager}</code></td><td></td></tr>
            </table>
            @see #superslim_LayoutManager_slm_headerDisplay
            @see #superslim_LayoutManager_slm_isHeader
@@ -10987,7 +10985,7 @@ containing a value of this type.
             0x7f010159, 0x7f01015a
         };
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#slm_headerDisplay}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#slm_headerDisplay}
           attribute's value can be found in the {@link #superslim_LayoutManager} array.
 
 
@@ -11003,11 +11001,11 @@ containing a value of this type.
 <tr><td><code>overlay</code></td><td>0x08</td><td></td></tr>
 <tr><td><code>sticky</code></td><td>0x10</td><td></td></tr>
 </table>
-          @attr name local.koki.android.eventory:slm_headerDisplay
+          @attr name local.android.eventory:slm_headerDisplay
         */
         public static final int superslim_LayoutManager_slm_headerDisplay = 1;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#slm_isHeader}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#slm_isHeader}
           attribute's value can be found in the {@link #superslim_LayoutManager} array.
 
 
@@ -11017,11 +11015,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:slm_isHeader
+          @attr name local.android.eventory:slm_isHeader
         */
         public static final int superslim_LayoutManager_slm_isHeader = 0;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#slm_section_firstPosition}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#slm_section_firstPosition}
           attribute's value can be found in the {@link #superslim_LayoutManager} array.
 
 
@@ -11031,11 +11029,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name local.koki.android.eventory:slm_section_firstPosition
+          @attr name local.android.eventory:slm_section_firstPosition
         */
         public static final int superslim_LayoutManager_slm_section_firstPosition = 2;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#slm_section_headerMarginEnd}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#slm_section_headerMarginEnd}
           attribute's value can be found in the {@link #superslim_LayoutManager} array.
 
 
@@ -11055,11 +11053,11 @@ containing a value of this type.
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>match_header</code></td><td>-1</td><td></td></tr>
 </table>
-          @attr name local.koki.android.eventory:slm_section_headerMarginEnd
+          @attr name local.android.eventory:slm_section_headerMarginEnd
         */
         public static final int superslim_LayoutManager_slm_section_headerMarginEnd = 5;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#slm_section_headerMarginStart}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#slm_section_headerMarginStart}
           attribute's value can be found in the {@link #superslim_LayoutManager} array.
 
 
@@ -11079,11 +11077,11 @@ containing a value of this type.
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>match_header</code></td><td>-1</td><td></td></tr>
 </table>
-          @attr name local.koki.android.eventory:slm_section_headerMarginStart
+          @attr name local.android.eventory:slm_section_headerMarginStart
         */
         public static final int superslim_LayoutManager_slm_section_headerMarginStart = 4;
         /**
-          <p>This symbol is the offset where the {@link local.koki.android.eventory.R.attr#slm_section_sectionManager}
+          <p>This symbol is the offset where the {@link local.android.eventory.R.attr#slm_section_sectionManager}
           attribute's value can be found in the {@link #superslim_LayoutManager} array.
 
 
@@ -11103,7 +11101,7 @@ containing a value of this type.
 <tr><td><code>grid</code></td><td>0x02</td><td></td></tr>
 <tr><td><code>staggered_grid</code></td><td>0x03</td><td></td></tr>
 </table>
-          @attr name local.koki.android.eventory:slm_section_sectionManager
+          @attr name local.android.eventory:slm_section_sectionManager
         */
         public static final int superslim_LayoutManager_slm_section_sectionManager = 3;
     };

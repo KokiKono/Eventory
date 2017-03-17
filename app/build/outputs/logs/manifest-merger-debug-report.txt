@@ -1,100 +1,100 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/kokikono/MyApplication/Eventory/app/src/main/AndroidManifest.xml:2:1-23:12
+ADDED from /Users/kokikono/MyApplication/Eventory_clone/app/src/main/AndroidManifest.xml:2:1-23:12
 	package
-		ADDED from /Users/kokikono/MyApplication/Eventory/app/src/main/AndroidManifest.xml:3:5-42
-		INJECTED from /Users/kokikono/MyApplication/Eventory/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/kokikono/MyApplication/Eventory/app/src/main/AndroidManifest.xml
+		ADDED from /Users/kokikono/MyApplication/Eventory_clone/app/src/main/AndroidManifest.xml:3:5-42
+		INJECTED from /Users/kokikono/MyApplication/Eventory_clone/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/kokikono/MyApplication/Eventory_clone/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/kokikono/MyApplication/Eventory/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/kokikono/MyApplication/Eventory/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/kokikono/MyApplication/Eventory_clone/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/kokikono/MyApplication/Eventory_clone/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/kokikono/MyApplication/Eventory/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /Users/kokikono/MyApplication/Eventory_clone/app/src/main/AndroidManifest.xml:2:11-69
 	android:versionCode
-		INJECTED from /Users/kokikono/MyApplication/Eventory/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/kokikono/MyApplication/Eventory/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/kokikono/MyApplication/Eventory_clone/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/kokikono/MyApplication/Eventory_clone/app/src/main/AndroidManifest.xml
 application
-ADDED from /Users/kokikono/MyApplication/Eventory/app/src/main/AndroidManifest.xml:5:5-21:19
-MERGED from [com.android.support:cardview-v7:21.0.3] /Users/kokikono/MyApplication/Eventory/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/21.0.3/AndroidManifest.xml:16:5-19
-MERGED from [com.android.support:design:25.0.1] /Users/kokikono/MyApplication/Eventory/app/build/intermediates/exploded-aar/com.android.support/design/25.0.1/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:transition:25.0.1] /Users/kokikono/MyApplication/Eventory/app/build/intermediates/exploded-aar/com.android.support/transition/25.0.1/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:appcompat-v7:25.0.1] /Users/kokikono/MyApplication/Eventory/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-v4:25.0.1] /Users/kokikono/MyApplication/Eventory/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.1/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-fragment:25.0.1] /Users/kokikono/MyApplication/Eventory/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-media-compat:25.0.1] /Users/kokikono/MyApplication/Eventory/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-utils:25.0.1] /Users/kokikono/MyApplication/Eventory/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.0.1] /Users/kokikono/MyApplication/Eventory/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.1/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-vector-drawable:25.0.1] /Users/kokikono/MyApplication/Eventory/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.1/AndroidManifest.xml:23:5-20
-MERGED from [com.android.support:support-core-ui:25.0.1] /Users/kokikono/MyApplication/Eventory/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-compat:25.0.1] /Users/kokikono/MyApplication/Eventory/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/AndroidManifest.xml:25:5-20
-MERGED from [com.pnikosis:materialish-progress:1.7] /Users/kokikono/MyApplication/Eventory/app/build/intermediates/exploded-aar/com.pnikosis/materialish-progress/1.7/AndroidManifest.xml:11:5-20
+ADDED from /Users/kokikono/MyApplication/Eventory_clone/app/src/main/AndroidManifest.xml:5:5-21:19
+MERGED from [com.android.support:cardview-v7:21.0.3] /Users/kokikono/.android/build-cache/5966164bdd58276fb8ab7e1de1e5bea6d2a28483/output/AndroidManifest.xml:16:5-19
+MERGED from [com.android.support:design:25.0.1] /Users/kokikono/.android/build-cache/0392e101fd22978e11c9d596d379bc5d9bc340ba/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:transition:25.0.1] /Users/kokikono/.android/build-cache/917bd078e9f24b755a9f23e8b9d94506cfdb89ea/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:25.0.1] /Users/kokikono/.android/build-cache/1948f3c9c7a3c1b048b00120016b9914e9a0f32d/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:25.0.1] /Users/kokikono/.android/build-cache/8e27859f971a861f69327dc03ab326fae3122b12/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.0.1] /Users/kokikono/.android/build-cache/724a655c332ec87063bf2b795c038c01bc096f2d/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.0.1] /Users/kokikono/.android/build-cache/0a91712a88124d1b80defe6e2a12ed04ef6da011/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.0.1] /Users/kokikono/.android/build-cache/dd8ed507c785b861c24e16fb4573da8af9938a9d/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.0.1] /Users/kokikono/.android/build-cache/58f48800384016a11da154118717e3f52bca4eb0/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:25.0.1] /Users/kokikono/.android/build-cache/1fce20ca0d2f1da2026e1863816308a68358c836/output/AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-core-ui:25.0.1] /Users/kokikono/.android/build-cache/9f27a30cc1bfb84d65e41e59e7fd19975408dcda/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.0.1] /Users/kokikono/.android/build-cache/e9a29a9921bf840bf819b788fde22883d4d2c31a/output/AndroidManifest.xml:25:5-20
+MERGED from [com.pnikosis:materialish-progress:1.7] /Users/kokikono/.android/build-cache/a4981c6ecca7ed4848da147814cf06c2ce91e337/output/AndroidManifest.xml:11:5-20
 	android:label
-		ADDED from /Users/kokikono/MyApplication/Eventory/app/src/main/AndroidManifest.xml:8:9-41
+		ADDED from /Users/kokikono/MyApplication/Eventory_clone/app/src/main/AndroidManifest.xml:8:9-41
 	android:supportsRtl
-		ADDED from /Users/kokikono/MyApplication/Eventory/app/src/main/AndroidManifest.xml:9:9-35
+		ADDED from /Users/kokikono/MyApplication/Eventory_clone/app/src/main/AndroidManifest.xml:9:9-35
 	android:allowBackup
-		ADDED from /Users/kokikono/MyApplication/Eventory/app/src/main/AndroidManifest.xml:6:9-35
+		ADDED from /Users/kokikono/MyApplication/Eventory_clone/app/src/main/AndroidManifest.xml:6:9-35
 	android:icon
-		ADDED from /Users/kokikono/MyApplication/Eventory/app/src/main/AndroidManifest.xml:7:9-43
+		ADDED from /Users/kokikono/MyApplication/Eventory_clone/app/src/main/AndroidManifest.xml:7:9-43
 	android:theme
-		ADDED from /Users/kokikono/MyApplication/Eventory/app/src/main/AndroidManifest.xml:10:9-40
+		ADDED from /Users/kokikono/MyApplication/Eventory_clone/app/src/main/AndroidManifest.xml:10:9-40
 	android:name
-		ADDED from /Users/kokikono/MyApplication/Eventory/app/src/main/AndroidManifest.xml:11:9-47
+		ADDED from /Users/kokikono/MyApplication/Eventory_clone/app/src/main/AndroidManifest.xml:11:9-47
 activity#local.koki.android.eventory.viewController.HomeActivity
-ADDED from /Users/kokikono/MyApplication/Eventory/app/src/main/AndroidManifest.xml:12:9-18:20
+ADDED from /Users/kokikono/MyApplication/Eventory_clone/app/src/main/AndroidManifest.xml:12:9-18:20
 	android:name
-		ADDED from /Users/kokikono/MyApplication/Eventory/app/src/main/AndroidManifest.xml:12:19-62
+		ADDED from /Users/kokikono/MyApplication/Eventory_clone/app/src/main/AndroidManifest.xml:12:19-62
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /Users/kokikono/MyApplication/Eventory/app/src/main/AndroidManifest.xml:13:13-17:29
+ADDED from /Users/kokikono/MyApplication/Eventory_clone/app/src/main/AndroidManifest.xml:13:13-17:29
 action#android.intent.action.MAIN
-ADDED from /Users/kokikono/MyApplication/Eventory/app/src/main/AndroidManifest.xml:14:17-69
+ADDED from /Users/kokikono/MyApplication/Eventory_clone/app/src/main/AndroidManifest.xml:14:17-69
 	android:name
-		ADDED from /Users/kokikono/MyApplication/Eventory/app/src/main/AndroidManifest.xml:14:25-66
+		ADDED from /Users/kokikono/MyApplication/Eventory_clone/app/src/main/AndroidManifest.xml:14:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/kokikono/MyApplication/Eventory/app/src/main/AndroidManifest.xml:16:17-77
+ADDED from /Users/kokikono/MyApplication/Eventory_clone/app/src/main/AndroidManifest.xml:16:17-77
 	android:name
-		ADDED from /Users/kokikono/MyApplication/Eventory/app/src/main/AndroidManifest.xml:16:27-74
+		ADDED from /Users/kokikono/MyApplication/Eventory_clone/app/src/main/AndroidManifest.xml:16:27-74
 activity#local.koki.android.eventory.viewController.ConfigAtPlaceActivity
-ADDED from /Users/kokikono/MyApplication/Eventory/app/src/main/AndroidManifest.xml:19:9-74
+ADDED from /Users/kokikono/MyApplication/Eventory_clone/app/src/main/AndroidManifest.xml:19:9-74
 	android:name
-		ADDED from /Users/kokikono/MyApplication/Eventory/app/src/main/AndroidManifest.xml:19:19-71
+		ADDED from /Users/kokikono/MyApplication/Eventory_clone/app/src/main/AndroidManifest.xml:19:19-71
 activity#local.koki.android.eventory.viewController.ConfigAtJenreAcitivty
-ADDED from /Users/kokikono/MyApplication/Eventory/app/src/main/AndroidManifest.xml:20:9-73
+ADDED from /Users/kokikono/MyApplication/Eventory_clone/app/src/main/AndroidManifest.xml:20:9-73
 	android:name
-		ADDED from /Users/kokikono/MyApplication/Eventory/app/src/main/AndroidManifest.xml:20:19-71
+		ADDED from /Users/kokikono/MyApplication/Eventory_clone/app/src/main/AndroidManifest.xml:20:19-71
 uses-permission#android.permission.INTERNET
-ADDED from /Users/kokikono/MyApplication/Eventory/app/src/main/AndroidManifest.xml:22:5-66
+ADDED from /Users/kokikono/MyApplication/Eventory_clone/app/src/main/AndroidManifest.xml:22:5-66
 	android:name
-		ADDED from /Users/kokikono/MyApplication/Eventory/app/src/main/AndroidManifest.xml:22:22-64
+		ADDED from /Users/kokikono/MyApplication/Eventory_clone/app/src/main/AndroidManifest.xml:22:22-64
 uses-sdk
-INJECTED from /Users/kokikono/MyApplication/Eventory/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.android.support:cardview-v7:21.0.3] /Users/kokikono/MyApplication/Eventory/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/21.0.3/AndroidManifest.xml:15:5-42
-MERGED from [com.github.thorbenprimke:realm-recyclerview:0.9.25] /Users/kokikono/MyApplication/Eventory/app/build/intermediates/exploded-aar/com.github.thorbenprimke/realm-recyclerview/0.9.25/AndroidManifest.xml:7:5-9:41
-MERGED from [io.realm:realm-android-library:2.3.0] /Users/kokikono/MyApplication/Eventory/app/build/intermediates/exploded-aar/io.realm/realm-android-library/2.3.0/AndroidManifest.xml:7:5-9:41
-MERGED from [com.getkeepsafe.relinker:relinker:1.2.2] /Users/kokikono/MyApplication/Eventory/app/build/intermediates/exploded-aar/com.getkeepsafe.relinker/relinker/1.2.2/AndroidManifest.xml:7:5-43
-MERGED from [com.android.support:design:25.0.1] /Users/kokikono/MyApplication/Eventory/app/build/intermediates/exploded-aar/com.android.support/design/25.0.1/AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:transition:25.0.1] /Users/kokikono/MyApplication/Eventory/app/build/intermediates/exploded-aar/com.android.support/transition/25.0.1/AndroidManifest.xml:20:5-44
-MERGED from [com.tonicartos:superslim:0.4.13] /Users/kokikono/MyApplication/Eventory/app/build/intermediates/exploded-aar/com.tonicartos/superslim/0.4.13/AndroidManifest.xml:7:5-9:41
-MERGED from [io.realm:android-adapters:1.4.0] /Users/kokikono/MyApplication/Eventory/app/build/intermediates/exploded-aar/io.realm/android-adapters/1.4.0/AndroidManifest.xml:6:5-8:41
-MERGED from [jp.wasabeef:recyclerview-animators:2.2.5] /Users/kokikono/MyApplication/Eventory/app/build/intermediates/exploded-aar/jp.wasabeef/recyclerview-animators/2.2.5/AndroidManifest.xml:8:5-10:41
-MERGED from [com.android.support:appcompat-v7:25.0.1] /Users/kokikono/MyApplication/Eventory/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:support-v4:25.0.1] /Users/kokikono/MyApplication/Eventory/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.1/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-fragment:25.0.1] /Users/kokikono/MyApplication/Eventory/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-media-compat:25.0.1] /Users/kokikono/MyApplication/Eventory/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-utils:25.0.1] /Users/kokikono/MyApplication/Eventory/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:animated-vector-drawable:25.0.1] /Users/kokikono/MyApplication/Eventory/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.1/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.0.1] /Users/kokikono/MyApplication/Eventory/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.1/AndroidManifest.xml:21:5-43
-MERGED from [com.android.support:recyclerview-v7:25.0.1] /Users/kokikono/MyApplication/Eventory/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.0.1/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-core-ui:25.0.1] /Users/kokikono/MyApplication/Eventory/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:25.0.1] /Users/kokikono/MyApplication/Eventory/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/AndroidManifest.xml:21:5-23:58
-MERGED from [com.github.deano2390:MaterialShowcaseView:1.1.0] /Users/kokikono/MyApplication/Eventory/app/build/intermediates/exploded-aar/com.github.deano2390/MaterialShowcaseView/1.1.0/AndroidManifest.xml:7:5-9:41
-MERGED from [com.pnikosis:materialish-progress:1.7] /Users/kokikono/MyApplication/Eventory/app/build/intermediates/exploded-aar/com.pnikosis/materialish-progress/1.7/AndroidManifest.xml:7:5-9:41
-MERGED from [me.drakeet.materialdialog:library:1.3.1] /Users/kokikono/MyApplication/Eventory/app/build/intermediates/exploded-aar/me.drakeet.materialdialog/library/1.3.1/AndroidManifest.xml:8:5-10:41
+INJECTED from /Users/kokikono/MyApplication/Eventory_clone/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:cardview-v7:21.0.3] /Users/kokikono/.android/build-cache/5966164bdd58276fb8ab7e1de1e5bea6d2a28483/output/AndroidManifest.xml:15:5-42
+MERGED from [com.github.thorbenprimke:realm-recyclerview:0.9.25] /Users/kokikono/.android/build-cache/fde1f556f12b64aea5c859940239aec5abab2bf5/output/AndroidManifest.xml:7:5-9:41
+MERGED from [io.realm:realm-android-library:2.3.0] /Users/kokikono/.android/build-cache/4b59f6d328d75196f2418d4ae3485045a2cff481/output/AndroidManifest.xml:7:5-9:41
+MERGED from [com.getkeepsafe.relinker:relinker:1.2.2] /Users/kokikono/.android/build-cache/bf2447ce70abebed55f5092d71f7a6402534f764/output/AndroidManifest.xml:7:5-43
+MERGED from [com.android.support:design:25.0.1] /Users/kokikono/.android/build-cache/0392e101fd22978e11c9d596d379bc5d9bc340ba/output/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:transition:25.0.1] /Users/kokikono/.android/build-cache/917bd078e9f24b755a9f23e8b9d94506cfdb89ea/output/AndroidManifest.xml:20:5-44
+MERGED from [com.tonicartos:superslim:0.4.13] /Users/kokikono/.android/build-cache/daddbd27cab17d268f27bb887ad5a05cb48c1a59/output/AndroidManifest.xml:7:5-9:41
+MERGED from [io.realm:android-adapters:1.4.0] /Users/kokikono/.android/build-cache/1835d4d55085d9012b73d726d047c7898d622f40/output/AndroidManifest.xml:6:5-8:41
+MERGED from [jp.wasabeef:recyclerview-animators:2.2.5] /Users/kokikono/.android/build-cache/b7f71d6b2638aa54192a7ba7e06e9600e5846ed1/output/AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:appcompat-v7:25.0.1] /Users/kokikono/.android/build-cache/1948f3c9c7a3c1b048b00120016b9914e9a0f32d/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:25.0.1] /Users/kokikono/.android/build-cache/8e27859f971a861f69327dc03ab326fae3122b12/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.0.1] /Users/kokikono/.android/build-cache/724a655c332ec87063bf2b795c038c01bc096f2d/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.0.1] /Users/kokikono/.android/build-cache/0a91712a88124d1b80defe6e2a12ed04ef6da011/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.0.1] /Users/kokikono/.android/build-cache/dd8ed507c785b861c24e16fb4573da8af9938a9d/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:25.0.1] /Users/kokikono/.android/build-cache/58f48800384016a11da154118717e3f52bca4eb0/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.0.1] /Users/kokikono/.android/build-cache/1fce20ca0d2f1da2026e1863816308a68358c836/output/AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:recyclerview-v7:25.0.1] /Users/kokikono/.android/build-cache/7e89eafcc3007e8adea176758ca9c8fe9769c7cc/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-core-ui:25.0.1] /Users/kokikono/.android/build-cache/9f27a30cc1bfb84d65e41e59e7fd19975408dcda/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.0.1] /Users/kokikono/.android/build-cache/e9a29a9921bf840bf819b788fde22883d4d2c31a/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.github.deano2390:MaterialShowcaseView:1.1.0] /Users/kokikono/.android/build-cache/664ae3eb053e7f2c10e78e92528cfc3a9e01fb05/output/AndroidManifest.xml:7:5-9:41
+MERGED from [com.pnikosis:materialish-progress:1.7] /Users/kokikono/.android/build-cache/a4981c6ecca7ed4848da147814cf06c2ce91e337/output/AndroidManifest.xml:7:5-9:41
+MERGED from [me.drakeet.materialdialog:library:1.3.1] /Users/kokikono/.android/build-cache/659919ced4e8d28118903ca7e6ae2c6df5bc7dbf/output/AndroidManifest.xml:8:5-10:41
 	tools:overrideLibrary
-		ADDED from [com.android.support:design:25.0.1] /Users/kokikono/MyApplication/Eventory/app/build/intermediates/exploded-aar/com.android.support/design/25.0.1/AndroidManifest.xml:23:9-59
+		ADDED from [com.android.support:design:25.0.1] /Users/kokikono/.android/build-cache/0392e101fd22978e11c9d596d379bc5d9bc340ba/output/AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
-		INJECTED from /Users/kokikono/MyApplication/Eventory/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/kokikono/MyApplication/Eventory/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/kokikono/MyApplication/Eventory_clone/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/kokikono/MyApplication/Eventory_clone/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/kokikono/MyApplication/Eventory/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/kokikono/MyApplication/Eventory/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/kokikono/MyApplication/Eventory_clone/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/kokikono/MyApplication/Eventory_clone/app/src/main/AndroidManifest.xml
