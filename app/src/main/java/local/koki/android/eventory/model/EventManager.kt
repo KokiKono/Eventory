@@ -15,6 +15,7 @@ import java.net.MalformedURLException
 import java.net.URL
 import java.text.SimpleDateFormat
 import java.util.*
+import kotlin.collections.ArrayList
 
 /**
  * Created by 浩生 on 2017/01/29.
@@ -30,11 +31,23 @@ class EventManager() {
             }
             var data=realm.where(EventRealm::class.java).equalTo("status",status.code).beginGroup()
             //ToDo:絞り込をする。
-            for(jenre in realm.where(JenreRealm::class.java).equalTo("status",true).findAll()){
-                data.like("title","*"+jenre.name+"*")
-            }
-            for(place in realm.where(PrefectureRealm::class.java).equalTo("status",true).findAll()){
+            val places=realm.where(PrefectureRealm::class.java).equalTo("status",true).findAll()
+            var count=1
+            for(place in places){
                 data.like("address","*"+place.name+"*")
+                if(count++<places.size){
+                    data.or()
+                }
+            }
+            data.endGroup()
+            data.beginGroup()
+            var jenres=realm.where(JenreRealm::class.java).equalTo("status",true).findAll()
+            count=1
+            for(jenre in jenres){
+                data.like("title","*"+jenre.name+"*")
+                if(count++<jenres.size){
+                    data.or()
+                }
             }
             data.endGroup()
             return data.findAll().sort("startAt")
@@ -77,7 +90,6 @@ class EventManager() {
                 connection.connectTimeout = 2000
                 connection.connect()
                 statusCode = connection.responseCode
-                //inputStream = connection!!.inputStream
                 inputStream = connection?.let { it.inputStream }
                 resultStr = Json.is2String(inputStream)
             } catch (e: MalformedURLException) {
@@ -85,10 +97,8 @@ class EventManager() {
             } catch (e: IOException) {
                 Log.e(DEBUG_TAG, "通信失敗", e)
             } finally {
-                //connection!!.disconnect()
                 connection?.let { it.disconnect() }
                 try {
-                    //inputStream!!.close()
                     inputStream?.let { it.close() }
                 } catch (e: IOException) {
                     Log.e(DEBUG_TAG, "InputStream解放失敗", e)
@@ -121,6 +131,7 @@ class EventManager() {
                     eventRealms!!.add(event)
                     count--
                 }
+                success=true
             } catch (e: JSONException) {
                 Log.e(DEBUG_TAG, "JSON変換失敗", e)
                 success = false
@@ -130,7 +141,11 @@ class EventManager() {
 
         abstract fun onPostExecuteCustomize()
         fun getData(): ArrayList<EventRealm> {
-            return eventRealms!!
+            eventRealms?.let { return it }
+            return ArrayList()
+        }
+        fun getSuccess():Boolean {
+            return success
         }
 
         fun getStatusCode(): Int {
@@ -142,7 +157,7 @@ class EventManager() {
         fun startLoad()
         fun startConnection()
         fun endConnection(data: ArrayList<EventRealm>)
-        fun endLoad()
+        fun endLoad(success:Boolean)
     }
 
     var loadEventInterface: LoadEventInterface? = null
@@ -152,7 +167,7 @@ class EventManager() {
         var connection = object : EventConnection() {
             override fun onPostExecuteCustomize() {
                 if (loadEventInterface != null) loadEventInterface!!.endConnection(getData())
-                if (loadEventInterface != null) loadEventInterface!!.endLoad()
+                if (loadEventInterface != null) loadEventInterface!!.endLoad(getSuccess())
             }
         }
         if (loadEventInterface != null) loadEventInterface!!.startConnection()
