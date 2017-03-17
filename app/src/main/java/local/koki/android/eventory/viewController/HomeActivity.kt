@@ -36,10 +36,10 @@ class HomeActivity : AppCompatActivity()
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         Realm.init(applicationContext)
-        setContentView(R.layout.activity_home_mvc)
+        setContentView(R.layout.activity_home)
 
-        setupActionBar()
-
+        val toolBar = findViewById(R.id.my_toolbar) as Toolbar
+        setSupportActionBar(toolBar)
         val titleStr = getString(R.string.app_name)
         title = titleStr
 
@@ -147,24 +147,4 @@ class HomeActivity : AppCompatActivity()
         }
         return super.onCreateOptionsMenu(menu)
     }
-
-
-    private fun setupActionBar(){
-        if(Build.VERSION.SDK_INT<Build.VERSION_CODES.LOLLIPOP){
-            setActionBar_7()
-            return
-        }
-        if(Build.VERSION.SDK_INT>=Build.VERSION_CODES.LOLLIPOP){
-            setActionBar_21()
-            return
-        }
-    }
-    private fun setActionBar_7(){
-        title="v7"
-    }
-    private fun setActionBar_21(){
-        val toolBar = findViewById(R.id.my_toolbar) as Toolbar
-        setSupportActionBar(toolBar)
-    }
-
 }

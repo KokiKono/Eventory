@@ -6,7 +6,11 @@
         <item name="android:windowDrawsSystemBarBackgrounds">true</item>
         <item name="android:statusBarColor">@android:color/transparent</item>
     </style>
-    <style name="MyTheme." parent="android:Theme.Material.Light.DarkActionBar">
-        <item name="android:statusBarColor">#e6ab22</item>
+    <style name="ToolBarTheme" parent="android:ThemeOverlay.Material.ActionBar">
+        <item name="android:background">@color/keep</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="android:titleTextColor">@android:color/white</item>
+        <item name="android:titleTextStyle">@style/titleTextStyle</item>
     </style>
 </resources>

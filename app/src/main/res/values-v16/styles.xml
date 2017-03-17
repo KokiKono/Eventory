@@ -10,12 +10,13 @@
         <item name="android:windowBackground">@android:color/white</item>
     </style>
 
-    <style name="ToolBarTheme" parent="android:ThemeOverlay.Material.ActionBar">
+    <style name="ToolBarTheme" parent="android:Theme.WithActionBar">
         <item name="android:background">@color/keep</item>
         <item name="android:textColor">@android:color/white</item>
         <item name="android:textColorPrimary">@android:color/white</item>
         <item name="android:titleTextColor">@android:color/white</item>
         <item name="android:titleTextStyle">@style/titleTextStyle</item>
+        <item name="android:textColorSecondary">@android:color/white</item>
     </style>
 
     <style name="titleTextStyle" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
