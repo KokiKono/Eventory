@@ -1,10 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.v7.widget.RecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.v7.widget.RecyclerView
     android:id="@+id/list"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_marginLeft="16dp"
     android:layout_marginRight="16dp"
     app:layoutManager="LinearLayoutManager"/>
+    <local.koki.android.eventory.view.parts.MaterialFab
+        android:id="@+id/materialFab"
+        style="@style/Widget.MaterialSheetFab.Fab"
+        android:src="@android:drawable/ic_menu_search"
+        android:tint="@android:color/white"
+        app:backgroundTint="@android:color/holo_orange_dark"
+        app:fabSize="normal"
+        app:layout_anchor="@+id/list"
+        app:layout_anchorGravity="bottom|right|end"
+        android:layout_gravity="bottom|right"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"/>
+    <com.gordonwong.materialsheetfab.DimOverlayFrameLayout
+        android:id="@+id/overlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <include
+        layout="@layout/fab_sheet" />
+</FrameLayout>
+
